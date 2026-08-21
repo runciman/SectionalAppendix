@@ -21,6 +21,9 @@ adding new ones.
    transcription. The crop must be displayed with the page record.
 5. Keep search working across every indexed page and show all matching page
    records. Do not replace earlier page content when adding later pages.
+6. Treat `SEQ` as a numeric sequential index within a shared `LOR`. Preserve
+   the previous/next links generated from this ordering when adding an entry;
+   only link to existing entries with the same `LOR`.
 
 ## Quality checks
 

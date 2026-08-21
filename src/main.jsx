@@ -10,17 +10,25 @@ const SearchIcon = () => (
 function App() {
   const [query, setQuery] = useState("");
   const queryTerms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const hasSearch = queryTerms.length > 0;
   const results = useMemo(() => appendixPages.filter((page) => {
     const searchable = Object.values(page).flat().join(" ").toLowerCase();
     return queryTerms.every((term) => searchable.includes(term));
   }), [queryTerms.join("|")]);
+  const sequenceGroups = useMemo(() => appendixPages.reduce((groups, page) => {
+    const pages = groups.get(page.lOR) || [];
+    pages.push(page);
+    pages.sort((left, right) => Number(left.sequence) - Number(right.sequence));
+    groups.set(page.lOR, pages);
+    return groups;
+  }, new Map()), []);
   return (
     <main>
       <section className="hero">
         <div className="container">
           <p className="eyebrow">Scotland Route</p>
           <h1>Sectional Appendix</h1>
-          <p className="intro">Searchable operational reference for PDF pages 169–170.</p>
+          <p className="intro">Searchable operational reference for PDF pages 169–171.</p>
           <label className="search" htmlFor="appendix-search">
             <SearchIcon />
             <input
@@ -37,20 +45,30 @@ function App() {
         </div>
       </section>
 
-      <section className="content container" aria-live="polite">
+      {hasSearch && <section className="content container" aria-live="polite">
         <div className="result-summary">
           <p>{results.length} {results.length === 1 ? "page" : "pages"} found</p>
-          <span>Source PDF pages 169–170</span>
+          <span>Source PDF pages 169–171</span>
         </div>
 
-        {results.length ? <div className="page-results">{results.map((page) => <PageDetail key={page.pdfPage} page={page} />)}</div> : <EmptyState query={query} />}
-      </section>
+        {results.length ? <div className="page-results">{results.map((page) => {
+          const sequence = sequenceGroups.get(page.lOR);
+          const index = sequence.findIndex((item) => item.pdfPage === page.pdfPage);
+          return <PageDetail
+            key={page.pdfPage}
+            page={page}
+            previous={sequence[index - 1]}
+            next={sequence[index + 1]}
+            onNavigate={() => setQuery("")}
+          />;
+        })}</div> : <EmptyState query={query} />}
+      </section>}
     </main>
   );
 }
 
-function PageDetail({ page }) {
-  return <article className="page-detail">
+function PageDetail({ page, previous, next, onNavigate }) {
+  return <article className="page-detail" id={`page-${page.pdfPage}`}>
     <header className="page-header">
       <div>
         <p className="page-label">PDF page {page.pdfPage} · Module {page.module}</p>
@@ -66,6 +84,12 @@ function PageDetail({ page }) {
       <div><dt>Route</dt><dd>{page.route}</dd></div>
       <div><dt>Last updated</dt><dd>{page.lastUpdated}</dd></div>
     </dl>
+
+    <nav className="sequence-nav" aria-label={`${page.lOR} sequence navigation`}>
+      {previous ? <a href={`#page-${previous.pdfPage}`} onClick={onNavigate}><span>Previous</span><strong>SEQ {previous.sequence} · PDF page {previous.pdfPage}</strong></a> : <span className="sequence-end">Start of {page.lOR}</span>}
+      <p><span>{page.lOR}</span> SEQ {page.sequence}</p>
+      {next ? <a href={`#page-${next.pdfPage}`} onClick={onNavigate} className="next-link"><span>Next</span><strong>SEQ {next.sequence} · PDF page {next.pdfPage}</strong></a> : <span className="sequence-end sequence-end-right">End of {page.lOR}</span>}
+    </nav>
 
     <section className="schematic-section" aria-label={`PDF page ${page.pdfPage} image extract`}>
       <div className="schematic-heading">
