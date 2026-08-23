@@ -58,7 +58,7 @@ function App() {
       <section className="hero">
         <div className="container">
           <p className="eyebrow">Scotland Route</p>
-          <h1>Sectional Appendix</h1>
+          <h1><a className="home-link" href="/" onClick={(event) => { event.preventDefault(); navigate("/"); }}>Sectional Appendix</a></h1>
           <p className="intro">Searchable operational reference for indexed Scotland Sectional Appendix pages.</p>
           <label className="search" htmlFor="appendix-search">
             <SearchIcon />
