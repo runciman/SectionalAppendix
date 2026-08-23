@@ -36,6 +36,18 @@ npm run preview
 
 When deploying to a static host, configure an SPA fallback so these paths serve `index.html`.
 
+## Entry layout
+
+Each indexed entry follows the same hierarchy as its public URL:
+
+```text
+src/data/scotland/SC031/021.js
+src/assets/scotland/SC031/021.png
+```
+
+The first segment is the region, followed by LOR and sequence. New regions can
+use the same pattern, for example `src/data/wales/WA001/001.js`.
+
 ## Batch-indexing workflow
 
 Use the preparation script before adding a large run of PDF pages. It screens

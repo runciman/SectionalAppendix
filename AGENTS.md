@@ -19,12 +19,14 @@ record without the visual inspection and quality checks below.
    that is not shown on the page.
 3. For the `Location`, `Mileage`, and `Running lines & speed restrictions`
    table area, create a direct crop from the rendered source-PDF page and save
-   it in `src/assets/`. Do not redraw, approximate, or convert this diagram to
-   SVG unless the user explicitly asks for a reconstruction.
-4. Add a self-contained page object in `src/data/page-NNN.js`, including its
-   PDF page number, image import, descriptive image alt text, structured
-   searchable fields, and transcription. `src/pages.js` discovers these modules
-   automatically. The crop must be displayed with the page record.
+   it as `src/assets/<region>/<LOR>/<SEQ>.png`. Do not redraw, approximate, or
+   convert this diagram to SVG unless the user explicitly asks for a
+   reconstruction.
+4. Add a self-contained page object at
+   `src/data/<region>/<LOR>/<SEQ>.js`, including its PDF page number, image
+   import, descriptive image alt text, structured searchable fields, and
+   transcription. `src/pages.js` discovers these modules automatically. The
+   crop must be displayed with the page record.
 5. Keep search working across every indexed page and show all matching page
    records. Do not replace earlier page content when adding later pages.
 6. Treat `SEQ` as a numeric sequential index within a shared `LOR`. Preserve
