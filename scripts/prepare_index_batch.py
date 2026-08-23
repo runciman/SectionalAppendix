@@ -22,7 +22,9 @@ from PIL import Image
 from pypdf import PdfReader
 
 TEXT_HEAVY_THRESHOLD = 500
-DEFAULT_CROP = (0.07, 0.12, 0.91, 0.89)
+# Retain a margin around the full table. The crop audit can tighten this later,
+# but a conservative crop never loses the right-hand remarks column.
+DEFAULT_CROP = (0.03, 0.10, 0.98, 0.92)
 CODEX_PDFTOPPM = Path(
     "/Users/scotty/.cache/codex-runtimes/codex-primary-runtime/"
     "dependencies/bin/override/pdftoppm"
@@ -150,11 +152,12 @@ def main() -> int:
             item["ocr"] = relative(ocr_file, output)
             item["suggestedLOR"] = lor
             item["suggestedSequence"] = sequence
-            if lor and sequence:
+            if lor:
                 crop_file = crops / f"page-{page_number:04d}.png"
                 crop_source(render, crop_file, crop)
                 item["crop"] = relative(crop_file, output)
-                item["status"] = "candidate_map"
+                if sequence:
+                    item["status"] = "candidate_map"
         counts[str(item["status"])] += 1
         manifest.append(item)
 
