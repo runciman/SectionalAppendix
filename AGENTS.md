@@ -76,6 +76,11 @@ layer on instruction pages, which supports this two-stage process:
    a draft, not authority: correct LOR, SEQ, title, mileage, signalling, speed
    and remarks against the source image.
 
+   A source crop alone is never a completed entry. For every retained crop,
+   create its matching `src/data/<region>/<LOR>/<SEQ>.js` record in the same
+   batch, verify the record against the source page, and run the site checks
+   before describing that page as indexed or ready to commit.
+
 4. Use the original rendered PDF for every published crop. Do not redraw a
    map, approximate its linework, or publish a crop solely because OCR parsed
    a header.
