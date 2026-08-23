@@ -1,41 +1,146 @@
-# Scotland Sectional Appendix website
+# Sectional Appendix indexing guide
 
-This repository is a Vite + React local website that indexes selected pages of a
-Scotland Route Sectional Appendix PDF. Preserve existing indexed pages when
-adding new ones.
+This is a Vite + React site for searchable sectional-appendix map entries.
+Preserve existing records, source crops, URLs and navigation when extending it.
 
-## Adding a PDF page
+## Architecture and URL contract
 
-For a batch of pages, first run `scripts/prepare_index_batch.py` to generate a
-manifest and local OCR/crop drafts. Work from `candidate_map` entries only;
-review `visual_review_required` entries manually. Do not publish a generated
-record without the visual inspection and quality checks below.
+Entries are stored to match their public route:
 
-1. Work only on the requested physical PDF page. Render it at a legible
-   resolution and visually inspect the result before transcribing it.
-2. Create a concise, searchable text transcription of its route information:
-   identifiers, locations, mileage, connections, signalling, speed
-   restrictions, equipment, and relevant remarks. Do not infer information
-   that is not shown on the page.
-3. For the `Location`, `Mileage`, and `Running lines & speed restrictions`
-   table area, create a direct crop from the rendered source-PDF page and save
-   it as `src/assets/<region>/<LOR>/<SEQ>.png`. Do not redraw, approximate, or
-   convert this diagram to SVG unless the user explicitly asks for a
-   reconstruction.
-4. Add a self-contained page object at
-   `src/data/<region>/<LOR>/<SEQ>.js`, including its PDF page number, image
-   import, descriptive image alt text, structured searchable fields, and
-   transcription. `src/pages.js` discovers these modules automatically. The
-   crop must be displayed with the page record.
-5. Keep search working across every indexed page and show all matching page
-   records. Do not replace earlier page content when adding later pages.
-6. Treat `SEQ` as a numeric sequential index within a shared `LOR`. Preserve
-   the previous/next links generated from this ordering when adding an entry;
-   only link to existing entries with the same `LOR`.
+```text
+src/data/<region>/<LOR>/<SEQ>.js
+src/assets/<region>/<LOR>/<SEQ>.png
+```
 
-## Quality checks
+For example, `/scotland/SC031/021` is backed by:
 
-- Build with `npm run build` after changes.
-- Verify the local website has the new page, the source crop loads, and a
-  distinctive term from the new page filters search results correctly.
-- Keep the site runnable locally with `npm run dev`.
+```text
+src/data/scotland/SC031/021.js
+src/assets/scotland/SC031/021.png
+```
+
+`src/pages.js` discovers all `src/data/**/*.js` records recursively. Do not add
+central imports for a normal new record. A valid record exports one object with
+at least `pdfPage`, `lOR`, `sequence`, `imageSrc`, `imageAlt`, `location`,
+`mileage`, searchable structured fields and a concise `transcription`.
+
+Public routes are:
+
+- `/` — search home page.
+- `/<region>` — region's LOR index.
+- `/<region>/<LOR>` — every sequence entry for that LOR.
+- `/<region>/<LOR>/<SEQ>` — one map entry.
+
+Keep LOR and SEQ URL values uppercase and zero-padded. `SEQ` is a numeric
+sequence within a shared LOR: previous/next links must only point to adjacent
+existing entries in that LOR. Test direct URLs, not only in-page navigation.
+
+## What qualifies for indexing
+
+Index only the established map-table format: a LOR and sequence header with
+Location, Mileage, Running lines & speed restrictions, and related signalling
+or remarks. Do not index blank pages, contents pages, module overview maps,
+special-working pages, rule-book prose, or authority tables.
+
+If a page is genuinely ambiguous, record its physical PDF page number for user
+review rather than guessing. A page explicitly marked withdrawn can be indexed
+if it has the standard map-entry table, but its record must clearly say that it
+is withdrawn.
+
+## Fast, low-token PDF workflow
+
+Do not use one model turn per physical page or wait for periodic batches. Keep
+the worker queue full and process candidates in bounded groups. The source PDF
+often has a minimal embedded text layer on map pages and a long embedded text
+layer on instruction pages, which supports this two-stage process:
+
+1. Run the local pre-filter and OCR preparation script for a page range:
+
+   ```bash
+   python3 scripts/prepare_index_batch.py \
+     "/path/to/Sectional Appendix.pdf" \
+     --pages 331-450 \
+     --prepare
+   ```
+
+2. Read `tmp/batch-index/manifest.json`.
+   - `exclude_text_heavy`: normally an instruction page; do not render/review
+     further unless there is a reason to override it.
+   - `candidate_map`: local Tesseract found a plausible LOR/SEQ header; review
+     this first.
+   - `visual_review_required`: the text-layer filter was inconclusive; inspect
+     a thumbnail or rendered page before deciding.
+
+3. Review candidate pages in batches (for example, contact sheets or 10–25
+   records per reviewer), then create only verified data modules. Local OCR is
+   a draft, not authority: correct LOR, SEQ, title, mileage, signalling, speed
+   and remarks against the source image.
+
+4. Use the original rendered PDF for every published crop. Do not redraw a
+   map, approximate its linework, or publish a crop solely because OCR parsed
+   a header.
+
+The scripts require `pypdf`, `Pillow`, `pdftoppm` and Tesseract. Their working
+outputs belong under `tmp/`, which is ignored by Git.
+
+## Crops and visual QA
+
+Each published PNG must be a direct crop of the complete outer table from the
+original PDF page. It must include the full Location, Mileage, Running lines &
+speed restrictions and Signalling & Remarks area; do not cut the right-hand
+remarks column or GSM-R/equipment symbols. Keep a small margin around the
+detected table border so anti-aliased rules are not clipped.
+
+After any batch of new or edited crops, run:
+
+```bash
+python3 scripts/audit_table_crops.py \
+  "/path/to/Sectional Appendix.pdf" \
+  --fix
+```
+
+This compares every published crop with table bounds detected from the source
+PDF and replaces only dimensionally mismatched images. For a large run, pass a
+bounded range such as `--pages 331-450`. Visually inspect at least every
+repaired crop and a representative sample of passing crops; automation catches
+missing boundaries, not semantic transcription mistakes.
+
+## Record-writing rules
+
+1. Use the physical PDF page number, not the printed module page number, for
+   `pdfPage`.
+2. Keep transcription concise but searchable: include identifiers, locations,
+   mileages, connections, signalling, speeds, equipment and relevant remarks.
+3. Do not infer facts that are not visible in the source. When speed change
+   points are unclear, use cautious wording rather than invented precision.
+4. Import the matching route-aligned PNG from the data module. Use descriptive
+   image alt text that states it is an original source-PDF table extract.
+5. Preserve capitalization and official codes where legible. Use structured
+   arrays (`locations`, `connections`, `signalling`, `speeds`) when information
+   is present, so search covers it naturally.
+
+## Required verification
+
+Before handing off a batch:
+
+```bash
+npm run build
+git diff --check
+```
+
+Also verify in the local site:
+
+- the source crop loads for a newly added or repaired record;
+- a distinctive source term finds the record through search;
+- `/<region>/<LOR>/<SEQ>` loads directly;
+- `/<region>/<LOR>` shows the expected collection; and
+- previous/next links remain within the same LOR.
+
+Static hosting must serve `index.html` as an SPA fallback for direct route URLs.
+
+## Git hygiene
+
+- Do not commit `tmp/`, Python `__pycache__/`, `node_modules/` or `dist/`.
+- Stage only reviewed records, their matching crops, and intentional source or
+  documentation changes.
+- Run the production build before committing a substantive batch.
