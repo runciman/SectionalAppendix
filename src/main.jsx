@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { appendixPages } from "./pages";
 import "./styles.css";
@@ -7,8 +7,24 @@ const SearchIcon = () => (
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.15a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z" /></svg>
 );
 
+const pagePath = (page) => `/scotland/${page.lOR}/${page.sequence}`;
+const lorPath = (lOR) => `/scotland/${lOR}`;
+const scotlandPath = "/scotland";
+
+function readRoute() {
+  const parts = window.location.pathname.split("/").filter(Boolean);
+  if (parts[0] !== "scotland") return {};
+  return { scotland: true, lOR: parts[1]?.toUpperCase(), sequence: parts[2] };
+}
+
+function navigate(path) {
+  window.history.pushState({}, "", path);
+  window.dispatchEvent(new PopStateEvent("popstate"));
+}
+
 function App() {
   const [query, setQuery] = useState("");
+  const [route, setRoute] = useState(readRoute);
   const queryTerms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
   const hasSearch = queryTerms.length > 0;
   const results = useMemo(() => appendixPages.filter((page) => {
@@ -22,13 +38,24 @@ function App() {
     groups.set(page.lOR, pages);
     return groups;
   }, new Map()), []);
+  useEffect(() => {
+    const onPopState = () => setRoute(readRoute());
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, []);
+  const routePages = route.lOR ? sequenceGroups.get(route.lOR) : undefined;
+  const selectedPage = routePages?.find((page) => page.sequence === route.sequence);
+  const showLOR = route.lOR && !route.sequence && routePages;
+  const lorIndex = useMemo(() => [...sequenceGroups.entries()]
+    .map(([lOR, pages]) => ({ lOR, pages, name: pages[0].title }))
+    .sort((left, right) => left.lOR.localeCompare(right.lOR)), [sequenceGroups]);
   return (
     <main>
       <section className="hero">
         <div className="container">
           <p className="eyebrow">Scotland Route</p>
           <h1>Sectional Appendix</h1>
-          <p className="intro">Searchable operational reference for PDF pages 169–171.</p>
+          <p className="intro">Searchable operational reference for indexed Scotland Sectional Appendix pages.</p>
           <label className="search" htmlFor="appendix-search">
             <SearchIcon />
             <input
@@ -42,13 +69,52 @@ function App() {
             />
             {query && <button type="button" onClick={() => setQuery("")}>Clear</button>}
           </label>
+          <a className="region-link" href={scotlandPath} onClick={(event) => { event.preventDefault(); navigate(scotlandPath); }}>Browse Scotland LOR index <span aria-hidden="true">→</span></a>
         </div>
       </section>
 
-      {hasSearch && <section className="content container" aria-live="polite">
+      {route.scotland && !route.lOR && <section className="content container">
+        <div className="region-heading">
+          <p className="eyebrow">Scotland</p>
+          <h2>Indexed LORs</h2>
+          <p>Browse the available line-of-route collections and their sequence entries.</p>
+        </div>
+        <div className="lor-index">{lorIndex.map(({ lOR, pages, name }) => <a
+          key={lOR}
+          href={lorPath(lOR)}
+          onClick={(event) => { event.preventDefault(); navigate(lorPath(lOR)); }}
+        >
+          <span className="lor-code">{lOR}</span>
+          <strong>{name}</strong>
+          <small>{pages.length} indexed {pages.length === 1 ? "entry" : "entries"} <span aria-hidden="true">→</span></small>
+        </a>)}</div>
+      </section>}
+
+      {selectedPage && <section className="content container">
+        <PageDetail
+          page={selectedPage}
+          previous={routePages[routePages.findIndex((page) => page.pdfPage === selectedPage.pdfPage) - 1]}
+          next={routePages[routePages.findIndex((page) => page.pdfPage === selectedPage.pdfPage) + 1]}
+        />
+      </section>}
+
+      {showLOR && <section className="content container">
+        <div className="result-summary">
+          <p>{route.lOR} sequence entries</p>
+          <span>{routePages.length} indexed {routePages.length === 1 ? "page" : "pages"}</span>
+        </div>
+        <div className="page-results">{routePages.map((page, index) => <PageDetail
+          key={page.pdfPage}
+          page={page}
+          previous={routePages[index - 1]}
+          next={routePages[index + 1]}
+        />)}</div>
+      </section>}
+
+      {hasSearch && !route.lOR && <section className="content container" aria-live="polite">
         <div className="result-summary">
           <p>{results.length} {results.length === 1 ? "page" : "pages"} found</p>
-          <span>Source PDF pages 169–171</span>
+          <span>{appendixPages.length} indexed PDF pages</span>
         </div>
 
         {results.length ? <div className="page-results">{results.map((page) => {
@@ -59,7 +125,6 @@ function App() {
             page={page}
             previous={sequence[index - 1]}
             next={sequence[index + 1]}
-            onNavigate={() => setQuery("")}
           />;
         })}</div> : <EmptyState query={query} />}
       </section>}
@@ -67,15 +132,15 @@ function App() {
   );
 }
 
-function PageDetail({ page, previous, next, onNavigate }) {
+function PageDetail({ page, previous, next }) {
   return <article className="page-detail" id={`page-${page.pdfPage}`}>
     <header className="page-header">
       <div>
         <p className="page-label">PDF page {page.pdfPage} · Module {page.module}</p>
-        <h2>{page.title}</h2>
+        <h2><a className="page-title-link" href={pagePath(page)} onClick={(event) => { event.preventDefault(); navigate(pagePath(page)); }}>{page.title}</a></h2>
         <p className="page-subtitle">{page.location} · {page.mileage}</p>
       </div>
-      <div className="route-badge"><span>LOR</span><strong>{page.lOR}</strong></div>
+      <a className="route-badge" href={lorPath(page.lOR)} onClick={(event) => { event.preventDefault(); navigate(lorPath(page.lOR)); }}><span>LOR</span><strong>{page.lOR}</strong></a>
     </header>
 
     <dl className="facts">
@@ -86,9 +151,9 @@ function PageDetail({ page, previous, next, onNavigate }) {
     </dl>
 
     <nav className="sequence-nav" aria-label={`${page.lOR} sequence navigation`}>
-      {previous ? <a href={`#page-${previous.pdfPage}`} onClick={onNavigate}><span>Previous</span><strong>SEQ {previous.sequence} · PDF page {previous.pdfPage}</strong></a> : <span className="sequence-end">Start of {page.lOR}</span>}
+      {previous ? <a href={pagePath(previous)} onClick={(event) => { event.preventDefault(); navigate(pagePath(previous)); }}><span>Previous</span><strong>SEQ {previous.sequence} · PDF page {previous.pdfPage}</strong></a> : <span className="sequence-end">Start of {page.lOR}</span>}
       <p><span>{page.lOR}</span> SEQ {page.sequence}</p>
-      {next ? <a href={`#page-${next.pdfPage}`} onClick={onNavigate} className="next-link"><span>Next</span><strong>SEQ {next.sequence} · PDF page {next.pdfPage}</strong></a> : <span className="sequence-end sequence-end-right">End of {page.lOR}</span>}
+      {next ? <a href={pagePath(next)} onClick={(event) => { event.preventDefault(); navigate(pagePath(next)); }} className="next-link"><span>Next</span><strong>SEQ {next.sequence} · PDF page {next.pdfPage}</strong></a> : <span className="sequence-end sequence-end-right">End of {page.lOR}</span>}
     </nav>
 
     <section className="schematic-section" aria-label={`PDF page ${page.pdfPage} image extract`}>
