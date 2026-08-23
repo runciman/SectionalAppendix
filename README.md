@@ -77,3 +77,16 @@ python3 -m pip install pypdf Pillow
 # macOS with Homebrew
 brew install poppler tesseract
 ```
+
+### Crop audit
+
+To check that all published crops include the complete source-PDF table, run:
+
+```bash
+python3 scripts/audit_table_crops.py \
+  "/path/to/Scotland Sectional Appendix June 2026.pdf" \
+  --fix
+```
+
+The auditor compares each crop's dimensions with the table bounds detected in
+the original PDF and replaces only mismatched crops.
