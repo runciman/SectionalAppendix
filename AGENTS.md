@@ -143,6 +143,36 @@ Also verify in the local site:
 
 Static hosting must serve `index.html` as an SPA fallback for direct route URLs.
 
+## Batch lifecycle and commit gate
+
+Treat every 25 physical PDF pages as a parent-owned batch with these states:
+
+1. `processing` — reviewers inspect their assigned pages.
+2. `verification_pending` — the parent collects every result, including every
+   confident skip and uncertainty.
+3. `ready_to_commit` — every physical page is either an explicitly recorded
+   skip/uncertainty or has a complete, source-verified record and crop.
+4. `committed` — the parent stages only the verified records/crops and creates
+   the batch commit.
+
+Subagents must never commit a shared batch. The parent must not stop after
+receiving subagent results: it must either complete the commit gate or report a
+specific blocker. A progress report is not a handoff until it includes the
+batch commit hash (or the documented blocker and next physical PDF page).
+
+Before every batch commit, run:
+
+```bash
+python3 scripts/validate_index_batch.py --pages 455-479
+npm run build
+git diff --check
+```
+
+Pass `--skips` for confidently excluded physical pages, for example
+`--skips 437-438`. The validator rejects any page not accounted for, duplicate
+records for a PDF page, a missing crop import, or a record without OCR-backed
+transcription. Do not commit if this gate fails.
+
 ## Git hygiene
 
 - Do not commit `tmp/`, Python `__pycache__/`, `node_modules/` or `dist/`.

@@ -152,12 +152,12 @@ def main() -> int:
             item["ocr"] = relative(ocr_file, output)
             item["suggestedLOR"] = lor
             item["suggestedSequence"] = sequence
-            if lor:
-                crop_file = crops / f"page-{page_number:04d}.png"
-                crop_source(render, crop_file, crop)
-                item["crop"] = relative(crop_file, output)
-                if sequence:
-                    item["status"] = "candidate_map"
+            # Preserve a review crop even when header OCR misses a valid LOR.
+            crop_file = crops / f"page-{page_number:04d}.png"
+            crop_source(render, crop_file, crop)
+            item["crop"] = relative(crop_file, output)
+            if lor and sequence:
+                item["status"] = "candidate_map"
         counts[str(item["status"])] += 1
         manifest.append(item)
 
