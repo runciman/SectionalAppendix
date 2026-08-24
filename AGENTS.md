@@ -160,6 +160,13 @@ receiving subagent results: it must either complete the commit gate or report a
 specific blocker. A progress report is not a handoff until it includes the
 batch commit hash (or the documented blocker and next physical PDF page).
 
+When the user has asked to process the remaining PDF, a successful batch commit
+is a checkpoint, not a stopping condition. Immediately start the next
+unprocessed physical 25-page range after committing. Continue until the final
+PDF page, a genuine blocker, or the user's token limit is reached. In the last
+two cases, report the next unprocessed physical PDF page so work can resume
+without re-triage.
+
 Before every batch commit, run:
 
 ```bash
