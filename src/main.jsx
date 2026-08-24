@@ -136,6 +136,10 @@ function App() {
           />;
         })}</div> : <EmptyState query={query} />}
       </section>}
+
+      <footer className="site-footer">
+        <div className="container">All data provided by <a href="https://www.networkrail.co.uk/industry-and-commercial/information-for-operators/national-electronic-sectional-appendix/" target="_blank" rel="noreferrer">Network Rail's Sectional Appendix</a>.</div>
+      </footer>
     </main>
   );
 }
