@@ -167,6 +167,11 @@ PDF page, a genuine blocker, or the user's token limit is reached. In the last
 two cases, report the next unprocessed physical PDF page so work can resume
 without re-triage.
 
+After each committed batch, send a concise progress report while immediately
+continuing work. Include the completed physical page range, commit hash,
+number indexed, number confidently skipped, any uncertain pages, and the next
+physical page range in progress.
+
 Before every batch commit, run:
 
 ```bash
