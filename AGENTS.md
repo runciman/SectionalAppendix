@@ -35,6 +35,35 @@ Keep LOR and SEQ URL values uppercase and zero-padded. `SEQ` is a numeric
 sequence within a shared LOR: previous/next links must only point to adjacent
 existing entries in that LOR. Test direct URLs, not only in-page navigation.
 
+## Multi-region expansion gate
+
+Scotland is the first indexed region. Before adding any other regional PDF,
+finish the multi-region routing refactor: the current UI still has Scotland
+specific route parsing and path helpers. Do not add another region's records
+until every record carries a region slug and the following use that slug rather
+than a hard-coded `scotland` value:
+
+- route parsing and direct URLs;
+- search-result links;
+- region and LOR collection pages; and
+- individual page, connection, and previous/next links.
+
+The root search must return results from every live region. A homepage region
+card may link to a region only after its routes, collection page, direct record
+URLs and cross-region search results have been verified.
+
+## Homepage and typography
+
+The homepage uses a simple regional card index: Scotland is live and the
+remaining listed regions are marked as coming soon. Do not reintroduce a
+decorative map without an approved geographic asset and a clear interaction
+design.
+
+Use Helvetica Neue (with Helvetica/Arial fallbacks) throughout the interface.
+If Transport is later used for the main title, add a correctly licensed local
+webfont file and a visible Open Government Licence attribution; do not rely on
+a visitor having the font installed.
+
 ## What qualifies for indexing
 
 Index only the established map-table format: a LOR and sequence header with

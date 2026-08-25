@@ -12,13 +12,13 @@ const lorPath = (lOR) => `/scotland/${lOR}`;
 const scotlandPath = "/scotland";
 const connectionReference = /\b(SC\d{3})\s*,?\s*(?:sequence|seq\.?)\s*(\d{1,3})\b/gi;
 const regions = [
-  { id: "scotland", name: "Scotland", status: "Available now", path: scotlandPath, mapClass: "map-scotland" },
-  { id: "lnw-north", name: "London North Western (North)", status: "Coming soon", mapClass: "map-lnw-north" },
-  { id: "lne", name: "London North Eastern (NCS)", status: "Coming soon", mapClass: "map-lne" },
-  { id: "lnw-south", name: "London North Western (South)", status: "Coming soon", mapClass: "map-lnw-south" },
-  { id: "anglia", name: "Anglia", status: "Coming soon", mapClass: "map-anglia" },
-  { id: "western-wales", name: "Western & Wales", status: "Coming soon", mapClass: "map-western-wales" },
-  { id: "ksw", name: "Kent, Sussex & Wessex", status: "Coming soon", mapClass: "map-ksw" },
+  { id: "scotland", name: "Scotland", status: "Available now", path: scotlandPath },
+  { id: "lnw-north", name: "London North Western (North)", status: "Coming soon" },
+  { id: "lne", name: "London North Eastern (NCS)", status: "Coming soon" },
+  { id: "lnw-south", name: "London North Western (South)", status: "Coming soon" },
+  { id: "anglia", name: "Anglia", status: "Coming soon" },
+  { id: "western-wales", name: "Western & Wales", status: "Coming soon" },
+  { id: "ksw", name: "Kent, Sussex & Wessex", status: "Coming soon" },
 ];
 
 function readRoute() {
@@ -155,7 +155,7 @@ function App() {
   );
 }
 
-function RegionIndex() {
+function LegacyRegionMapIndex() {
   return <section className="region-index container" aria-label="Sectional Appendix regions">
     <div className="region-index-layout">
       <svg className="region-map" viewBox="0 0 500 720" role="img" aria-labelledby="region-map-title region-map-description">
@@ -184,6 +184,16 @@ function RegionIndex() {
         <span>{region.status}</span><strong>{region.name}</strong><small>Index planned for a future PDF release</small>
       </article>)}</div>
     </div>
+  </section>;
+}
+
+function RegionIndex() {
+  return <section className="region-index container" aria-label="Sectional Appendix regions">
+    <div className="region-cards">{regions.map((region) => region.path ? <a key={region.id} className="region-card region-card-live" href={region.path} onClick={(event) => { event.preventDefault(); navigate(region.path); }}>
+      <span>{region.status}</span><strong>{region.name}</strong><small>Browse indexed LORs <b aria-hidden="true">→</b></small>
+    </a> : <article key={region.id} id={`region-${region.id}`} className="region-card">
+      <span>{region.status}</span><strong>{region.name}</strong><small>Index planned for a future PDF release</small>
+    </article>)}</div>
   </section>;
 }
 
