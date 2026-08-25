@@ -30,3 +30,20 @@ h1 { margin: 10px 0 8px; font-family: "Source Serif 4", Georgia, serif; font-siz
 .transcription { display: grid; grid-template-columns: 205px 1fr; gap: 35px; margin: 0 46px; padding: 30px 0 39px; border-top: 1px solid #dfe4e5; }.transcription h3 { margin: 9px 0 0; }.transcription > p { margin: 0; color: #3e5368; line-height: 1.68; }.empty-state { padding: 72px 46px; }.empty-state p:last-child { margin: 0; color: #657689; }
 .site-footer { padding: 28px 0; color: #dce3eb; background: #0d2036; font-size: .86rem; }.site-footer a { color: #f6d38a; font-weight: 600; }.site-footer a:hover { color: #fff; }
 @media (max-width: 700px) { .container { width: min(100% - 28px, 1120px); }.hero { padding: 58px 0 48px; }.page-header { padding: 29px 24px; }.facts { grid-template-columns: repeat(2, 1fr); }.facts div:nth-child(2) { border-right: 0; }.facts div:nth-child(-n+2) { border-bottom: 1px solid #dfe4e5; }.sequence-nav { grid-template-columns: 1fr 1fr; padding: 15px 24px; }.sequence-nav p { display: none; }.schematic-section { padding: 27px 24px 0; }.schematic-heading { display: block; }.schematic-heading > p { margin-top: 10px; text-align: left; }.schematic-wrap { overflow-x: auto; }.detail-grid { grid-template-columns: 1fr; padding: 20px 24px; }.transcription { grid-template-columns: 1fr; gap: 13px; margin: 0 24px; }.route-badge { min-width: 88px; }.result-summary span { display: none; } }
+
+/* Global visual language: simple, utilitarian, and region-neutral. */
+* { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
+:root { color: #111; background: #fff; }
+.hero { color: #111; background: #fff; border-bottom: 1px solid #111; }
+.eyebrow, .page-label, .section-label { color: #555; letter-spacing: .08em; }
+.intro { color: #333; }.search { color: #111; border: 1px solid #111; border-radius: 0; box-shadow: none; }.search input { color: #111; }.search button { color: #111; background: #eee; border-radius: 0; }.region-link { color: #111; }.region-link:hover { color: #111; }
+.page-results { gap: 20px; }.page-detail, .empty-state, .lor-index a { border-color: #bbb; box-shadow: none; }.lor-index a { color: #111; }.lor-index a:hover { border-color: #111; transform: none; }.lor-code { color: #555; }
+.page-header h2, .empty-state h2, .detail-card h3, .transcription h3, .schematic-heading h3, .region-heading h2 { color: #111; }.page-title-link, .route-badge, .sequence-nav a, .connection-link { color: #111; }.route-badge { background: #f5f5f5; border-top-color: #111; }.route-badge:hover { background: #eaeaea; }
+.facts, .facts div, .sequence-nav, .page-header, .pdf-extract, .pdf-extract figcaption, .transcription { border-color: #ccc; }.sequence-nav { background: #f5f5f5; }.sequence-nav p, .page-subtitle, .detail-card li, .transcription > p, .schematic-heading > p { color: #444; }.sequence-nav p span { color: #111; }
+.detail-card { background: #f7f7f7; border-left-color: #111; }.equipment { background: #f7f7f7; }.site-footer { color: #555; background: #f2f2f2; border-top: 1px solid #bbb; }.site-footer a { color: #111; }.site-footer a:hover { color: #111; }
+
+.region-index { padding: 56px 0 72px; }
+.region-index-layout { display: block; }
+.region-map { display: none; }
+.region-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid #bbb; border-left: 1px solid #bbb; }.region-card { display: grid; gap: 9px; min-height: 134px; padding: 18px; color: #111; background: #f7f7f7; border-right: 1px solid #bbb; border-bottom: 1px solid #bbb; }.region-card-live { color: #111; background: #fff; text-decoration: none; }.region-card-live:hover, .region-card-live:focus { background: #f0f0f0; }.region-card span { color: #555; font-size: .7rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }.region-card strong { align-self: center; font-size: 1.05rem; line-height: 1.2; }.region-card small { color: #555; font-size: .78rem; line-height: 1.35; }.region-card b { color: #111; }
+@media (max-width: 470px) { .region-cards { grid-template-columns: 1fr; }.region-card { min-height: 112px; } }

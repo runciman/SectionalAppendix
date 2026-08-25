@@ -11,6 +11,15 @@ const pagePath = (page) => `/scotland/${page.lOR}/${page.sequence}`;
 const lorPath = (lOR) => `/scotland/${lOR}`;
 const scotlandPath = "/scotland";
 const connectionReference = /\b(SC\d{3})\s*,?\s*(?:sequence|seq\.?)\s*(\d{1,3})\b/gi;
+const regions = [
+  { id: "scotland", name: "Scotland", status: "Available now", path: scotlandPath, mapClass: "map-scotland" },
+  { id: "lnw-north", name: "London North Western (North)", status: "Coming soon", mapClass: "map-lnw-north" },
+  { id: "lne", name: "London North Eastern (NCS)", status: "Coming soon", mapClass: "map-lne" },
+  { id: "lnw-south", name: "London North Western (South)", status: "Coming soon", mapClass: "map-lnw-south" },
+  { id: "anglia", name: "Anglia", status: "Coming soon", mapClass: "map-anglia" },
+  { id: "western-wales", name: "Western & Wales", status: "Coming soon", mapClass: "map-western-wales" },
+  { id: "ksw", name: "Kent, Sussex & Wessex", status: "Coming soon", mapClass: "map-ksw" },
+];
 
 function readRoute() {
   const parts = window.location.pathname.split("/").filter(Boolean);
@@ -57,9 +66,9 @@ function App() {
     <main>
       <section className="hero">
         <div className="container">
-          <p className="eyebrow">Scotland Route</p>
+          <p className="eyebrow">Great Britain Railway Network</p>
           <h1><a className="home-link" href="/" onClick={(event) => { event.preventDefault(); navigate("/"); }}>Sectional Appendix</a></h1>
-          <p className="intro">Searchable operational reference for indexed Scotland Sectional Appendix pages.</p>
+          <p className="intro">Searchable operational reference for indexed Sectional Appendix pages.</p>
           <label className="search" htmlFor="appendix-search">
             <SearchIcon />
             <input
@@ -73,9 +82,11 @@ function App() {
             />
             {query && <button type="button" onClick={() => setQuery("")}>Clear</button>}
           </label>
-          <a className="region-link" href={scotlandPath} onClick={(event) => { event.preventDefault(); navigate(scotlandPath); }}>Browse Scotland LOR index <span aria-hidden="true">→</span></a>
+          <a className="region-link" href={scotlandPath} onClick={(event) => { event.preventDefault(); navigate(scotlandPath); }}>Browse Scotland’s indexed LORs <span aria-hidden="true">→</span></a>
         </div>
       </section>
+
+      {!route.scotland && !hasSearch && <RegionIndex />}
 
       {route.scotland && !route.lOR && !hasSearch && <section className="content container">
         <div className="region-heading">
@@ -144,6 +155,38 @@ function App() {
   );
 }
 
+function RegionIndex() {
+  return <section className="region-index container" aria-label="Sectional Appendix regions">
+    <div className="region-index-layout">
+      <svg className="region-map" viewBox="0 0 500 720" role="img" aria-labelledby="region-map-title region-map-description">
+        <title id="region-map-title">Great Britain Sectional Appendix regions</title>
+        <desc id="region-map-description">A schematic map showing the seven planned Sectional Appendix regions. Scotland is available now; the other regions are coming soon.</desc>
+        {/* Simplified from Natural Earth 1:50m public-domain Great Britain coastline data. */}
+        <path className="map-outline" d="M214 566 L187 582 L176 580 L162 568 L147 570 L153 563 L140 558 L131 558 L118 566 L108 560 L103 548 L110 540 L140 526 L153 512 L158 501 L153 497 L152 475 L127 483 L145 459 L165 447 L181 444 L196 450 L193 441 L197 438 L203 447 L211 447 L201 441 L197 432 L203 416 L198 408 L206 384 L193 387 L174 355 L188 329 L198 326 L176 326 L159 339 L146 334 L135 340 L122 334 L118 346 L106 329 L128 285 L118 269 L119 256 L122 251 L132 251 L121 242 L122 234 L104 255 L104 241 L114 228 L96 247 L98 260 L90 293 L86 298 L81 295 L84 275 L92 262 L87 261 L91 227 L106 187 L86 205 L77 203 L72 193 L65 191 L82 180 L77 175 L82 172 L90 150 L79 134 L89 125 L83 121 L84 106 L88 98 L107 98 L96 83 L98 71 L113 67 L111 46 L117 40 L126 47 L134 42 L138 46 L198 36 L191 62 L157 92 L155 100 L163 103 L151 122 L183 112 L240 112 L249 120 L252 131 L217 203 L187 218 L205 216 L215 222 L214 227 L201 231 L188 243 L166 239 L174 245 L198 250 L207 244 L217 244 L237 254 L258 279 L276 345 L300 359 L325 388 L320 395 L334 425 L317 416 L301 417 L316 419 L341 445 L344 457 L331 476 L341 483 L353 471 L384 474 L403 492 L398 531 L386 543 L382 542 L384 550 L380 553 L361 558 L368 561 L367 569 L347 577 L352 575 L367 584 L390 584 L388 598 L374 606 L370 614 L362 613 L338 625 L320 621 L295 625 L268 616 L272 621 L264 626 L242 627 L245 634 L241 636 L224 636 L200 628 L182 634 L171 660 L148 650 L122 659 L109 674 L95 669 L87 673 L89 663 L99 660 L118 640 L132 624 L134 610 L144 607 L150 595 L194 595 L224 558 L214 566Z" />
+        <clipPath id="great-britain-shape"><path d="M214 566 L187 582 L176 580 L162 568 L147 570 L153 563 L140 558 L131 558 L118 566 L108 560 L103 548 L110 540 L140 526 L153 512 L158 501 L153 497 L152 475 L127 483 L145 459 L165 447 L181 444 L196 450 L193 441 L197 438 L203 447 L211 447 L201 441 L197 432 L203 416 L198 408 L206 384 L193 387 L174 355 L188 329 L198 326 L176 326 L159 339 L146 334 L135 340 L122 334 L118 346 L106 329 L128 285 L118 269 L119 256 L122 251 L132 251 L121 242 L122 234 L104 255 L104 241 L114 228 L96 247 L98 260 L90 293 L86 298 L81 295 L84 275 L92 262 L87 261 L91 227 L106 187 L86 205 L77 203 L72 193 L65 191 L82 180 L77 175 L82 172 L90 150 L79 134 L89 125 L83 121 L84 106 L88 98 L107 98 L96 83 L98 71 L113 67 L111 46 L117 40 L126 47 L134 42 L138 46 L198 36 L191 62 L157 92 L155 100 L163 103 L151 122 L183 112 L240 112 L249 120 L252 131 L217 203 L187 218 L205 216 L215 222 L214 227 L201 231 L188 243 L166 239 L174 245 L198 250 L207 244 L217 244 L237 254 L258 279 L276 345 L300 359 L325 388 L320 395 L334 425 L317 416 L301 417 L316 419 L341 445 L344 457 L331 476 L341 483 L353 471 L384 474 L403 492 L398 531 L386 543 L382 542 L384 550 L380 553 L361 558 L368 561 L367 569 L347 577 L352 575 L367 584 L390 584 L388 598 L374 606 L370 614 L362 613 L338 625 L320 621 L295 625 L268 616 L272 621 L264 626 L242 627 L245 634 L241 636 L224 636 L200 628 L182 634 L171 660 L148 650 L122 659 L109 674 L95 669 L87 673 L89 663 L99 660 L118 640 L132 624 L134 610 L144 607 L150 595 L194 595 L224 558 L214 566Z" /></clipPath>
+        <g clipPath="url(#great-britain-shape)">
+        <a href={scotlandPath} onClick={(event) => { event.preventDefault(); navigate(scotlandPath); }} aria-label="Scotland: available now">
+          <path className="region-shape available map-scotland" d="M50 20 H280 V254 L225 275 175 245 120 260 50 220Z" />
+          <text x="176" y="158">Scotland</text>
+        </a>
+        <a href="#region-lnw-north"><path className="region-shape map-lnw-north" d="M40 240 175 245 225 275 236 365 135 390 45 340Z" /><text x="190" y="311">LNW North</text></a>
+        <a href="#region-lne"><path className="region-shape map-lne" d="M225 240 420 240 V420 L270 425 236 365Z" /><text x="303" y="328">LNE</text></a>
+        <a href="#region-lnw-south"><path className="region-shape map-lnw-south" d="M45 340 135 390 236 365 270 425 208 462 112 438Z" /><text x="166" y="406">LNW South</text></a>
+        <a href="#region-anglia"><path className="region-shape map-anglia" d="M270 425 420 400 V555 L300 515 208 462Z" /><text x="305" y="470">Anglia</text></a>
+        <a href="#region-western-wales"><path className="region-shape map-western-wales" d="M35 400 112 438 208 462 300 515 230 575 110 550Z" /><text x="230" y="498">Western</text><text x="230" y="516">&amp; Wales</text></a>
+        <a href="#region-ksw"><path className="region-shape map-ksw" d="M208 462 300 515 420 530 V700 H160 V570Z" /><text x="302" y="567">Kent, Sussex</text><text x="302" y="585">&amp; Wessex</text></a>
+        </g>
+        <path className="map-border" d="M214 566 L187 582 L176 580 L162 568 L147 570 L153 563 L140 558 L131 558 L118 566 L108 560 L103 548 L110 540 L140 526 L153 512 L158 501 L153 497 L152 475 L127 483 L145 459 L165 447 L181 444 L196 450 L193 441 L197 438 L203 447 L211 447 L201 441 L197 432 L203 416 L198 408 L206 384 L193 387 L174 355 L188 329 L198 326 L176 326 L159 339 L146 334 L135 340 L122 334 L118 346 L106 329 L128 285 L118 269 L119 256 L122 251 L132 251 L121 242 L122 234 L104 255 L104 241 L114 228 L96 247 L98 260 L90 293 L86 298 L81 295 L84 275 L92 262 L87 261 L91 227 L106 187 L86 205 L77 203 L72 193 L65 191 L82 180 L77 175 L82 172 L90 150 L79 134 L89 125 L83 121 L84 106 L88 98 L107 98 L96 83 L98 71 L113 67 L111 46 L117 40 L126 47 L134 42 L138 46 L198 36 L191 62 L157 92 L155 100 L163 103 L151 122 L183 112 L240 112 L249 120 L252 131 L217 203 L187 218 L205 216 L215 222 L214 227 L201 231 L188 243 L166 239 L174 245 L198 250 L207 244 L217 244 L237 254 L258 279 L276 345 L300 359 L325 388 L320 395 L334 425 L317 416 L301 417 L316 419 L341 445 L344 457 L331 476 L341 483 L353 471 L384 474 L403 492 L398 531 L386 543 L382 542 L384 550 L380 553 L361 558 L368 561 L367 569 L347 577 L352 575 L367 584 L390 584 L388 598 L374 606 L370 614 L362 613 L338 625 L320 621 L295 625 L268 616 L272 621 L264 626 L242 627 L245 634 L241 636 L224 636 L200 628 L182 634 L171 660 L148 650 L122 659 L109 674 L95 669 L87 673 L89 663 L99 660 L118 640 L132 624 L134 610 L144 607 L150 595 L194 595 L224 558 L214 566Z" />
+      </svg>
+      <div className="region-cards">{regions.map((region) => region.path ? <a key={region.id} className="region-card region-card-live" href={region.path} onClick={(event) => { event.preventDefault(); navigate(region.path); }}>
+        <span>{region.status}</span><strong>{region.name}</strong><small>Browse indexed LORs <b aria-hidden="true">→</b></small>
+      </a> : <article key={region.id} id={`region-${region.id}`} className="region-card">
+        <span>{region.status}</span><strong>{region.name}</strong><small>Index planned for a future PDF release</small>
+      </article>)}</div>
+    </div>
+  </section>;
+}
+
 function PageDetail({ page, previous, next, connectionTargets, inCollection = false }) {
   const sequenceHref = (target) => inCollection ? `#page-${target.pdfPage}` : pagePath(target);
   const followSequence = (event, target) => {
@@ -182,7 +225,7 @@ function PageDetail({ page, previous, next, connectionTargets, inCollection = fa
       </div>
       <figure className="pdf-extract">
         <img src={page.imageSrc} alt={page.imageAlt} />
-        <figcaption>Source: Scotland Sectional Appendix, PDF page {page.pdfPage}.</figcaption>
+        <figcaption>Source: Network Rail Sectional Appendix, PDF page {page.pdfPage}.</figcaption>
       </figure>
     </section>
 
