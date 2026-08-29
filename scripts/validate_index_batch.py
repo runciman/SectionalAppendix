@@ -24,15 +24,26 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--pages", required=True, help="Physical pages, e.g. 455-479")
     parser.add_argument("--skips", default="", help="Explicitly excluded physical pages")
+    parser.add_argument(
+        "--region",
+        default="scotland",
+        help="Region slug under src/data and src/assets (default: scotland)",
+    )
     parser.add_argument("--project", type=Path, default=Path("."))
     args = parser.parse_args()
+    if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", args.region):
+        parser.error("--region must be a lowercase URL slug")
     expected, skips = parse_pages(args.pages), parse_pages(args.skips)
     if not skips <= expected:
         parser.error("--skips contains pages outside --pages")
 
     records: dict[int, Path] = {}
     errors: list[str] = []
-    for record in (args.project / "src/data").glob("**/[0-9][0-9][0-9].js"):
+    data_root = args.project / "src/data" / args.region
+    asset_root = (args.project / "src/assets" / args.region).resolve()
+    if not data_root.is_dir() and expected - skips:
+        parser.error(f"Region data directory not found: {data_root}")
+    for record in data_root.glob("**/[0-9][0-9][0-9].js") if data_root.is_dir() else []:
         source = record.read_text(encoding="utf-8")
         match = re.search(r"\bpdfPage:\s*(\d+)", source)
         if not match:
@@ -47,8 +58,12 @@ def main() -> int:
         image = re.search(r"import\s+imageSrc\s+from\s+[\"']([^\"']+)[\"']", source)
         if not image:
             errors.append(f"PDF page {page}: no imageSrc import in {record}")
-        elif not (record.parent / image.group(1)).resolve().is_file():
-            errors.append(f"PDF page {page}: missing crop {(record.parent / image.group(1)).resolve()}")
+        else:
+            crop = (record.parent / image.group(1)).resolve()
+            if not crop.is_relative_to(asset_root):
+                errors.append(f"PDF page {page}: crop is outside region assets: {crop}")
+            elif not crop.is_file():
+                errors.append(f"PDF page {page}: missing crop {crop}")
         if not re.search(r"\btranscription:\s*[\"']", source):
             errors.append(f"PDF page {page}: missing OCR-backed transcription")
 
@@ -61,7 +76,10 @@ def main() -> int:
     if errors:
         print("Batch validation failed:", *errors, sep="\n- ", file=sys.stderr)
         return 1
-    print(f"Batch validation passed: {len(records)} indexed, {len(skips)} skipped.")
+    print(
+        f"Batch validation passed for {args.region}: "
+        f"{len(records)} indexed, {len(skips)} skipped."
+    )
     return 0
 
 

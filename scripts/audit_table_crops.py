@@ -35,15 +35,22 @@ def executable() -> str:
     raise RuntimeError("pdftoppm was not found")
 
 
-def entries(project: Path) -> list[Entry]:
+def entries(project: Path, region: str) -> list[Entry]:
     found: list[Entry] = []
-    for module in sorted((project / "src/data").glob("**/*.js")):
+    data_root = project / "src/data" / region
+    asset_root = (project / "src/assets" / region).resolve()
+    if not data_root.is_dir():
+        raise RuntimeError(f"Region data directory not found: {data_root}")
+    for module in sorted(data_root.glob("**/*.js")):
         text = module.read_text(encoding="utf-8")
         page = re.search(r'"?pdfPage"?\s*:\s*(\d+)', text)
         asset = re.search(r'import\s+\w+\s+from\s+"([^"]+\.png)"', text)
         if not page or not asset:
             raise RuntimeError(f"Could not read page or asset import from {module}")
-        found.append(Entry(int(page.group(1)), module, (module.parent / asset.group(1)).resolve()))
+        asset_path = (module.parent / asset.group(1)).resolve()
+        if not asset_path.is_relative_to(asset_root):
+            raise RuntimeError(f"Asset import is outside {region} assets: {module}")
+        found.append(Entry(int(page.group(1)), module, asset_path))
     return found
 
 
@@ -115,6 +122,11 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("pdf", type=Path, help="Original Sectional Appendix PDF")
     parser.add_argument("--project", type=Path, default=Path.cwd(), help="Repository root")
+    parser.add_argument(
+        "--region",
+        default="scotland",
+        help="Region slug under src/data and src/assets (default: scotland)",
+    )
     parser.add_argument("--work-dir", type=Path, default=Path("tmp/crop-audit"), help="Temporary renders")
     parser.add_argument("--dpi", type=int, default=220, help="Render resolution")
     parser.add_argument("--pages", help="Indexed physical pages, for example 169-225,262-303")
@@ -122,13 +134,19 @@ def main() -> int:
     args = parser.parse_args()
     if not args.pdf.is_file():
         parser.error(f"PDF not found: {args.pdf}")
+    if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", args.region):
+        parser.error("--region must be a lowercase URL slug")
 
     project = args.project.resolve()
-    work_dir = (project / args.work_dir).resolve()
+    work_dir = (project / args.work_dir / args.region).resolve()
     work_dir.mkdir(parents=True, exist_ok=True)
     renderer = executable()
     selected_pages = parse_pages(args.pages)
-    all_entries = [entry for entry in entries(project) if selected_pages is None or entry.pdf_page in selected_pages]
+    all_entries = [
+        entry
+        for entry in entries(project, args.region)
+        if selected_pages is None or entry.pdf_page in selected_pages
+    ]
     if not all_entries:
         parser.error("No indexed entries match --pages")
     failures: list[tuple[Entry, Path]] = []
@@ -141,7 +159,10 @@ def main() -> int:
         if needs_replacement(entry.asset, expected_box):
             failures.append((entry, rendered))
 
-    print(f"Audited {len(all_entries)} indexed crops; {len(failures)} need replacement.")
+    print(
+        f"Audited {len(all_entries)} indexed crops for {args.region}; "
+        f"{len(failures)} need replacement."
+    )
     if not args.fix:
         for entry, _ in failures:
             print(f"PDF page {entry.pdf_page}: {entry.asset.relative_to(project)}")

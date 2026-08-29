@@ -30,6 +30,15 @@ CODEX_PDFTOPPM = Path(
     "dependencies/bin/override/pdftoppm"
 )
 
+# Keep this allow-list deliberately narrow. It prevents dates, mileage and ELR
+# values elsewhere on a page from being promoted to a map header. Add a route
+# prefix only after checking that region's published map-table header.
+LOR_PREFIX_PATTERNS = {
+    "GW": r"GW",
+    # Tesseract commonly confuses the stylised S in Scottish headers.
+    "SC": r"(?:SC|\$C|5C)",
+}
+
 
 def parse_pages(spec: str | None, total: int) -> list[int]:
     if not spec:
@@ -83,10 +92,18 @@ def read_ocr(tesseract: str, image: Path) -> str:
 def recognised_header(ocr_text: str) -> tuple[str | None, str | None]:
     """Read a conservative LOR/SEQ pair from the standard map-entry header."""
     flattened = " ".join(ocr_text.upper().split())
-    lor_match = re.search(r"(?:SC|\$C|5C)\s*(\d{3})\b", flattened)
+    prefixes = "|".join(
+        f"(?P<{lor}>{pattern})" for lor, pattern in LOR_PREFIX_PATTERNS.items()
+    )
+    lor_match = re.search(
+        rf"(?:{prefixes})\s*[/|]?\s*(?P<digits>\d{{3}})\b", flattened
+    )
     if not lor_match:
         return None, None
-    lor = f"SC{lor_match.group(1)}"
+    canonical_prefix = next(
+        lor for lor in LOR_PREFIX_PATTERNS if lor_match.group(lor) is not None
+    )
+    lor = f"{canonical_prefix}{lor_match.group('digits')}"
     tail = flattened[lor_match.end():lor_match.end() + 24]
     sequence_match = re.search(r"(?:SEQ(?:UENCE)?\.?\s*)?(\d{3})\b", tail)
     return lor, sequence_match.group(1) if sequence_match else None
@@ -108,7 +125,15 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("pdf", type=Path, help="Source Sectional Appendix PDF")
     parser.add_argument("--pages", help="Physical pages, for example 169-225,262-330")
-    parser.add_argument("--output", type=Path, default=Path("tmp/batch-index"), help="Working output directory")
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=Path("tmp/batch-index"),
+        help=(
+            "Self-contained working output directory (use a distinct "
+            "region/batch path to avoid collisions)"
+        ),
+    )
     parser.add_argument("--prepare", action="store_true", help="Render, OCR and crop non-text-heavy candidates")
     parser.add_argument("--dpi", type=int, default=180, help="DPI for candidate renders (default: 180)")
     parser.add_argument("--crop", default=",".join(map(str, DEFAULT_CROP)), help="Normalised crop: left,top,right,bottom")

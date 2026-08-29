@@ -9,6 +9,7 @@ const lorPath = (region, lOR) => `${regionPath(region)}/${lOR}`;
 const pagePath = (page) => `${lorPath(page.region, page.lOR)}/${page.sequence}`;
 const collectionKey = (region, lOR) => `${region}:${lOR}`;
 const pageKey = (page) => `${collectionKey(page.region, page.lOR)}:${page.sequence}`;
+const pageAnchor = (page) => `page-${page.region}-${page.lOR}-${page.sequence}`;
 const connectionReference = /\b([A-Z]{2,4}\d{3,4})\s*,?\s*(?:sequence|seq\.?)\s*(\d{1,3})\b/gi;
 const regionDefinitions = [
   ["scotland", "Scotland"], ["lnw-north", "London North Western (North)"],
@@ -100,14 +101,14 @@ function RegionIndex({ liveRegions }) {
 }
 
 function PageDetail({ page, previous, next, connectionTargets, inCollection = false }) {
-  const sequenceHref = (target) => inCollection ? `#page-${target.pdfPage}` : pagePath(target);
+  const sequenceHref = (target) => inCollection ? `#${pageAnchor(target)}` : pagePath(target);
   const followSequence = (event, target) => {
     if (!inCollection) return;
     event.preventDefault();
-    document.getElementById(`page-${target.pdfPage}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
-    window.history.replaceState({}, "", `${lorPath(page.region, page.lOR)}#page-${target.pdfPage}`);
+    document.getElementById(pageAnchor(target))?.scrollIntoView({ behavior: "smooth", block: "start" });
+    window.history.replaceState({}, "", `${lorPath(page.region, page.lOR)}#${pageAnchor(target)}`);
   };
-  return <article className="page-detail" id={`page-${page.pdfPage}`}>
+  return <article className="page-detail" id={pageAnchor(page)}>
     <header className="page-header"><div><p className="page-label">PDF page {page.pdfPage} · Module {page.module}</p><h2><a className="page-title-link" href={pagePath(page)} onClick={(event) => { event.preventDefault(); navigate(pagePath(page)); }}>{page.title}</a></h2><p className="page-subtitle">{page.location} · {page.mileage}</p></div><a className="route-badge" href={lorPath(page.region, page.lOR)} onClick={(event) => { event.preventDefault(); navigate(lorPath(page.region, page.lOR)); }}><span>LOR</span><strong>{page.lOR}</strong></a></header>
     <dl className="facts"><div><dt>Sequence</dt><dd>{page.sequence}</dd></div><div><dt>ELR</dt><dd>{page.elr}</dd></div><div><dt>Route</dt><dd>{page.route}</dd></div><div><dt>Last updated</dt><dd>{page.lastUpdated}</dd></div></dl>
     <nav className="sequence-nav" aria-label={`${page.lOR} sequence navigation`}>
