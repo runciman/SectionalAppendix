@@ -3,6 +3,9 @@ const pageModules = import.meta.glob("./data/**/*.js", {
   import: "default"
 });
 
-export const appendixPages = Object.values(pageModules).sort(
-  (left, right) => left.pdfPage - right.pdfPage
-);
+const regionFromModulePath = (path) => path.split("/")[2];
+
+export const appendixPages = Object.entries(pageModules)
+  .map(([path, page]) => ({ ...page, region: regionFromModulePath(path) }))
+  .sort((left, right) => left.region.localeCompare(right.region)
+    || left.pdfPage - right.pdfPage);

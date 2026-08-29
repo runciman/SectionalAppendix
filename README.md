@@ -1,6 +1,6 @@
-# Scotland Sectional Appendix
+# Sectional Appendix
 
-A searchable React/Vite reference for indexed pages of the Scotland Sectional Appendix.
+A searchable React/Vite reference for indexed regional Sectional Appendix pages. Scotland is the first live region.
 
 ## Run locally
 
