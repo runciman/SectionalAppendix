@@ -214,6 +214,19 @@ Pass `--skips` for confidently excluded physical pages, for example
 records for a PDF page, a missing crop import, or a record without OCR-backed
 transcription. Do not commit if this gate fails.
 
+## Autonomous continuation
+
+When instructed to process the remaining PDF, continue autonomously through
+every remaining physical 25-page batch. Do not treat a progress update, batch
+commit, or completed checkpoint as a pause, handoff, or request for further
+permission.
+
+After each batch commit, immediately prepare and assign reviewers for the next
+unprocessed range in the same active turn. Progress reports are informational
+only and must not end the work. Stop only after the final physical PDF page is
+committed, a genuine blocker is documented, or the user explicitly asks to
+stop.
+
 ## Git hygiene
 
 - Do not commit `tmp/`, Python `__pycache__/`, `node_modules/` or `dist/`.
