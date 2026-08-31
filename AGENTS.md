@@ -227,6 +227,16 @@ only and must not end the work. Stop only after the final physical PDF page is
 committed, a genuine blocker is documented, or the user explicitly asks to
 stop.
 
+### Turn-continuation enforcement
+
+For a remaining-PDF request, do not send a final response, yield control, or
+otherwise end the active turn after a progress report, reviewer result, batch
+gate, or batch commit. A final response is allowed only at the terminal
+condition above. After every commentary update, immediately perform the next
+useful task action (for example, collect reviewer results, validate, commit,
+prepare, or assign the next batch). Do not wait for the user to nudge or
+confirm continuation.
+
 ## Git hygiene
 
 - Do not commit `tmp/`, Python `__pycache__/`, `node_modules/` or `dist/`.
