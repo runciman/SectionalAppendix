@@ -35,6 +35,7 @@ CODEX_PDFTOPPM = Path(
 # prefix only after checking that region's published map-table header.
 LOR_PREFIX_PATTERNS = {
     "GW": r"GW",
+    "NW": r"NW",
     # Tesseract commonly confuses the stylised S in Scottish headers.
     "SC": r"(?:SC|\$C|5C)",
 }
@@ -96,7 +97,7 @@ def recognised_header(ocr_text: str) -> tuple[str | None, str | None]:
         f"(?P<{lor}>{pattern})" for lor, pattern in LOR_PREFIX_PATTERNS.items()
     )
     lor_match = re.search(
-        rf"(?:{prefixes})\s*[/|]?\s*(?P<digits>\d{{3}})\b", flattened
+        rf"(?:{prefixes})\s*[/|]?\s*(?P<digits>\d{{3,4}})\b", flattened
     )
     if not lor_match:
         return None, None
