@@ -237,6 +237,13 @@ useful task action (for example, collect reviewer results, validate, commit,
 prepare, or assign the next batch). Do not wait for the user to nudge or
 confirm continuation.
 
+In this interface, sending a message on the `final` channel ends the parent
+turn. Therefore, while a remaining-PDF request is incomplete, never use the
+`final` channel for a progress report, acknowledgement, checkpoint, or
+explanation. Use `commentary` only, then continue with a concrete task action.
+Treat an incomplete PDF as an active background of every turn until its final
+physical page has passed the commit gate.
+
 ## Git hygiene
 
 - Do not commit `tmp/`, Python `__pycache__/`, `node_modules/` or `dist/`.
