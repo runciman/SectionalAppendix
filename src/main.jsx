@@ -10,7 +10,7 @@ const pagePath = (page) => `${lorPath(page.region, page.lOR)}/${page.sequence}`;
 const collectionKey = (region, lOR) => `${region}:${lOR}`;
 const pageKey = (page) => `${collectionKey(page.region, page.lOR)}:${page.sequence}`;
 const pageAnchor = (page) => `page-${page.region}-${page.lOR}-${page.sequence}`;
-const connectionReference = /\b([A-Z]{2,4}\d{3,4})\s*,?\s*(?:sequence|seq\.?)\s*(\d{1,3})\b/gi;
+const connectionReference = /\b([A-Z]{2,4}\d{3,4})(?:\s*(?:\/|,?\s*(?:sequence|seq\.?)\s*)(\d{1,3}))?\b/gi;
 const regionDefinitions = [
   ["scotland", "Scotland"], ["lnw-north", "London North Western (North)"],
   ["lne", "London North Eastern (NCS)"], ["lnw-south", "London North Western (South)"],
@@ -49,6 +49,7 @@ function App() {
     return groups;
   }, new Map()), []);
   const connectionTargets = useMemo(() => new Map(appendixPages.map((page) => [pageKey(page), page])), []);
+  const connectionLORs = useMemo(() => new Map(appendixPages.map((page) => [page.lOR, page.region])), []);
 
   useEffect(() => {
     const onPopState = () => setRoute(readRoute());
@@ -79,17 +80,17 @@ function App() {
       <div className="region-heading"><p className="eyebrow">{regionNames.get(route.region) || route.region}</p><h2>Indexed LORs</h2><p>Browse the available line-of-route collections and their sequence entries.</p></div>
       <div className="lor-index">{lorIndex.map(({ lOR, pages, name }) => <a key={lOR} href={lorPath(route.region, lOR)} onClick={(event) => { event.preventDefault(); navigate(lorPath(route.region, lOR)); }}><span className="lor-code">{lOR}</span><strong>{name}</strong><small>{pages.length} indexed {pages.length === 1 ? "entry" : "entries"} <span aria-hidden="true">→</span></small></a>)}</div>
     </section>}
-    {selectedPage && !hasSearch && <section className="content container"><PageDetail page={selectedPage} previous={routePages[routePages.indexOf(selectedPage) - 1]} next={routePages[routePages.indexOf(selectedPage) + 1]} connectionTargets={connectionTargets} /></section>}
+    {selectedPage && !hasSearch && <section className="content container"><PageDetail page={selectedPage} previous={routePages[routePages.indexOf(selectedPage) - 1]} next={routePages[routePages.indexOf(selectedPage) + 1]} connectionTargets={connectionTargets} connectionLORs={connectionLORs} /></section>}
     {showLOR && !hasSearch && <section className="content container">
       <div className="result-summary"><p>{route.lOR} sequence entries</p><span>{routePages.length} indexed {routePages.length === 1 ? "page" : "pages"}</span></div>
-      <div className="page-results">{routePages.map((page, index) => <PageDetail key={pageKey(page)} page={page} previous={routePages[index - 1]} next={routePages[index + 1]} connectionTargets={connectionTargets} inCollection />)}</div>
+      <div className="page-results">{routePages.map((page, index) => <PageDetail key={pageKey(page)} page={page} previous={routePages[index - 1]} next={routePages[index + 1]} connectionTargets={connectionTargets} connectionLORs={connectionLORs} inCollection />)}</div>
     </section>}
     {hasSearch && <section className="content container" aria-live="polite">
       <div className="result-summary"><p>{results.length} {results.length === 1 ? "page" : "pages"} found</p><span>{appendixPages.length} indexed PDF pages</span></div>
       {results.length ? <div className="page-results">{results.map((page) => {
         const sequence = sequenceGroups.get(collectionKey(page.region, page.lOR));
         const index = sequence.indexOf(page);
-        return <PageDetail key={pageKey(page)} page={page} previous={sequence[index - 1]} next={sequence[index + 1]} connectionTargets={connectionTargets} />;
+        return <PageDetail key={pageKey(page)} page={page} previous={sequence[index - 1]} next={sequence[index + 1]} connectionTargets={connectionTargets} connectionLORs={connectionLORs} />;
       })}</div> : <EmptyState query={query} />}
     </section>}
     <footer className="site-footer"><div className="container">All data provided by <a href="https://www.networkrail.co.uk/industry-and-commercial/information-for-operators/national-electronic-sectional-appendix/" target="_blank" rel="noreferrer">Network Rail's Sectional Appendix</a>.</div></footer>
@@ -100,7 +101,7 @@ function RegionIndex({ liveRegions }) {
   return <section className="region-index container" aria-label="Sectional Appendix regions"><div className="region-cards">{regionDefinitions.map((region) => liveRegions.has(region.id) ? <a key={region.id} className="region-card region-card-live" href={regionPath(region.id)} onClick={(event) => { event.preventDefault(); navigate(regionPath(region.id)); }}><span>Available now</span><strong>{region.name}</strong><small>Browse indexed LORs <b aria-hidden="true">→</b></small></a> : <article key={region.id} className="region-card"><span>Coming soon</span><strong>{region.name}</strong><small>Index planned for a future PDF release</small></article>)}</div></section>;
 }
 
-function PageDetail({ page, previous, next, connectionTargets, inCollection = false }) {
+function PageDetail({ page, previous, next, connectionTargets, connectionLORs, inCollection = false }) {
   const sequenceHref = (target) => inCollection ? `#${pageAnchor(target)}` : pagePath(target);
   const followSequence = (event, target) => {
     if (!inCollection) return;
@@ -117,24 +118,26 @@ function PageDetail({ page, previous, next, connectionTargets, inCollection = fa
       {next ? <a href={sequenceHref(next)} onClick={(event) => { followSequence(event, next); if (!inCollection) { event.preventDefault(); navigate(pagePath(next)); } }} className="next-link"><span>Next</span><strong>SEQ {next.sequence} · PDF page {next.pdfPage}</strong></a> : <span className="sequence-end sequence-end-right">End of {page.lOR}</span>}
     </nav>
     <section className="schematic-section" aria-label={`PDF page ${page.pdfPage} image extract`}><div className="schematic-heading"><div><p className="section-label">Page {page.pdfPage} extract</p><h3>Location, mileage & running lines</h3></div><p>Direct image crop from the source PDF.</p></div><figure className="pdf-extract"><img src={page.imageSrc} alt={page.imageAlt} /><figcaption>Source: Network Rail Sectional Appendix, PDF page {page.pdfPage}.</figcaption></figure></section>
-    <div className="detail-grid">{page.locations && <DetailList title="Locations & mileages" items={page.locations} />}<DetailList title="Connections" items={page.connections} connectionTargets={connectionTargets} region={page.region} /><DetailList title="Signalling & communications" items={page.signalling} /><DetailList title="Running lines & speed restrictions" items={page.speeds} /><section className="detail-card equipment"><h3>Equipment</h3><p>{page.equipment}</p></section></div>
+    <div className="detail-grid">{page.locations && <DetailList title="Locations & mileages" items={page.locations} />}<DetailList title="Connections" items={page.connections} connectionTargets={connectionTargets} connectionLORs={connectionLORs} region={page.region} /><DetailList title="Signalling & communications" items={page.signalling} /><DetailList title="Running lines & speed restrictions" items={page.speeds} /><section className="detail-card equipment"><h3>Equipment</h3><p>{page.equipment}</p></section></div>
     <section className="transcription"><div><p className="section-label">Textual representation</p><h3>Page transcription</h3></div><p>{page.transcription}</p></section>
   </article>;
 }
 
-function DetailList({ title, items = [], connectionTargets, region }) {
-  return <section className="detail-card"><h3>{title}</h3><ul>{items.map((item) => <li key={item}>{title === "Connections" ? <ConnectionText text={item} targets={connectionTargets} region={region} /> : item}</li>)}</ul></section>;
+function DetailList({ title, items = [], connectionTargets, connectionLORs, region }) {
+  return <section className="detail-card"><h3>{title}</h3><ul>{items.map((item) => <li key={item}>{title === "Connections" ? <ConnectionText text={item} targets={connectionTargets} lORs={connectionLORs} region={region} /> : item}</li>)}</ul></section>;
 }
 
-function ConnectionText({ text, targets, region }) {
+function ConnectionText({ text, targets, lORs, region }) {
   const fragments = [];
   let end = 0;
   connectionReference.lastIndex = 0;
   for (const match of text.matchAll(connectionReference)) {
     const [reference, lOR, rawSequence] = match;
-    const target = targets.get(`${collectionKey(region, lOR)}:${rawSequence.padStart(3, "0")}`);
+    const targetRegion = lORs.get(lOR) || region;
+    const target = rawSequence && targets.get(`${collectionKey(targetRegion, lOR)}:${rawSequence.padStart(3, "0")}`);
+    const href = target ? pagePath(target) : !rawSequence && lORs.has(lOR) ? lorPath(targetRegion, lOR) : undefined;
     fragments.push(text.slice(end, match.index));
-    fragments.push(target ? <a key={`${match.index}-${reference}`} className="connection-link" href={pagePath(target)} onClick={(event) => { event.preventDefault(); navigate(pagePath(target)); }}>{reference}</a> : reference);
+    fragments.push(href ? <a key={`${match.index}-${reference}`} className="connection-link" href={href} onClick={(event) => { event.preventDefault(); navigate(href); }}>{reference}</a> : reference);
     end = match.index + reference.length;
   }
   fragments.push(text.slice(end));
