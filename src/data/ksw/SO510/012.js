@@ -1,0 +1,5 @@
+import imageSrc from "../../../assets/ksw/SO510/012.png";
+
+const page474 = { pdfPage: 474, documentPage: "211", module: "KSW2", published: "December 2009", lOR: "SO510", sequence: "012", title: "London Bridge to Epsom Downs", elr: "BTH2", route: "Kent / Sussex", imageSrc, imageAlt: "Original source-PDF Table A extract for SO510 sequence 012.", lastUpdated: "08/12/2018", location: "Belmont to Banstead to Banstead Substation to Epsom Downs", mileage: "Mileage is shown on the source diagram", locations: ["Belmont","Banstead","Banstead Substation","Epsom Downs"], connections: [], signalling: ["GSM-R", "Signalling details are shown on the source diagram"], speeds: ["Running-line speed restrictions are shown on the source diagram"], transcription: "SO510 sequence 012, London Bridge to Epsom Downs, Module KSW2, physical PDF page 474, document page 211. Belmont to Banstead to Banstead Substation to Epsom Downs. Mileages, signalling and speed restrictions are shown in the source table." };
+
+export default page474;

@@ -1,0 +1,5 @@
+import imageSrc from "../../../assets/ksw/SO510/007.png";
+
+const page469 = { pdfPage: 469, documentPage: "206", module: "KSW2", published: "December 2009", lOR: "SO510", sequence: "007", title: "London Bridge to Epsom Downs", elr: "LBW / BJN1 / BJN2", route: "Kent / Sussex", imageSrc, imageAlt: "Original source-PDF Table A extract for SO510 sequence 007.", lastUpdated: "18/11/2023", location: "Bromley Junction connections to Norwood Junction", mileage: "Mileage is shown on the source diagram", locations: ["Bromley Junction connections","Norwood Junction"], connections: [], signalling: ["GSM-R", "Signalling details are shown on the source diagram"], speeds: ["Running-line speed restrictions are shown on the source diagram"], transcription: "SO510 sequence 007, London Bridge to Epsom Downs, Module KSW2, physical PDF page 469, document page 206. Bromley Junction connections to Norwood Junction. Mileages, signalling and speed restrictions are shown in the source table." };
+
+export default page469;

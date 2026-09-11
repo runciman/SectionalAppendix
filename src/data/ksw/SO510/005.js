@@ -1,0 +1,5 @@
+import imageSrc from "../../../assets/ksw/SO510/005.png";
+
+const page467 = { pdfPage: 467, documentPage: "204", module: "KSW2", published: "December 2009", lOR: "SO510", sequence: "005", title: "London Bridge to Epsom Downs", elr: "LBW / SCP", route: "Kent / Sussex", imageSrc, imageAlt: "Original source-PDF Table A extract for SO510 sequence 005.", lastUpdated: "18/01/2025", location: "Forest Hill to Sydenham to Sydenham Down Junction to Sydenham Up Junction to Penge Substation", mileage: "Mileage is shown on the source diagram", locations: ["Forest Hill","Sydenham","Sydenham Down Junction","Sydenham Up Junction","Penge Substation"], connections: [], signalling: ["GSM-R", "Signalling details are shown on the source diagram"], speeds: ["Running-line speed restrictions are shown on the source diagram"], transcription: "SO510 sequence 005, London Bridge to Epsom Downs, Module KSW2, physical PDF page 467, document page 204. Forest Hill to Sydenham to Sydenham Down Junction to Sydenham Up Junction to Penge Substation. Mileages, signalling and speed restrictions are shown in the source table." };
+
+export default page467;

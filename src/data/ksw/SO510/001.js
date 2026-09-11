@@ -1,0 +1,5 @@
+import imageSrc from "../../../assets/ksw/SO510/001.png";
+
+const page463 = { pdfPage: 463, documentPage: "202", module: "KSW2", published: "December 2009", lOR: "SO510", sequence: "001", title: "London Bridge to Epsom Downs", elr: "LBW", route: "Kent / Sussex", imageSrc, imageAlt: "Original source-PDF Table A extract for SO510 sequence 001.", lastUpdated: "01/01/2018", location: "London Bridge Central to Brunswick Court Junction to Abbey Street Junction", mileage: "Mileage is shown on the source diagram", locations: ["London Bridge Central","Brunswick Court Junction","Abbey Street Junction"], connections: [], signalling: ["GSM-R", "Signalling details are shown on the source diagram"], speeds: ["Running-line speed restrictions are shown on the source diagram"], transcription: "SO510 sequence 001, London Bridge to Epsom Downs, Module KSW2, physical PDF page 463, document page 202. London Bridge Central to Brunswick Court Junction to Abbey Street Junction. Mileages, signalling and speed restrictions are shown in the source table." };
+
+export default page463;

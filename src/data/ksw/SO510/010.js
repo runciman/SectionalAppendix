@@ -1,0 +1,5 @@
+import imageSrc from "../../../assets/ksw/SO510/010.png";
+
+const page472 = { pdfPage: 472, documentPage: "209", module: "KSW2", published: "December 2009", lOR: "SO510", sequence: "010", title: "London Bridge to Epsom Downs", elr: "NFE", route: "Kent / Sussex", imageSrc, imageAlt: "Original source-PDF Table A extract for SO510 sequence 010.", lastUpdated: "18/11/2023", location: "Waddon to Waddon Substation to Wallington to Carshalton Beeches", mileage: "Mileage is shown on the source diagram", locations: ["Waddon","Waddon Substation","Wallington","Carshalton Beeches"], connections: [], signalling: ["GSM-R", "Signalling details are shown on the source diagram"], speeds: ["Running-line speed restrictions are shown on the source diagram"], transcription: "SO510 sequence 010, London Bridge to Epsom Downs, Module KSW2, physical PDF page 472, document page 209. Waddon to Waddon Substation to Wallington to Carshalton Beeches. Mileages, signalling and speed restrictions are shown in the source table." };
+
+export default page472;

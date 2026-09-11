@@ -1,0 +1,5 @@
+import imageSrc from "../../../assets/ksw/SO510/002.png";
+
+const page464 = { pdfPage: 464, documentPage: "202A", module: "KSW2", published: "December 2009", lOR: "SO510", sequence: "002", title: "London Bridge to Epsom Downs", elr: "LBW", route: "Kent / Sussex", imageSrc, imageAlt: "Original source-PDF Table A extract for SO510 sequence 002.", lastUpdated: "01/01/2018", location: "South Bermondsey Substation to Blue Anchor Junction to South Bermondsey Junction", mileage: "Mileage is shown on the source diagram", locations: ["South Bermondsey Substation","Blue Anchor Junction","South Bermondsey Junction"], connections: [], signalling: ["GSM-R", "Signalling details are shown on the source diagram"], speeds: ["Running-line speed restrictions are shown on the source diagram"], transcription: "SO510 sequence 002, London Bridge to Epsom Downs, Module KSW2, physical PDF page 464, document page 202A. South Bermondsey Substation to Blue Anchor Junction to South Bermondsey Junction. Mileages, signalling and speed restrictions are shown in the source table." };
+
+export default page464;

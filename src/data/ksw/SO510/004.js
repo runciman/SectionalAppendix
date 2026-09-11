@@ -1,0 +1,5 @@
+import imageSrc from "../../../assets/ksw/SO510/004.png";
+
+const page466 = { pdfPage: 466, documentPage: "203", module: "KSW2", published: "December 2009", lOR: "SO510", sequence: "004", title: "London Bridge to Epsom Downs", elr: "LBW / ELL1", route: "Kent / Sussex", imageSrc, imageAlt: "Original source-PDF Table A extract for SO510 sequence 004.", lastUpdated: "18/11/2023", location: "New Cross Gate to Brockley to Brockley Substation to Honor Oak Park", mileage: "Mileage is shown on the source diagram", locations: ["New Cross Gate","Brockley","Brockley Substation","Honor Oak Park"], connections: [], signalling: ["GSM-R", "Signalling details are shown on the source diagram"], speeds: ["Running-line speed restrictions are shown on the source diagram"], transcription: "SO510 sequence 004, London Bridge to Epsom Downs, Module KSW2, physical PDF page 466, document page 203. New Cross Gate to Brockley to Brockley Substation to Honor Oak Park. Mileages, signalling and speed restrictions are shown in the source table." };
+
+export default page466;

@@ -1,0 +1,5 @@
+import imageSrc from "../../../assets/ksw/SO510/008.png";
+
+const page470 = { pdfPage: 470, documentPage: "207", module: "KSW2", published: "December 2009", lOR: "SO510", sequence: "008", title: "London Bridge to Epsom Downs", elr: "LBW / NFE", route: "Kent / Sussex", imageSrc, imageAlt: "Original source-PDF Table A extract for SO510 sequence 008.", lastUpdated: "18/11/2023", location: "Norwood Fork Junction to Selhurst Substation to Selhurst Junction to Gloucester Road Junction", mileage: "Mileage is shown on the source diagram", locations: ["Norwood Fork Junction","Selhurst Substation","Selhurst Junction","Gloucester Road Junction"], connections: [], signalling: ["GSM-R", "Signalling details are shown on the source diagram"], speeds: ["Running-line speed restrictions are shown on the source diagram"], transcription: "SO510 sequence 008, London Bridge to Epsom Downs, Module KSW2, physical PDF page 470, document page 207. Norwood Fork Junction to Selhurst Substation to Selhurst Junction to Gloucester Road Junction. Mileages, signalling and speed restrictions are shown in the source table." };
+
+export default page470;

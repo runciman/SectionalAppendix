@@ -1,0 +1,5 @@
+import imageSrc from "../../../assets/ksw/SO510/006.png";
+
+const page468 = { pdfPage: 468, documentPage: "205", module: "KSW2", published: "December 2009", lOR: "SO510", sequence: "006", title: "London Bridge to Epsom Downs", elr: "LBW", route: "Kent / Sussex", imageSrc, imageAlt: "Original source-PDF Table A extract for SO510 sequence 006.", lastUpdated: "18/11/2023", location: "Penge West to Anerley to Norwood Junction Substation", mileage: "Mileage is shown on the source diagram", locations: ["Penge West","Anerley","Norwood Junction Substation"], connections: [], signalling: ["GSM-R", "Signalling details are shown on the source diagram"], speeds: ["Running-line speed restrictions are shown on the source diagram"], transcription: "SO510 sequence 006, London Bridge to Epsom Downs, Module KSW2, physical PDF page 468, document page 205. Penge West to Anerley to Norwood Junction Substation. Mileages, signalling and speed restrictions are shown in the source table." };
+
+export default page468;
