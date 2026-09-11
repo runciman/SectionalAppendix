@@ -23,6 +23,12 @@ class RecognisedHeaderTests(unittest.TestCase):
             ("NW0001", "001"),
         )
 
+    def test_ksw_three_digit_lor_header(self) -> None:
+        self.assertEqual(
+            recognised_header("LOR Seq. SO130 | 025 | Explanation"),
+            ("SO130", "025"),
+        )
+
     def test_lor_without_sequence_remains_for_visual_review(self) -> None:
         self.assertEqual(recognised_header("GW103 Paddington to Uffington"), ("GW103", None))
 

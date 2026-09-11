@@ -36,6 +36,8 @@ CODEX_PDFTOPPM = Path(
 LOR_PREFIX_PATTERNS = {
     "GW": r"GW",
     "NW": r"NW",
+    "SO": r"SO",
+    "SW": r"SW",
     # Tesseract commonly confuses the stylised S in Scottish headers.
     "SC": r"(?:SC|\$C|5C)",
 }
