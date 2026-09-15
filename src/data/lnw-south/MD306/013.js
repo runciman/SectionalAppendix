@@ -1,0 +1,20 @@
+import imageSrc from "../../../assets/lnw-south/MD306/013.png";
+
+const page270 = {
+  pdfPage: 270,
+  lOR: "MD306",
+  sequence: "013",
+  title: "Birmingham New Street to Ashchurch (Excl.) (via Dunhampstead)",
+  route: "lnw-south",
+  imageSrc: imageSrc,
+  imageAlt: "Original source-PDF Table A extract for MD306 sequence 013.",
+  location: "Dunhampstead / Oddingley",
+  mileage: "Mileage is shown on the source diagram",
+  locations: ["Dunhampstead / Oddingley"],
+  connections: [],
+  signalling: ["Signalling details are shown on the source diagram"],
+  speeds: ["Running-line speed restrictions are shown on the source diagram"],
+  transcription: "MD306 sequence 013, Birmingham New Street to Ashchurch (Excl.) (via Dunhampstead), physical PDF page 270. Dunhampstead / Oddingley. Mileages, signalling and speed restrictions are shown in the source table."
+};
+
+export default page270;
