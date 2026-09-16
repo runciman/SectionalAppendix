@@ -244,6 +244,18 @@ explanation. Use `commentary` only, then continue with a concrete task action.
 Treat an incomplete PDF as an active background of every turn until its final
 physical page has passed the commit gate.
 
+### Mandatory pre-final guard
+
+Immediately before sending anything on the `final` channel, check the active
+PDF's highest committed/accounted-for physical page against its final physical
+page. If any physical page remains, sending `final` is forbidden. Do not use a
+final response to recover from a timeout, token-pressure warning, completed
+tool call, reviewer wait, commentary update, or batch commit: start, prepare,
+review, validate, or commit the next bounded range instead. This guard is
+mandatory even when the assistant has already reported progress several times.
+Only the completed final range, a genuine documented blocker, or an explicit
+user stop instruction can pass this guard.
+
 ## Git hygiene
 
 - Do not commit `tmp/`, Python `__pycache__/`, `node_modules/` or `dist/`.
