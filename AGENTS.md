@@ -256,6 +256,18 @@ mandatory even when the assistant has already reported progress several times.
 Only the completed final range, a genuine documented blocker, or an explicit
 user stop instruction can pass this guard.
 
+### No-reviewer-wait termination rule
+
+Receiving the last reviewer result for a batch is explicitly *not* a terminal
+event. It creates an immediate obligation to write the batch plan and run its
+record/crop creation command. Likewise, completing a record plan, audit, or
+commit creates an immediate obligation to prepare or review the next range.
+Before ending any assistant response, the parent must name the next concrete
+tool action it has already performed in the same turn. If it has not performed
+one, it must perform one in commentary instead of ending the response. This
+rule applies even when the turn is short on tokens: concise tool inputs and
+continuation take priority over a final message.
+
 ## Git hygiene
 
 - Do not commit `tmp/`, Python `__pycache__/`, `node_modules/` or `dist/`.
