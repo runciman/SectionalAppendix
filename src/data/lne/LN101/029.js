@@ -1,0 +1,20 @@
+import imageSrc from "../../../assets/lne/LN101/029.png";
+
+const page232 = {
+  pdfPage: 232,
+  lOR: "LN101",
+  sequence: "029",
+  title: "Kings Cross to Shaftholme Jn",
+  route: "lne",
+  imageSrc: imageSrc,
+  imageAlt: "Original source-PDF Table A extract for LN101 sequence 029.",
+  location: "Rossington",
+  mileage: "Mileage is shown on the source diagram",
+  locations: ["Rossington"],
+  connections: [],
+  signalling: ["Signalling details are shown on the source diagram"],
+  speeds: ["Running-line speed restrictions are shown on the source diagram"],
+  transcription: "LN101 sequence 029, Kings Cross to Shaftholme Jn, physical PDF page 232. Rossington. Mileages, signalling and speed restrictions are shown in the source table."
+};
+
+export default page232;
