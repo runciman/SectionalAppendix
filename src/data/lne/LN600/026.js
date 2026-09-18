@@ -1,0 +1,20 @@
+import imageSrc from "../../../assets/lne/LN600/026.png";
+
+const page361 = {
+  pdfPage: 361,
+  lOR: "LN600",
+  sequence: "026",
+  title: "Shaftholme Jn. to Reston GSP",
+  route: "lne",
+  imageSrc: imageSrc,
+  imageAlt: "Original source-PDF Table A extract for LN600 sequence 026.",
+  location: "Berwick-upon-Tweed",
+  mileage: "Mileage is shown on the source diagram",
+  locations: ["Berwick-upon-Tweed"],
+  connections: [],
+  signalling: ["Signalling details are shown on the source diagram"],
+  speeds: ["Running-line speed restrictions are shown on the source diagram"],
+  transcription: "LN600 sequence 026, Shaftholme Jn. to Reston GSP, physical PDF page 361. Berwick-upon-Tweed. Mileages, signalling and speed restrictions are shown in the source table."
+};
+
+export default page361;
