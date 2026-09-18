@@ -1,0 +1,20 @@
+import imageSrc from "../../../assets/lne/LN320/001.png";
+
+const page408 = {
+  pdfPage: 408,
+  lOR: "LN320",
+  sequence: "001",
+  title: "St. Pancras to Tapton Jn (via Derby)",
+  route: "lne",
+  imageSrc: imageSrc,
+  imageAlt: "Original source-PDF Table A extract for LN320 sequence 001.",
+  location: "St Pancras",
+  mileage: "Mileage is shown on the source diagram",
+  locations: ["St Pancras"],
+  connections: [],
+  signalling: ["Signalling details are shown on the source diagram"],
+  speeds: ["Running-line speed restrictions are shown on the source diagram"],
+  transcription: "LN320 sequence 001, St. Pancras to Tapton Jn (via Derby), physical PDF page 408. St Pancras. Mileages, signalling and speed restrictions are shown in the source table."
+};
+
+export default page408;
