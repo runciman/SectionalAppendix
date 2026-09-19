@@ -4,6 +4,7 @@ const page150 = {
   pdfPage: 150,
   lOR: "EA1012",
   sequence: "006",
+  elr: "LTN1",
   title: "Ipswich to Trowse Junction",
   route: "Anglia",
   imageSrc: imageSrc,

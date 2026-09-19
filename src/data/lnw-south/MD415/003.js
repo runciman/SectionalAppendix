@@ -4,6 +4,7 @@ const page348 = {
   pdfPage: 348,
   lOR: "MD415",
   sequence: "003",
+  elr: "HSA",
   title: "Hatton Station to Stratford-upon-Avon",
   route: "lnw-south",
   imageSrc: imageSrc,

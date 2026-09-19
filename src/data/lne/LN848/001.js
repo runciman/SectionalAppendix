@@ -4,6 +4,7 @@ const page775 = {
   pdfPage: 775,
   lOR: "LN848",
   sequence: "001",
+  elr: "HPC",
   title: "Hare Park Junction to Crofton West Junction",
   route: "lne",
   imageSrc: imageSrc,

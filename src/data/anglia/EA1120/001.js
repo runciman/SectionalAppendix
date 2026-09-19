@@ -4,6 +4,7 @@ const page178 = {
   pdfPage: 178,
   lOR: "EA1120",
   sequence: "001",
+  elr: "MAH NTE LTN1",
   title: "Manningtree to Harwich Town",
   route: "Anglia",
   imageSrc: imageSrc,

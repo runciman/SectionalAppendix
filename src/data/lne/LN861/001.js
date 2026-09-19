@@ -4,6 +4,7 @@ const page804 = {
   pdfPage: 804,
   lOR: "LN861",
   sequence: "001",
+  elr: "BBW",
   title: "Bradley Junction to Bradley Wood Junction",
   route: "lne",
   imageSrc: imageSrc,

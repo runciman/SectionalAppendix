@@ -4,6 +4,7 @@ const page367 = {
   pdfPage: 367,
   lOR: "LN618",
   sequence: "002",
+  elr: "HOS",
   title: "Holgate Jn to Skelton Jn",
   route: "lne",
   imageSrc: imageSrc,

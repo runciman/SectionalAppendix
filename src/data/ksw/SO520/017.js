@@ -4,6 +4,7 @@ const page497 = {
   pdfPage: 497,
   lOR: "SO520",
   sequence: "017",
+  elr: "WPH2",
   title: "Three Bridges to Portsmouth Harbour",
   route: "Kent / Sussex",
   imageSrc: imageSrc,

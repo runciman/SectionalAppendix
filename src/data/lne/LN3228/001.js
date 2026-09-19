@@ -4,6 +4,7 @@ const page478 = {
   pdfPage: 478,
   lOR: "LN3228",
   sequence: "001",
+  elr: "TES",
   title: "Trent East Jn to Sheet Stores Jn",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page651 = {
   pdfPage: 651,
   lOR: "LN786",
   sequence: "001",
+  elr: "BEC",
   title: "Bevercotes Colliery Branch",
   route: "lne",
   imageSrc: imageSrc,

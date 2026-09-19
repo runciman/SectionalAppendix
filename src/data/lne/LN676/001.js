@@ -4,6 +4,7 @@ const page1003 = {
   pdfPage: 1003,
   lOR: "LN676",
   sequence: "001",
+  elr: "PLG1 PLG2 HLK",
   title: "Park Lane Junction to King Edward Bridge South Junction",
   route: "lne",
   imageSrc: imageSrc,

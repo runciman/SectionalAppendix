@@ -4,6 +4,7 @@ const page153 = {
   pdfPage: 153,
   lOR: "EA1013",
   sequence: "002",
+  elr: "LTN2 NOL THG",
   title: "Trowse Junction to Norwich",
   route: "Anglia",
   imageSrc: imageSrc,

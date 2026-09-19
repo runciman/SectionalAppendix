@@ -4,6 +4,7 @@ const page404 = {
   pdfPage: 404,
   lOR: "MD565",
   sequence: "001",
+  elr: "CBR1 CBR2",
   title: "Castle Bromwich Jn to Ryecroft Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

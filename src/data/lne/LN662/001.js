@@ -4,6 +4,7 @@ const page997 = {
   pdfPage: 997,
   lOR: "LN662",
   sequence: "001",
+  elr: "HNB",
   title: "Ryhope Grange Junction to Hendon",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page302 = {
   pdfPage: 302,
   lOR: "LN210",
   sequence: "001",
+  elr: "NSE",
   title: "Newark Crossing Curve",
   route: "lne",
   imageSrc: imageSrc,

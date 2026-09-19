@@ -4,6 +4,7 @@ const page429 = {
   pdfPage: 429,
   lOR: "MD705",
   sequence: "001",
+  elr: "ANL NAJ2",
   title: "Greenford West Jn to South Ruislip",
   route: "lnw-south",
   imageSrc: imageSrc,

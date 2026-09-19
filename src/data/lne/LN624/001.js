@@ -4,6 +4,7 @@ const page952 = {
   pdfPage: 952,
   lOR: "LN624",
   sequence: "001",
+  elr: "GF REB4 REB2",
   title: "Northallerton Castle Hills Junction to Castle Hills West Ground Frame",
   route: "lne",
   imageSrc: imageSrc,

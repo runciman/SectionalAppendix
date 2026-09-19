@@ -4,6 +4,7 @@ const page773 = {
   pdfPage: 773,
   lOR: "LN844",
   sequence: "001",
+  elr: "JCA",
   title: "Applehurst Loop",
   route: "lne",
   imageSrc: imageSrc,

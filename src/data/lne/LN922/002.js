@@ -4,6 +4,7 @@ const page879 = {
   pdfPage: 879,
   lOR: "LN922",
   sequence: "002",
+  elr: "TJC3",
   title: "Whitehall West Junction to Hellifield South Junction",
   route: "lne",
   imageSrc: imageSrc,

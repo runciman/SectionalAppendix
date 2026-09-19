@@ -4,6 +4,7 @@ const page226 = {
   pdfPage: 226,
   lOR: "LN101",
   sequence: "023",
+  elr: "ECM1",
   title: "Kings Cross to Shaftholme Jn",
   route: "lne",
   imageSrc: imageSrc,

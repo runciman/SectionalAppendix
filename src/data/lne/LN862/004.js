@@ -4,6 +4,7 @@ const page808 = {
   pdfPage: 808,
   lOR: "LN862",
   sequence: "004",
+  elr: "PEH",
   title: "Barnsley Station Junction to Huddersfield",
   route: "lne",
   imageSrc: imageSrc,

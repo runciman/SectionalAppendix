@@ -4,6 +4,7 @@ const page354 = {
   pdfPage: 354,
   lOR: "EA1540",
   sequence: "004",
+  elr: "SOB2 BGK",
   title: "Chippenham Junction to Ely Dock Junction",
   route: "Anglia",
   imageSrc: imageSrc,

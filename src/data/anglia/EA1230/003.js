@@ -4,6 +4,7 @@ const page239 = {
   pdfPage: 239,
   lOR: "EA1230",
   sequence: "003",
+  elr: "SBR BGK",
   title: "Royston to Shepreth Branch Junction",
   route: "Anglia",
   imageSrc: imageSrc,

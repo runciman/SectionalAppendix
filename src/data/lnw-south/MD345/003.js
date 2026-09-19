@@ -4,6 +4,7 @@ const page305 = {
   pdfPage: 305,
   lOR: "MD345",
   sequence: "003",
+  elr: "BJW2 RRN1",
   title: "Bescot Jn to Rugeley North Jn (Excl.)",
   route: "lnw-south",
   imageSrc: imageSrc,

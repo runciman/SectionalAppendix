@@ -4,6 +4,7 @@ const page183 = {
   pdfPage: 183,
   lOR: "EA1130",
   sequence: "001",
+  elr: "GRW",
   title: "Griffin Wharf Branch",
   route: "Anglia",
   imageSrc: imageSrc,

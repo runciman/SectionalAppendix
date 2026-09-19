@@ -4,6 +4,7 @@ const page312 = {
   pdfPage: 312,
   lOR: "MD360",
   sequence: "001",
+  elr: "WDJ",
   title: "Walsall, Pleck Jn to Darlaston Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

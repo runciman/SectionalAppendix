@@ -4,6 +4,7 @@ const page487 = {
   pdfPage: 487,
   lOR: "MD950",
   sequence: "001",
+  elr: "BLW WAH",
   title: "Worcester Tunnel Jn to Henwick",
   route: "lnw-south",
   imageSrc: imageSrc,

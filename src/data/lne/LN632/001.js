@@ -4,6 +4,7 @@ const page975 = {
   pdfPage: 975,
   lOR: "LN632",
   sequence: "001",
+  elr: "DSN2 TSY",
   title: "Stockton Cut Junction to Saltburn",
   route: "lne",
   imageSrc: imageSrc,

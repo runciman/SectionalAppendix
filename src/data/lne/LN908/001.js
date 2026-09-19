@@ -4,6 +4,7 @@ const page862 = {
   pdfPage: 862,
   lOR: "LN908",
   sequence: "001",
+  elr: "SEC",
   title: "Selby West Junction to Canal Junction",
   route: "lne",
   imageSrc: imageSrc,

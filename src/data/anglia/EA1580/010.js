@@ -4,6 +4,7 @@ const page378 = {
   pdfPage: 378,
   lOR: "EA1580",
   sequence: "010",
+  elr: "ETN",
   title: "Ely North Junction to Trowse Junction",
   route: "Anglia",
   imageSrc: imageSrc,

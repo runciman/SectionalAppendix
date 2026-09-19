@@ -4,6 +4,7 @@ const page407 = {
   pdfPage: 407,
   lOR: "LN3140",
   sequence: "001",
+  elr: "BBM SPC1",
   title: "Bedford St. Johns (Exclusive) to Bedford Station",
   route: "lne",
   imageSrc: imageSrc,

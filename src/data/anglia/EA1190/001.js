@@ -4,6 +4,7 @@ const page227 = {
   pdfPage: 227,
   lOR: "EA1190",
   sequence: "001",
+  elr: "HDT",
   title: "Bury Street Junction to Cheshunt Junction",
   route: "Anglia",
   imageSrc: imageSrc,

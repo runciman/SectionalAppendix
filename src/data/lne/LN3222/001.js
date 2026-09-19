@@ -4,6 +4,7 @@ const page477 = {
   pdfPage: 477,
   lOR: "LN3222",
   sequence: "001",
+  elr: "BDH",
   title: "Brent Curve Jn to Dudding Hill Jn",
   route: "lne",
   imageSrc: imageSrc,

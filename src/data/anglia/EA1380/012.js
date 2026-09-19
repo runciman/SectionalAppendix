@@ -4,6 +4,7 @@ const page283 = {
   pdfPage: 283,
   lOR: "EA1380",
   sequence: "012",
+  elr: "FSS2 FSS3",
   title: "Fenchurch Street to Shoeburyness",
   route: "Anglia",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page379 = {
   pdfPage: 379,
   lOR: "EA1744",
   sequence: "001",
+  elr: "BFC LTN1 ESK",
   title: "Bacon Factory Curve",
   route: "Anglia",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page240 = {
   pdfPage: 240,
   lOR: "EA1270",
   sequence: "001",
+  elr: "MIT BGK",
   title: "Cambridge Branch",
   route: "Anglia",
   imageSrc: imageSrc,

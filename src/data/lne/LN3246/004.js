@@ -4,6 +4,7 @@ const page490 = {
   pdfPage: 490,
   lOR: "LN3246",
   sequence: "004",
+  elr: "AJM1",
   title: "Ambergate Jn to Matlock",
   route: "lne",
   imageSrc: imageSrc,

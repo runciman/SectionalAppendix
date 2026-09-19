@@ -4,6 +4,7 @@ const page346 = {
   pdfPage: 346,
   lOR: "EA1530",
   sequence: "003",
+  elr: "CCH",
   title: "Coldham Lane Junction to Haughley Junction",
   route: "Anglia",
   imageSrc: imageSrc,

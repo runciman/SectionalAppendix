@@ -4,6 +4,7 @@ const page835 = {
   pdfPage: 835,
   lOR: "LN884",
   sequence: "001",
+  elr: "OAJ",
   title: "Oakenshaw South Junction to Oakenshaw Junction",
   route: "lne",
   imageSrc: imageSrc,

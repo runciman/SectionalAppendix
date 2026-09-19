@@ -4,6 +4,7 @@ const page507 = {
   pdfPage: 507,
   lOR: "LN3501",
   sequence: "002",
+  elr: "DBP1",
   title: "Derby London Road Jn to Tamworth (Exclusive)",
   route: "lne",
   imageSrc: imageSrc,

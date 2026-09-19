@@ -4,6 +4,7 @@ const page343 = {
   pdfPage: 343,
   lOR: "EA1520",
   sequence: "001",
+  elr: "SIZ ESK",
   title: "Dereham to Wymondham",
   route: "Anglia",
   imageSrc: imageSrc,

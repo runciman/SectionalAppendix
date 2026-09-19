@@ -4,6 +4,7 @@ const page342 = {
   pdfPage: 342,
   lOR: "MD410",
   sequence: "002",
+  elr: "CNN",
   title: "Coventry North Jn. to Nuneaton South Jn.",
   route: "lnw-south",
   imageSrc: imageSrc,

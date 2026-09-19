@@ -4,6 +4,7 @@ const page1028 = {
   pdfPage: 1028,
   lOR: "LN706",
   sequence: "001",
+  elr: "WSB",
   title: "West Sleekburn Junction to North Blyth",
   route: "lne",
   imageSrc: imageSrc,

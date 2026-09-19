@@ -4,6 +4,7 @@ const page117 = {
   pdfPage: 117,
   lOR: "EA1010",
   sequence: "008",
+  elr: "LTN1 CST SDS",
   title: "Liverpool Street to Seven Kings",
   route: "Anglia",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page491 = {
   pdfPage: 491,
   lOR: "LN3249",
   sequence: "001",
+  elr: "LSN",
   title: "Lenton South Jn to Lenton North Jn",
   route: "lne",
   imageSrc: imageSrc,

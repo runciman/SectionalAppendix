@@ -4,6 +4,7 @@ const page996 = {
   pdfPage: 996,
   lOR: "LN656",
   sequence: "001",
+  elr: "SOT",
   title: "Seaton-on-Tees Branch",
   route: "lne",
   imageSrc: imageSrc,

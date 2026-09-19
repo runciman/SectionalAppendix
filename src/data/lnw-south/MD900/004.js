@@ -4,6 +4,7 @@ const page477 = {
   pdfPage: 477,
   lOR: "MD900",
   sequence: "004",
+  elr: "STO",
   title: "Abbotswood Jn to Stoke Works Jn via Worcester Shrub Hill",
   route: "lnw-south",
   imageSrc: imageSrc,

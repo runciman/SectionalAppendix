@@ -4,6 +4,7 @@ const page724 = {
   pdfPage: 724,
   lOR: "LN832",
   sequence: "001",
+  elr: "SJB",
   title: "Doncaster Bridge Junction to St James Junction",
   route: "lne",
   imageSrc: imageSrc,

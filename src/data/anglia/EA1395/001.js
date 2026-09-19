@@ -4,6 +4,7 @@ const page298 = {
   pdfPage: 298,
   lOR: "EA1395",
   sequence: "001",
+  elr: "BKR",
   title: "Tilbury Loop",
   route: "Anglia",
   imageSrc: imageSrc,

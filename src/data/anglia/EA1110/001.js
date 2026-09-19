@@ -4,6 +4,7 @@ const page176 = {
   pdfPage: 176,
   lOR: "EA1110",
   sequence: "001",
+  elr: "TWN COC",
   title: "Thorpe-Le-Soken Junction to Walton-On-Naze",
   route: "Anglia",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page812 = {
   pdfPage: 812,
   lOR: "LN868",
   sequence: "002",
+  elr: "SHB PED2 BAH2",
   title: "Wincobank Junction to Horbury Junction",
   route: "lne",
   imageSrc: imageSrc,

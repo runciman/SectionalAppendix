@@ -4,6 +4,7 @@ const page226 = {
   pdfPage: 226,
   lOR: "MD180",
   sequence: "001",
+  elr: "RTS",
   title: "Rugby, Trent Valley Junction to New Bilton",
   route: "lnw-south",
   imageSrc: imageSrc,

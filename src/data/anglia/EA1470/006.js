@@ -4,6 +4,7 @@ const page328 = {
   pdfPage: 328,
   lOR: "EA1470",
   sequence: "006",
+  elr: "NOL",
   title: "Norwich Thorpe Junction to Lowestoft",
   route: "Anglia",
   imageSrc: imageSrc,

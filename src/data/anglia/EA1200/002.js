@@ -4,6 +4,7 @@ const page230 = {
   pdfPage: 230,
   lOR: "EA1200",
   sequence: "002",
+  elr: "CJC",
   title: "Clapton Junction to Chingford",
   route: "Anglia",
   imageSrc: imageSrc,

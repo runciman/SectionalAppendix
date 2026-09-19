@@ -4,6 +4,7 @@ const page170 = {
   pdfPage: 170,
   lOR: "EA1090",
   sequence: "002",
+  elr: "COC STB CTH",
   title: "Colchester to Clacton-on-Sea",
   route: "Anglia",
   imageSrc: imageSrc,

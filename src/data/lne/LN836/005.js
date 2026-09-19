@@ -4,6 +4,7 @@ const page760 = {
   pdfPage: 760,
   lOR: "LN836",
   sequence: "005",
+  elr: "DOL2",
   title: "Doncaster Marshgate Junction to Neville Hill East Junction",
   route: "lne",
   imageSrc: imageSrc,

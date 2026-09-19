@@ -4,6 +4,7 @@ const page863 = {
   pdfPage: 863,
   lOR: "LN910",
   sequence: "001",
+  elr: "TCW1",
   title: "Temple Hirst Junction to Selby South Junction",
   route: "lne",
   imageSrc: imageSrc,

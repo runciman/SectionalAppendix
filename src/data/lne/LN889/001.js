@@ -4,6 +4,7 @@ const page840 = {
   pdfPage: 840,
   lOR: "LN889",
   sequence: "001",
+  elr: "WS",
   title: "Shaftholme Junction to Haywood Junction",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page405 = {
   pdfPage: 405,
   lOR: "MD565",
   sequence: "002",
+  elr: "CBR2",
   title: "Castle Bromwich Jn to Ryecroft Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

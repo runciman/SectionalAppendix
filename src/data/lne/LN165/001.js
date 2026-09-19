@@ -4,6 +4,7 @@ const page259 = {
   pdfPage: 259,
   lOR: "LN165",
   sequence: "001",
+  elr: "HPW",
   title: "Harringay Park Jn to Harringay Jn",
   route: "lne",
   imageSrc: imageSrc,

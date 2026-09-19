@@ -4,6 +4,7 @@ const page953 = {
   pdfPage: 953,
   lOR: "LN626",
   sequence: "001",
+  elr: "LEN2",
   title: "Northallerton High Junction to Northallerton East Junction",
   route: "lne",
   imageSrc: imageSrc,

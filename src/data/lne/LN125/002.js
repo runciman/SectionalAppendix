@@ -4,6 +4,7 @@ const page243 = {
   pdfPage: 243,
   lOR: "LN125",
   sequence: "002",
+  elr: "SBR",
   title: "Hitchin, Cambridge Jn to Royston (Route Boundary)",
   route: "lne",
   imageSrc: imageSrc,

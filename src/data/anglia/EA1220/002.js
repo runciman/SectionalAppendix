@@ -4,6 +4,7 @@ const page236 = {
   pdfPage: 236,
   lOR: "EA1220",
   sequence: "002",
+  elr: "TLA",
   title: "Stansted South and North Junctions to Stansted Airport",
   route: "Anglia",
   imageSrc: imageSrc,

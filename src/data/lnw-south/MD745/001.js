@@ -4,6 +4,7 @@ const page462 = {
   pdfPage: 462,
   lOR: "MD745",
   sequence: "001",
+  elr: "BSG",
   title: "Bicester South Jn to Gavray Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

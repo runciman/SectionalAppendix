@@ -4,6 +4,7 @@ const page635 = {
   pdfPage: 635,
   lOR: "LN752",
   sequence: "004",
+  elr: "DOW",
   title: "Wrawby Junction to Marshgate Junction",
   route: "lne",
   imageSrc: imageSrc,

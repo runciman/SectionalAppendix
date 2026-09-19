@@ -4,6 +4,7 @@ const page258 = {
   pdfPage: 258,
   lOR: "LN160",
   sequence: "001",
+  elr: "LCR FWR1",
   title: "Loversall Carr Jn. to Flyover West Jn.",
   route: "lne",
   imageSrc: imageSrc,

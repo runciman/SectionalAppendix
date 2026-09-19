@@ -4,6 +4,7 @@ const page772 = {
   pdfPage: 772,
   lOR: "LN842",
   sequence: "001",
+  elr: "CJS SKA",
   title: "Thorpe Marsh Junction to Adwick Junction",
   route: "lne",
   imageSrc: imageSrc,

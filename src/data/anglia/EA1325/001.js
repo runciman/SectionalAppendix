@@ -4,6 +4,7 @@ const page260 = {
   pdfPage: 260,
   lOR: "EA1325",
   sequence: "001",
+  elr: "ELL5",
   title: "Highbury and Islington to Dalston West Curve",
   route: "Anglia",
   imageSrc: imageSrc,

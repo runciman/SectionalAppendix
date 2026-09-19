@@ -4,6 +4,7 @@ const page861 = {
   pdfPage: 861,
   lOR: "LN906",
   sequence: "001",
+  elr: "HNC",
   title: "Hambleton East Junction to Hambleton North Junction",
   route: "lne",
   imageSrc: imageSrc,

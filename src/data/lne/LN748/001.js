@@ -4,6 +4,7 @@ const page630 = {
   pdfPage: 630,
   lOR: "LN748",
   sequence: "001",
+  elr: "WHR",
   title: "Retford Western Junction to Thrumpton West Junction",
   route: "lne",
   imageSrc: imageSrc,

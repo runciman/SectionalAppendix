@@ -4,6 +4,7 @@ const page888 = {
   pdfPage: 888,
   lOR: "LN932",
   sequence: "001",
+  elr: "BIB",
   title: "Shipley South Junction to Shipley West Junction",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page535 = {
   pdfPage: 535,
   lOR: "LN3605",
   sequence: "001",
+  elr: "BSC",
   title: "Corby BSC Works to Corby North",
   route: "lne",
   imageSrc: imageSrc,

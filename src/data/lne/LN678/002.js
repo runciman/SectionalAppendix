@@ -4,6 +4,7 @@ const page1005 = {
   pdfPage: 1005,
   lOR: "LN678",
   sequence: "002",
+  elr: "DAE1 DAE2",
   title: "Darlington North Junction to Eastgate",
   route: "lne",
   imageSrc: imageSrc,

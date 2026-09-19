@@ -4,6 +4,7 @@ const page622 = {
   pdfPage: 622,
   lOR: "LN740",
   sequence: "001",
+  elr: "MWN PYE3 PYE2",
   title: "Grimsby Marsh West Junction to Humber Road Junction",
   route: "lne",
   imageSrc: imageSrc,

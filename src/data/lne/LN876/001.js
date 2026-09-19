@@ -4,6 +4,7 @@ const page819 = {
   pdfPage: 819,
   lOR: "LN876",
   sequence: "001",
+  elr: "BOO",
   title: "Castleford East Junction to Wheldon Road Sidings",
   route: "lne",
   imageSrc: imageSrc,

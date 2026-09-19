@@ -4,6 +4,7 @@ const page817 = {
   pdfPage: 817,
   lOR: "LN874",
   sequence: "001",
+  elr: "MEW1 MEW2",
   title: "Methley Junction to Whitwood Junction",
   route: "lne",
   imageSrc: imageSrc,

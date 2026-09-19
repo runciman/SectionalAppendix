@@ -4,6 +4,7 @@ const page243 = {
   pdfPage: 243,
   lOR: "EA1290",
   sequence: "001",
+  elr: "TSE1 BGK TAH1 TAH2",
   title: "North London Line",
   route: "Anglia",
   imageSrc: imageSrc,

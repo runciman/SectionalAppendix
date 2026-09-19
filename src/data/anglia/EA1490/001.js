@@ -4,6 +4,7 @@ const page336 = {
   pdfPage: 336,
   lOR: "EA1490",
   sequence: "001",
+  elr: "CRS",
   title: "Cromer to Sheringham",
   route: "Anglia",
   imageSrc: imageSrc,

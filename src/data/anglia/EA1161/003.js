@@ -4,6 +4,7 @@ const page202 = {
   pdfPage: 202,
   lOR: "EA1161",
   sequence: "003",
+  elr: "BGK",
   title: "Bishops Stortford to Ely North Junction",
   route: "Anglia",
   imageSrc: imageSrc,

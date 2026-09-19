@@ -4,6 +4,7 @@ const page647 = {
   pdfPage: 647,
   lOR: "LN772",
   sequence: "001",
+  elr: "SWP",
   title: "Warsop Junction to Shirebrook Junction",
   route: "lne",
   imageSrc: imageSrc,

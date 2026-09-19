@@ -4,6 +4,7 @@ const page774 = {
   pdfPage: 774,
   lOR: "LN846",
   sequence: "001",
+  elr: "CJS",
   title: "Carcroft Junction to Skellow Junction",
   route: "lne",
   imageSrc: imageSrc,

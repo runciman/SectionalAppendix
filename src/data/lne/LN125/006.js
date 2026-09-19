@@ -4,6 +4,7 @@ const page247 = {
   pdfPage: 247,
   lOR: "LN125",
   sequence: "006",
+  elr: "BGK",
   title: "Hitchin, Cambridge Jn to Cambridge",
   route: "lne",
   imageSrc: imageSrc,

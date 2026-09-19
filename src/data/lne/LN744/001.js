@@ -4,6 +4,7 @@ const page627 = {
   pdfPage: 627,
   lOR: "LN744",
   sequence: "001",
+  elr: "BAR",
   title: "Ulceby North Junction to Barton on Humber",
   route: "lne",
   imageSrc: imageSrc,

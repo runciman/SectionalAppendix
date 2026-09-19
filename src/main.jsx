@@ -103,6 +103,8 @@ function RegionIndex({ liveRegions }) {
 
 function PageDetail({ page, previous, next, connectionTargets, connectionLORs, inCollection = false }) {
   const sequenceHref = (target) => inCollection ? `#${pageAnchor(target)}` : pagePath(target);
+  const issueTitle = `${page.lOR} SEQ ${page.sequence} — ${page.title}`;
+  const issueHref = `https://github.com/runciman/SectionalAppendix/issues/new?title=${encodeURIComponent(issueTitle)}`;
   const followSequence = (event, target) => {
     if (!inCollection) return;
     event.preventDefault();
@@ -112,6 +114,7 @@ function PageDetail({ page, previous, next, connectionTargets, connectionLORs, i
   return <article className="page-detail" id={pageAnchor(page)}>
     <header className="page-header"><div><p className="page-label">PDF page {page.pdfPage} · Module {page.module}</p><h2><a className="page-title-link" href={pagePath(page)} onClick={(event) => { event.preventDefault(); navigate(pagePath(page)); }}>{page.title}</a></h2><p className="page-subtitle">{page.location} · {page.mileage}</p></div><a className="route-badge" href={lorPath(page.region, page.lOR)} onClick={(event) => { event.preventDefault(); navigate(lorPath(page.region, page.lOR)); }}><span>LOR</span><strong>{page.lOR}</strong></a></header>
     <dl className="facts"><div><dt>Sequence</dt><dd>{page.sequence}</dd></div><div><dt>ELR</dt><dd>{page.elr}</dd></div><div><dt>Route</dt><dd>{page.route}</dd></div><div><dt>Last updated</dt><dd>{page.lastUpdated}</dd></div></dl>
+    <a className="report-issue-link" href={issueHref} target="_blank" rel="noreferrer">Something wrong? Report it on GitHub <span aria-hidden="true">↗</span></a>
     <nav className="sequence-nav" aria-label={`${page.lOR} sequence navigation`}>
       {previous ? <a href={sequenceHref(previous)} onClick={(event) => { followSequence(event, previous); if (!inCollection) { event.preventDefault(); navigate(pagePath(previous)); } }}><span>Previous</span><strong>SEQ {previous.sequence} · PDF page {previous.pdfPage}</strong></a> : <span className="sequence-end">Start of {page.lOR}</span>}
       <p><span>{page.lOR}</span> SEQ {page.sequence}</p>

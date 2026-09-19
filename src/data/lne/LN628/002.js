@@ -4,6 +4,7 @@ const page969 = {
   pdfPage: 969,
   lOR: "LN628",
   sequence: "002",
+  elr: "NEK",
   title: "South Hylton to Sunderland South Junction",
   route: "lne",
   imageSrc: imageSrc,

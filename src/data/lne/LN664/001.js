@@ -4,6 +4,7 @@ const page998 = {
   pdfPage: 998,
   lOR: "LN664",
   sequence: "001",
+  elr: "BNW",
   title: "Boldon East Junction to Boldon North Junction",
   route: "lne",
   imageSrc: imageSrc,

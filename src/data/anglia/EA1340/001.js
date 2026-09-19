@@ -4,6 +4,7 @@ const page263 = {
   pdfPage: 263,
   lOR: "EA1340",
   sequence: "001",
+  elr: "LLS DWW2 CHM",
   title: "Stratford Lea Junction to High Meads Junction",
   route: "Anglia",
   imageSrc: imageSrc,

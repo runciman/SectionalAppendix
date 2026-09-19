@@ -4,6 +4,7 @@ const page316 = {
   pdfPage: 316,
   lOR: "MD401",
   sequence: "001",
+  elr: "DCL",
   title: "Heyford to Bordesley Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

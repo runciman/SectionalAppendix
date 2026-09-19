@@ -4,6 +4,7 @@ const page483 = {
   pdfPage: 483,
   lOR: "LN3237",
   sequence: "001",
+  elr: "RUD MCJ",
   title: "Loughborough South Jn to Hotchley Hill",
   route: "lne",
   imageSrc: imageSrc,

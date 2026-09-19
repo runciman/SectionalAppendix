@@ -4,6 +4,7 @@ const page825 = {
   pdfPage: 825,
   lOR: "LN880",
   sequence: "005",
+  elr: "YMS",
   title: "York to Scarborough",
   route: "lne",
   imageSrc: imageSrc,

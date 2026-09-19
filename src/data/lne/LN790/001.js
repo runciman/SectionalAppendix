@@ -4,6 +4,7 @@ const page653 = {
   pdfPage: 653,
   lOR: "LN790",
   sequence: "001",
+  elr: "BLC RUB1 CEM",
   title: "Rufford No 1 Coal Stacking Site to Clipstone East Junction",
   route: "lne",
   imageSrc: imageSrc,

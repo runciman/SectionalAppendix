@@ -4,6 +4,7 @@ const page843 = {
   pdfPage: 843,
   lOR: "LN896",
   sequence: "001",
+  elr: "DRA1",
   title: "Drax Power Station Branch",
   route: "lne",
   imageSrc: imageSrc,

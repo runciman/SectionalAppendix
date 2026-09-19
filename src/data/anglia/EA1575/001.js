@@ -4,6 +4,7 @@ const page367 = {
   pdfPage: 367,
   lOR: "EA1575",
   sequence: "001",
+  elr: "WMY WIG",
   title: "March to Ely",
   route: "Anglia",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page837 = {
   pdfPage: 837,
   lOR: "LN888",
   sequence: "001",
+  elr: "CJS HTM KWS",
   title: "Stainforth Junction to Ferrybridge North Junction",
   route: "lne",
   imageSrc: imageSrc,

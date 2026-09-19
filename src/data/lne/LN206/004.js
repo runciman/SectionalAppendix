@@ -4,6 +4,7 @@ const page300 = {
   pdfPage: 300,
   lOR: "LN206",
   sequence: "004",
+  elr: "NOB1NOB2",
   title: "Newark Flat Crossing (Incl) to West Holmes Jn",
   route: "lne",
   imageSrc: imageSrc,

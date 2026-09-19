@@ -4,6 +4,7 @@ const page796 = {
   pdfPage: 796,
   lOR: "LN859",
   sequence: "001",
+  elr: "GRD",
   title: "Greetland Junction to Dryclough Junction",
   route: "lne",
   imageSrc: imageSrc,

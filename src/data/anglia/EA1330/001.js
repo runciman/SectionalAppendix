@@ -4,6 +4,7 @@ const page262 = {
   pdfPage: 262,
   lOR: "EA1330",
   sequence: "001",
+  elr: "BOK5 NKE1",
   title: "South Acton Junction to Old and New Kew Junctions",
   route: "Anglia",
   imageSrc: imageSrc,

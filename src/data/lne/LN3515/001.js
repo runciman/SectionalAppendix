@@ -4,6 +4,7 @@ const page521 = {
   pdfPage: 521,
   lOR: "LN3515",
   sequence: "001",
+  elr: "MJS1",
   title: "Melbourne Jn to Sinfin",
   route: "lne",
   imageSrc: imageSrc,

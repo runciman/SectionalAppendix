@@ -4,6 +4,7 @@ const page219 = {
   pdfPage: 219,
   lOR: "EA1162",
   sequence: "005",
+  elr: "BGK",
   title: "Ely North Junction to Cambridge",
   route: "Anglia",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page467 = {
   pdfPage: 467,
   lOR: "MD801",
   sequence: "005",
+  elr: "WSJ2",
   title: "Wolverhampton North Jn to Abbey Foregate (Exclusive)",
   route: "lnw-south",
   imageSrc: imageSrc,

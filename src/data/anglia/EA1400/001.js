@@ -4,6 +4,7 @@ const page299 = {
   pdfPage: 299,
   lOR: "EA1400",
   sequence: "001",
+  elr: "GFB FSS1 LTN1 BD",
   title: "Pitsea to Southend",
   route: "Anglia",
   imageSrc: imageSrc,

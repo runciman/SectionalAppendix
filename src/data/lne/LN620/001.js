@@ -4,6 +4,7 @@ const page949 = {
   pdfPage: 949,
   lOR: "LN620",
   sequence: "001",
+  elr: "KEB",
   title: "King Edward Bridge East Junction to King Edward Bridge North Junction (East Curve)",
   route: "lne",
   imageSrc: imageSrc,

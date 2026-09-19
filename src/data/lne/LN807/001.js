@@ -4,6 +4,7 @@ const page701 = {
   pdfPage: 701,
   lOR: "LN807",
   sequence: "001",
+  elr: "MAS",
   title: "Dore South Junction to Dore West Junction",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page314 = {
   pdfPage: 314,
   lOR: "MD370",
   sequence: "001",
+  elr: "DPJ",
   title: "Bescot Curve Jn to Walsall Pleck Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

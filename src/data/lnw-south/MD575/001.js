@@ -4,6 +4,7 @@ const page413 = {
   pdfPage: 413,
   lOR: "MD575",
   sequence: "001",
+  elr: "SAG",
   title: "St Andrew’s Junction to Grand Junction",
   route: "lnw-south",
   imageSrc: imageSrc,

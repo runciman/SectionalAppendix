@@ -4,6 +4,7 @@ const page707 = {
   pdfPage: 707,
   lOR: "LN809",
   sequence: "001",
+  elr: "BTJ",
   title: "Shepcote Lane West Junction to Tinsley Yard East End",
   route: "lne",
   imageSrc: imageSrc,

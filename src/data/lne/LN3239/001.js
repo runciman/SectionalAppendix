@@ -4,6 +4,7 @@ const page484 = {
   pdfPage: 484,
   lOR: "LN3239",
   sequence: "001",
+  elr: "SPC6",
   title: "Derby North Jn to Chaddesden Sidings",
   route: "lne",
   imageSrc: imageSrc,

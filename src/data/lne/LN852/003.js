@@ -4,6 +4,7 @@ const page779 = {
   pdfPage: 779,
   lOR: "LN852",
   sequence: "003",
+  elr: "LBE4 MRB",
   title: "Holbeck Junction to Bradford Interchange",
   route: "lne",
   imageSrc: imageSrc,

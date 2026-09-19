@@ -4,6 +4,7 @@ const page236 = {
   pdfPage: 236,
   lOR: "LN115",
   sequence: "001",
+  elr: "CRF1",
   title: "Copenhagen Jn. to Camden Road Central Jn.",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page381 = {
   pdfPage: 381,
   lOR: "MD460",
   sequence: "001",
+  elr: "DCL SJT1",
   title: "Fenny Compton to Burton Dassett",
   route: "lnw-south",
   imageSrc: imageSrc,

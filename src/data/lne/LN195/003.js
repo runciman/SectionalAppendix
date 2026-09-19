@@ -4,6 +4,7 @@ const page296 = {
   pdfPage: 296,
   lOR: "LN195",
   sequence: "003",
+  elr: "NOG1",
   title: "Grantham, Nottingham Branch Jn to Allington West Jn (Inclusive) (Withdrawn)",
   route: "lne",
   imageSrc: imageSrc,

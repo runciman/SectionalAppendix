@@ -4,6 +4,7 @@ const page355 = {
   pdfPage: 355,
   lOR: "EA1550",
   sequence: "001",
+  elr: "EWCBGK ETN EMP",
   title: "Ely North Junction to Ely West Junction",
   route: "Anglia",
   imageSrc: imageSrc,

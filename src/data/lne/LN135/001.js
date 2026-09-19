@@ -4,6 +4,7 @@ const page252 = {
   pdfPage: 252,
   lOR: "LN135",
   sequence: "001",
+  elr: "EMP",
   title: "Kings Dyke to Crescent Jn.",
   route: "lne",
   imageSrc: imageSrc,

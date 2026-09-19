@@ -4,6 +4,7 @@ const page241 = {
   pdfPage: 241,
   lOR: "MD301",
   sequence: "012",
+  elr: "RBS2",
   title: "Rugby to Penkridge (Exclusive) (via Birmingham)",
   route: "lnw-south",
   imageSrc: imageSrc,

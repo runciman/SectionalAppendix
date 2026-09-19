@@ -4,6 +4,7 @@ const page301 = {
   pdfPage: 301,
   lOR: "LN206",
   sequence: "005",
+  elr: "NOB1 NOB2",
   title: "Staythorpe Crossing to West Holmes Jn.",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page223 = {
   pdfPage: 223,
   lOR: "MD175",
   sequence: "001",
+  elr: "BPH BDN NMH",
   title: "Brackmills to Northampton South Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page186 = {
   pdfPage: 186,
   lOR: "EA1160",
   sequence: "001",
+  elr: "BGK LTN1 GRE",
   title: "Bethnal Green East Junction to Bishops Stortford",
   route: "Anglia",
   imageSrc: imageSrc,

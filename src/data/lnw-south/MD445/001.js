@@ -4,6 +4,7 @@ const page376 = {
   pdfPage: 376,
   lOR: "MD445",
   sequence: "001",
+  elr: "SJS",
   title: "Stourbridge Jn to Stourbridge Town",
   route: "lnw-south",
   imageSrc: imageSrc,

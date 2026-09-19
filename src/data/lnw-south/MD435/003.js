@@ -4,6 +4,7 @@ const page365 = {
   pdfPage: 365,
   lOR: "MD435",
   sequence: "003",
+  elr: "DCL",
   title: "Small Heath South Jn to Stourbridge North Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

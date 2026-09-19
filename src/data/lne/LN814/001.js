@@ -4,6 +4,7 @@ const page710 = {
   pdfPage: 710,
   lOR: "LN814",
   sequence: "001",
+  elr: "TST",
   title: "Tinsley North Junction to Sheffield Tram Transfer Line",
   route: "lne",
   imageSrc: imageSrc,

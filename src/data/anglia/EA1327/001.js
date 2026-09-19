@@ -4,6 +4,7 @@ const page261 = {
   pdfPage: 261,
   lOR: "EA1327",
   sequence: "001",
+  elr: "ELL3 BTH1",
   title: "Silwood Junction to Old Kent Road Junction",
   route: "Anglia",
   imageSrc: imageSrc,

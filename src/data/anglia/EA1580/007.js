@@ -4,6 +4,7 @@ const page375 = {
   pdfPage: 375,
   lOR: "EA1580",
   sequence: "007",
+  elr: "ETN",
   title: "Ely to Kings Lynn",
   route: "Anglia",
   imageSrc: imageSrc,

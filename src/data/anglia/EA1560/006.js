@@ -4,6 +4,7 @@ const page361 = {
   pdfPage: 361,
   lOR: "EA1560",
   sequence: "006",
+  elr: "EMP WIG",
   title: "Ely North Junction to Peterborough",
   route: "Anglia",
   imageSrc: imageSrc,

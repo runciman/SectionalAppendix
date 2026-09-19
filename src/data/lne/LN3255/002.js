@@ -4,6 +4,7 @@ const page494 = {
   pdfPage: 494,
   lOR: "LN3255",
   sequence: "002",
+  elr: "RAC",
   title: "Radford Jn to Kirkby Lane End Jn",
   route: "lne",
   imageSrc: imageSrc,

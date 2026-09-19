@@ -4,6 +4,7 @@ const page460 = {
   pdfPage: 460,
   lOR: "LN3207",
   sequence: "002",
+  elr: "TCC",
   title: "Trent East Jn to Clay Cross North Jn",
   route: "lne",
   imageSrc: imageSrc,

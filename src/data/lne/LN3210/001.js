@@ -4,6 +4,7 @@ const page467 = {
   pdfPage: 467,
   lOR: "LN3210",
   sequence: "001",
+  elr: "JRT",
   title: "Junction Road Jn to Carlton Road Jn (Tottenham Lines)",
   route: "lne",
   imageSrc: imageSrc,

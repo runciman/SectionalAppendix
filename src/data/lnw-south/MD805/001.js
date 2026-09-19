@@ -4,6 +4,7 @@ const page471 = {
   pdfPage: 471,
   lOR: "MD805",
   sequence: "001",
+  elr: "OXC",
   title: "Oxley, Stafford Road Jn to Bushbury Oxley Jn (Oxley Chord Lines)",
   route: "lnw-south",
   imageSrc: imageSrc,

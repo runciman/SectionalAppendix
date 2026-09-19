@@ -4,6 +4,7 @@ const page303 = {
   pdfPage: 303,
   lOR: "EA1420",
   sequence: "001",
+  elr: "THN TLL",
   title: "Thames Haven Junction to Thames Haven",
   route: "Anglia",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page1024 = {
   pdfPage: 1024,
   lOR: "LN698",
   sequence: "001",
+  elr: "O1",
   title: "Butterwell South Branch",
   route: "lne",
   imageSrc: imageSrc,

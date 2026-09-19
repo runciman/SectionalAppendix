@@ -4,6 +4,7 @@ const page158 = {
   pdfPage: 158,
   lOR: "EA1050",
   sequence: "002",
+  elr: "WIS",
   title: "Shenfield Junction to Southend Victoria",
   route: "Anglia",
   imageSrc: imageSrc,

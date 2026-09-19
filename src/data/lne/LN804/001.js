@@ -4,6 +4,7 @@ const page690 = {
   pdfPage: 690,
   lOR: "LN804",
   sequence: "001",
+  elr: "TJC1",
   title: "Tapton Junction to Gascoigne Wood via Sheffield",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page144 = {
   pdfPage: 144,
   lOR: "MD101",
   sequence: "023",
+  elr: "LEC1",
   title: "Euston to Armitage Junction (Exclusive)",
   route: "lnw-south",
   imageSrc: imageSrc,

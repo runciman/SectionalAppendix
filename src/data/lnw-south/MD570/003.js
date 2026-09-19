@@ -4,6 +4,7 @@ const page410 = {
   pdfPage: 410,
   lOR: "MD570",
   sequence: "003",
+  elr: "SKN",
   title: "Saltley (Landor Street Jn) to Kings Norton Jn (Camp Hill Lines)",
   route: "lnw-south",
   imageSrc: imageSrc,

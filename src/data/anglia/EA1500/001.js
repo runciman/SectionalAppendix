@@ -4,6 +4,7 @@ const page337 = {
   pdfPage: 337,
   lOR: "EA1500",
   sequence: "001",
+  elr: "NAY NOL",
   title: "Brundall Junction to Yarmouth",
   route: "Anglia",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page473 = {
   pdfPage: 473,
   lOR: "LN3216",
   sequence: "001",
+  elr: "FTL",
   title: "Farringdon Junction to Blackfriars (Withdrawn)",
   route: "lne",
   imageSrc: imageSrc,

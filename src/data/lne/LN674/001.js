@@ -4,6 +4,7 @@ const page1002 = {
   pdfPage: 1002,
   lOR: "LN674",
   sequence: "001",
+  elr: "HLK",
   title: "High Level Bridge Junction to Greensfield Junction (West Curve)",
   route: "lne",
   imageSrc: imageSrc,

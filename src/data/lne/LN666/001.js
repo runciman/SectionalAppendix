@@ -4,6 +4,7 @@ const page999 = {
   pdfPage: 999,
   lOR: "LN666",
   sequence: "001",
+  elr: "BGE GLT",
   title: "Boldon West Junction to Tyne Dock",
   route: "lne",
   imageSrc: imageSrc,

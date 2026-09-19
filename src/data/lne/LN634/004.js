@@ -4,6 +4,7 @@ const page984 = {
   pdfPage: 984,
   lOR: "LN634",
   sequence: "004",
+  elr: "MBW2 MBW3",
   title: "Guisborough Junction to Whitby",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page290 = {
   pdfPage: 290,
   lOR: "MD320",
   sequence: "011",
+  elr: "PBJ",
   title: "Proof House Jn to Bushbury Jn (via Bescot)",
   route: "lnw-south",
   imageSrc: imageSrc,

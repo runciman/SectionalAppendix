@@ -4,6 +4,7 @@ const page1026 = {
   pdfPage: 1026,
   lOR: "LN702",
   sequence: "001",
+  elr: "BWC",
   title: "Bedlington North to Lynemouth Alcan",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page305 = {
   pdfPage: 305,
   lOR: "LN235",
   sequence: "001",
+  elr: "FWR1",
   title: "Rossington Colliery Branch",
   route: "lne",
   imageSrc: imageSrc,

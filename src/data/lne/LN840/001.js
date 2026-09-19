@@ -4,6 +4,7 @@ const page771 = {
   pdfPage: 771,
   lOR: "LN840",
   sequence: "001",
+  elr: "TJC3",
   title: "Leeds Engine Shed Junction to Whitehall East Junction",
   route: "lne",
   imageSrc: imageSrc,

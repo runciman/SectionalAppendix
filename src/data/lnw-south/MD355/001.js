@@ -4,6 +4,7 @@ const page311 = {
   pdfPage: 311,
   lOR: "MD355",
   sequence: "001",
+  elr: "LTV",
   title: "Lichfield TV Jn to Lichfield Trent Valley (Chord Line)",
   route: "lnw-south",
   imageSrc: imageSrc,

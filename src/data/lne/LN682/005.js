@@ -4,6 +4,7 @@ const page1011 = {
   pdfPage: 1011,
   lOR: "LN682",
   sequence: "005",
+  elr: "NEC2",
   title: "King Edward Bridge South Junction to Petteril Bridge Junction",
   route: "lne",
   imageSrc: imageSrc,

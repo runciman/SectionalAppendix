@@ -4,6 +4,7 @@ const page436 = {
   pdfPage: 436,
   lOR: "MD720",
   sequence: "001",
+  elr: "PRA",
   title: "Princes Risborough to Aylesbury",
   route: "lnw-south",
   imageSrc: imageSrc,

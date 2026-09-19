@@ -4,6 +4,7 @@ const page865 = {
   pdfPage: 865,
   lOR: "LN912",
   sequence: "002",
+  elr: "TJG2",
   title: "Thorne Junction to Gilberdyke Junction",
   route: "lne",
   imageSrc: imageSrc,

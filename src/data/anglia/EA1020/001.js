@@ -4,6 +4,7 @@ const page154 = {
   pdfPage: 154,
   lOR: "EA1020",
   sequence: "001",
+  elr: "CNS",
   title: "Carpenters Road South Junction to Carpenters Road North Junction",
   route: "Anglia",
   imageSrc: imageSrc,

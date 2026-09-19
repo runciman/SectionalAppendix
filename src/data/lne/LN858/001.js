@@ -4,6 +4,7 @@ const page792 = {
   pdfPage: 792,
   lOR: "LN858",
   sequence: "001",
+  elr: "MRB",
   title: "Milner Royd Junction to Bradford Mill Lane Junction",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page874 = {
   pdfPage: 874,
   lOR: "LN916",
   sequence: "001",
+  elr: "HJS",
   title: "Hessle Road to Saltend",
   route: "lne",
   imageSrc: imageSrc,

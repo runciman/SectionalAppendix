@@ -4,6 +4,7 @@ const page414 = {
   pdfPage: 414,
   lOR: "MD580",
   sequence: "001",
+  elr: "LEL",
   title: "Lifford East Junction to Lifford West Junction",
   route: "lnw-south",
   imageSrc: imageSrc,

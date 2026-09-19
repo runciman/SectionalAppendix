@@ -4,6 +4,7 @@ const page504 = {
   pdfPage: 504,
   lOR: "LN3273",
   sequence: "004",
+  elr: "PBS2 PBS3",
   title: "Codnor Park Jn to Shirebrook Jn",
   route: "lne",
   imageSrc: imageSrc,

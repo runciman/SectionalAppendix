@@ -4,6 +4,7 @@ const page403 = {
   pdfPage: 403,
   lOR: "MD560",
   sequence: "001",
+  elr: "CBR2",
   title: "Water Orton West Jn to Park Lane Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

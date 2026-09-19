@@ -4,6 +4,7 @@ const page993 = {
   pdfPage: 993,
   lOR: "LN650",
   sequence: "001",
+  elr: "KBF",
   title: "Kelloe Bank Foot Branch",
   route: "lne",
   imageSrc: imageSrc,

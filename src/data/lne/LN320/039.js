@@ -4,6 +4,7 @@ const page446 = {
   pdfPage: 446,
   lOR: "LN320",
   sequence: "039",
+  elr: "SPC8",
   title: "St. Pancras to Tapton Jn (via Derby)",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page780 = {
   pdfPage: 780,
   lOR: "LN854",
   sequence: "001",
+  elr: "MVN2",
   title: "Hall Royd Junction to Colton Junction",
   route: "lne",
   imageSrc: imageSrc,

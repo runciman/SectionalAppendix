@@ -4,6 +4,7 @@ const page1016 = {
   pdfPage: 1016,
   lOR: "LN684",
   sequence: "001",
+  elr: "NLF",
   title: "Low Fell Junction to Norwood Junction",
   route: "lne",
   imageSrc: imageSrc,

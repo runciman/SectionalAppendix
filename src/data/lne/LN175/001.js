@@ -4,6 +4,7 @@ const page274 = {
   pdfPage: 274,
   lOR: "LN175",
   sequence: "001",
+  elr: "SSE",
   title: "Sleaford South Jn to Sleaford East Jn",
   route: "lne",
   imageSrc: imageSrc,

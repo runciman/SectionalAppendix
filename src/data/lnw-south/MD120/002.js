@@ -4,6 +4,7 @@ const page170 = {
   pdfPage: 170,
   lOR: "MD120",
   sequence: "002",
+  elr: "CWJ",
   title: "Camden Junction to Watford Junction (DC Lines)",
   route: "lnw-south",
   imageSrc: imageSrc,

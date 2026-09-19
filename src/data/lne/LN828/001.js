@@ -4,6 +4,7 @@ const page719 = {
   pdfPage: 719,
   lOR: "LN828",
   sequence: "001",
+  elr: "WME",
   title: "Mexborough Junction to Aldwarke Junction via Kilnhurst",
   route: "lne",
   imageSrc: imageSrc,

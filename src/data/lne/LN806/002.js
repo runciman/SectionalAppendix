@@ -4,6 +4,7 @@ const page700 = {
   pdfPage: 700,
   lOR: "LN806",
   sequence: "002",
+  elr: "CHR",
   title: "Tapton Junction to Masborough Junction",
   route: "lne",
   imageSrc: imageSrc,

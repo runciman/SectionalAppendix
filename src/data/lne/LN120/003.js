@@ -4,6 +4,7 @@ const page239 = {
   pdfPage: 239,
   lOR: "LN120",
   sequence: "003",
+  elr: "HDB",
   title: "Wood Green North Jn to Langley Jn via Hertford",
   route: "lne",
   imageSrc: imageSrc,

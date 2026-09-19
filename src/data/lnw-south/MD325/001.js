@@ -4,6 +4,7 @@ const page292 = {
   pdfPage: 292,
   lOR: "MD325",
   sequence: "001",
+  elr: "SSP",
   title: "Soho South Jn to Perry Barr North Jn (Soho Lines)",
   route: "lnw-south",
   imageSrc: imageSrc,

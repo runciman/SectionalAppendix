@@ -4,6 +4,7 @@ const page500 = {
   pdfPage: 500,
   lOR: "LN3270",
   sequence: "001",
+  elr: "GF  CPC",
   title: "Codnor Park Jn to Ironville Jn GF (Withdrawn)",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page965 = {
   pdfPage: 965,
   lOR: "LN627",
   sequence: "012",
+  elr: "LEN3",
   title: "Northallerton Longlands Junction to Newcastle East Junction via the Coast",
   route: "lne",
   imageSrc: imageSrc,

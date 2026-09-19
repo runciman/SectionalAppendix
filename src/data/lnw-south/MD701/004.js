@@ -4,6 +4,7 @@ const page418 = {
   pdfPage: 418,
   lOR: "MD701",
   sequence: "004",
+  elr: "NAJ1 NAJ2",
   title: "Marylebone to Aynho Junction",
   route: "lnw-south",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page229 = {
   pdfPage: 229,
   lOR: "MD233",
   sequence: "001",
+  elr: "MYC",
   title: "Midland Yard Jn to Canal Farm Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

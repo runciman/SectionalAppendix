@@ -4,6 +4,7 @@ const page522 = {
   pdfPage: 522,
   lOR: "LN3520",
   sequence: "001",
+  elr: "J1",
   title: "Sheet Stores Jn to Stenson Jn",
   route: "lne",
   imageSrc: imageSrc,

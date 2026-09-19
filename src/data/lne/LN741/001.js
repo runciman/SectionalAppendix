@@ -4,6 +4,7 @@ const page624 = {
   pdfPage: 624,
   lOR: "LN741",
   sequence: "001",
+  elr: "HAU",
   title: "Habrough Junction to Ulceby South Junction",
   route: "lne",
   imageSrc: imageSrc,

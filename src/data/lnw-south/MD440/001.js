@@ -4,6 +4,7 @@ const page375 = {
   pdfPage: 375,
   lOR: "MD440",
   sequence: "001",
+  elr: "GSJ1",
   title: "Galton Jn to Smethwick Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

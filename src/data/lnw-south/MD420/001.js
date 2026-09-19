@@ -4,6 +4,7 @@ const page350 = {
   pdfPage: 350,
   lOR: "MD420",
   sequence: "001",
+  elr: "HHW",
   title: "Hatton North Junction to Hatton West Junction",
   route: "lnw-south",
   imageSrc: imageSrc,

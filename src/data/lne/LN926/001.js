@@ -4,6 +4,7 @@ const page885 = {
   pdfPage: 885,
   lOR: "LN926",
   sequence: "001",
+  elr: "GUE2",
   title: "Dockfield Junction to Esholt Junction",
   route: "lne",
   imageSrc: imageSrc,

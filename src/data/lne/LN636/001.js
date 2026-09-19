@@ -4,6 +4,7 @@ const page986 = {
   pdfPage: 986,
   lOR: "LN636",
   sequence: "001",
+  elr: "DSN2",
   title: "Beam Mill Junction to Slag Road (Lackenby)",
   route: "lne",
   imageSrc: imageSrc,

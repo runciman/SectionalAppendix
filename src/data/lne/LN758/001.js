@@ -4,6 +4,7 @@ const page638 = {
   pdfPage: 638,
   lOR: "LN758",
   sequence: "001",
+  elr: "BKS",
   title: "Brancliffe East Junction to Kirk Sandall Junction",
   route: "lne",
   imageSrc: imageSrc,

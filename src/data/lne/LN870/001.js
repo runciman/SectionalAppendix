@@ -4,6 +4,7 @@ const page814 = {
   pdfPage: 814,
   lOR: "LN870",
   sequence: "001",
+  elr: "CTL",
   title: "Wakefield Turners Lane to Calder Bridge Junction",
   route: "lne",
   imageSrc: imageSrc,

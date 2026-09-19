@@ -4,6 +4,7 @@ const page253 = {
   pdfPage: 253,
   lOR: "LN145",
   sequence: "001",
+  elr: "WDU",
   title: "Marholm Jn to Glinton Jn.",
   route: "lne",
   imageSrc: imageSrc,

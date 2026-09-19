@@ -4,6 +4,7 @@ const page128 = {
   pdfPage: 128,
   lOR: "EA1011",
   sequence: "004",
+  elr: "LTN1 ROU",
   title: "Seven Kings to Ipswich",
   route: "Anglia",
   imageSrc: imageSrc,

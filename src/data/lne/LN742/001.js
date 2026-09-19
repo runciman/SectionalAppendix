@@ -4,6 +4,7 @@ const page625 = {
   pdfPage: 625,
   lOR: "LN742",
   sequence: "001",
+  elr: "KIL2KIL1 BRI2",
   title: "Killingholme to Brocklesby Junction",
   route: "lne",
   imageSrc: imageSrc,

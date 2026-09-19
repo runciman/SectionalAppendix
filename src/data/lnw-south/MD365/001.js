@@ -4,6 +4,7 @@ const page313 = {
   pdfPage: 313,
   lOR: "MD365",
   sequence: "001",
+  elr: "PJW",
   title: "Portobello Jn to Wolverhampton Crane Street Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

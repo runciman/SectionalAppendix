@@ -4,6 +4,7 @@ const page776 = {
   pdfPage: 776,
   lOR: "LN850",
   sequence: "001",
+  elr: "WWK",
   title: "Wakefield Westgate South Junction to Wakefield Kirkgate West Junction",
   route: "lne",
   imageSrc: imageSrc,

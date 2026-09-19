@@ -4,6 +4,7 @@ const page1018 = {
   pdfPage: 1018,
   lOR: "LN694",
   sequence: "002",
+  elr: "BNE EJM",
   title: "Benton North Junction to Morpeth North Junction via Bedlington",
   route: "lne",
   imageSrc: imageSrc,

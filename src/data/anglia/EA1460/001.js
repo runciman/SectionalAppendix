@@ -4,6 +4,7 @@ const page322 = {
   pdfPage: 322,
   lOR: "EA1460",
   sequence: "001",
+  elr: "FED FEL",
   title: "Ipswich to Felixstowe",
   route: "Anglia",
   imageSrc: imageSrc,

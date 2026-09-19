@@ -4,6 +4,7 @@ const page886 = {
   pdfPage: 886,
   lOR: "LN928",
   sequence: "001",
+  elr: "SBF",
   title: "Shipley East Junction to Bradford Forster Square",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page869 = {
   pdfPage: 869,
   lOR: "LN914",
   sequence: "004",
+  elr: "HBS",
   title: "Hull Paragon to Seamer West Junction",
   route: "lne",
   imageSrc: imageSrc,

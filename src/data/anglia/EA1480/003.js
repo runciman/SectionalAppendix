@@ -4,6 +4,7 @@ const page332 = {
   pdfPage: 332,
   lOR: "EA1480",
   sequence: "003",
+  elr: "WHC1",
   title: "Whitlingham Junction to Cromer",
   route: "Anglia",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page642 = {
   pdfPage: 642,
   lOR: "LN762",
   sequence: "001",
+  elr: "YDS",
   title: "St Catherines Junction to Decoy South Junction (St Catherines Curve)",
   route: "lne",
   imageSrc: imageSrc,

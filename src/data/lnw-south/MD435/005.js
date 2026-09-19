@@ -4,6 +4,7 @@ const page367 = {
   pdfPage: 367,
   lOR: "MD435",
   sequence: "005",
+  elr: "DCL",
   title: "Small Heath South Jn to Stourbridge North Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

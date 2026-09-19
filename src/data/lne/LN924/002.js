@@ -4,6 +4,7 @@ const page884 = {
   pdfPage: 884,
   lOR: "LN924",
   sequence: "002",
+  elr: "ILK2",
   title: "Apperley Junction to Ilkley",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page486 = {
   pdfPage: 486,
   lOR: "LN3240",
   sequence: "001",
+  elr: "LED",
   title: "Little Eaton Jn to Denby",
   route: "lne",
   imageSrc: imageSrc,

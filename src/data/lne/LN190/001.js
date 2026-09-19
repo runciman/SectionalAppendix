@@ -4,6 +4,7 @@ const page293 = {
   pdfPage: 293,
   lOR: "LN190",
   sequence: "001",
+  elr: "ACD",
   title: "Allington East Jn. to Allington North Jn.",
   route: "lne",
   imageSrc: imageSrc,

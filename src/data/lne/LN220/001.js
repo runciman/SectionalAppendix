@@ -4,6 +4,7 @@ const page304 = {
   pdfPage: 304,
   lOR: "LN220",
   sequence: "001",
+  elr: "BCB",
   title: "Bessacarr Jn. to Black Carr Jn",
   route: "lne",
   imageSrc: imageSrc,

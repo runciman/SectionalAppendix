@@ -4,6 +4,7 @@ const page194 = {
   pdfPage: 194,
   lOR: "MD140",
   sequence: "002",
+  elr: "BBM BLT2",
   title: "Bletchley to Bedford St. Johns (Inclusive)",
   route: "lnw-south",
   imageSrc: imageSrc,

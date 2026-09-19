@@ -4,6 +4,7 @@ const page526 = {
   pdfPage: 526,
   lOR: "LN3525",
   sequence: "003",
+  elr: "KSL",
   title: "Knighton Jn to Leicester Jn",
   route: "lne",
   imageSrc: imageSrc,

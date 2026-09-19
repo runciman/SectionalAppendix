@@ -4,6 +4,7 @@ const page232 = {
   pdfPage: 232,
   lOR: "EA1210",
   sequence: "001",
+  elr: "HEB",
   title: "Broxbourne Junction to Hertford East",
   route: "Anglia",
   imageSrc: imageSrc,

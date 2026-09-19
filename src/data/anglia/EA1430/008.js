@@ -4,6 +4,7 @@ const page311 = {
   pdfPage: 311,
   lOR: "EA1430",
   sequence: "008",
+  elr: "ESK",
   title: "East Suffolk Junction to Oulton Broad North",
   route: "Anglia",
   imageSrc: imageSrc,

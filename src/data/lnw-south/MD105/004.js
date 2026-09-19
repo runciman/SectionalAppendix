@@ -4,6 +4,7 @@ const page165 = {
   pdfPage: 165,
   lOR: "MD105",
   sequence: "004",
+  elr: "HNR",
   title: "Hanslope South Jn to Rugby (via Northampton)",
   route: "lnw-south",
   imageSrc: imageSrc,

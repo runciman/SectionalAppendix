@@ -4,6 +4,7 @@ const page287 = {
   pdfPage: 287,
   lOR: "EA1390",
   sequence: "001",
+  elr: "TLL BKR FSS2",
   title: "Barking Tilbury Line Junction East to Pitsea Junction",
   route: "Anglia",
   imageSrc: imageSrc,

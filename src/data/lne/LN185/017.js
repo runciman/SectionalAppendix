@@ -4,6 +4,7 @@ const page292 = {
   pdfPage: 292,
   lOR: "LN185",
   sequence: "017",
+  elr: "GRS4",
   title: "Allington West Jn to Skegness",
   route: "lne",
   imageSrc: imageSrc,

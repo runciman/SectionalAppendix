@@ -4,6 +4,7 @@ const page452 = {
   pdfPage: 452,
   lOR: "MD736",
   sequence: "005",
+  elr: "OXD",
   title: "Oxford North Jn (Excl.) to Denbigh Hall South Jn.",
   route: "lnw-south",
   imageSrc: imageSrc,

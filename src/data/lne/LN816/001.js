@@ -4,6 +4,7 @@ const page712 = {
   pdfPage: 712,
   lOR: "LN816",
   sequence: "001",
+  elr: "BEW",
   title: "Beighton Junction to Woodhouse Junction",
   route: "lne",
   imageSrc: imageSrc,

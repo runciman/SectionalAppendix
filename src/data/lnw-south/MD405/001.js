@@ -4,6 +4,7 @@ const page335 = {
   pdfPage: 335,
   lOR: "MD405",
   sequence: "001",
+  elr: "LSC1",
   title: "Leamington Spa North Jn to Coventry South Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

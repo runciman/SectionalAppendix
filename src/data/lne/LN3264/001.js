@@ -4,6 +4,7 @@ const page498 = {
   pdfPage: 498,
   lOR: "LN3264",
   sequence: "001",
+  elr: "AML",
   title: "Attenborough Jn to Meadow Lane Jn (Attenborough Curve)",
   route: "lne",
   imageSrc: imageSrc,

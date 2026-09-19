@@ -4,6 +4,7 @@ const page295 = {
   pdfPage: 295,
   lOR: "MD330",
   sequence: "001",
+  elr: "SCL RBS2",
   title: "Soho East Jn to Soho North Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page300 = {
   pdfPage: 300,
   lOR: "EA1410",
   sequence: "001",
+  elr: "UPG FSS2",
   title: "Upminster to Grays",
   route: "Anglia",
   imageSrc: imageSrc,

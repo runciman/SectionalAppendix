@@ -4,6 +4,7 @@ const page356 = {
   pdfPage: 356,
   lOR: "EA1560",
   sequence: "001",
+  elr: "ETN BGK EWC",
   title: "Ely North Junction to Peterborough",
   route: "Anglia",
   imageSrc: imageSrc,

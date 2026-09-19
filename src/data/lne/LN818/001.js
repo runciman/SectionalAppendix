@@ -4,6 +4,7 @@ const page713 = {
   pdfPage: 713,
   lOR: "LN818",
   sequence: "001",
+  elr: "HCD",
   title: "Holmes Curve",
   route: "lne",
   imageSrc: imageSrc,

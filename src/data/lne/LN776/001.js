@@ -4,6 +4,7 @@ const page688 = {
   pdfPage: 688,
   lOR: "LN776",
   sequence: "001",
+  elr: "HLF1 HLF2",
   title: "Hall Lane Junction to Foxlow Junction",
   route: "lne",
   imageSrc: imageSrc,

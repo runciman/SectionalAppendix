@@ -4,6 +4,7 @@ const page887 = {
   pdfPage: 887,
   lOR: "LN930",
   sequence: "001",
+  elr: "SKS1 SKS2",
   title: "Skipton Middle Junction to Rylstone",
   route: "lne",
   imageSrc: imageSrc,

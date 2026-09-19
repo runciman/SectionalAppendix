@@ -4,6 +4,7 @@ const page656 = {
   pdfPage: 656,
   lOR: "LN798",
   sequence: "001",
+  elr: "CCN",
   title: "Clipstone Colliery Branch",
   route: "lne",
   imageSrc: imageSrc,

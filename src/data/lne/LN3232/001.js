@@ -4,6 +4,7 @@ const page480 = {
   pdfPage: 480,
   lOR: "LN3232",
   sequence: "001",
+  elr: "WNS",
   title: "Wigston North Jn to Hinckley",
   route: "lne",
   imageSrc: imageSrc,

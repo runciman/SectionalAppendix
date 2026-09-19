@@ -4,6 +4,7 @@ const page755 = {
   pdfPage: 755,
   lOR: "LN724",
   sequence: "001",
+  elr: "HOS",
   title: "Holgate Junction to Skelton Junction",
   route: "lne",
   imageSrc: imageSrc,

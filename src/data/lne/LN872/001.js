@@ -4,6 +4,7 @@ const page815 = {
   pdfPage: 815,
   lOR: "LN872",
   sequence: "001",
+  elr: "TJC3",
   title: "Altofts Junction to Leeds West Junction",
   route: "lne",
   imageSrc: imageSrc,

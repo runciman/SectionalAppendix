@@ -4,6 +4,7 @@ const page469 = {
   pdfPage: 469,
   lOR: "LN3213",
   sequence: "002",
+  elr: "MCL",
   title: "Farringdon to Kentish Town Jn",
   route: "lne",
   imageSrc: imageSrc,

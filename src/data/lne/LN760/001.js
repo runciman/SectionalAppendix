@@ -4,6 +4,7 @@ const page641 = {
   pdfPage: 641,
   lOR: "LN760",
   sequence: "001",
+  elr: "HAC",
   title: "Firbeck Junction to Harworth Colliery",
   route: "lne",
   imageSrc: imageSrc,

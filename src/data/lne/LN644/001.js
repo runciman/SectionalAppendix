@@ -4,6 +4,7 @@ const page990 = {
   pdfPage: 990,
   lOR: "LN644",
   sequence: "001",
+  elr: "BOH",
   title: "Hartburn Curve",
   route: "lne",
   imageSrc: imageSrc,

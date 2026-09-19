@@ -4,6 +4,7 @@ const page820 = {
   pdfPage: 820,
   lOR: "LN878",
   sequence: "001",
+  elr: "SHG",
   title: "Sherburn Junction to Gascoigne Wood",
   route: "lne",
   imageSrc: imageSrc,

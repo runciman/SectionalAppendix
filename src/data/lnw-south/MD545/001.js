@@ -4,6 +4,7 @@ const page395 = {
   pdfPage: 395,
   lOR: "MD545",
   sequence: "001",
+  elr: "KJW",
   title: "Kingsbury Junction to Whitacre West Junction",
   route: "lnw-south",
   imageSrc: imageSrc,

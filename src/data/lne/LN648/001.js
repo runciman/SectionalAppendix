@@ -4,6 +4,7 @@ const page992 = {
   pdfPage: 992,
   lOR: "LN648",
   sequence: "001",
+  elr: "NWE",
   title: "Norton-on-Tees West Junction to Norton-on-Tees East Junction",
   route: "lne",
   imageSrc: imageSrc,

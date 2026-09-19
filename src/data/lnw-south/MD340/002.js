@@ -4,6 +4,7 @@ const page298 = {
   pdfPage: 298,
   lOR: "MD340",
   sequence: "002",
+  elr: "ALC1",
   title: "Aston North Junction to Alrewas (Exclusive)",
   route: "lnw-south",
   imageSrc: imageSrc,

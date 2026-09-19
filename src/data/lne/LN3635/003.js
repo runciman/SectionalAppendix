@@ -4,6 +4,7 @@ const page557 = {
   pdfPage: 557,
   lOR: "LN3635",
   sequence: "003",
+  elr: "NOG1",
   title: "Allington West Junction (exclusive) to Netherfield Junction",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page272 = {
   pdfPage: 272,
   lOR: "MD306",
   sequence: "015",
+  elr: "BAG2",
   title: "Birmingham New Street to Ashchurch (Excl.) (via Dunhampstead)",
   route: "lnw-south",
   imageSrc: imageSrc,

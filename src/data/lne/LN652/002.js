@@ -4,6 +4,7 @@ const page995 = {
   pdfPage: 995,
   lOR: "LN652",
   sequence: "002",
+  elr: "SES",
   title: "Billingham-on-Tees to Seal Sands Storage (withdrawn)",
   route: "lne",
   imageSrc: imageSrc,

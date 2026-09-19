@@ -4,6 +4,7 @@ const page532 = {
   pdfPage: 532,
   lOR: "LN3601",
   sequence: "001",
+  elr: "GSM1",
   title: "Kettering North Jn to Manton Jn",
   route: "lne",
   imageSrc: imageSrc,

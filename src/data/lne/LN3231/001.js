@@ -4,6 +4,7 @@ const page479 = {
   pdfPage: 479,
   lOR: "LN3231",
   sequence: "001",
+  elr: "WGP",
   title: "Wigston South Jn to Glen Parva Jn",
   route: "lne",
   imageSrc: imageSrc,

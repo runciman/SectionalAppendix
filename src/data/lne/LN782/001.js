@@ -4,6 +4,7 @@ const page648 = {
   pdfPage: 648,
   lOR: "LN782",
   sequence: "001",
+  elr: "SHW",
   title: "Woodend Junction to Shireoaks West Junction",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page180 = {
   pdfPage: 180,
   lOR: "MD130",
   sequence: "003",
+  elr: "WSA",
   title: "Watford Junction to St Albans Abbey",
   route: "lnw-south",
   imageSrc: imageSrc,

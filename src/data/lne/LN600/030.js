@@ -4,6 +4,7 @@ const page365 = {
   pdfPage: 365,
   lOR: "LN600",
   sequence: "030",
+  elr: "GSP ECM8",
   title: "Shaftholme Jn. to Reston GSP",
   route: "lne",
   imageSrc: imageSrc,

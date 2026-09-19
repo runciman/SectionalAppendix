@@ -4,6 +4,7 @@ const page797 = {
   pdfPage: 797,
   lOR: "LN860",
   sequence: "001",
+  elr: "MVL3",
   title: "Diggle Junction to Copley Hill East Junction",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page270 = {
   pdfPage: 270,
   lOR: "EA1370",
   sequence: "004",
+  elr: "TAH2",
   title: "Barking to Tilbury",
   route: "Anglia",
   imageSrc: imageSrc,

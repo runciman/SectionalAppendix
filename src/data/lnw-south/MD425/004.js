@@ -4,6 +4,7 @@ const page354 = {
   pdfPage: 354,
   lOR: "MD425",
   sequence: "004",
+  elr: "TSB",
   title: "Tyseley South Jn to Bearley Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

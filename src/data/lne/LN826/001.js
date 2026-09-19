@@ -4,6 +4,7 @@ const page716 = {
   pdfPage: 716,
   lOR: "LN826",
   sequence: "001",
+  elr: "PEDS",
   title: "Doncaster South Yorkshire Junction to Swinton Junction North and South",
   route: "lne",
   imageSrc: imageSrc,

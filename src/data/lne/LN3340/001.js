@@ -4,6 +4,7 @@ const page505 = {
   pdfPage: 505,
   lOR: "LN3340",
   sequence: "001",
+  elr: "BJW3",
   title: "Alrewas (Inclusive) to Wichnor Jn",
   route: "lne",
   imageSrc: imageSrc,

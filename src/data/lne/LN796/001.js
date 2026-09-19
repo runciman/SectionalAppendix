@@ -4,6 +4,7 @@ const page655 = {
   pdfPage: 655,
   lOR: "LN796",
   sequence: "001",
+  elr: "RUC",
   title: "Rufford Colliery Branch",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page257 = {
   pdfPage: 257,
   lOR: "LN155",
   sequence: "001",
+  elr: "LCJ",
   title: "Flyover East Jn to Loversall Jn",
   route: "lne",
   imageSrc: imageSrc,

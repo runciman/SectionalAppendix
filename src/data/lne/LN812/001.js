@@ -4,6 +4,7 @@ const page709 = {
   pdfPage: 709,
   lOR: "LN812",
   sequence: "001",
+  elr: "BLJ1",
   title: "Shepcote Lane East Junction to Broughton Lane Junction",
   route: "lne",
   imageSrc: imageSrc,

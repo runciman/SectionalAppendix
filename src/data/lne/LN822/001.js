@@ -4,6 +4,7 @@ const page714 = {
   pdfPage: 714,
   lOR: "LN822",
   sequence: "001",
+  elr: "FRC",
   title: "Frickley Colliery Branch",
   route: "lne",
   imageSrc: imageSrc,

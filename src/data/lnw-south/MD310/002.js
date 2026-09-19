@@ -4,6 +4,7 @@ const page276 = {
   pdfPage: 276,
   lOR: "MD310",
   sequence: "002",
+  elr: "BEA",
   title: "Barnt Green Jn to Redditch",
   route: "lnw-south",
   imageSrc: imageSrc,

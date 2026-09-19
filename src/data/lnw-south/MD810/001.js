@@ -4,6 +4,7 @@ const page472 = {
   pdfPage: 472,
   lOR: "MD810",
   sequence: "001",
+  elr: "MJI1",
   title: "Madeley Jn to Ironbridge National Power Station",
   route: "lnw-south",
   imageSrc: imageSrc,

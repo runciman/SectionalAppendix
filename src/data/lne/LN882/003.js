@@ -4,6 +4,7 @@ const page832 = {
   pdfPage: 832,
   lOR: "LN882",
   sequence: "003",
+  elr: "WAG1",
   title: "Wakefield Kirkgate West Junction to Goole Potters Grange Junction",
   route: "lne",
   imageSrc: imageSrc,

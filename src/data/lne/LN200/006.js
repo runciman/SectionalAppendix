@@ -4,6 +4,7 @@ const page606 = {
   pdfPage: 606,
   lOR: "LN200",
   sequence: "006",
+  elr: "NOB3",
   title: "Wrawby Junction to Pelham Street Junction",
   route: "lne",
   imageSrc: imageSrc,

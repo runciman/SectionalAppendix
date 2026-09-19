@@ -4,6 +4,7 @@ const page406 = {
   pdfPage: 406,
   lOR: "MD565",
   sequence: "003",
+  elr: "CBR2",
   title: "Castle Bromwich Jn to Ryecroft Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

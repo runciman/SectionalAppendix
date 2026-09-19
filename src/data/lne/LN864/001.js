@@ -4,6 +4,7 @@ const page810 = {
   pdfPage: 810,
   lOR: "LN864",
   sequence: "001",
+  elr: "DRS1",
   title: "Dewsbury Railway Street Branch",
   route: "lne",
   imageSrc: imageSrc,

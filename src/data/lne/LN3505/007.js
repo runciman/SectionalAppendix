@@ -4,6 +4,7 @@ const page519 = {
   pdfPage: 519,
   lOR: "LN3505",
   sequence: "007",
+  elr: "NSS",
   title: "North Stafford Jn to Stoke Jn (Exclusive)",
   route: "lne",
   imageSrc: imageSrc,

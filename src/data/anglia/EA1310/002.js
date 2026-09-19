@@ -4,6 +4,7 @@ const page246 = {
   pdfPage: 246,
   lOR: "EA1310",
   sequence: "002",
+  elr: "BOK2",
   title: "Camden Road West Junction to Richmond",
   route: "Anglia",
   imageSrc: imageSrc,

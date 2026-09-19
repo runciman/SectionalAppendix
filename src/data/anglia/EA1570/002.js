@@ -4,6 +4,7 @@ const page366 = {
   pdfPage: 366,
   lOR: "EA1570",
   sequence: "002",
+  elr: "WIG",
   title: "Peterborough to March",
   route: "Anglia",
   imageSrc: imageSrc,

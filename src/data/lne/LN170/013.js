@@ -4,6 +4,7 @@ const page272 = {
   pdfPage: 272,
   lOR: "LN170",
   sequence: "013",
+  elr: "SPD3 MAC3 SPD4",
   title: "Werrington Jn. to Flyover East Jn. Via Lincoln",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page484 = {
   pdfPage: 484,
   lOR: "MD940",
   sequence: "004",
+  elr: "WAH",
   title: "Worcester Shrub Hill to Shelwick Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

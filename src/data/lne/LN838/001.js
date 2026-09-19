@@ -4,6 +4,7 @@ const page765 = {
   pdfPage: 765,
   lOR: "LN838",
   sequence: "001",
+  elr: "LEH1",
   title: "Leeds Armley Junction to York Skelton Junction via Harrogate",
   route: "lne",
   imageSrc: imageSrc,

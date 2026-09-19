@@ -4,6 +4,7 @@ const page175 = {
   pdfPage: 175,
   lOR: "EA1100",
   sequence: "001",
+  elr: "STB CTH COC",
   title: "Colchester to Colchester Town",
   route: "Anglia",
   imageSrc: imageSrc,

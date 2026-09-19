@@ -4,6 +4,7 @@ const page432 = {
   pdfPage: 432,
   lOR: "MD712",
   sequence: "002",
+  elr: "MCJ2",
   title: "Amersham (Exclusive) to Aylesbury",
   route: "lnw-south",
   imageSrc: imageSrc,

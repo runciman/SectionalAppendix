@@ -4,6 +4,7 @@ const page492 = {
   pdfPage: 492,
   lOR: "LN3252",
   sequence: "001",
+  elr: "MJT1 MJT2",
   title: "Mansfield Jn to Trowell South Jn",
   route: "lne",
   imageSrc: imageSrc,

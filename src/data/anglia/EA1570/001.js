@@ -4,6 +4,7 @@ const page365 = {
   pdfPage: 365,
   lOR: "EA1570",
   sequence: "001",
+  elr: "WIG EMP",
   title: "Peterborough to March",
   route: "Anglia",
   imageSrc: imageSrc,

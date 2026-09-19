@@ -4,6 +4,7 @@ const page1023 = {
   pdfPage: 1023,
   lOR: "LN696",
   sequence: "001",
+  elr: "HJM",
   title: "Hepscott Junction to Morpeth Junction",
   route: "lne",
   imageSrc: imageSrc,

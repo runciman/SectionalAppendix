@@ -4,6 +4,7 @@ const page643 = {
   pdfPage: 643,
   lOR: "LN764",
   sequence: "001",
+  elr: "UDS",
   title: "Low Ellers Curve",
   route: "lne",
   imageSrc: imageSrc,

@@ -4,6 +4,7 @@ const page531 = {
   pdfPage: 531,
   lOR: "LN3535",
   sequence: "001",
+  elr: "BCJ",
   title: "Birmingham Curve Jn to Branston Jn",
   route: "lne",
   imageSrc: imageSrc,

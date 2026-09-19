@@ -4,6 +4,7 @@ const page687 = {
   pdfPage: 687,
   lOR: "LN774",
   sequence: "001",
+  elr: "BAC2 BAC3 OXO",
   title: "Barrow Hill North Junction to Oxcroft Disposal Point",
   route: "lne",
   imageSrc: imageSrc,

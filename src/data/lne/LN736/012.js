@@ -4,6 +4,7 @@ const page619 = {
   pdfPage: 619,
   lOR: "LN736",
   sequence: "012",
+  elr: "MAC3 NUJ2 NUJ1",
   title: "Cleethorpes to Nunnery Main Line Junction via Retford",
   route: "lne",
   imageSrc: imageSrc,

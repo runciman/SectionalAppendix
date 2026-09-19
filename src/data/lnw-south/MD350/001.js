@@ -4,6 +4,7 @@ const page310 = {
   pdfPage: 310,
   lOR: "MD350",
   sequence: "001",
+  elr: "BJW3",
   title: "Anglesea Sidings to Lichfield City",
   route: "lnw-south",
   imageSrc: imageSrc,

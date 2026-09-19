@@ -4,6 +4,7 @@ const page386 = {
   pdfPage: 386,
   lOR: "MD501",
   sequence: "003",
+  elr: "DBP1 DBP2 DBP3",
   title: "Tamworth (Inclusive) to Birmingham, Proof House Junction",
   route: "lnw-south",
   imageSrc: imageSrc,

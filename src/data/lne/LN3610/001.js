@@ -4,6 +4,7 @@ const page536 = {
   pdfPage: 536,
   lOR: "LN3610",
   sequence: "001",
+  elr: "BSC",
   title: "Corby Automotive Terminal to Corby North",
   route: "lne",
   imageSrc: imageSrc,

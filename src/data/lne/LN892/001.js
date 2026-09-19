@@ -4,6 +4,7 @@ const page841 = {
   pdfPage: 841,
   lOR: "LN892",
   sequence: "001",
+  elr: "PEF",
   title: "Pontefract East Junction to Ferrybridge South Junction",
   route: "lne",
   imageSrc: imageSrc,

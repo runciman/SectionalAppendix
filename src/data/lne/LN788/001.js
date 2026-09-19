@@ -4,6 +4,7 @@ const page652 = {
   pdfPage: 652,
   lOR: "LN788",
   sequence: "001",
+  elr: "TYC",
   title: "Thoresby Colliery Branch",
   route: "lne",
   imageSrc: imageSrc,

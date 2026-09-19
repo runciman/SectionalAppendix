@@ -4,6 +4,7 @@ const page227 = {
   pdfPage: 227,
   lOR: "MD232",
   sequence: "001",
+  elr: "PVS",
   title: "Hinckley (Exclusive) to Abbey Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

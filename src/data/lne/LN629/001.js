@@ -4,6 +4,7 @@ const page970 = {
   pdfPage: 970,
   lOR: "LN629",
   sequence: "001",
+  elr: "PDL",
   title: "Pelaw Metro Junction to Pelaw South Junction",
   route: "lne",
   imageSrc: imageSrc,

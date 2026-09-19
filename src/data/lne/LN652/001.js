@@ -4,6 +4,7 @@ const page994 = {
   pdfPage: 994,
   lOR: "LN652",
   sequence: "001",
+  elr: "POC1",
   title: "Billingham Junction to Port Clarence Junction",
   route: "lne",
   imageSrc: imageSrc,

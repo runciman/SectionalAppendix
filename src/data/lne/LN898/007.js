@@ -4,6 +4,7 @@ const page852 = {
   pdfPage: 852,
   lOR: "LN898",
   sequence: "007",
+  elr: "HUL1",
   title: "Neville Hill East Junction to Hull",
   route: "lne",
   imageSrc: imageSrc,

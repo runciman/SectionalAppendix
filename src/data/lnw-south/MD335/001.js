@@ -4,6 +4,7 @@ const page296 = {
   pdfPage: 296,
   lOR: "MD335",
   sequence: "001",
+  elr: "SSP",
   title: "Perry Barr West Jn to Perry Barr South Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

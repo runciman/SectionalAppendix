@@ -4,6 +4,7 @@ const page457 = {
   pdfPage: 457,
   lOR: "LN3204",
   sequence: "005",
+  elr: "TSN2 NOB1",
   title: "Trent South Junction to Nottingham East Junction",
   route: "lne",
   imageSrc: imageSrc,

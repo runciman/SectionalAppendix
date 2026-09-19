@@ -4,6 +4,7 @@ const page342 = {
   pdfPage: 342,
   lOR: "LN600",
   sequence: "007",
+  elr: "GSP ECM5",
   title: "Shaftholme Jn. to Reston GSP",
   route: "lne",
   imageSrc: imageSrc,

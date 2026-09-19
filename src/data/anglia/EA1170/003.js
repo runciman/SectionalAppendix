@@ -4,6 +4,7 @@ const page224 = {
   pdfPage: 224,
   lOR: "EA1170",
   sequence: "003",
+  elr: "HDT",
   title: "Hackney Downs North Junction to Enfield Town",
   route: "Anglia",
   imageSrc: imageSrc,

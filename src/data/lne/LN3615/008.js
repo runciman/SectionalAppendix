@@ -4,6 +4,7 @@ const page544 = {
   pdfPage: 544,
   lOR: "LN3615",
   sequence: "008",
+  elr: "GSM2",
   title: "Helpston Jn to Syston South Jn",
   route: "lne",
   imageSrc: imageSrc,

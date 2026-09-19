@@ -4,6 +4,7 @@ const page187 = {
   pdfPage: 187,
   lOR: "MD136",
   sequence: "005",
+  elr: "WCL WEF1 WGS4",
   title: "Harlesden Jn to Wembley Central (Willesden Carriage Shed lines)",
   route: "lnw-south",
   imageSrc: imageSrc,

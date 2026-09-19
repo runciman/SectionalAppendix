@@ -4,6 +4,7 @@ const page279 = {
   pdfPage: 279,
   lOR: "MD315",
   sequence: "002",
+  elr: "SAS",
   title: "Stechford South Jn to Aston South Jn",
   route: "lnw-south",
   imageSrc: imageSrc,

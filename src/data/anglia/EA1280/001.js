@@ -4,6 +4,7 @@ const page241 = {
   pdfPage: 241,
   lOR: "EA1280",
   sequence: "001",
+  elr: "SDC LTN1 SDC",
   title: "Lea Bridge to Temple Mills",
   route: "Anglia",
   imageSrc: imageSrc,
