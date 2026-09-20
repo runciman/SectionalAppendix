@@ -17,6 +17,8 @@ const regionDefinitions = [
   ["anglia", "Anglia"], ["western-wales", "Western & Wales"], ["ksw", "Kent, Sussex & Wessex"],
 ].map(([id, name]) => ({ id, name }));
 const regionNames = new Map(regionDefinitions.map(({ id, name }) => [id, name]));
+const buildCommit = __BUILD_COMMIT__;
+const buildCommitUrl = buildCommit === "unknown" ? undefined : `https://github.com/runciman/SectionalAppendix/commit/${buildCommit}`;
 
 function readRoute() {
   const [region, rawLOR, rawSequence, ...extra] = window.location.pathname.split("/").filter(Boolean);
@@ -108,7 +110,7 @@ function App() {
       <div className="result-summary"><p>{searchTotal} {searchTotal === 1 ? "page" : "pages"} found</p><span>{pages.length} indexed PDF pages</span></div>
       {results.length ? <><div className="search-results">{results.map((page) => <a key={pageKey(page)} className="search-result" href={pagePath(page)} onClick={(event) => { event.preventDefault(); openSearchResult(page); }}><span>{page.region} · {page.lOR} · SEQ {page.sequence}</span><strong>{page.title}</strong><small>{page.location}</small></a>)}</div>{searchTotal > 50 && <nav className="search-pagination" aria-label="Search result pages"><button type="button" disabled={searchPage === 0} onClick={() => setSearchPage((page) => page - 1)}>Previous</button><span>Showing {searchPage * 50 + 1}–{Math.min((searchPage + 1) * 50, searchTotal)} of {searchTotal}</span><button type="button" disabled={(searchPage + 1) * 50 >= searchTotal} onClick={() => setSearchPage((page) => page + 1)}>Next</button></nav>}</> : <EmptyState query={query} />}
     </section>}
-    <footer className="site-footer"><div className="container">All data provided by <a href="https://www.networkrail.co.uk/industry-and-commercial/information-for-operators/national-electronic-sectional-appendix/" target="_blank" rel="noreferrer">Network Rail's Sectional Appendix</a>.</div></footer>
+    <footer className="site-footer"><div className="container"><span>All data provided by <a href="https://www.networkrail.co.uk/industry-and-commercial/information-for-operators/national-electronic-sectional-appendix/" target="_blank" rel="noreferrer">Network Rail's Sectional Appendix</a>.</span><span className="build-reference">Build {buildCommitUrl ? <a href={buildCommitUrl} target="_blank" rel="noreferrer"><code>{buildCommit.slice(0, 7)}</code></a> : <code>unknown</code>}</span></div></footer>
   </main>;
 }
 
