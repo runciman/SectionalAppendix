@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
-import { appendixPages } from "./pages";
+import { loadPage } from "./pages";
 import "./styles.css";
 
 const SearchIcon = () => <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.15a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z" /></svg>;
@@ -33,26 +33,44 @@ function navigate(path) {
 function App() {
   const [query, setQuery] = useState("");
   const [route, setRoute] = useState(readRoute);
-  const queryTerms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
-  const hasSearch = queryTerms.length > 0;
-  const liveRegions = useMemo(() => new Set(appendixPages.map((page) => page.region)), []);
-  const results = useMemo(() => appendixPages.filter((page) => {
-    const searchable = Object.values(page).flat().join(" ").toLowerCase();
-    return queryTerms.every((term) => searchable.includes(term));
-  }), [queryTerms.join("|")]);
-  const sequenceGroups = useMemo(() => appendixPages.reduce((groups, page) => {
+  const [pages, setPages] = useState([]);
+  const [resultIds, setResultIds] = useState([]);
+  const [searchPage, setSearchPage] = useState(0);
+  const [searchTotal, setSearchTotal] = useState(0);
+  const [details, setDetails] = useState(new Map());
+  const [searchReady, setSearchReady] = useState(false);
+  const worker = useRef();
+  const hasSearch = query.trim().length > 0;
+  useEffect(() => { fetch(`${import.meta.env.BASE_URL}pages-manifest.json`).then((response) => response.json()).then(setPages); }, []);
+  useEffect(() => { const instance = worker.current = new Worker(new URL("./search-worker.js", import.meta.url), { type: "module" }); instance.postMessage({ type: "initialise", url: `${import.meta.env.BASE_URL}search-index.json` }); instance.onmessage = ({ data }) => { if (data.type === "ready") setSearchReady(true); if (data.type === "results") { setResultIds(data.ids); setSearchTotal(data.total); } }; return () => instance.terminate(); }, []);
+  useEffect(() => { if (searchReady) worker.current?.postMessage({ type: "search", query, page: searchPage, requestId: `${query}:${searchPage}` }); }, [query, searchPage, searchReady]);
+  const pageById = useMemo(() => new Map(pages.map((page) => [pageKey(page), page])), [pages]);
+  const results = resultIds.map((id) => pageById.get(id.replaceAll(":", ":"))).filter(Boolean);
+  const liveRegions = useMemo(() => new Set(pages.map((page) => page.region)), [pages]);
+  const sequenceGroups = useMemo(() => pages.reduce((groups, page) => {
     const key = collectionKey(page.region, page.lOR);
     const pages = groups.get(key) || [];
     pages.push(page);
     pages.sort((left, right) => Number(left.sequence) - Number(right.sequence));
     groups.set(key, pages);
     return groups;
-  }, new Map()), []);
-  const connectionTargets = useMemo(() => new Map(appendixPages.map((page) => [pageKey(page), page])), []);
-  const connectionLORs = useMemo(() => new Map(appendixPages.map((page) => [page.lOR, page.region])), []);
+  }, new Map()), [pages]);
+  const connectionTargets = pageById;
+  const connectionLORs = useMemo(() => new Map(pages.map((page) => [page.lOR, page.region])), [pages]);
+
+  const openSearchResult = (page) => {
+    window.history.replaceState({ searchQuery: query, searchPage }, "", window.location.href);
+    setQuery("");
+    setSearchPage(0);
+    navigate(pagePath(page));
+  };
 
   useEffect(() => {
-    const onPopState = () => setRoute(readRoute());
+    const onPopState = (event) => {
+      setRoute(readRoute());
+      setQuery(event.state?.searchQuery ?? "");
+      setSearchPage(event.state?.searchPage ?? 0);
+    };
     window.addEventListener("popstate", onPopState);
     return () => window.removeEventListener("popstate", onPopState);
   }, []);
@@ -60,8 +78,9 @@ function App() {
   const routeIsLive = liveRegions.has(route.region);
   const routePages = route.lOR ? sequenceGroups.get(collectionKey(route.region, route.lOR)) : undefined;
   const selectedPage = routePages?.find((page) => page.sequence === route.sequence);
+  useEffect(() => { const wanted = hasSearch ? [] : (routePages || (selectedPage ? [selectedPage] : [])); Promise.all(wanted.filter((page) => !details.has(pageKey(page))).map(async (page) => [pageKey(page), await loadPage(page)])).then((loaded) => { if (loaded.length) setDetails((current) => new Map([...current, ...loaded])); }); }, [route.region, route.lOR, route.sequence, pages.length]);
   const showLOR = routeIsLive && route.lOR && !route.sequence && routePages;
-  const regionPages = routeIsLive ? appendixPages.filter((page) => page.region === route.region) : [];
+  const regionPages = routeIsLive ? pages.filter((page) => page.region === route.region) : [];
   const lorIndex = [...new Set(regionPages.map((page) => page.lOR))].map((lOR) => {
     const pages = sequenceGroups.get(collectionKey(route.region, lOR));
     return { lOR, pages, name: pages[0].title };
@@ -72,7 +91,7 @@ function App() {
       <p className="eyebrow">Great Britain Railway Network</p>
       <h1><a className="home-link" href="/" onClick={(event) => { event.preventDefault(); navigate("/"); }}>Sectional Appendix</a></h1>
       <p className="intro">Searchable operational reference for indexed Sectional Appendix pages.</p>
-      <label className="search" htmlFor="appendix-search"><SearchIcon /><input id="appendix-search" type="search" aria-label="Search the sectional appendix" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search locations, routes, signalling, speeds…" autoComplete="off" />{query && <button type="button" onClick={() => setQuery("")}>Clear</button>}</label>
+      <label className="search" htmlFor="appendix-search"><SearchIcon /><input id="appendix-search" type="search" aria-label="Search the sectional appendix" value={query} onChange={(event) => { setQuery(event.target.value); setSearchPage(0); }} placeholder="Search locations, routes, signalling, speeds…" autoComplete="off" />{query && <button type="button" onClick={() => { setQuery(""); setSearchPage(0); }}>Clear</button>}</label>
     </div></section>
 
     {!routeIsLive && !hasSearch && <RegionIndex liveRegions={liveRegions} />}
@@ -80,18 +99,14 @@ function App() {
       <div className="region-heading"><p className="eyebrow">{regionNames.get(route.region) || route.region}</p><h2>Indexed LORs</h2><p>Browse the available line-of-route collections and their sequence entries.</p></div>
       <div className="lor-index">{lorIndex.map(({ lOR, pages, name }) => <a key={lOR} href={lorPath(route.region, lOR)} onClick={(event) => { event.preventDefault(); navigate(lorPath(route.region, lOR)); }}><span className="lor-code">{lOR}</span><strong>{name}</strong><small>{pages.length} indexed {pages.length === 1 ? "entry" : "entries"} <span aria-hidden="true">→</span></small></a>)}</div>
     </section>}
-    {selectedPage && !hasSearch && <section className="content container"><PageDetail page={selectedPage} previous={routePages[routePages.indexOf(selectedPage) - 1]} next={routePages[routePages.indexOf(selectedPage) + 1]} connectionTargets={connectionTargets} connectionLORs={connectionLORs} /></section>}
+    {selectedPage && !hasSearch && details.get(pageKey(selectedPage)) && <section className="content container"><PageDetail page={details.get(pageKey(selectedPage))} previous={routePages[routePages.indexOf(selectedPage) - 1]} next={routePages[routePages.indexOf(selectedPage) + 1]} connectionTargets={connectionTargets} connectionLORs={connectionLORs} /></section>}
     {showLOR && !hasSearch && <section className="content container">
       <div className="result-summary"><p>{route.lOR} sequence entries</p><span>{routePages.length} indexed {routePages.length === 1 ? "page" : "pages"}</span></div>
-      <div className="page-results">{routePages.map((page, index) => <PageDetail key={pageKey(page)} page={page} previous={routePages[index - 1]} next={routePages[index + 1]} connectionTargets={connectionTargets} connectionLORs={connectionLORs} inCollection />)}</div>
+      <div className="page-results">{routePages.map((page, index) => details.get(pageKey(page)) && <PageDetail key={pageKey(page)} page={details.get(pageKey(page))} previous={routePages[index - 1]} next={routePages[index + 1]} connectionTargets={connectionTargets} connectionLORs={connectionLORs} inCollection />)}</div>
     </section>}
     {hasSearch && <section className="content container" aria-live="polite">
-      <div className="result-summary"><p>{results.length} {results.length === 1 ? "page" : "pages"} found</p><span>{appendixPages.length} indexed PDF pages</span></div>
-      {results.length ? <div className="page-results">{results.map((page) => {
-        const sequence = sequenceGroups.get(collectionKey(page.region, page.lOR));
-        const index = sequence.indexOf(page);
-        return <PageDetail key={pageKey(page)} page={page} previous={sequence[index - 1]} next={sequence[index + 1]} connectionTargets={connectionTargets} connectionLORs={connectionLORs} />;
-      })}</div> : <EmptyState query={query} />}
+      <div className="result-summary"><p>{searchTotal} {searchTotal === 1 ? "page" : "pages"} found</p><span>{pages.length} indexed PDF pages</span></div>
+      {results.length ? <><div className="search-results">{results.map((page) => <a key={pageKey(page)} className="search-result" href={pagePath(page)} onClick={(event) => { event.preventDefault(); openSearchResult(page); }}><span>{page.region} · {page.lOR} · SEQ {page.sequence}</span><strong>{page.title}</strong><small>{page.location}</small></a>)}</div>{searchTotal > 50 && <nav className="search-pagination" aria-label="Search result pages"><button type="button" disabled={searchPage === 0} onClick={() => setSearchPage((page) => page - 1)}>Previous</button><span>Showing {searchPage * 50 + 1}–{Math.min((searchPage + 1) * 50, searchTotal)} of {searchTotal}</span><button type="button" disabled={(searchPage + 1) * 50 >= searchTotal} onClick={() => setSearchPage((page) => page + 1)}>Next</button></nav>}</> : <EmptyState query={query} />}
     </section>}
     <footer className="site-footer"><div className="container">All data provided by <a href="https://www.networkrail.co.uk/industry-and-commercial/information-for-operators/national-electronic-sectional-appendix/" target="_blank" rel="noreferrer">Network Rail's Sectional Appendix</a>.</div></footer>
   </main>;

@@ -4,7 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "predev": "node scripts/generate-manifests.mjs",
     "dev": "vite",
+    "prebuild": "node scripts/generate-manifests.mjs",
     "build": "vite build",
     "preview": "vite preview"
   },
