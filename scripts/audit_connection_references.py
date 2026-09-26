@@ -11,7 +11,9 @@ from pathlib import Path
 
 
 REFERENCE = re.compile(r"\b([A-Z]{2,4}\s*\d{3,4})\s*(?:,?\s*(?:SEQ(?:UENCE)?\.?\s*)?)(\d{1,3})\b", re.I)
-FIELD = re.compile(r"\b(?:lOR|sequence)\s*:\s*[\"']([^\"']+)[\"']", re.I)
+FIELD = re.compile(r"\b[\"']?(?:lOR|sequence)[\"']?\s*:\s*[\"']([^\"']+)[\"']", re.I)
+PDF_PAGE = re.compile(r"\b[\"']?pdfPage[\"']?\s*:\s*(\d+)", re.I)
+CONNECTIONS = re.compile(r"\b[\"']?connections[\"']?\s*:\s*\[(.*?)\]", re.I | re.S)
 
 
 def fields(record: Path) -> tuple[str, str]:
@@ -36,6 +38,16 @@ def references(text: str, own_lor: str, own_sequence: str) -> list[dict[str, str
             "ocrContext": " ".join(text[start:end].split()),
         }
     return list(found.values())
+
+
+def existing_references(source: str, own_lor: str, own_sequence: str) -> list[dict[str, str]]:
+    """Extract references from the structured connections field only.
+
+    The record transcription repeats connection prose, so searching the entire
+    module would falsely classify an unstructured reference as captured data.
+    """
+    match = CONNECTIONS.search(source)
+    return references(match.group(1), own_lor, own_sequence) if match else []
 
 
 def main() -> None:
@@ -64,18 +76,27 @@ def main() -> None:
             text=True,
         ).stdout
         candidates = references(ocr, lor, sequence)
-        if candidates:
-            findings.append({
-                "record": str(record.relative_to(root)),
-                "pdfPage": int(re.search(r"pdfPage\s*:\s*(\d+)", source).group(1)),
-                "lOR": lor,
-                "sequence": sequence,
-                "candidates": candidates,
-            })
+        existing = existing_references(source, lor, sequence)
+        existing_keys = {(item["lOR"], item["sequence"]) for item in existing}
+        missing = [item for item in candidates if (item["lOR"], item["sequence"]) not in existing_keys]
+        findings.append({
+            "record": str(record.relative_to(root)),
+            "pdfPage": int(PDF_PAGE.search(source).group(1)),
+            "lOR": lor,
+            "sequence": sequence,
+            "existing": existing,
+            "candidates": candidates,
+            "missing": missing,
+        })
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(findings, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"recordsWithCandidates": len(findings), "output": str(args.output)}))
+    print(json.dumps({
+        "recordsAudited": len(findings),
+        "recordsWithCandidates": sum(bool(item["candidates"]) for item in findings),
+        "recordsWithMissingCandidates": sum(bool(item["missing"]) for item in findings),
+        "output": str(args.output),
+    }))
 
 
 if __name__ == "__main__":
