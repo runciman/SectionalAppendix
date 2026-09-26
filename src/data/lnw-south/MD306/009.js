@@ -12,7 +12,9 @@ const page266 = {
   location: "Barnt Green",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Barnt Green"],
-  connections: [],
+  connections: [
+    "Connection — MD310, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD306 sequence 009, Birmingham New Street to Ashchurch (Excl.) (via Dunhampstead), physical PDF page 266. Barnt Green. Mileages, signalling and speed restrictions are shown in the source table."

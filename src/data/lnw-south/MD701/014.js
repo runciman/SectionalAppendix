@@ -12,7 +12,7 @@ const page428 = {
   location: "Aynho Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Aynho Jn"],
-  connections: [],
+  connections: ["MD401 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD701 sequence 014, Marylebone to Aynho Jn, physical PDF page 428. Aynho Jn. Mileages, signalling and speed restrictions are shown in the source table."

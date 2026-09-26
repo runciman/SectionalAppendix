@@ -12,7 +12,9 @@ const page324 = {
   location: "Cummings Street Viaduct / Leamington Spa",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Cummings Street Viaduct / Leamington Spa"],
-  connections: [],
+  connections: [
+    "Connection — MD405, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD401 sequence 009, Heyford to Bordesley Jn, physical PDF page 324. Cummings Street Viaduct / Leamington Spa. Mileages, signalling and speed restrictions are shown in the source table."

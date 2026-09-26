@@ -12,7 +12,7 @@ const page162 = {
   location: "Hanslope South/North Jn / Roade HABD / Courteenhall Jn / Northampton Gateway Freight Terminal",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hanslope South/North Jn / Roade HABD / Courteenhall Jn / Northampton Gateway Freight Terminal"],
-  connections: [],
+  connections: ["MD101 sequence 026"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD105 sequence 001, Hanslope South Jn to Rugby (via Northampton), physical PDF page 162. Hanslope South/North Jn / Roade HABD / Courteenhall Jn / Northampton Gateway Freight Terminal. Mileages, signalling and speed restrictions are shown in the source table."

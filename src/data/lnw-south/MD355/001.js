@@ -12,7 +12,11 @@ const page311 = {
   location: "Lichfield Trent Valley",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Lichfield Trent Valley"],
-  connections: [],
+  connections: [
+    "Connection — MD340, sequence 006",
+    "Connection — MD101, sequence 038",
+    "Connection — MD101, sequence 039",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD355 sequence 001, Lichfield TV Jn to Lichfield Trent Valley (Chord Line), physical PDF page 311. Lichfield Trent Valley. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,11 @@ const page217 = {
   location: "Sudbury Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Sudbury Junction"],
-  connections: [],
+  connections: [
+    "Connection — MD101, sequence 006",
+    "Connection — MD137, sequence 004",
+    "Connection — MD120, sequence 005",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD166 sequence 008, North Pole Junction to Wembley, physical PDF page 217. Sudbury Junction. Mileages, signalling and speed restrictions are shown in the source table."

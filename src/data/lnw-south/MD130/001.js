@@ -12,7 +12,7 @@ const page178 = {
   location: "Watford South Jn / Watford Junction P11",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Watford South Jn / Watford Junction P11"],
-  connections: [],
+  connections: ["MD101 sequence 009", "MD120 sequence 009", "MD101 sequence 010"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD130 sequence 001, Watford Junction to St Albans Abbey, physical PDF page 178. Watford South Jn / Watford Junction P11. Mileages, signalling and speed restrictions are shown in the source table."

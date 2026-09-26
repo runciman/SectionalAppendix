@@ -12,7 +12,9 @@ const page246 = {
   location: "Wolverhampton",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Wolverhampton"],
-  connections: [],
+  connections: [
+    "Connection — MD365, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD301 sequence 017, Rugby to Penkridge (Exclusive) (via Birmingham), physical PDF page 246. Wolverhampton. Mileages, signalling and speed restrictions are shown in the source table."

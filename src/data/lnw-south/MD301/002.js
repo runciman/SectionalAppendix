@@ -12,7 +12,10 @@ const page231 = {
   location: "Coventry area",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Coventry area"],
-  connections: [],
+  connections: [
+    "Connection — MD405, sequence 005",
+    "Connection — MD410, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD301 sequence 002, Rugby to Penkridge (Exclusive) (via Birmingham), physical PDF page 231. Coventry area. Mileages, signalling and speed restrictions are shown in the source table."

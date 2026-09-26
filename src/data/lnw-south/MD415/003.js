@@ -12,7 +12,9 @@ const page348 = {
   location: "Bearley / Wilmcote",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bearley / Wilmcote"],
-  connections: [],
+  connections: [
+    "Connection — MD425, sequence 004",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD415 sequence 003, Hatton Station to Stratford-upon-Avon, physical PDF page 348. Bearley / Wilmcote. Mileages, signalling and speed restrictions are shown in the source table."

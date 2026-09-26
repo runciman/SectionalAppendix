@@ -12,7 +12,7 @@ const page404 = {
   location: "Castle Bromwich Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Castle Bromwich Jn"],
-  connections: [],
+  connections: ["MD501 sequence 004"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD565 sequence 001, Castle Bromwich Jn to Ryecroft Jn, physical PDF page 404. Castle Bromwich Jn. Mileages, signalling and speed restrictions are shown in the source table."

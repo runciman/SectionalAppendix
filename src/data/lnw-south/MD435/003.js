@@ -12,7 +12,7 @@ const page365 = {
   location: "Birmingham Moor Street / Snow Hill Tunnel",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Birmingham Moor Street / Snow Hill Tunnel"],
-  connections: [],
+  connections: ["MD301 sequence 009"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD435 sequence 003, Small Heath South Jn to Stourbridge North Jn, physical PDF page 365. Birmingham Moor Street / Snow Hill Tunnel. Mileages, signalling and speed restrictions are shown in the source table."

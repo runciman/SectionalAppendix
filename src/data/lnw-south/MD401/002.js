@@ -12,7 +12,9 @@ const page317 = {
   location: "Fritwell / Aynho Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Fritwell / Aynho Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD701, sequence 014",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD401 sequence 002, Heyford to Bordesley Jn, physical PDF page 317. Fritwell / Aynho Jn. Mileages, signalling and speed restrictions are shown in the source table."

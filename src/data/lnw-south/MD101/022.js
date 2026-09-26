@@ -12,7 +12,7 @@ const page143 = {
   location: "Bletchley Carriage/Freight Sidings & Bletchley Flyover North Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bletchley Carriage/Freight Sidings & Bletchley Flyover North Jn"],
-  connections: [],
+  connections: ["MD736 sequence 012"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD101 sequence 022, Euston to Armitage Junction (Exclusive), physical PDF page 143. Bletchley Carriage/Freight Sidings & Bletchley Flyover North Jn. Mileages, signalling and speed restrictions are shown in the source table."

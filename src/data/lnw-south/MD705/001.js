@@ -12,7 +12,7 @@ const page429 = {
   location: "Greenford West Jn / South Ruislip",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Greenford West Jn / South Ruislip"],
-  connections: [],
+  connections: ["GW110 sequence 003", "MD701 sequence 004"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD705 sequence 001, Greenford West Jn to South Ruislip, physical PDF page 429. Greenford West Jn / South Ruislip. Mileages, signalling and speed restrictions are shown in the source table."

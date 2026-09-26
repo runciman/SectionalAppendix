@@ -12,7 +12,7 @@ const page369 = {
   location: "The Hawthorns / Smethwick Galton Bridge",
   mileage: "Mileage is shown on the source diagram",
   locations: ["The Hawthorns / Smethwick Galton Bridge"],
-  connections: [],
+  connections: ["MD301 sequence 013", "MD440 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD435 sequence 007, Small Heath South Jn to Stourbridge North Jn, physical PDF page 369. The Hawthorns / Smethwick Galton Bridge. Mileages, signalling and speed restrictions are shown in the source table."

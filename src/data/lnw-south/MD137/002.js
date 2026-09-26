@@ -12,7 +12,7 @@ const page189 = {
   location: "Stonebridge Park Royal Mail Terminal",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Stonebridge Park Royal Mail Terminal"],
-  connections: [],
+  connections: ["MD101 sequence 005", "MD136 sequence 001", "MD166 sequence 007"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD137 sequence 002, Harlesden Jn to Wembley Central (Wembley Yard lines), physical PDF page 189. Stonebridge Park Royal Mail Terminal. Mileages, signalling and speed restrictions are shown in the source table."

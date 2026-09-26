@@ -11,7 +11,7 @@ const page361 = {
   location: "Hagley",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hagley"],
-  connections: [],
+  connections: ["MD445 sequence 001", "MD450 sequence 001", "MD435 sequence 011"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD430 sequence 006, Droitwich Spa to Stourbridge North Jn, physical PDF page 361. Hagley. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page470 = {
   location: "Abbey Foregate Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Abbey Foregate Jn"],
-  connections: [],
+  connections: ["GW732 sequence 001", "GW731 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD801 sequence 008, Wolverhampton North Jn to Abbey Foregate (Exclusive), physical PDF page 470. Abbey Foregate Jn. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,9 @@ const page316 = {
   location: "Tackley / Heyford",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Tackley / Heyford"],
-  connections: [],
+  connections: [
+    "Connection — GW200, sequence 011",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD401 sequence 001, Heyford to Bordesley Jn, physical PDF page 316. Tackley / Heyford. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,10 @@ const page312 = {
   location: "Walsall Pleck Jn / Darlaston Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Walsall Pleck Jn / Darlaston Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD345, sequence 002",
+    "Connection — MD320, sequence 010",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD360 sequence 001, Walsall, Pleck Jn to Darlaston Jn, physical PDF page 312. Walsall Pleck Jn / Darlaston Jn. Mileages, signalling and speed restrictions are shown in the source table."

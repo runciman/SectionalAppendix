@@ -12,7 +12,9 @@ const page269 = {
   location: "Stoke Works Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Stoke Works Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD900, sequence 005",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD306 sequence 012, Birmingham New Street to Ashchurch (Excl.) (via Dunhampstead), physical PDF page 269. Stoke Works Jn. Mileages, signalling and speed restrictions are shown in the source table."

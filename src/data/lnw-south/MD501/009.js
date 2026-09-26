@@ -12,7 +12,7 @@ const page392 = {
   location: "Lawley Street Freightliner Terminal",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Lawley Street Freightliner Terminal"],
-  connections: [],
+  connections: ["MD570 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD501 sequence 009, Tamworth (Inclusive) to Birmingham, Proof House Junction, physical PDF page 392. Lawley Street Freightliner Terminal. Mileages, signalling and speed restrictions are shown in the source table."

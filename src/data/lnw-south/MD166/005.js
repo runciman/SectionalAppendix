@@ -12,7 +12,12 @@ const page214 = {
   location: "Willesden Euroterminal / Willesden Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Willesden Euroterminal / Willesden Junction"],
-  connections: [],
+  connections: [
+    "Connection — MD101, sequence 005",
+    "Connection — MD170, sequence 001",
+    "Connection — EA1360, sequence 002",
+    "Connection — EA1360, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD166 sequence 005, North Pole Junction to Wembley, physical PDF page 214. Willesden Euroterminal / Willesden Junction. Mileages, signalling and speed restrictions are shown in the source table."

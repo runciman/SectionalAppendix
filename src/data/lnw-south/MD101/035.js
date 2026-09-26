@@ -12,7 +12,7 @@ const page156 = {
   location: "Nuneaton North Jn / Ashby Jn / Canal Farm Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Nuneaton North Jn / Ashby Jn / Canal Farm Jn"],
-  connections: [],
+  connections: ["MD232 sequence 002", "MD555 sequence 001", "MD233 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD101 sequence 035, Euston to Armitage Junction (Exclusive), physical PDF page 156. Nuneaton North Jn / Ashby Jn / Canal Farm Jn. Mileages, signalling and speed restrictions are shown in the source table."

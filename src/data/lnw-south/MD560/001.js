@@ -12,7 +12,7 @@ const page403 = {
   location: "Water Orton West Jn / Park Lane Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Water Orton West Jn / Park Lane Jn"],
-  connections: [],
+  connections: ["MD501 sequence 004", "MD565 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD560 sequence 001, Water Orton West Jn to Park Lane Jn, physical PDF page 403. Water Orton West Jn / Park Lane Jn. Mileages, signalling and speed restrictions are shown in the source table."

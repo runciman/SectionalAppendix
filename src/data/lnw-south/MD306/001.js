@@ -12,7 +12,9 @@ const page258 = {
   location: "Birmingham New Street",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Birmingham New Street"],
-  connections: [],
+  connections: [
+    "Connection — MD301, sequence 010",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD306 sequence 001, Birmingham New Street to Ashchurch (Excl.) (via Dunhampstead), physical PDF page 258. Birmingham New Street. Mileages, signalling and speed restrictions are shown in the source table."

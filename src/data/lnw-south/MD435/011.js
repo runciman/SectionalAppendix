@@ -12,7 +12,7 @@ const page373 = {
   location: "Stourbridge North Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Stourbridge North Jn"],
-  connections: [],
+  connections: ["MD450 sequence 001", "MD430 sequence 006"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD435 sequence 011, Small Heath South Jn to Stourbridge North Jn, physical PDF page 373. Stourbridge North Jn. Mileages, signalling and speed restrictions are shown in the source table."

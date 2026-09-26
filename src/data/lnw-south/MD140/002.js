@@ -12,7 +12,7 @@ const page194 = {
   location: "Bletchley Vale Sidings / Fenny Stratford",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bletchley Vale Sidings / Fenny Stratford"],
-  connections: [],
+  connections: ["MD741 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD140 sequence 002, Bletchley to Bedford St. Johns (Inclusive), physical PDF page 194. Bletchley Vale Sidings / Fenny Stratford. Mileages, signalling and speed restrictions are shown in the source table."

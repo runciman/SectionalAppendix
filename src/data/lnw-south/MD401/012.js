@@ -12,7 +12,10 @@ const page327 = {
   location: "Warwick",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Warwick"],
-  connections: [],
+  connections: [
+    "Connection — MD415, sequence 001",
+    "Connection — MD420, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD401 sequence 012, Heyford to Bordesley Jn, physical PDF page 327. Warwick. Mileages, signalling and speed restrictions are shown in the source table."

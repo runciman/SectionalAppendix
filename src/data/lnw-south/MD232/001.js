@@ -12,7 +12,11 @@ const page227 = {
   location: "Padge Hall Farm LC / boundary",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Padge Hall Farm LC / boundary"],
-  connections: [],
+  connections: [
+    "Connection — LN3232, sequence 002",
+    "Connection — MD101, sequence 034",
+    "Connection — MD410, sequence 005",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD232 sequence 001, Hinckley (Exclusive) to Abbey Jn, physical PDF page 227. Padge Hall Farm LC / boundary. Mileages, signalling and speed restrictions are shown in the source table."

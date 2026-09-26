@@ -11,7 +11,7 @@ const page124 = {
   location: "Camden Junction South / Camden Junction / Primrose Hill Tunnels",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Camden Junction South / Camden Junction / Primrose Hill Tunnels"],
-  connections: [],
+  connections: ["MD145 sequence 001", "MD120 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD101 sequence 003, Euston to Armitage Junction (Exclusive), physical PDF page 124. Camden Junction South / Camden Junction / Primrose Hill Tunnels. Mileages, signalling and speed restrictions are shown in the source table."

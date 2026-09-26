@@ -12,7 +12,10 @@ const page288 = {
   location: "Bescot sorting sidings",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bescot sorting sidings"],
-  connections: [],
+  connections: [
+    "Connection — MD345, sequence 001",
+    "Connection — MD0001, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD320 sequence 009, Proof House Jn to Bushbury Jn (via Bescot), physical PDF page 288. Bescot sorting sidings. Mileages, signalling and speed restrictions are shown in the source table."

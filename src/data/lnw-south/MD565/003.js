@@ -12,7 +12,7 @@ const page406 = {
   location: "Ryecroft Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Ryecroft Jn"],
-  connections: [],
+  connections: ["MD345 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD565 sequence 003, Castle Bromwich Jn to Ryecroft Jn, physical PDF page 406. Ryecroft Jn. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,9 @@ const page235 = {
   location: "Marston Green",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Marston Green"],
-  connections: [],
+  connections: [
+    "Connection — MD315, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD301 sequence 006, Rugby to Penkridge (Exclusive) (via Birmingham), physical PDF page 235. Marston Green. Mileages, signalling and speed restrictions are shown in the source table."

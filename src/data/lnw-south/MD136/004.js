@@ -12,7 +12,7 @@ const page186 = {
   location: "Willesden Carriage Sheds North",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Willesden Carriage Sheds North"],
-  connections: [],
+  connections: ["MD120 sequence 004", "MD137 sequence 004"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD136 sequence 004, Harlesden Jn to Wembley Central (Willesden Carriage Shed lines), physical PDF page 186. Willesden Carriage Sheds North. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,9 @@ const page286 = {
   location: "Tame Valley",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Tame Valley"],
-  connections: [],
+  connections: [
+    "Connection — MD0001, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD320 sequence 007, Proof House Jn to Bushbury Jn (via Bescot), physical PDF page 286. Tame Valley. Mileages, signalling and speed restrictions are shown in the source table."

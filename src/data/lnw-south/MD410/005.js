@@ -12,7 +12,9 @@ const page345 = {
   location: "Bermuda Park / Nuneaton South Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bermuda Park / Nuneaton South Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD101, sequence 034",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD410 sequence 005, Coventry North Jn. to Nuneaton South Jn., physical PDF page 345. Bermuda Park / Nuneaton South Jn. Mileages, signalling and speed restrictions are shown in the source table."

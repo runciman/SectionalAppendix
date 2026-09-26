@@ -12,7 +12,7 @@ const page384 = {
   location: "Tamworth",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Tamworth"],
-  connections: [],
+  connections: ["LN3501 sequence 007", "MD101 sequence 037"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD501 sequence 001, Tamworth (Inclusive) to Birmingham, Proof House Junction, physical PDF page 384. Tamworth. Mileages, signalling and speed restrictions are shown in the source table."

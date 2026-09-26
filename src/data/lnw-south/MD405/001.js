@@ -12,7 +12,9 @@ const page335 = {
   location: "Leamington Spa",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Leamington Spa"],
-  connections: [],
+  connections: [
+    "Connection — MD401, sequence 009",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD405 sequence 001, Leamington Spa North Jn to Coventry South Jn, physical PDF page 335. Leamington Spa. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page128 = {
   location: "Willesden relief lines / Carriage Sheds",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Willesden relief lines / Carriage Sheds"],
-  connections: [],
+  connections: ["MD166 sequence 009", "MD136 sequence 005", "MD137 sequence 005", "MD120 sequence 005"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD101 sequence 007, Euston to Armitage Junction (Exclusive), physical PDF page 128. Willesden relief lines / Carriage Sheds. Mileages, signalling and speed restrictions are shown in the source table."

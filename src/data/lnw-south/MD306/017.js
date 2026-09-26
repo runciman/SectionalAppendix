@@ -12,7 +12,9 @@ const page274 = {
   location: "Eckington WILD / route boundary toward Ashchurch",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Eckington WILD / route boundary toward Ashchurch"],
-  connections: [],
+  connections: [
+    "Connection — GW401, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD306 sequence 017, Birmingham New Street to Ashchurch (Excl.) (via Dunhampstead), physical PDF page 274. Eckington WILD / route boundary toward Ashchurch. Mileages, signalling and speed restrictions are shown in the source table."

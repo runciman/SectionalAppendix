@@ -12,7 +12,7 @@ const page395 = {
   location: "Kingsbury Jn / Whitacre West Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Kingsbury Jn / Whitacre West Jn"],
-  connections: [],
+  connections: ["MD501 sequence 003", "MD555 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD545 sequence 001, Kingsbury Junction to Whitacre West Junction, physical PDF page 395. Kingsbury Jn / Whitacre West Jn. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page363 = {
   location: "Small Heath South Jn / Caledonia Yard",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Small Heath South Jn / Caledonia Yard"],
-  connections: [],
+  connections: ["MD401 sequence 018"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD435 sequence 001, Small Heath South Jn to Stourbridge North Jn, physical PDF page 363. Small Heath South Jn / Caledonia Yard. Mileages, signalling and speed restrictions are shown in the source table."

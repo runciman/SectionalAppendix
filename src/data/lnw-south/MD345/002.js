@@ -12,7 +12,10 @@ const page304 = {
   location: "Bescot Curve Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bescot Curve Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD370, sequence 001",
+    "Connection — MD360, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD345 sequence 002, Bescot Jn to Rugeley North Jn (Excl.), physical PDF page 304. Bescot Curve Jn. Mileages, signalling and speed restrictions are shown in the source table."

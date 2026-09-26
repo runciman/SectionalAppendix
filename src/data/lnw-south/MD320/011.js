@@ -12,7 +12,10 @@ const page290 = {
   location: "Willenhall / Portobello Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Willenhall / Portobello Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD365, sequence 001",
+    "Connection — MD0001, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD320 sequence 011, Proof House Jn to Bushbury Jn (via Bescot), physical PDF page 290. Willenhall / Portobello Jn. Mileages, signalling and speed restrictions are shown in the source table."

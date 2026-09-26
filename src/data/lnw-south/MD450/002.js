@@ -11,7 +11,7 @@ const page378 = {
   location: "Round Oak",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Round Oak"],
-  connections: [],
+  connections: ["MD455 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD450 sequence 002, Stourbridge North Junction to Round Oak, physical PDF page 378. Round Oak. Mileages, signalling and speed restrictions are shown in the source table."

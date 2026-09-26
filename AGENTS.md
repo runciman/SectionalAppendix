@@ -150,8 +150,29 @@ missing boundaries, not semantic transcription mistakes.
 4. Import the matching route-aligned PNG from the data module. Use descriptive
    image alt text that states it is an original source-PDF table extract.
 5. Preserve capitalization and official codes where legible. Use structured
-   arrays (`locations`, `connections`, `signalling`, `speeds`) when information
-   is present, so search covers it naturally.
+arrays (`locations`, `connections`, `signalling`, `speeds`) when information
+is present, so search covers it naturally.
+
+## Connection capture and backfill gate
+
+Every visible inter-page reference is required structured data. Capture both
+directions and continuations, including labels such as `To/from`, `To`, `From`,
+`Continued on`, `Continued from`, and branch connections. Store each reference
+in `connections` using its exact LOR and zero-padded sequence where legible;
+for example, `To/from Rugby — MD101, sequence 026`.
+
+Before committing a batch, run a connection-reference audit over the source
+crops/OCR. It must identify LOR-and-sequence patterns and flag any record whose
+source contains a candidate reference missing from `connections`. OCR is a
+triage aid only: visually confirm every flagged reference against the source
+crop before adding it. A deliberately empty `connections` array is permitted
+only after this audit reports no visible inter-page reference.
+
+When repairing an earlier region, inventory all records with empty
+`connections` arrays first, then backfill them in bounded physical-page
+batches. Treat the repair as incomplete until every record is either updated
+with all verified references or explicitly recorded as having no visible
+inter-page connection.
 
 ## Required verification
 

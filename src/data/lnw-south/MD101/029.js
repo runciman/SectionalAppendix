@@ -12,7 +12,7 @@ const page150 = {
   location: "Hillmorton Junction / Rugby South Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hillmorton Junction / Rugby South Junction"],
-  connections: [],
+  connections: ["MD105 sequence 007"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD101 sequence 029, Euston to Armitage Junction (Exclusive), physical PDF page 150. Hillmorton Junction / Rugby South Junction. Mileages, signalling and speed restrictions are shown in the source table."

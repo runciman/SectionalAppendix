@@ -12,7 +12,10 @@ const page313 = {
   location: "Portobello Jn / Wolverhampton Crane Street Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Portobello Jn / Wolverhampton Crane Street Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD320, sequence 011",
+    "Connection — MD301, sequence 017",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD365 sequence 001, Portobello Jn to Wolverhampton Crane Street Jn, physical PDF page 313. Portobello Jn / Wolverhampton Crane Street Jn. Mileages, signalling and speed restrictions are shown in the source table."

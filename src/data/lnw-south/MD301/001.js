@@ -12,7 +12,10 @@ const page230 = {
   location: "Rugby Trent Valley Jn / Coventry",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Rugby Trent Valley Jn / Coventry"],
-  connections: [],
+  connections: [
+    "Connection — MD101, sequence 030",
+    "Connection — MD180, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD301 sequence 001, Rugby to Penkridge (Exclusive) (via Birmingham), physical PDF page 230. Rugby Trent Valley Jn / Coventry. Mileages, signalling and speed restrictions are shown in the source table."

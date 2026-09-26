@@ -11,7 +11,7 @@ const page177 = {
   location: "Watford Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Watford Junction"],
-  connections: [],
+  connections: ["MD101 sequence 009"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD120 sequence 009, Camden Junction to Watford Junction (DC Lines), physical PDF page 177. Watford Junction. Mileages, signalling and speed restrictions are shown in the source table."

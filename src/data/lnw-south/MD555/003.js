@@ -12,7 +12,7 @@ const page398 = {
   location: "Whitacre Jns / Hams Hall Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Whitacre Jns / Hams Hall Jn"],
-  connections: [],
+  connections: ["MD545 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD555 sequence 003, Nuneaton North Jn to Water Orton East Jn, physical PDF page 398. Whitacre Jns / Hams Hall Jn. Mileages, signalling and speed restrictions are shown in the source table."

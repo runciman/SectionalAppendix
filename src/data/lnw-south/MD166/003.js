@@ -12,7 +12,11 @@ const page212 = {
   location: "Camden Junction / Willesden",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Camden Junction / Willesden"],
-  connections: [],
+  connections: [
+    "Connection — MD101, sequence 004",
+    "Connection — EA1310, sequence 004",
+    "Connection — MD167, sequence 002",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD166 sequence 003, North Pole Junction to Wembley, physical PDF page 212. Camden Junction / Willesden. Mileages, signalling and speed restrictions are shown in the source table."

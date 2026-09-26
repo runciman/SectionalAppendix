@@ -12,7 +12,10 @@ const page242 = {
   location: "Smethwick Rolfe Street / Smethwick Galton Bridge",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Smethwick Rolfe Street / Smethwick Galton Bridge"],
-  connections: [],
+  connections: [
+    "Connection — MD440, sequence 001",
+    "Connection — MD435, sequence 007",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD301 sequence 013, Rugby to Penkridge (Exclusive) (via Birmingham), physical PDF page 242. Smethwick Rolfe Street / Smethwick Galton Bridge. Mileages, signalling and speed restrictions are shown in the source table."

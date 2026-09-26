@@ -12,7 +12,7 @@ const page169 = {
   location: "South Hampstead / Kilburn High Road",
   mileage: "Mileage is shown on the source diagram",
   locations: ["South Hampstead / Kilburn High Road"],
-  connections: [],
+  connections: ["MD101 sequence 003", "MD145 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD120 sequence 001, Camden Junction to Watford Junction (DC Lines), physical PDF page 169. South Hampstead / Kilburn High Road. Mileages, signalling and speed restrictions are shown in the source table."

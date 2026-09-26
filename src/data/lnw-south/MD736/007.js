@@ -12,7 +12,7 @@ const page454 = {
   location: "Bicester",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bicester"],
-  connections: [],
+  connections: ["MD726 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD736 sequence 007, Oxford North Jn (Excl.) to Denbigh Hall South Jn., physical PDF page 454. Bicester. Mileages, signalling and speed restrictions are shown in the source table."

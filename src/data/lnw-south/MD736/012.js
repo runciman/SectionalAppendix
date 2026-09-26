@@ -12,7 +12,7 @@ const page459 = {
   location: "Bletchley",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bletchley"],
-  connections: [],
+  connections: ["MD101 sequence 022"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD736 sequence 012, Oxford North Jn (Excl.) to Denbigh Hall South Jn., physical PDF page 459. Bletchley. Mileages, signalling and speed restrictions are shown in the source table."

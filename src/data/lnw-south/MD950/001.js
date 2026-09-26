@@ -12,7 +12,7 @@ const page487 = {
   location: "Worcester Tunnel Jn / Henwick",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Worcester Tunnel Jn / Henwick"],
-  connections: [],
+  connections: ["MD900 sequence 003", "MD940 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD950 sequence 001, Worcester Tunnel Jn to Henwick, physical PDF page 487. Worcester Tunnel Jn / Henwick. Mileages, signalling and speed restrictions are shown in the source table."

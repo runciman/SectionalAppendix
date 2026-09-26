@@ -11,7 +11,7 @@ const page191 = {
   location: "Wembley Yard PSB / Reception & Departure lines",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Wembley Yard PSB / Reception & Departure lines"],
-  connections: [],
+  connections: ["MD166 sequence 008", "MD136 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD137 sequence 004, Harlesden Jn to Wembley Central (Wembley Yard lines), physical PDF page 191. Wembley Yard PSB / Reception & Departure lines. Mileages, signalling and speed restrictions are shown in the source table."

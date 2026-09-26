@@ -11,7 +11,7 @@ const page356 = {
   location: "Droitwich Spa",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Droitwich Spa"],
-  connections: [],
+  connections: ["MD900 sequence 004"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD430 sequence 001, Droitwich Spa to Stourbridge North Jn, physical PDF page 356. Droitwich Spa. Mileages, signalling and speed restrictions are shown in the source table."

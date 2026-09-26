@@ -12,7 +12,7 @@ const page436 = {
   location: "Princes Risborough",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Princes Risborough"],
-  connections: [],
+  connections: ["MD701 sequence 010", "MD701 sequence 009"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD720 sequence 001, Princes Risborough to Aylesbury, physical PDF page 436. Princes Risborough. Mileages, signalling and speed restrictions are shown in the source table."

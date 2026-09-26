@@ -12,7 +12,7 @@ const page445 = {
   location: "Claydon West Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Claydon West Jn"],
-  connections: [],
+  connections: ["MD736 sequence 006"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD726 sequence 003, Aylesbury to Claydon West Jn, physical PDF page 445. Claydon West Jn. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,9 @@ const page305 = {
   location: "Walsall South Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Walsall South Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD565, sequence 003",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD345 sequence 003, Bescot Jn to Rugeley North Jn (Excl.), physical PDF page 305. Walsall South Jn. Mileages, signalling and speed restrictions are shown in the source table."

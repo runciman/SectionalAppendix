@@ -12,7 +12,7 @@ const page387 = {
   location: "Kingsbury Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Kingsbury Jn"],
-  connections: [],
+  connections: ["MD555 sequence 006", "MD560 sequence 001", "MD565 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD501 sequence 004, Tamworth (Inclusive) to Birmingham, Proof House Junction, physical PDF page 387. Kingsbury Jn. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,9 @@ const page278 = {
   location: "Stechford South Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Stechford South Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD301, sequence 006",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD315 sequence 001, Stechford South Jn to Aston South Jn, physical PDF page 278. Stechford South Jn. Mileages, signalling and speed restrictions are shown in the source table."

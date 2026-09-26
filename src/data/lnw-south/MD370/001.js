@@ -12,7 +12,10 @@ const page314 = {
   location: "Bescot Curve Jn / Walsall Pleck Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bescot Curve Jn / Walsall Pleck Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD345, sequence 002",
+    "Connection — MD360, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD370 sequence 001, Bescot Curve Jn to Walsall Pleck Jn, physical PDF page 314. Bescot Curve Jn / Walsall Pleck Jn. Mileages, signalling and speed restrictions are shown in the source table."

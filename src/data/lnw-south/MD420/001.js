@@ -12,7 +12,10 @@ const page350 = {
   location: "Hatton North Jn / Hatton West Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hatton North Jn / Hatton West Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD401, sequence 012",
+    "Connection — MD415, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD420 sequence 001, Hatton North Junction to Hatton West Junction, physical PDF page 350. Hatton North Jn / Hatton West Jn. Mileages, signalling and speed restrictions are shown in the source table."

@@ -11,7 +11,7 @@ const page377 = {
   location: "Stourbridge North Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Stourbridge North Junction"],
-  connections: [],
+  connections: ["MD430 sequence 006", "MD435 sequence 011"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD450 sequence 001, Stourbridge North Junction to Round Oak, physical PDF page 377. Stourbridge North Junction. Mileages, signalling and speed restrictions are shown in the source table."

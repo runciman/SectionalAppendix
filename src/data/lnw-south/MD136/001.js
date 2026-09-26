@@ -12,7 +12,7 @@ const page183 = {
   location: "Harlesden Jn / Railnet Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Harlesden Jn / Railnet Jn"],
-  connections: [],
+  connections: ["MD101 sequence 005", "EA1360 sequence 001", "MD120 sequence 004", "MD137 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD136 sequence 001, Harlesden Jn to Wembley Central (Willesden Carriage Shed lines), physical PDF page 183. Harlesden Jn / Railnet Jn. Mileages, signalling and speed restrictions are shown in the source table."

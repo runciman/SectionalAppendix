@@ -12,7 +12,7 @@ const page416 = {
   location: "Neasden South Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Neasden South Jn"],
-  connections: [],
+  connections: ["MD715 sequence 001", "MD710 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD701 sequence 002, Marylebone to Aynho Junction, physical PDF page 416. Neasden South Jn. Mileages, signalling and speed restrictions are shown in the source table."

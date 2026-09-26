@@ -12,7 +12,7 @@ const page168 = {
   location: "Hillmorton Jn / Rugby",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hillmorton Jn / Rugby"],
-  connections: [],
+  connections: ["MD101 sequence 029"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD105 sequence 007, Hanslope South Jn to Rugby (via Northampton), physical PDF page 168. Hillmorton Jn / Rugby. Mileages, signalling and speed restrictions are shown in the source table."

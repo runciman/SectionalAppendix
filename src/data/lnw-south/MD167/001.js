@@ -12,7 +12,10 @@ const page219 = {
   location: "Mitre Bridge",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Mitre Bridge"],
-  connections: [],
+  connections: [
+    "Connection — MD166, sequence 001",
+    "Connection — MD160, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD167 sequence 001, Mitre Bridge Jn to Acton Wells Jn (South West lines), physical PDF page 219. Mitre Bridge. Mileages, signalling and speed restrictions are shown in the source table."

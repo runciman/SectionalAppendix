@@ -12,7 +12,9 @@ const page275 = {
   location: "Barnt Green",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Barnt Green"],
-  connections: [],
+  connections: [
+    "Connection — MD306, sequence 009",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD310 sequence 001, Barnt Green Jn to Redditch, physical PDF page 275. Barnt Green. Mileages, signalling and speed restrictions are shown in the source table."

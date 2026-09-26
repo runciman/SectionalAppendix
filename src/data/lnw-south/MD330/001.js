@@ -12,7 +12,10 @@ const page295 = {
   location: "Soho East Jn / Soho Viaduct / Soho North Jn / Soho Curve North Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Soho East Jn / Soho Viaduct / Soho North Jn / Soho Curve North Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD325, sequence 001",
+    "Connection — MD301, sequence 012",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD330 sequence 001, Soho East Jn to Soho North Jn, physical PDF page 295. Soho East Jn / Soho Viaduct / Soho North Jn / Soho Curve North Jn. Mileages, signalling and speed restrictions are shown in the source table."

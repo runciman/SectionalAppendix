@@ -12,7 +12,7 @@ const page463 = {
   location: "Wolverhampton North Jn / Oxley",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Wolverhampton North Jn / Oxley"],
-  connections: [],
+  connections: ["MD301 sequence 018", "MD805 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD801 sequence 001, Wolverhampton North Jn to Abbey Foregate (Exclusive), physical PDF page 463. Wolverhampton North Jn / Oxley. Mileages, signalling and speed restrictions are shown in the source table."

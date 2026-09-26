@@ -12,7 +12,7 @@ const page164 = {
   location: "Northampton",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Northampton"],
-  connections: [],
+  connections: ["MD175 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD105 sequence 003, Hanslope South Jn to Rugby (via Northampton), physical PDF page 164. Northampton. Mileages, signalling and speed restrictions are shown in the source table."

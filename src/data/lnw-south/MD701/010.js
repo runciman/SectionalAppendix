@@ -12,7 +12,7 @@ const page424 = {
   location: "Princes Risborough",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Princes Risborough"],
-  connections: [],
+  connections: ["MD720 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD701 sequence 010, Marylebone to Aynho Junction, physical PDF page 424. Princes Risborough. Mileages, signalling and speed restrictions are shown in the source table."

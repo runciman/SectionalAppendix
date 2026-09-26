@@ -12,7 +12,10 @@ const page241 = {
   location: "Soho South/North Jn / Soho Light Maintenance Depot",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Soho South/North Jn / Soho Light Maintenance Depot"],
-  connections: [],
+  connections: [
+    "Connection — MD325, sequence 001",
+    "Connection — MD330, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD301 sequence 012, Rugby to Penkridge (Exclusive) (via Birmingham), physical PDF page 241. Soho South/North Jn / Soho Light Maintenance Depot. Mileages, signalling and speed restrictions are shown in the source table."

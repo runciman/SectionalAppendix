@@ -11,7 +11,7 @@ const page480 = {
   location: "Pershore / Norton Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Pershore / Norton Jn"],
-  connections: [],
+  connections: ["GW310 sequence 006", "MD900 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD910 sequence 001, Pershore (Incl.) to Norton Jn, physical PDF page 480. Pershore / Norton Jn. Mileages, signalling and speed restrictions are shown in the source table."

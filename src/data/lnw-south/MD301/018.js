@@ -12,7 +12,10 @@ const page247 = {
   location: "Wolverhampton North Jn / Bushbury Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Wolverhampton North Jn / Bushbury Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD320, sequence 012",
+    "Connection — MD801, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD301 sequence 018, Rugby to Penkridge (Exclusive) (via Birmingham), physical PDF page 247. Wolverhampton North Jn / Bushbury Jn. Mileages, signalling and speed restrictions are shown in the source table."

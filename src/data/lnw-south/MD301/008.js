@@ -12,7 +12,10 @@ const page237 = {
   location: "Duddeston / Proof House",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Duddeston / Proof House"],
-  connections: [],
+  connections: [
+    "Connection — MD501, sequence 010",
+    "Connection — MD320, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD301 sequence 008, Rugby to Penkridge (Exclusive) (via Birmingham), physical PDF page 237. Duddeston / Proof House. Mileages, signalling and speed restrictions are shown in the source table."

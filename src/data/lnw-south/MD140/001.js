@@ -12,7 +12,7 @@ const page193 = {
   location: "Bletchley South Jn / Bletchley East Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bletchley South Jn / Bletchley East Jn"],
-  connections: [],
+  connections: ["MD101 sequence 021", "MD736 sequence 011"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD140 sequence 001, Bletchley to Bedford St. Johns (Inclusive), physical PDF page 193. Bletchley South Jn / Bletchley East Jn. Mileages, signalling and speed restrictions are shown in the source table."

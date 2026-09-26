@@ -12,7 +12,9 @@ const page248 = {
   location: "Four Ashes / Penkridge",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Four Ashes / Penkridge"],
-  connections: [],
+  connections: [
+    "Connection — NW1002, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD301 sequence 019, Rugby to Penkridge (Exclusive) (via Birmingham), physical PDF page 248. Four Ashes / Penkridge. Mileages, signalling and speed restrictions are shown in the source table."

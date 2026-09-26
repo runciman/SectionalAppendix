@@ -12,7 +12,11 @@ const page279 = {
   location: "Grand Junction / Water Orton connection",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Grand Junction / Water Orton connection"],
-  connections: [],
+  connections: [
+    "Connection — MD501, sequence 007",
+    "Connection — MD320, sequence 003",
+    "Connection — MD320, sequence 004",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD315 sequence 002, Stechford South Jn to Aston South Jn, physical PDF page 279. Grand Junction / Water Orton connection. Mileages, signalling and speed restrictions are shown in the source table."

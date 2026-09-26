@@ -12,7 +12,7 @@ const page414 = {
   location: "Lifford East Jn / Lifford West Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Lifford East Jn / Lifford West Jn"],
-  connections: [],
+  connections: ["MD570 sequence 004", "MD306 sequence 004"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD580 sequence 001, Lifford East Junction to Lifford West Junction, physical PDF page 414. Lifford East Jn / Lifford West Jn. Mileages, signalling and speed restrictions are shown in the source table."

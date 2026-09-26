@@ -12,7 +12,11 @@ const page220 = {
   location: "West London Junction / South West Sidings",
   mileage: "Mileage is shown on the source diagram",
   locations: ["West London Junction / South West Sidings"],
-  connections: [],
+  connections: [
+    "Connection — MD101, sequence 004",
+    "Connection — EA1310, sequence 004",
+    "Connection — MD166, sequence 003",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD167 sequence 002, Mitre Bridge Jn to Acton Wells Jn (South West lines), physical PDF page 220. West London Junction / South West Sidings. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,9 @@ const page223 = {
   location: "Bridge Street / Brackmills to Northampton South Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bridge Street / Brackmills", "Northampton South Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD105, sequence 003",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD175 sequence 001, Brackmills to Northampton South Jn, physical PDF page 223. Bridge Street / Brackmills to Northampton South Jn. Mileages, signalling and speed restrictions are shown in the source table."

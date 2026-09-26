@@ -11,7 +11,7 @@ const page396 = {
   location: "Nuneaton North Jn / Abbey Jn / Arley Tunnel",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Nuneaton North Jn / Abbey Jn / Arley Tunnel"],
-  connections: [],
+  connections: ["MD101 sequence 035", "MD232 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD555 sequence 001, Nuneaton North Jn to Water Orton East Jn, physical PDF page 396. Nuneaton North Jn / Abbey Jn / Arley Tunnel. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page130 = {
   location: "Bushey",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bushey"],
-  connections: [],
+  connections: ["MD120 sequence 008", "MD120 sequence 009", "MD130 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD101 sequence 009, Euston to Armitage Junction (Exclusive), physical PDF page 130. Bushey. Mileages, signalling and speed restrictions are shown in the source table."

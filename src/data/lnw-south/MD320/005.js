@@ -12,7 +12,10 @@ const page284 = {
   location: "Perry Barr",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Perry Barr"],
-  connections: [],
+  connections: [
+    "Connection — MD335, sequence 001",
+    "Connection — MD325, sequence 002",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD320 sequence 005, Proof House Jn to Bushbury Jn (via Bescot), physical PDF page 284. Perry Barr. Mileages, signalling and speed restrictions are shown in the source table."

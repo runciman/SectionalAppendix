@@ -12,7 +12,7 @@ const page127 = {
   location: "Willesden relief lines",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Willesden relief lines"],
-  connections: [],
+  connections: ["MD166 sequence 005", "MD166 sequence 006", "MD137 sequence 003", "MD166 sequence 007"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD101 sequence 006, Euston to Armitage Junction (Exclusive), physical PDF page 127. Willesden relief lines. Mileages, signalling and speed restrictions are shown in the source table."

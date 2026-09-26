@@ -12,7 +12,7 @@ const page381 = {
   location: "Fenny Compton",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Fenny Compton"],
-  connections: [],
+  connections: ["MD401 sequence 007", "MD401 sequence 008"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD460 sequence 001, Fenny Compton to Burton Dassett, physical PDF page 381. Fenny Compton. Mileages, signalling and speed restrictions are shown in the source table."

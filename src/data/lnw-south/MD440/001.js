@@ -12,7 +12,7 @@ const page375 = {
   location: "Galton Jn / Galton Tunnel / Smethwick Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Galton Jn / Galton Tunnel / Smethwick Jn"],
-  connections: [],
+  connections: ["MD301 sequence 013", "MD435 sequence 007"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD440 sequence 001, Galton Jn to Smethwick Jn, physical PDF page 375. Galton Jn / Galton Tunnel / Smethwick Jn. Mileages, signalling and speed restrictions are shown in the source table."

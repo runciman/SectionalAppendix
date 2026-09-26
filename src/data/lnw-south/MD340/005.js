@@ -12,7 +12,9 @@ const page301 = {
   location: "Anglesea sidings",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Anglesea sidings"],
-  connections: [],
+  connections: [
+    "Connection — MD350, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD340 sequence 005, Aston North Junction to Alrewas (Exclusive), physical PDF page 301. Anglesea sidings. Mileages, signalling and speed restrictions are shown in the source table."

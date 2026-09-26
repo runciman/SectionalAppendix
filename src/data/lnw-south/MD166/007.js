@@ -12,7 +12,10 @@ const page216 = {
   location: "Wembley Yard South Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Wembley Yard South Junction"],
-  connections: [],
+  connections: [
+    "Connection — MD137, sequence 003",
+    "Connection — MD101, sequence 006",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD166 sequence 007, North Pole Junction to Wembley, physical PDF page 216. Wembley Yard South Junction. Mileages, signalling and speed restrictions are shown in the source table."

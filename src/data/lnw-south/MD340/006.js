@@ -12,7 +12,10 @@ const page302 = {
   location: "Lichfield Trent Valley",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Lichfield Trent Valley"],
-  connections: [],
+  connections: [
+    "Connection — MD355, sequence 001",
+    "Connection — LN3340, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD340 sequence 006, Aston North Junction to Alrewas (Exclusive), physical PDF page 302. Lichfield Trent Valley. Mileages, signalling and speed restrictions are shown in the source table."

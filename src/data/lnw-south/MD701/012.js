@@ -12,7 +12,7 @@ const page426 = {
   location: "Brill Tunnel",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Brill Tunnel"],
-  connections: [],
+  connections: ["MD745 sequence 001", "MD736 sequence 005"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD701 sequence 012, Marylebone to Aynho Jn, physical PDF page 426. Brill Tunnel. Mileages, signalling and speed restrictions are shown in the source table."

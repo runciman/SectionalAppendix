@@ -11,7 +11,10 @@ const page211 = {
   location: "Mitre Bridge",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Mitre Bridge"],
-  connections: [],
+  connections: [
+    "Connection — GW103, sequence 005",
+    "Connection — MD160, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD166 sequence 002, North Pole Junction to Wembley, physical PDF page 211. Mitre Bridge. Mileages, signalling and speed restrictions are shown in the source table."

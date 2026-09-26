@@ -12,7 +12,7 @@ const page481 = {
   location: "Worcester Shrub Hill",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Worcester Shrub Hill"],
-  connections: [],
+  connections: ["MD900 sequence 002", "MD950 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD940 sequence 001, Worcester Shrub Hill to Shelwick Jn, physical PDF page 481. Worcester Shrub Hill. Mileages, signalling and speed restrictions are shown in the source table."

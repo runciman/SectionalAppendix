@@ -12,7 +12,7 @@ const page443 = {
   location: "Aylesbury / Aylesbury Vale Parkway",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Aylesbury / Aylesbury Vale Parkway"],
-  connections: [],
+  connections: ["MD712 sequence 003", "MD720 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD726 sequence 001, Aylesbury to Claydon West Jn, physical PDF page 443. Aylesbury / Aylesbury Vale Parkway. Mileages, signalling and speed restrictions are shown in the source table."

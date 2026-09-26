@@ -12,7 +12,7 @@ const page151 = {
   location: "Rugby / Rugby Trent Valley Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Rugby / Rugby Trent Valley Jn"],
-  connections: [],
+  connections: ["MD101 sequence 029", "MD180 sequence 001", "MD301 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD101 sequence 030, Euston to Armitage Junction (Exclusive), physical PDF page 151. Rugby / Rugby Trent Valley Jn. Mileages, signalling and speed restrictions are shown in the source table."

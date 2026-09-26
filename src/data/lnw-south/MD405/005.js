@@ -12,7 +12,9 @@ const page339 = {
   location: "Coventry / Coventry South Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Coventry / Coventry South Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD301, sequence 002",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD405 sequence 005, Leamington Spa North Jn to Coventry South Jn, physical PDF page 339. Coventry / Coventry South Jn. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page390 = {
   location: "Washwood Heath West Jn / HS2 connection",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Washwood Heath West Jn / HS2 connection"],
-  connections: [],
+  connections: ["MD315 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD501 sequence 007, Tamworth (Inclusive) to Birmingham, Proof House Junction, physical PDF page 390. Washwood Heath West Jn / HS2 connection. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page376 = {
   location: "Stourbridge Jn / Stourbridge Town",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Stourbridge Jn / Stourbridge Town"],
-  connections: [],
+  connections: ["MD430 sequence 006"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD445 sequence 001, Stourbridge Jn to Stourbridge Town, physical PDF page 376. Stourbridge Jn / Stourbridge Town. Mileages, signalling and speed restrictions are shown in the source table."

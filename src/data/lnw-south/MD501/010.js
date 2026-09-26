@@ -12,7 +12,7 @@ const page393 = {
   location: "Grand Jn / Proof House Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Grand Jn / Proof House Jn"],
-  connections: [],
+  connections: ["MD575 sequence 001", "MD301 sequence 007", "MD320 sequence 001", "MD301 sequence 008"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD501 sequence 010, Tamworth (Inclusive) to Birmingham, Proof House Junction, physical PDF page 393. Grand Jn / Proof House Jn. Mileages, signalling and speed restrictions are shown in the source table."

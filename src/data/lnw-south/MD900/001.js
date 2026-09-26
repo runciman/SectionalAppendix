@@ -12,7 +12,7 @@ const page474 = {
   location: "Abbotswood Jn / Norton Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Abbotswood Jn / Norton Jn"],
-  connections: [],
+  connections: ["MD306 sequence 014", "MD306 sequence 015", "MD910 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD900 sequence 001, Abbotswood Jn to Stoke Works Jn Via Worcester Shrub Hill, physical PDF page 474. Abbotswood Jn / Norton Jn. Mileages, signalling and speed restrictions are shown in the source table."

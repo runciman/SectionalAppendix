@@ -11,7 +11,7 @@ const page171 = {
   location: "Willesden Junction Low Level",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Willesden Junction Low Level"],
-  connections: [],
+  connections: ["MD150 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD120 sequence 003, Camden Junction to Watford Junction (DC Lines), physical PDF page 171. Willesden Junction Low Level. Mileages, signalling and speed restrictions are shown in the source table."

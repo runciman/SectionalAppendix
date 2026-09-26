@@ -11,7 +11,10 @@ const page221 = {
   location: "Acton Wells Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Acton Wells Junction"],
-  connections: [],
+  connections: [
+    "Connection — EA1310, sequence 005",
+    "Connection — EA1360, sequence 002",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD167 sequence 003, Mitre Bridge Jn to Acton Wells Jn (South West lines), physical PDF page 221. Acton Wells Junction. Mileages, signalling and speed restrictions are shown in the source table."

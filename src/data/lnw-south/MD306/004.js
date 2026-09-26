@@ -12,7 +12,9 @@ const page261 = {
   location: "Bournville",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bournville"],
-  connections: [],
+  connections: [
+    "Connection — MD580, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD306 sequence 004, Birmingham New Street to Ashchurch (Excl.) (via Dunhampstead), physical PDF page 261. Bournville. Mileages, signalling and speed restrictions are shown in the source table."

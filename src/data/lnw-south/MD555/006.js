@@ -12,7 +12,7 @@ const page401 = {
   location: "Water Orton East Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Water Orton East Jn"],
-  connections: [],
+  connections: ["MD501 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD555 sequence 006, Nuneaton North Jn to Water Orton East Jn, physical PDF page 401. Water Orton East Jn. Mileages, signalling and speed restrictions are shown in the source table."

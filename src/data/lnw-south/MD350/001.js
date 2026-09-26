@@ -12,7 +12,10 @@ const page310 = {
   location: "Anglesea Sidings",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Anglesea Sidings"],
-  connections: [],
+  connections: [
+    "Connection — MD340, sequence 005",
+    "Connection — MD340, sequence 004",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD350 sequence 001, Anglesea Sidings to Lichfield City, physical PDF page 310. Anglesea Sidings. Mileages, signalling and speed restrictions are shown in the source table."

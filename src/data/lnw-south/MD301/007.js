@@ -12,7 +12,11 @@ const page236 = {
   location: "Adderley Park",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Adderley Park"],
-  connections: [],
+  connections: [
+    "Connection — MD570, sequence 001",
+    "Connection — MD575, sequence 001",
+    "Connection — MD501, sequence 010",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD301 sequence 007, Rugby to Penkridge (Exclusive) (via Birmingham), physical PDF page 236. Adderley Park. Mileages, signalling and speed restrictions are shown in the source table."

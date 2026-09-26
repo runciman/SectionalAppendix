@@ -12,7 +12,9 @@ const page215 = {
   location: "Brent New Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Brent New Junction"],
-  connections: [],
+  connections: [
+    "Connection — MD101, sequence 005",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD166 sequence 006, North Pole Junction to Wembley, physical PDF page 215. Brent New Junction. Mileages, signalling and speed restrictions are shown in the source table."

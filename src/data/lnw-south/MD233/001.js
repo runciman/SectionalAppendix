@@ -12,7 +12,10 @@ const page229 = {
   location: "Midland Yard Jn / Canal Farm Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Midland Yard Jn / Canal Farm Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD232, sequence 002",
+    "Connection — MD101, sequence 035",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD233 sequence 001, Midland Yard Jn to Canal Farm Jn, physical PDF page 229. Midland Yard Jn / Canal Farm Jn. Mileages, signalling and speed restrictions are shown in the source table."

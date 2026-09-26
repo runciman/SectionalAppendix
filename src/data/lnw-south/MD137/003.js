@@ -12,7 +12,7 @@ const page190 = {
   location: "Wembley Yard South Jn / Brent Viaducts",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Wembley Yard South Jn / Brent Viaducts"],
-  connections: [],
+  connections: ["MD166 sequence 007"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD137 sequence 003, Harlesden Jn to Wembley Central (Wembley Yard lines), physical PDF page 190. Wembley Yard South Jn / Brent Viaducts. Mileages, signalling and speed restrictions are shown in the source table."

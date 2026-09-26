@@ -12,7 +12,11 @@ const page291 = {
   location: "Wednesfield Heath Tunnel / Bushbury (Oxley) Jn / Bushbury Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Wednesfield Heath Tunnel / Bushbury (Oxley) Jn / Bushbury Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD805, sequence 001",
+    "Connection — MD301, sequence 018",
+    "Connection — MD0001, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD320 sequence 012, Proof House Jn to Bushbury Jn (via Bescot), physical PDF page 291. Wednesfield Heath Tunnel / Bushbury (Oxley) Jn / Bushbury Jn. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,9 @@ const page262 = {
   location: "Camp Hill / Moseley connection",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Camp Hill / Moseley connection"],
-  connections: [],
+  connections: [
+    "Connection — MD570, sequence 004",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD306 sequence 005, Birmingham New Street to Ashchurch (Excl.) (via Dunhampstead), physical PDF page 262. Camp Hill / Moseley connection. Mileages, signalling and speed restrictions are shown in the source table."

@@ -11,7 +11,7 @@ const page448 = {
   location: "Oxford North Jn / Oxford Parkway",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Oxford North Jn / Oxford Parkway"],
-  connections: [],
+  connections: ["GW200 sequence 008"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD736 sequence 001, Oxford North Jn (Excl.) to Denbigh Hall South Jn., physical PDF page 448. Oxford North Jn / Oxford Parkway. Mileages, signalling and speed restrictions are shown in the source table."

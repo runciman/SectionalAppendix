@@ -11,7 +11,11 @@ const page202 = {
   location: "Kensal Green Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Kensal Green Jn"],
-  connections: [],
+  connections: [
+    "Connection — EA1310, sequence 004",
+    "Connection — MD155, sequence 001",
+    "Connection — MD120, sequence 003",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD150 sequence 001, Kensal Green Jn. to Willesden Suburban Jn., physical PDF page 202. Kensal Green Jn. Mileages, signalling and speed restrictions are shown in the source table."

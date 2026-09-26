@@ -12,7 +12,9 @@ const page226 = {
   location: "Rugby Trent Valley Jn / New Bilton",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Rugby Trent Valley Jn / New Bilton"],
-  connections: [],
+  connections: [
+    "Connection — MD101, sequence 030",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD180 sequence 001, Rugby, Trent Valley Junction to New Bilton, physical PDF page 226. Rugby Trent Valley Jn / New Bilton. Mileages, signalling and speed restrictions are shown in the source table."

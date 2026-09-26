@@ -11,7 +11,9 @@ const page210 = {
   location: "Shepherds Bush",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Shepherds Bush"],
-  connections: [],
+  connections: [
+    "Connection — SO250, sequence 006",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD166 sequence 001, North Pole Junction to Wembley, physical PDF page 210. Shepherds Bush. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page430 = {
   location: "Neasden South Jn / Harrow on the Hill",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Neasden South Jn / Harrow on the Hill"],
-  connections: [],
+  connections: ["MD701 sequence 002", "MD715 sequence 001", "MD712 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD710 sequence 001, Neasden South Junction to Harrow on the Hill, physical PDF page 430. Neasden South Jn / Harrow on the Hill. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,10 @@ const page341 = {
   location: "Coventry North Jn / Coundon Road LC",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Coventry North Jn / Coundon Road LC"],
-  connections: [],
+  connections: [
+    "Connection — MD301, sequence 002",
+    "Connection — MD301, sequence 003",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD410 sequence 001, Coventry North Jn. to Nuneaton South Jn., physical PDF page 341. Coventry North Jn / Coundon Road LC. Mileages, signalling and speed restrictions are shown in the source table."

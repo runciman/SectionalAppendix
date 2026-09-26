@@ -12,7 +12,10 @@ const page283 = {
   location: "Aston South Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Aston South Jn"],
-  connections: [],
+  connections: [
+    "Connection — MD315, sequence 002",
+    "Connection — MD340, sequence 001",
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD320 sequence 004, Proof House Jn to Bushbury Jn (via Bescot), physical PDF page 283. Aston South Jn. Mileages, signalling and speed restrictions are shown in the source table."
