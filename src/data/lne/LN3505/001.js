@@ -12,7 +12,7 @@ const page513 = {
   location: "North Stafford Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["North Stafford Jn"],
-  connections: [],
+  connections: ["Burton-on-Trent / North Stafford Junction, LN3501 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3505 sequence 001, North Stafford Jn to Stoke Jn (Exclusive), physical PDF page 513. North Stafford Jn. Mileages, signalling and speed restrictions are shown in the source table."

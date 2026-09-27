@@ -12,7 +12,7 @@ const page512 = {
   location: "Tamworth",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Tamworth"],
-  connections: [],
+  connections: ["Lichfield City / Elford, LN3340 sequence 001", "Tamworth, MD501 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3501 sequence 007, Derby London Road Jn to Tamworth (Exclusive), physical PDF page 512. Tamworth. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page523 = {
   location: "Stenson Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Stenson Jn"],
-  connections: [],
+  connections: ["North Stafford Junction, LN3501 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3520 sequence 002, Sheet Stores Jn to Stenson Jn, physical PDF page 523. Stenson Jn. Mileages, signalling and speed restrictions are shown in the source table."

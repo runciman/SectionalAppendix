@@ -12,7 +12,7 @@ const page507 = {
   location: "Derby",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Derby"],
-  connections: [],
+  connections: ["Sinfin Siding, LN3515 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3501 sequence 002, Derby London Road Jn to Tamworth (Exclusive), physical PDF page 507. Derby. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page504 = {
   location: "Shirebrook Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Shirebrook Jn"],
-  connections: [],
+  connections: ["Shirebrook Junction, LN768 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3273 sequence 004, Codnor Park Jn to Shirebrook Jn, physical PDF page 504. Shirebrook Jn. Mileages, signalling and speed restrictions are shown in the source table."

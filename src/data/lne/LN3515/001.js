@@ -12,7 +12,7 @@ const page521 = {
   location: "Melbourne Jn / Sinfin",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Melbourne Jn / Sinfin"],
-  connections: [],
+  connections: ["L&NW Junction, LN3501 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3515 sequence 001, Melbourne Jn to Sinfin, physical PDF page 521. Melbourne Jn / Sinfin. Mileages, signalling and speed restrictions are shown in the source table."

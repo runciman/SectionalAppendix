@@ -12,7 +12,7 @@ const page524 = {
   location: "Knighton Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Knighton Jn"],
-  connections: [],
+  connections: ["Leicester / South Wigston, LN3201 sequence 029"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3525 sequence 001, Knighton Jn to Leicester Jn, physical PDF page 524. Knighton Jn. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page522 = {
   location: "Sheet Stores Jn / Castle Donington Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Sheet Stores Jn / Castle Donington Jn"],
-  connections: [],
+  connections: ["Trent South Junction, LN3201 sequence 036"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3520 sequence 001, Sheet Stores Jn to Stenson Jn, physical PDF page 522. Sheet Stores Jn / Castle Donington Jn. Mileages, signalling and speed restrictions are shown in the source table."

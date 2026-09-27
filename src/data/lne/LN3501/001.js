@@ -12,7 +12,7 @@ const page506 = {
   location: "Derby",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Derby"],
-  connections: [],
+  connections: ["Derby Station continuation, LN3201 sequence 038"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3501 sequence 001, Derby London Road Jn to Tamworth (Exclusive), physical PDF page 506. Derby. Mileages, signalling and speed restrictions are shown in the source table."

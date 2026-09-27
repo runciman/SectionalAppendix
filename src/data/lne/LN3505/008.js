@@ -12,7 +12,7 @@ const page520 = {
   location: "Longton / Stoke Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Longton / Stoke Jn"],
-  connections: [],
+  connections: ["LNW North route boundary, NW5012 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3505 sequence 008, North Stafford Jn to Stoke Jn (Exclusive), physical PDF page 520. Longton / Stoke Jn. Mileages, signalling and speed restrictions are shown in the source table."
