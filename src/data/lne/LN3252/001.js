@@ -12,7 +12,7 @@ const page492 = {
   location: "Mansfield Jn / Trowell South Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Mansfield Jn / Trowell South Jn"],
-  connections: [],
+  connections: ["Nottingham West Junction, LN3204 sequence 004", "Lenton South Junction, LN3249 sequence 001", "Mansfield, LN3255 sequence 001", "Trowell North Junction, LN3207 sequence 005"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3252 sequence 001, Mansfield Jn to Trowell South Jn, physical PDF page 492. Mansfield Jn / Trowell South Jn. Mileages, signalling and speed restrictions are shown in the source table."

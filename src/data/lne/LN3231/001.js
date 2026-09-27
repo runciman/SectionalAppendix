@@ -12,7 +12,7 @@ const page479 = {
   location: "Wigston South Jn / Glen Parva Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Wigston South Jn / Glen Parva Jn"],
-  connections: [],
+  connections: ["Wigston North Junction, LN3201 sequence 028", "Narborough, LN3232 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3231 sequence 001, Wigston South Jn to Glen Parva Jn, physical PDF page 479. Wigston South Jn / Glen Parva Jn. Mileages, signalling and speed restrictions are shown in the source table."

@@ -11,7 +11,7 @@ const page499 = {
   location: "Stapleford & Sandiacre / Stanton Gate",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Stapleford & Sandiacre / Stanton Gate"],
-  connections: [],
+  connections: ["Mapperley Goods Branch, LN3207 sequence 003", "Mapperley Goods Branch, LN3207 sequence 004"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3267 sequence 001, Stapleford & Sandiacre to Stanton Gate (Stanton & Staveley Works) (Withdrawn), physical PDF page 499. Stapleford & Sandiacre / Stanton Gate. Mileages, signalling and speed restrictions are shown in the source table."

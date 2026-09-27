@@ -12,7 +12,7 @@ const page483 = {
   location: "Loughborough South Jn / Hotchley Hill",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Loughborough South Jn / Hotchley Hill"],
-  connections: [],
+  connections: ["Loughborough, LN3201 sequence 033"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3237 sequence 001, Loughborough South Jn to Hotchley Hill, physical PDF page 483. Loughborough South Jn / Hotchley Hill. Mileages, signalling and speed restrictions are shown in the source table."

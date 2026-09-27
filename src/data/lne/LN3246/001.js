@@ -12,7 +12,7 @@ const page487 = {
   location: "Ambergate Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Ambergate Jn"],
-  connections: [],
+  connections: ["Breadsall Junction / Clay Cross North Junction, LN3201 sequence 041"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3246 sequence 001, Ambergate Jn to Matlock, physical PDF page 487. Ambergate Jn. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page493 = {
   location: "Radford Jn / Bulwell",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Radford Jn / Bulwell"],
-  connections: [],
+  connections: ["Radford Junction / Trowell South Junction, LN3252 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3255 sequence 001, Radford Jn to Kirkby Lane End Jn, physical PDF page 493. Radford Jn / Bulwell. Mileages, signalling and speed restrictions are shown in the source table."

@@ -11,7 +11,7 @@ const page501 = {
   location: "Codnor Park Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Codnor Park Jn"],
-  connections: [],
+  connections: ["Alfreton / Toton, LN3207 sequence 007"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3273 sequence 001, Codnor Park Jn to Shirebrook Jn, physical PDF page 501. Codnor Park Jn. Mileages, signalling and speed restrictions are shown in the source table."

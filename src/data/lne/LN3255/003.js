@@ -12,7 +12,7 @@ const page495 = {
   location: "Newstead / Kirkby Lane End Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Newstead / Kirkby Lane End Jn"],
-  connections: [],
+  connections: ["Codnor Park Junction / Mansfield, LN3273 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3255 sequence 003, Radford Jn to Kirkby Lane End Jn, physical PDF page 495. Newstead / Kirkby Lane End Jn. Mileages, signalling and speed restrictions are shown in the source table."

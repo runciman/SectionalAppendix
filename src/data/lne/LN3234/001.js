@@ -12,7 +12,7 @@ const page482 = {
   location: "Syston East Jn / Syston North Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Syston East Jn / Syston North Jn"],
-  connections: [],
+  connections: ["Leicester, LN3615 sequence 011", "Leicester / Loughborough, LN3201 sequence 031"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3234 sequence 001, Syston East Jn to Syston North Jn, physical PDF page 482. Syston East Jn / Syston North Jn. Mileages, signalling and speed restrictions are shown in the source table."

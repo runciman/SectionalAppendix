@@ -12,7 +12,7 @@ const page491 = {
   location: "Lenton South Jn / Lenton North Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Lenton South Jn / Lenton North Jn"],
-  connections: [],
+  connections: ["Nottingham / Attenborough, LN3204 sequence 003", "Radford Junction, LN3252 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3249 sequence 001, Lenton South Jn to Lenton North Jn, physical PDF page 491. Lenton South Jn / Lenton North Jn. Mileages, signalling and speed restrictions are shown in the source table."

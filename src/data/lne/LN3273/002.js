@@ -12,7 +12,7 @@ const page502 = {
   location: "Shirebrook",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Shirebrook"],
-  connections: [],
+  connections: ["Newstead / Mansfield, LN3255 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3273 sequence 002, Codnor Park Jn to Shirebrook Jn, physical PDF page 502. Shirebrook. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page498 = {
   location: "Attenborough Jn / Meadow Lane Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Attenborough Jn / Meadow Lane Jn"],
-  connections: [],
+  connections: ["Attenborough, LN3204 sequence 002", "Toton South Junction, LN3261 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3264 sequence 001, Attenborough Jn to Meadow Lane Jn (Attenborough Curve), physical PDF page 498. Attenborough Jn / Meadow Lane Jn. Mileages, signalling and speed restrictions are shown in the source table."
