@@ -12,7 +12,7 @@ const page438 = {
   location: "Sileby",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Sileby"],
-  connections: [],
+  connections: ["Melton Mowbray, LN3615 sequence 011", "Melton Mowbray, LN3234 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN320 sequence 031, St. Pancras to Tapton Jn (via Derby), physical PDF page 438. Sileby. Mileages, signalling and speed restrictions are shown in the source table."

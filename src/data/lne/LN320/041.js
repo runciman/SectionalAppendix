@@ -12,7 +12,7 @@ const page448 = {
   location: "Ambergate Jn / Wingfield Tunnel",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Ambergate Jn / Wingfield Tunnel"],
-  connections: [],
+  connections: ["Matlock, LN3246 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN320 sequence 041, St. Pancras to Tapton Jn (via Derby), physical PDF page 448. Ambergate Jn / Wingfield Tunnel. Mileages, signalling and speed restrictions are shown in the source table."

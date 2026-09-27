@@ -12,7 +12,7 @@ const page442 = {
   location: "Ratcliffe Jn / Trent South Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Ratcliffe Jn / Trent South Jn"],
-  connections: [],
+  connections: ["Meadow Lane Junction, LN3261 sequence 001", "Trent East Junction, LN3204 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN320 sequence 035, St. Pancras to Tapton Jn (via Derby), physical PDF page 442. Ratcliffe Jn / Trent South Jn. Mileages, signalling and speed restrictions are shown in the source table."

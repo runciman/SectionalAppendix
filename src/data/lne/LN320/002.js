@@ -12,7 +12,7 @@ const page409 = {
   location: "St Pancras",
   mileage: "Mileage is shown on the source diagram",
   locations: ["St Pancras"],
-  connections: [],
+  connections: ["Canal Tunnel Junction, LN3213 sequence 003", "Kentish Town Junction, LN3213 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN320 sequence 002, St. Pancras to Tapton Jn (via Derby), physical PDF page 409. St Pancras. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page443 = {
   location: "Long Eaton / Spondon",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Long Eaton / Spondon"],
-  connections: [],
+  connections: ["Trent East Junction, LN3228 sequence 001", "Stenson Junction, LN3520 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN320 sequence 036, St. Pancras to Tapton Jn (via Derby), physical PDF page 443. Long Eaton / Spondon. Mileages, signalling and speed restrictions are shown in the source table."

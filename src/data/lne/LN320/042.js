@@ -12,7 +12,7 @@ const page449 = {
   location: "Clay Cross Tunnel",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Clay Cross Tunnel"],
-  connections: [],
+  connections: ["Morton Junction, LN3207 sequence 008"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN320 sequence 042, St. Pancras to Tapton Jn (via Derby), physical PDF page 449. Clay Cross Tunnel. Mileages, signalling and speed restrictions are shown in the source table."

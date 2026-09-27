@@ -12,7 +12,7 @@ const page444 = {
   location: "Derby",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Derby"],
-  connections: [],
+  connections: ["L&NW Junction, LN3501 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN320 sequence 037, St. Pancras to Tapton Jn (via Derby), physical PDF page 444. Derby. Mileages, signalling and speed restrictions are shown in the source table."

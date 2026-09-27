@@ -12,7 +12,7 @@ const page410 = {
   location: "St Pancras",
   mileage: "Mileage is shown on the source diagram",
   locations: ["St Pancras"],
-  connections: [],
+  connections: ["Moorgate lines, LN3213 sequence 003", "Tottenham South, LN3210 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN320 sequence 003, St. Pancras to Tapton Jn (via Derby), physical PDF page 410. St Pancras. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page435 = {
   location: "Leicester",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Leicester"],
-  connections: [],
+  connections: ["Narborough, LN3231 sequence 001", "South Wigston, LN3232 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN320 sequence 028, St. Pancras to Tapton Jn (via Derby), physical PDF page 435. Leicester. Mileages, signalling and speed restrictions are shown in the source table."

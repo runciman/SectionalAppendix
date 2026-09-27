@@ -12,7 +12,7 @@ const page428 = {
   location: "Bedford",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bedford"],
-  connections: [],
+  connections: ["Bedford St Johns / Route Boundary, LN3140 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN320 sequence 021, St. Pancras to Tapton Jn (via Derby), physical PDF page 428. Bedford. Mileages, signalling and speed restrictions are shown in the source table."

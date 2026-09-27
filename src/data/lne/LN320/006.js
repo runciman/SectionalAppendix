@@ -12,7 +12,7 @@ const page413 = {
   location: "Cricklewood",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Cricklewood"],
-  connections: [],
+  connections: ["Dudding Hill Junction, LN3219 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN320 sequence 006, St. Pancras to Tapton Jn (via Derby), physical PDF page 413. Cricklewood. Mileages, signalling and speed restrictions are shown in the source table."

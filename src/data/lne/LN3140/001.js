@@ -12,7 +12,7 @@ const page407 = {
   location: "Bedford St Johns / Bedford",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bedford St Johns / Bedford"],
-  connections: [],
+  connections: ["Bedford St Johns, MD140 sequence 007", "London / Leicester, LN3201 sequence 021"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3140 sequence 001, Bedford St. Johns (Exclusive) to Bedford Station, physical PDF page 407. Bedford St Johns / Bedford. Mileages, signalling and speed restrictions are shown in the source table."
