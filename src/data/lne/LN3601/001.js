@@ -12,7 +12,7 @@ const page532 = {
   location: "Kettering North Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Kettering North Jn"],
-  connections: [],
+  connections: ["Kettering, LN3201 sequence 026", "Corby Automotive, LN3610 sequence 001", "Corby BSC, LN3605 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3601 sequence 001, Kettering North Jn to Manton Jn, physical PDF page 532. Kettering North Jn. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page548 = {
   location: "Melton Jn GF / Asfordby",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Melton Jn GF / Asfordby"],
-  connections: [],
+  connections: ["Melton Junction, LN3615 sequence 009"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3620 sequence 001, Melton Jn GF to Asfordby, physical PDF page 548. Melton Jn GF / Asfordby. Mileages, signalling and speed restrictions are shown in the source table."

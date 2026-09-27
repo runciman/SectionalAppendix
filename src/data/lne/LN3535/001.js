@@ -12,7 +12,7 @@ const page531 = {
   location: "Birmingham Curve Jn / Branston Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Birmingham Curve Jn / Branston Jn"],
-  connections: [],
+  connections: ["Burton-on-Trent / Coalville, LN3525 sequence 007", "Tamworth, LN3501 sequence 005"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3535 sequence 001, Birmingham Curve Jn to Branston Jn, physical PDF page 531. Birmingham Curve Jn / Branston Jn. Mileages, signalling and speed restrictions are shown in the source table."

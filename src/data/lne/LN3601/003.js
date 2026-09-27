@@ -12,7 +12,7 @@ const page534 = {
   location: "Manton Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Manton Jn"],
-  connections: [],
+  connections: ["Manton Junction / Oakham, LN3615 sequence 004"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3601 sequence 003, Kettering North Jn to Manton Jn, physical PDF page 534. Manton Jn. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page535 = {
   location: "Corby BSC Works / Corby North",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Corby BSC Works / Corby North"],
-  connections: [],
+  connections: ["Corby Automotive, LN3610 sequence 001", "Corby, LN3601 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3605 sequence 001, Corby BSC Works to Corby North, physical PDF page 535. Corby BSC Works / Corby North. Mileages, signalling and speed restrictions are shown in the source table."

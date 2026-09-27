@@ -12,7 +12,7 @@ const page537 = {
   location: "Helpston Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Helpston Jn"],
-  connections: [],
+  connections: ["Helpston Junction, LN147 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3615 sequence 001, Helpston Jn to Syston South Jn, physical PDF page 537. Helpston Jn. Mileages, signalling and speed restrictions are shown in the source table."

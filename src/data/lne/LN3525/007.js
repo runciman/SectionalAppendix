@@ -12,7 +12,7 @@ const page530 = {
   location: "Leicester Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Leicester Jn"],
-  connections: [],
+  connections: ["Branston Junction, LN3535 sequence 001", "Burton-on-Trent / Branston Junction, LN3501 sequence 005"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3525 sequence 007, Knighton Jn to Leicester Jn, physical PDF page 530. Leicester Jn. Mileages, signalling and speed restrictions are shown in the source table."

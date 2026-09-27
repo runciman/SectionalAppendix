@@ -12,7 +12,7 @@ const page545 = {
   location: "Melton Jn / Brooksby LC",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Melton Jn / Brooksby LC"],
-  connections: [],
+  connections: ["Rail Innovation and Development Centre / Melton Junction, LN3620 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3615 sequence 009, Helpston Jn to Syston South Jn, physical PDF page 545. Melton Jn / Brooksby LC. Mileages, signalling and speed restrictions are shown in the source table."

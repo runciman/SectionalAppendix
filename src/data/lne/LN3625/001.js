@@ -12,7 +12,7 @@ const page549 = {
   location: "Colwick / Carlton",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Colwick / Carlton"],
-  connections: [],
+  connections: ["Nottingham East Junction, LN3204 sequence 005", "Netherfield, LN3635 sequence 004"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3625 sequence 001, Nottingham East Jn to Newark Flat Crossing (Excl), physical PDF page 549. Colwick / Carlton. Mileages, signalling and speed restrictions are shown in the source table."

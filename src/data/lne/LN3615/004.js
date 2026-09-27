@@ -12,7 +12,7 @@ const page540 = {
   location: "Luffenham / Manton Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Luffenham / Manton Jn"],
-  connections: [],
+  connections: ["Corby / Manton Junction, LN3601 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3615 sequence 004, Helpston Jn to Syston South Jn, physical PDF page 540. Luffenham / Manton Jn. Mileages, signalling and speed restrictions are shown in the source table."
