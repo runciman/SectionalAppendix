@@ -1,7 +1,13 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
+import * as Swetrix from "swetrix";
 import { loadPage } from "./pages";
 import "./styles.css";
+
+Swetrix.init("A22q3Hfb1XCa", {
+  apiURL: "https://stats.sectionalappendix.com/backend/v1/log",
+});
+Swetrix.trackViews();
 
 const SearchIcon = () => <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.15a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z" /></svg>;
 const regionPath = (region) => `/${region}`;
