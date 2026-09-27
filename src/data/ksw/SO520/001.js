@@ -12,10 +12,10 @@ const page481 = {
   location: "Crawley to Ifield",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Crawley", "Ifield"],
-  connections: [],
+  connections: ["Gatwick Airport, SO500 sequence 019"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
-  transcription: "SO520 sequence 001, Three Bridges to Portsmouth Harbour, physical PDF page 481. Crawley to Ifield. Mileages, signalling and speed restrictions are shown in the source table."
+  transcription: "SO520 sequence 001, Three Bridges to Portsmouth Harbour, physical PDF page 481. Crawley to Ifield, with a Gatwick Airport SO500/019 connection. Mileages, signalling and speed restrictions are shown in the source table."
 };
 
 export default page481;
