@@ -12,10 +12,10 @@ const page495 = {
   location: "Havant",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Havant"],
-  connections: [],
+  connections: ["Rowlands Castle, SW110 sequence 009"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
-  transcription: "SO520 sequence 015, Three Bridges to Portsmouth Harbour, physical PDF page 495. Havant. Mileages, signalling and speed restrictions are shown in the source table."
+  transcription: "SO520 sequence 015, Three Bridges to Portsmouth Harbour, physical PDF page 495. Havant, with a Rowlands Castle SW110/009 connection. Mileages, signalling and speed restrictions are shown in the source table."
 };
 
 export default page495;

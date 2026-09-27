@@ -12,10 +12,10 @@ const page490 = {
   location: "Barnham",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Barnham"],
-  connections: [],
+  connections: ["Bognor Regis, SO640 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
-  transcription: "SO520 sequence 010, Three Bridges to Portsmouth Harbour, physical PDF page 490. Barnham. Mileages, signalling and speed restrictions are shown in the source table."
+  transcription: "SO520 sequence 010, Three Bridges to Portsmouth Harbour, physical PDF page 490. Barnham, with a Bognor Regis SO640/001 connection. Mileages, signalling and speed restrictions are shown in the source table."
 };
 
 export default page490;
