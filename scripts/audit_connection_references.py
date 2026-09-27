@@ -13,7 +13,10 @@ from pathlib import Path
 # Operational LOR identifiers comprise a two-letter prefix and a three- or
 # four-digit number.  Restricting the OCR triage expression to that shape
 # prevents prose such as "SEQ002" and "ANY207" becoming fake connections.
-REFERENCE = re.compile(r"\b([A-Z]{2}\s*\d{3,4})\s*(?:,?\s*(?:SEQ(?:UENCE)?\.?\s*)?)(\d{1,3})\b", re.I)
+REFERENCE = re.compile(
+    r"\b([A-Z]{2}\s*\d{3,4})(?:\s*,?\s*SEQ(?:UENCE)?\.?\s*|\s+)(\d{1,3})\b",
+    re.I,
+)
 FIELD = re.compile(r"\b[\"']?(?:lOR|sequence)[\"']?\s*:\s*[\"']([^\"']+)[\"']", re.I)
 PDF_PAGE = re.compile(r"\b[\"']?pdfPage[\"']?\s*:\s*(\d+)", re.I)
 CONNECTIONS = re.compile(r"\b[\"']?connections[\"']?\s*:\s*\[(.*?)\]", re.I | re.S)
