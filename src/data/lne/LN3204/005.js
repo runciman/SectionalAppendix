@@ -12,7 +12,7 @@ const page457 = {
   location: "Nottingham East Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Nottingham East Jn"],
-  connections: [],
+  connections: ["Netherfield Junction, LN3625 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3204 sequence 005, Trent South Junction to Nottingham East Junction, physical PDF page 457. Nottingham East Jn. Mileages, signalling and speed restrictions are shown in the source table."

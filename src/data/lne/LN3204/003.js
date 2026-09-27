@@ -12,7 +12,7 @@ const page455 = {
   location: "Nottingham",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Nottingham"],
-  connections: [],
+  connections: ["Lenton North Junction, LN3249 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3204 sequence 003, Trent South Junction to Nottingham East Junction, physical PDF page 455. Nottingham. Mileages, signalling and speed restrictions are shown in the source table."

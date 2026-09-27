@@ -11,7 +11,7 @@ const page466 = {
   location: "Clay Cross North Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Clay Cross North Jn"],
-  connections: [],
+  connections: ["Ambergate Junction / Chesterfield South Junction, LN3201 sequence 042"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3207 sequence 008, Trent East Jn to Clay Cross North Jn, physical PDF page 466. Clay Cross North Jn. Mileages, signalling and speed restrictions are shown in the source table."

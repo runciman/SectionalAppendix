@@ -12,7 +12,7 @@ const page477 = {
   location: "Brent Curve Jn / Dudding Hill Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Brent Curve Jn / Dudding Hill Jn"],
-  connections: [],
+  connections: ["Hendon / Cricklewood, LN3201 sequence 007", "Anglia route boundary, EA1360 sequence 001", "Cricklewood Curve, LN3219 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3222 sequence 001, Brent Curve Jn to Dudding Hill Jn, physical PDF page 477. Brent Curve Jn / Dudding Hill Jn. Mileages, signalling and speed restrictions are shown in the source table."

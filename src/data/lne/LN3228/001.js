@@ -12,7 +12,7 @@ const page478 = {
   location: "Trent East Jn / Sheet Stores Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Trent East Jn / Sheet Stores Jn"],
-  connections: [],
+  connections: ["Nottingham, LN3204 sequence 001", "Derby / Sheet Stores Junction, LN3201 sequence 036"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3228 sequence 001, Trent East Jn to Sheet Stores Jn, physical PDF page 478. Trent East Jn / Sheet Stores Jn. Mileages, signalling and speed restrictions are shown in the source table."

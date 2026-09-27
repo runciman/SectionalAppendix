@@ -12,7 +12,7 @@ const page463 = {
   location: "Ilkeston",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Ilkeston"],
-  connections: [],
+  connections: ["Radford Junction, LN3252 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3207 sequence 005, Trent East Jn to Clay Cross North Jn, physical PDF page 463. Ilkeston. Mileages, signalling and speed restrictions are shown in the source table."

@@ -11,7 +11,7 @@ const page471 = {
   location: "Canal Tunnels Jn / Belle Isle Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Canal Tunnels Jn / Belle Isle Jn"],
-  connections: [],
+  connections: ["Kentish Town, LN3213 sequence 002", "ECML to/from Holloway, LN101 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3214 sequence 001, Canal Tunnels Junction to Belle Isle Junction, physical PDF page 471. Canal Tunnels Jn / Belle Isle Jn. Mileages, signalling and speed restrictions are shown in the source table."

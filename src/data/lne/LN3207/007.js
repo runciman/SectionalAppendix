@@ -12,7 +12,7 @@ const page465 = {
   location: "Alfreton",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Alfreton"],
-  connections: [],
+  connections: ["UDES, UK and DK lines, LN3273 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3207 sequence 007, Trent East Jn to Clay Cross North Jn, physical PDF page 465. Alfreton. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page464 = {
   location: "Langley Mill",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Langley Mill"],
-  connections: [],
+  connections: ["Swanwick Siding / UDES continuation, LN3273 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3207 sequence 006, Trent East Jn to Clay Cross North Jn, physical PDF page 464. Langley Mill. Mileages, signalling and speed restrictions are shown in the source table."

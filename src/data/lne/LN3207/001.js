@@ -12,7 +12,7 @@ const page459 = {
   location: "Trent East Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Trent East Jn"],
-  connections: [],
+  connections: ["Trent South Junction / Sheet Stores Junction, LN3204 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3207 sequence 001, Trent East Jn to Clay Cross North Jn, physical PDF page 459. Trent East Jn. Mileages, signalling and speed restrictions are shown in the source table."

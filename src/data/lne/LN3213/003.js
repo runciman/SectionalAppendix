@@ -12,7 +12,7 @@ const page470 = {
   location: "Dock Jn North / Kentish Town",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Dock Jn North / Kentish Town"],
-  connections: [],
+  connections: ["Dock Junction South, LN3201 sequence 002", "Kentish Town Junction continuation, LN3201 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3213 sequence 003, Farringdon to Kentish Town Jn, physical PDF page 470. Dock Jn North / Kentish Town. Mileages, signalling and speed restrictions are shown in the source table."

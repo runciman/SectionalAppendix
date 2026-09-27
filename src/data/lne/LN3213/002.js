@@ -12,7 +12,7 @@ const page469 = {
   location: "St Pancras / Canal Tunnels Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["St Pancras / Canal Tunnels Jn"],
-  connections: [],
+  connections: ["Belle Isle Junction, LN3214 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3213 sequence 002, Farringdon to Kentish Town Jn, physical PDF page 469. St Pancras / Canal Tunnels Jn. Mileages, signalling and speed restrictions are shown in the source table."
