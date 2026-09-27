@@ -12,7 +12,7 @@ const page339 = {
   location: "York / York North Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["York / York North Jn"],
-  connections: [],
+  connections: ["Scarborough, LN880 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN600 sequence 004, Shaftholme Jn. to Reston GSP, physical PDF page 339. York / York North Jn. Mileages, signalling and speed restrictions are shown in the source table."

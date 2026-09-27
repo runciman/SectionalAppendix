@@ -12,7 +12,7 @@ const page343 = {
   location: "Northallerton",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Northallerton"],
-  connections: [],
+  connections: ["Northallerton East Junction, LN627 sequence 001", "LN626 sequence 001", "Castle Hills Farm, LN624 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN600 sequence 008, Shaftholme Jn. to Reston GSP, physical PDF page 343. Northallerton. Mileages, signalling and speed restrictions are shown in the source table."

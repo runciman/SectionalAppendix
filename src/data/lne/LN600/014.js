@@ -12,7 +12,7 @@ const page349 = {
   location: "Chester-le-Street / Low Fell",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Chester-le-Street / Low Fell"],
-  connections: [],
+  connections: ["Norwood Junction, LN684 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN600 sequence 014, Shaftholme Jn. to Reston GSP, physical PDF page 349. Chester-le-Street / Low Fell. Mileages, signalling and speed restrictions are shown in the source table."

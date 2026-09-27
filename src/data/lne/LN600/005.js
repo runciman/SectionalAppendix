@@ -12,7 +12,7 @@ const page340 = {
   location: "Skelton Jn / York FS",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Skelton Jn / York FS"],
-  connections: [],
+  connections: ["York Yard North Junction, LN618 sequence 001", "Harrogate, LN838 sequence 006"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN600 sequence 005, Shaftholme Jn. to Reston GSP, physical PDF page 340. Skelton Jn / York FS. Mileages, signalling and speed restrictions are shown in the source table."

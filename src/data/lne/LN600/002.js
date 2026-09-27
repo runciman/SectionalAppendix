@@ -12,7 +12,7 @@ const page337 = {
   location: "APCO zone commencement",
   mileage: "Mileage is shown on the source diagram",
   locations: ["APCO zone commencement"],
-  connections: [],
+  connections: ["Hambleton East Junction, LN906 sequence 001", "Hambleton West Junction, LN904 sequence 001", "Colton South Junction, LN854 sequence 011"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN600 sequence 002, Shaftholme Jn. to Reston GSP, physical PDF page 337. APCO zone commencement. Mileages, signalling and speed restrictions are shown in the source table."

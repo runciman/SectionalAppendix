@@ -12,7 +12,7 @@ const page346 = {
   location: "Aycliffe / Ferryhill",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Aycliffe / Ferryhill"],
-  connections: [],
+  connections: ["Norton-on-Tees West Junction, LN646 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN600 sequence 011, Shaftholme Jn. to Reston GSP, physical PDF page 346. Aycliffe / Ferryhill. Mileages, signalling and speed restrictions are shown in the source table."

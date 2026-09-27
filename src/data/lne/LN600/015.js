@@ -12,7 +12,7 @@ const page350 = {
   location: "Low Fell / King Edward Bridge",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Low Fell / King Edward Bridge"],
-  connections: [],
+  connections: ["Norwood Junction, LN682 sequence 001", "King Edward Bridge South Junction, LN676 sequence 001", "King Edward Bridge East Junction, LN620 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN600 sequence 015, Shaftholme Jn. to Reston GSP, physical PDF page 350. Low Fell / King Edward Bridge. Mileages, signalling and speed restrictions are shown in the source table."

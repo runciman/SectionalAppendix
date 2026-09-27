@@ -12,7 +12,7 @@ const page338 = {
   location: "York",
   mileage: "Mileage is shown on the source diagram",
   locations: ["York"],
-  connections: [],
+  connections: ["Skelton Junction via Slow Lines, LN618 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN600 sequence 003, Shaftholme Jn. to Reston GSP, physical PDF page 338. York. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page351 = {
   location: "Gateshead",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Gateshead"],
-  connections: [],
+  connections: ["Forth Banks sidings, LN622 sequence 001", "High Level Bridge Junction, LN627 sequence 014"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN600 sequence 016, Shaftholme Jn. to Reston GSP, physical PDF page 351. Gateshead. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page344 = {
   location: "East Cowton / Darlington South Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["East Cowton / Darlington South Jn"],
-  connections: [],
+  connections: ["Eaglescliffe South Junction, LN631 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN600 sequence 009, Shaftholme Jn. to Reston GSP, physical PDF page 344. East Cowton / Darlington South Jn. Mileages, signalling and speed restrictions are shown in the source table."
