@@ -10,7 +10,10 @@ import subprocess
 from pathlib import Path
 
 
-REFERENCE = re.compile(r"\b([A-Z]{2,4}\s*\d{3,4})\s*(?:,?\s*(?:SEQ(?:UENCE)?\.?\s*)?)(\d{1,3})\b", re.I)
+# Operational LOR identifiers comprise a two-letter prefix and a three- or
+# four-digit number.  Restricting the OCR triage expression to that shape
+# prevents prose such as "SEQ002" and "ANY207" becoming fake connections.
+REFERENCE = re.compile(r"\b([A-Z]{2}\s*\d{3,4})\s*(?:,?\s*(?:SEQ(?:UENCE)?\.?\s*)?)(\d{1,3})\b", re.I)
 FIELD = re.compile(r"\b[\"']?(?:lOR|sequence)[\"']?\s*:\s*[\"']([^\"']+)[\"']", re.I)
 PDF_PAGE = re.compile(r"\b[\"']?pdfPage[\"']?\s*:\s*(\d+)", re.I)
 CONNECTIONS = re.compile(r"\b[\"']?connections[\"']?\s*:\s*\[(.*?)\]", re.I | re.S)
@@ -54,8 +57,16 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--region", required=True)
     parser.add_argument("--only-empty", action="store_true")
+    parser.add_argument("--pages", help="Physical PDF page range, e.g. 283-307")
     parser.add_argument("--output", type=Path, default=Path("tmp/connection-audit.json"))
     args = parser.parse_args()
+
+    page_start = page_end = None
+    if args.pages:
+        try:
+            page_start, page_end = (int(value) for value in args.pages.split("-", 1))
+        except ValueError as exc:
+            raise SystemExit("--pages must be START-END") from exc
 
     root = Path(__file__).resolve().parents[1]
     data_root = root / "src" / "data" / args.region
@@ -63,6 +74,12 @@ def main() -> None:
     findings = []
     for record in sorted(data_root.glob("*/*.js")):
         source = record.read_text(encoding="utf-8")
+        page_match = PDF_PAGE.search(source)
+        if not page_match:
+            raise ValueError(f"Cannot read pdfPage from {record}")
+        pdf_page = int(page_match.group(1))
+        if page_start is not None and not page_start <= pdf_page <= page_end:
+            continue
         if args.only_empty and not re.search(r"connections\s*:\s*\[\s*\]", source):
             continue
         lor, sequence = fields(record)
@@ -81,7 +98,7 @@ def main() -> None:
         missing = [item for item in candidates if (item["lOR"], item["sequence"]) not in existing_keys]
         findings.append({
             "record": str(record.relative_to(root)),
-            "pdfPage": int(PDF_PAGE.search(source).group(1)),
+            "pdfPage": pdf_page,
             "lOR": lor,
             "sequence": sequence,
             "existing": existing,

@@ -16,10 +16,10 @@ const page316 = {
   location: "Spa Road to Surrey Canal Junction",
   mileage: "2m 71ch to 3m 75ch",
   locations: ["Spa Road","Southwark Park Road Junction","South Bermondsey Substation","Corbetts Lane Junction","Blue Anchor","Surrey Canal Junction"],
-  connections: [],
+  connections: ["SO510 sequence 002"],
   signalling: ["GSM-R", "Three Bridges ROC or Ashford IECC control details are shown where applicable"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
-  transcription: "SO130 sequence 006, Charing Cross and Cannon Street to Dover Priory and Eurotunnel Interface via Tonbridge, Module KSW2, physical PDF page 316, document page 56. Spa Road to Surrey Canal Junction, 2m 71ch to 3m 75ch. Spa Road; Southwark Park Road Junction; South Bermondsey Substation; Corbetts Lane Junction; Blue Anchor; Surrey Canal Junction. GSM-R, signalling, running lines and speed restrictions are shown in the source table."
+  transcription: "SO130 sequence 006, Charing Cross and Cannon Street to Dover Priory and Eurotunnel Interface via Tonbridge, Module KSW2, physical PDF page 316, document page 56. Spa Road to Surrey Canal Junction, 2m 71ch to 3m 75ch, with a connection to SO510 sequence 002. Spa Road; Southwark Park Road Junction; South Bermondsey Substation; Corbetts Lane Junction; Blue Anchor; Surrey Canal Junction. GSM-R, signalling, running lines and speed restrictions are shown in the source table."
 };
 
 export default page316;
