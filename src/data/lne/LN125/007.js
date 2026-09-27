@@ -12,7 +12,7 @@ const page248 = {
   location: "Cambridge",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Cambridge"],
-  connections: [],
+  connections: ["Cambridge, EA1161 sequence 009"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN125 sequence 007, Hitchin, Cambridge Jn to Cambridge, physical PDF page 248. Cambridge. Mileages, signalling and speed restrictions are shown in the source table."

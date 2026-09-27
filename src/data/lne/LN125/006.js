@@ -12,7 +12,7 @@ const page247 = {
   location: "Shepreth / Websters LC",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Shepreth / Websters LC"],
-  connections: [],
+  connections: ["Royston, EA1230 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN125 sequence 006, Hitchin, Cambridge Jn to Cambridge, physical PDF page 247. Shepreth / Websters LC. Mileages, signalling and speed restrictions are shown in the source table."
