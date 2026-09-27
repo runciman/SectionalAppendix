@@ -12,7 +12,7 @@ const page366 = {
   location: "Holgate / York Yard South",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Holgate / York Yard South"],
-  connections: [],
+  connections: ["Colton North Junction / Holgate reception sidings, LN600 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN618 sequence 001, Holgate Jn to Skelton Jn, physical PDF page 366. Holgate / York Yard South. Mileages, signalling and speed restrictions are shown in the source table."
