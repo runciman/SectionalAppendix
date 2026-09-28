@@ -12,7 +12,7 @@ const page842 = {
   location: "Knottingley South Junction to Knottingley East Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Knottingley South Junction", "Knottingley East Junction"],
-  connections: [],
+  connections: ["Shaftholme Junction, LN888 sequence 003", "Knottingley West Junction, LN882 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN894 sequence 001, Knottingley South Junction to Knottingley East Junction, physical PDF page 842. Knottingley South Junction to Knottingley East Junction. Mileages, signalling and speed restrictions are shown in the source table."

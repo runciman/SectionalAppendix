@@ -12,7 +12,7 @@ const page843 = {
   location: "Drax Power Station Branch",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Drax Power Station Branch"],
-  connections: [],
+  connections: ["Knottingley, LN882 sequence 004"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN896 sequence 001, Drax Power Station Branch, physical PDF page 843. Drax Power Station Branch. Mileages, signalling and speed restrictions are shown in the source table."

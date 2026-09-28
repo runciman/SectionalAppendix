@@ -12,7 +12,7 @@ const page839 = {
   location: "Stainforth Junction to Ferrybridge North Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Stainforth Junction", "Ferrybridge North Junction"],
-  connections: [],
+  connections: ["Knottingley East Junction, LN894 sequence 001", "Goole / Pontefract Monkhill, LN882 sequence 003", "Milford, LN804 sequence 008"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN888 sequence 003, Stainforth Junction to Ferrybridge North Junction, physical PDF page 839. Stainforth Junction to Ferrybridge North Junction. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page834 = {
   location: "Wakefield Kirkgate West Junction to Goole Potters Grange Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Wakefield Kirkgate West Junction", "Goole Potters Grange Junction"],
-  connections: [],
+  connections: ["Goole, LN912 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN882 sequence 005, Wakefield Kirkgate West Junction to Goole Potters Grange Junction, physical PDF page 834. Wakefield Kirkgate West Junction to Goole Potters Grange Junction. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page841 = {
   location: "Pontefract East Junction to Ferrybridge South Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Pontefract East Junction", "Ferrybridge South Junction"],
-  connections: [],
+  connections: ["Pontefract Monkhill, LN882 sequence 003", "Milford, LN804 sequence 008"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN892 sequence 001, Pontefract East Junction to Ferrybridge South Junction, physical PDF page 841. Pontefract East Junction to Ferrybridge South Junction. Mileages, signalling and speed restrictions are shown in the source table."

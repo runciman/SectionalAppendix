@@ -12,7 +12,7 @@ const page846 = {
   location: "Neville Hill East Junction to Hull",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Neville Hill East Junction", "Hull"],
-  connections: [],
+  connections: ["Leeds, LN836 sequence 009", "Church Fenton, LN902 sequence 001", "Sherburn Junction, LN878 sequence 001", "Milford, LN804 sequence 009"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN898 sequence 001, Neville Hill East Junction to Hull, physical PDF page 846. Neville Hill East Junction to Hull. Mileages, signalling and speed restrictions are shown in the source table."

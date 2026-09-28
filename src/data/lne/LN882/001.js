@@ -12,7 +12,7 @@ const page830 = {
   location: "Wakefield Kirkgate West Junction to Goole Potters Grange Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Wakefield Kirkgate West Junction", "Goole Potters Grange Junction"],
-  connections: [],
+  connections: ["Horbury Junction, LN854 sequence 005", "Wakefield Kirkgate, LN854 sequence 006", "Turners Lane Junction, LN870 sequence 001", "Oakenshaw South Junction, LN884 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN882 sequence 001, Wakefield Kirkgate West Junction to Goole Potters Grange Junction, physical PDF page 830. Wakefield Kirkgate West Junction to Goole Potters Grange Junction. Mileages, signalling and speed restrictions are shown in the source table."

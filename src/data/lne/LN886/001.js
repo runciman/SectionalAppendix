@@ -11,7 +11,7 @@ const page836 = {
   location: "Monk Bretton Loop to Crofton East Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Monk Bretton Loop", "Crofton East Junction"],
-  connections: [],
+  connections: ["Oakenshaw Junction, LN884 sequence 001", "Pontefract Monkhill, LN882 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN886 sequence 001, Monk Bretton Loop to Crofton East Junction, physical PDF page 836. Monk Bretton Loop to Crofton East Junction. Mileages, signalling and speed restrictions are shown in the source table."

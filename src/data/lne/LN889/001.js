@@ -12,7 +12,7 @@ const page840 = {
   location: "Shaftholme Junction to Haywood Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Shaftholme Junction", "Haywood Junction"],
-  connections: [],
+  connections: ["Doncaster, LN101 sequence 030", "Stainforth / Ferrybridge Junction, LN888 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN889 sequence 001, Shaftholme Junction to Haywood Junction, physical PDF page 840. Shaftholme Junction to Haywood Junction. Mileages, signalling and speed restrictions are shown in the source table."
