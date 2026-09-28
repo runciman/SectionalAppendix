@@ -12,7 +12,7 @@ const page957 = {
   location: "Northallerton Longlands Junction to Newcastle East Junction via the Coast",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Northallerton Longlands Junction", "Newcastle East Junction via the Coast"],
-  connections: [],
+  connections: ["Belasis Lane Junction, LN652 sequence 001", "Seaton-on-Tees, LN656 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN627 sequence 004, Northallerton Longlands Junction to Newcastle East Junction via the Coast, physical PDF page 957. Northallerton Longlands Junction to Newcastle East Junction via the Coast. Mileages, signalling and speed restrictions are shown in the source table."

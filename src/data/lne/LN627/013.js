@@ -12,7 +12,7 @@ const page966 = {
   location: "Northallerton Longlands Junction to Newcastle East Junction via the Coast",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Northallerton Longlands Junction", "Newcastle East Junction via the Coast"],
-  connections: [],
+  connections: ["Pelaw North Junction, LN600 sequence 001", "Pelaw Metro Junction, LN629 sequence 001", "Pelaw South Junction, LN630 sequence 001", "Wardley, LN672 sequence 001", "Bill Quay Junction, LN670 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN627 sequence 013, Northallerton Longlands Junction to Newcastle East Junction via the Coast, physical PDF page 966. Northallerton Longlands Junction to Newcastle East Junction via the Coast. Mileages, signalling and speed restrictions are shown in the source table."

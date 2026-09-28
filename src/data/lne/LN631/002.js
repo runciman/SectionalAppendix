@@ -12,7 +12,7 @@ const page974 = {
   location: "Darlington South Junction to Eaglescliffe South Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Darlington South Junction", "Eaglescliffe South Junction"],
-  connections: [],
+  connections: ["Stockton Cut Junction, LN627 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN631 sequence 002, Darlington South Junction to Eaglescliffe South Junction, physical PDF page 974. Darlington South Junction to Eaglescliffe South Junction. Mileages, signalling and speed restrictions are shown in the source table."

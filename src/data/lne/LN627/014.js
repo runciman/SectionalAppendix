@@ -12,7 +12,7 @@ const page967 = {
   location: "Northallerton Longlands Junction to Newcastle East Junction via the Coast",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Northallerton Longlands Junction", "Newcastle East Junction via the Coast"],
-  connections: [],
+  connections: ["King Edward Bridge Junctions / Greensfield Junction, LN676 sequence 001", "High Level Bridge Junction, LN674 sequence 001", "Newcastle Station, LN600 sequence 016"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN627 sequence 014, Northallerton Longlands Junction to Newcastle East Junction via the Coast, physical PDF page 967. Northallerton Longlands Junction to Newcastle East Junction via the Coast. Mileages, signalling and speed restrictions are shown in the source table."

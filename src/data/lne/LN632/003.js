@@ -12,7 +12,7 @@ const page977 = {
   location: "Stockton Cut Junction to Saltburn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Stockton Cut Junction", "Saltburn"],
-  connections: [],
+  connections: ["Lackenby, LN636 sequence 001", "Cleveland Freightliner Terminal, LN638 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN632 sequence 003, Stockton Cut Junction to Saltburn, physical PDF page 977. Stockton Cut Junction to Saltburn. Mileages, signalling and speed restrictions are shown in the source table."

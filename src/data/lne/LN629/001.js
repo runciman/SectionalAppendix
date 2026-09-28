@@ -12,7 +12,7 @@ const page970 = {
   location: "Pelaw Metro Junction to Pelaw South Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Pelaw Metro Junction", "Pelaw South Junction"],
-  connections: [],
+  connections: ["Boldon West Junction, LN627 sequence 013", "Pelaw South Junction, LN630 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN629 sequence 001, Pelaw Metro Junction to Pelaw South Junction, physical PDF page 970. Pelaw Metro Junction to Pelaw South Junction. Mileages, signalling and speed restrictions are shown in the source table."

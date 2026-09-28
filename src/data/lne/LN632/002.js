@@ -12,7 +12,7 @@ const page976 = {
   location: "Stockton Cut Junction to Saltburn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Stockton Cut Junction", "Saltburn"],
-  connections: [],
+  connections: ["Battersby Junction, LN634 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN632 sequence 002, Stockton Cut Junction to Saltburn, physical PDF page 976. Stockton Cut Junction to Saltburn. Mileages, signalling and speed restrictions are shown in the source table."

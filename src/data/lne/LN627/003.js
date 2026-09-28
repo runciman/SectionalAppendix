@@ -12,7 +12,7 @@ const page956 = {
   location: "Northallerton Longlands Junction to Newcastle East Junction via the Coast",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Northallerton Longlands Junction", "Newcastle East Junction via the Coast"],
-  connections: [],
+  connections: ["Stockton Cut Junction, LN632 sequence 001", "Bowesfield Junction, LN644 sequence 001", "Norton-on-Tees South Junction, LN646 sequence 001", "Norton-on-Tees West Junction, LN648 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN627 sequence 003, Northallerton Longlands Junction to Newcastle East Junction via the Coast, physical PDF page 956. Northallerton Longlands Junction to Newcastle East Junction via the Coast. Mileages, signalling and speed restrictions are shown in the source table."
