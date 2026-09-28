@@ -12,7 +12,7 @@ const page949 = {
   location: "King Edward Bridge East Junction to King Edward Bridge North Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["King Edward Bridge East Junction", "King Edward Bridge North Junction"],
-  connections: [],
+  connections: ["Greensfield Junction / KEB South Junction, LN676 sequence 001", "Newcastle Station / KEB South Junction, LN600 sequence 015"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN620 sequence 001, King Edward Bridge East Junction to King Edward Bridge North Junction (East Curve), physical PDF page 949. King Edward Bridge East Junction to King Edward Bridge North Junction. Mileages, signalling and speed restrictions are shown in the source table."

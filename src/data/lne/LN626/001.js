@@ -12,7 +12,7 @@ const page953 = {
   location: "Northallerton High Junction to Northallerton East Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Northallerton High Junction", "Northallerton East Junction"],
-  connections: [],
+  connections: ["Longlands Junction, LN600 sequence 008", "Eaglescliffe South Junction, LN627 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN626 sequence 001, Northallerton High Junction to Northallerton East Junction, physical PDF page 953. Northallerton High Junction to Northallerton East Junction. Mileages, signalling and speed restrictions are shown in the source table."

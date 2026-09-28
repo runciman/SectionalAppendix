@@ -12,7 +12,7 @@ const page950 = {
   location: "Forth Branch",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Forth Branch"],
-  connections: [],
+  connections: ["West End Bays / Down Main, LN600 sequence 016"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN622 sequence 001, Forth Branch, physical PDF page 950. Forth Branch. Mileages, signalling and speed restrictions are shown in the source table."

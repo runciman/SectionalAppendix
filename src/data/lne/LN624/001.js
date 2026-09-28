@@ -12,7 +12,7 @@ const page952 = {
   location: "Northallerton Castle Hills Junction to Castle Hills West Ground Frame",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Northallerton Castle Hills Junction", "Castle Hills West Ground Frame"],
-  connections: [],
+  connections: ["Northallerton High Junction, LN600 sequence 008"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN624 sequence 001, Northallerton Castle Hills Junction to Castle Hills West Ground Frame, physical PDF page 952. Northallerton Castle Hills Junction to Castle Hills West Ground Frame. Mileages, signalling and speed restrictions are shown in the source table."
