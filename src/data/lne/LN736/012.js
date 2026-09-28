@@ -12,7 +12,7 @@ const page619 = {
   location: "Cleethorpes to Nunnery Main Line Junction via Retford",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Cleethorpes", "Nunnery Main Line Junction via Retford"],
-  connections: [],
+  connections: ["Broughton Lane Junction, LN830 sequence 003", "Deepcar, LN750 sequence 001", "Sheffield, LN804 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN736 sequence 012, Cleethorpes to Nunnery Main Line Junction via Retford, physical PDF page 619. Cleethorpes to Nunnery Main Line Junction via Retford. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page622 = {
   location: "Grimsby Marsh West Junction to Humber Road Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Grimsby Marsh West Junction", "Humber Road Junction"],
-  connections: [],
+  connections: ["Habrough, LN736 sequence 002", "Union Dock, LN738 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN740 sequence 001, Grimsby Marsh West Junction to Humber Road Junction, physical PDF page 622. Grimsby Marsh West Junction to Humber Road Junction. Mileages, signalling and speed restrictions are shown in the source table."

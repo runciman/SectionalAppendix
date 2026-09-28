@@ -12,7 +12,7 @@ const page624 = {
   location: "Habrough Junction to Ulceby South Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Habrough Junction", "Ulceby South Junction"],
-  connections: [],
+  connections: ["Cleethorpes, LN736 sequence 003", "Ulceby North Junction, LN742 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN741 sequence 001, Habrough Junction to Ulceby South Junction, physical PDF page 624. Habrough Junction to Ulceby South Junction. Mileages, signalling and speed restrictions are shown in the source table."

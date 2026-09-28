@@ -12,7 +12,7 @@ const page615 = {
   location: "Cleethorpes to Nunnery Main Line Junction via Retford",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Cleethorpes", "Nunnery Main Line Junction via Retford"],
-  connections: [],
+  connections: ["Cottam Power Station, LN746 sequence 001", "ECML, LN101 sequence 025", "Retford West Junction, LN748 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN736 sequence 008, Cleethorpes to Nunnery Main Line Junction via Retford, physical PDF page 615. Cleethorpes to Nunnery Main Line Junction via Retford. Mileages, signalling and speed restrictions are shown in the source table."

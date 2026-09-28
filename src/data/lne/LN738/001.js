@@ -12,7 +12,7 @@ const page621 = {
   location: "Great Coates No. 1 to Union Dock",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Great Coates No. 1", "Union Dock"],
-  connections: [],
+  connections: ["Marsh West Junction, LN740 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN738 sequence 001, Great Coates No. 1 to Union Dock, physical PDF page 621. Great Coates No. 1 to Union Dock. Mileages, signalling and speed restrictions are shown in the source table."

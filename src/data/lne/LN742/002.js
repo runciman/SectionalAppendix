@@ -12,7 +12,7 @@ const page626 = {
   location: "Killingholme to Brocklesby Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Killingholme", "Brocklesby Junction"],
-  connections: [],
+  connections: ["Barton on Humber, LN744 sequence 001", "Habrough Junction, LN741 sequence 001", "Barnetby, LN736 sequence 004"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN742 sequence 002, Killingholme to Brocklesby Junction, physical PDF page 626. Killingholme to Brocklesby Junction. Mileages, signalling and speed restrictions are shown in the source table."
