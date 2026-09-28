@@ -12,7 +12,7 @@ const page794 = {
   location: "Milner Royd Junction to Bradford Mill Lane Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Milner Royd Junction", "Bradford Mill Lane Junction"],
-  connections: [],
+  connections: ["Hammerton Street Junction, LN852 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN858 sequence 003, Milner Royd Junction to Bradford Mill Lane Junction, physical PDF page 794. Milner Royd Junction to Bradford Mill Lane Junction. Mileages, signalling and speed restrictions are shown in the source table."

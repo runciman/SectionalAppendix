@@ -12,7 +12,7 @@ const page781 = {
   location: "Hall Royd Junction to Colton Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hall Royd Junction", "Colton Junction"],
-  connections: [],
+  connections: ["Bradley Junction, LN861 sequence 001", "Huddersfield, LN860 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN854 sequence 002, Hall Royd Junction to Colton Junction, physical PDF page 781. Hall Royd Junction to Colton Junction. Mileages, signalling and speed restrictions are shown in the source table."

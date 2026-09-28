@@ -12,7 +12,7 @@ const page796 = {
   location: "Greetland Junction to Dryclough Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Greetland Junction", "Dryclough Junction"],
-  connections: [],
+  connections: ["Bradley Wood Junction, LN854 sequence 002", "Milner Royd Junction, LN858 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN859 sequence 001, Greetland Junction to Dryclough Junction, physical PDF page 796. Greetland Junction to Dryclough Junction. Mileages, signalling and speed restrictions are shown in the source table."

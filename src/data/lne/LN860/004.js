@@ -11,7 +11,7 @@ const page800 = {
   location: "Diggle Junction to Copley Hill East Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Diggle Junction", "Copley Hill East Junction"],
-  connections: [],
+  connections: ["Mirfield / Milner Royd Junction, LN854 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN860 sequence 004, Diggle Junction to Copley Hill East Junction, physical PDF page 800. Diggle Junction to Copley Hill East Junction. Mileages, signalling and speed restrictions are shown in the source table."

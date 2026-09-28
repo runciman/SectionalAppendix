@@ -12,7 +12,7 @@ const page788 = {
   location: "Hall Royd Junction to Colton Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hall Royd Junction", "Colton Junction"],
-  connections: [],
+  connections: ["Gascoigne Wood Junction, LN878 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN854 sequence 009, Hall Royd Junction to Colton Junction, physical PDF page 788. Hall Royd Junction to Colton Junction. Mileages, signalling and speed restrictions are shown in the source table."

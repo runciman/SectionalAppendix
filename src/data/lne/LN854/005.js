@@ -12,7 +12,7 @@ const page784 = {
   location: "Hall Royd Junction to Colton Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hall Royd Junction", "Colton Junction"],
-  connections: [],
+  connections: ["Barnsley, LN868 sequence 003", "Doncaster lines, LN836 sequence 004", "Wakefield Westgate South Junction, LN850 sequence 001", "Calder Bridge Junction, LN882 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN854 sequence 005, Hall Royd Junction to Colton Junction, physical PDF page 784. Hall Royd Junction to Colton Junction. Mileages, signalling and speed restrictions are shown in the source table."

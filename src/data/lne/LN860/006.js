@@ -12,7 +12,7 @@ const page802 = {
   location: "Diggle Junction to Copley Hill East Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Diggle Junction", "Copley Hill East Junction"],
-  connections: [],
+  connections: ["Leeds, LN836 sequence 006"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN860 sequence 006, Diggle Junction to Copley Hill East Junction, physical PDF page 802. Diggle Junction to Copley Hill East Junction. Mileages, signalling and speed restrictions are shown in the source table."

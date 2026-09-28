@@ -12,7 +12,7 @@ const page787 = {
   location: "Hall Royd Junction to Colton Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hall Royd Junction", "Colton Junction"],
-  connections: [],
+  connections: ["Pontefract West Junction, LN875 sequence 001", "Wheldon Road Sidings, LN876 sequence 001", "Ferrybridge Power Station / Gascoigne Wood Junction / Milford West Sidings, LN804 sequence 009"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN854 sequence 008, Hall Royd Junction to Colton Junction, physical PDF page 787. Hall Royd Junction to Colton Junction. Mileages, signalling and speed restrictions are shown in the source table."
