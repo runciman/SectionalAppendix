@@ -12,7 +12,7 @@ const page999 = {
   location: "Boldon West Junction to Tyne Dock",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Boldon West Junction", "Tyne Dock"],
-  connections: [],
+  connections: ["Boldon West Junction, LN627 sequence 012", "Boldon East Junction, LN664 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN666 sequence 001, Boldon West Junction to Tyne Dock, physical PDF page 999. Boldon West Junction to Tyne Dock. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page991 = {
   location: "Norton-on-Tees South Junction to Ferryhill South Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Norton-on-Tees South Junction", "Ferryhill South Junction"],
-  connections: [],
+  connections: ["Norton-on-Tees South Junction, LN627 sequence 003", "Norton-on-Tees West Junction, LN648 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN646 sequence 001, Norton-on-Tees South Junction to Ferryhill South Junction, physical PDF page 991. Norton-on-Tees South Junction to Ferryhill South Junction. Mileages, signalling and speed restrictions are shown in the source table."

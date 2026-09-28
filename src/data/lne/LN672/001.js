@@ -12,7 +12,7 @@ const page1001 = {
   location: "Wardley to Pelaw Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Wardley", "Pelaw Junction"],
-  connections: [],
+  connections: ["Wardley, LN627 sequence 013"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN672 sequence 001, Wardley to Pelaw Junction, physical PDF page 1001. Wardley to Pelaw Junction. Mileages, signalling and speed restrictions are shown in the source table."

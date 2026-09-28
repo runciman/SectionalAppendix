@@ -12,7 +12,7 @@ const page1002 = {
   location: "High Level Bridge Junction to Greensfield Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["High Level Bridge Junction", "Greensfield Junction"],
-  connections: [],
+  connections: ["High Level Bridge Junction, LN627 sequence 014", "Greensfield Junction, LN676 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN674 sequence 001, High Level Bridge Junction to Greensfield Junction (West Curve), physical PDF page 1002. High Level Bridge Junction to Greensfield Junction. Mileages, signalling and speed restrictions are shown in the source table."

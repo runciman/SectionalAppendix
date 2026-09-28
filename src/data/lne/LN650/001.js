@@ -12,7 +12,7 @@ const page993 = {
   location: "Kelloe Bank Foot Branch",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Kelloe Bank Foot Branch"],
-  connections: [],
+  connections: ["Darlington, LN600 sequence 011"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN650 sequence 001, Kelloe Bank Foot Branch, physical PDF page 993. Kelloe Bank Foot Branch. Mileages, signalling and speed restrictions are shown in the source table."

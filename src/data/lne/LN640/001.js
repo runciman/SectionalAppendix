@@ -11,7 +11,7 @@ const page988 = {
   location: "ICI Wilton Coal Terminal",
   mileage: "Mileage is shown on the source diagram",
   locations: ["ICI Wilton Coal Terminal"],
-  connections: [],
+  connections: ["Cleveland Freightliner Terminal, LN638 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN640 sequence 001, ICI Wilton Coal Terminal, physical PDF page 988. ICI Wilton Coal Terminal. Mileages, signalling and speed restrictions are shown in the source table."

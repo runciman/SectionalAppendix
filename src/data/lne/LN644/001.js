@@ -12,7 +12,7 @@ const page990 = {
   location: "Hartburn Curve",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hartburn Curve"],
-  connections: [],
+  connections: ["Hartburn Junction, LN627 sequence 003", "Bowesfield Junction, LN632 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN644 sequence 001, Hartburn Curve, physical PDF page 990. Hartburn Curve. Mileages, signalling and speed restrictions are shown in the source table."

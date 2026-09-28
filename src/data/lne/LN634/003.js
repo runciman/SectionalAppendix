@@ -12,7 +12,7 @@ const page983 = {
   location: "Guisborough Junction to Whitby",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Guisborough Junction", "Whitby"],
-  connections: [],
+  connections: ["Redcar, LN634 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN634 sequence 003, Guisborough Junction to Whitby, physical PDF page 983. Guisborough Junction to Whitby. Mileages, signalling and speed restrictions are shown in the source table."
