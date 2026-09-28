@@ -12,7 +12,7 @@ const page658 = {
   location: "Welbeck Colliery Branch",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Welbeck Colliery Branch"],
-  connections: [],
+  connections: ["High Marnham, LN784 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN802 sequence 001, Welbeck Colliery Branch, physical PDF page 658. Welbeck Colliery Branch. Mileages, signalling and speed restrictions are shown in the source table."
