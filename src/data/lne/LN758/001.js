@@ -12,7 +12,7 @@ const page638 = {
   location: "Brancliffe East Junction to Kirk Sandall Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Brancliffe East Junction", "Kirk Sandall Junction"],
-  connections: [],
+  connections: ["Shireoaks West Junction, LN736 sequence 010"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN758 sequence 001, Brancliffe East Junction to Kirk Sandall Junction, physical PDF page 638. Brancliffe East Junction to Kirk Sandall Junction. Mileages, signalling and speed restrictions are shown in the source table."

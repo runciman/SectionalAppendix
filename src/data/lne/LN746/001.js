@@ -12,7 +12,7 @@ const page629 = {
   location: "Cottam Power Station Branch",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Cottam Power Station Branch"],
-  connections: [],
+  connections: ["Thrumpton West Junction, LN736 sequence 008"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN746 sequence 001, Cottam Power Station Branch, physical PDF page 629. Cottam Power Station Branch. Mileages, signalling and speed restrictions are shown in the source table."

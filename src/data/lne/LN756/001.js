@@ -12,7 +12,7 @@ const page637 = {
   location: "Scunthorpe Trent Junction to Roxby",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Scunthorpe Trent Junction", "Roxby"],
-  connections: [],
+  connections: ["Wrawby Junction, LN752 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN756 sequence 001, Scunthorpe Trent Junction to Roxby, physical PDF page 637. Scunthorpe Trent Junction to Roxby. Mileages, signalling and speed restrictions are shown in the source table."

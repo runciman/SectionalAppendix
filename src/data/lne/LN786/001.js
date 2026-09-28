@@ -12,7 +12,7 @@ const page651 = {
   location: "Bevercotes Colliery Branch",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bevercotes Colliery Branch"],
-  connections: [],
+  connections: ["High Marnham, LN784 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN786 sequence 001, Bevercotes Colliery Branch, physical PDF page 651. Bevercotes Colliery Branch. Mileages, signalling and speed restrictions are shown in the source table."

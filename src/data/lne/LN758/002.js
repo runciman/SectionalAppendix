@@ -12,7 +12,7 @@ const page639 = {
   location: "Brancliffe East Junction to Kirk Sandall Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Brancliffe East Junction", "Kirk Sandall Junction"],
-  connections: [],
+  connections: ["Decoy South Junction, LN762 sequence 001", "Lincoln Flyover Lines, LN150 sequence 001", "ECML, LN101 sequence 027", "Potteric Carr Junction, LN764 sequence 001", "Stainforth Junction, LN752 sequence 004"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN758 sequence 002, Brancliffe East Junction to Kirk Sandall Junction, physical PDF page 639. Brancliffe East Junction to Kirk Sandall Junction. Mileages, signalling and speed restrictions are shown in the source table."

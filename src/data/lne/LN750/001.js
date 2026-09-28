@@ -12,7 +12,7 @@ const page631 = {
   location: "Woodburn Junction to Deepcar",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Woodburn Junction", "Deepcar"],
-  connections: [],
+  connections: ["Broughton Lane Junction, LN830 sequence 003", "Woodhouse Junction, LN736 sequence 012"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN750 sequence 001, Woodburn Junction to Deepcar, physical PDF page 631. Woodburn Junction to Deepcar. Mileages, signalling and speed restrictions are shown in the source table."

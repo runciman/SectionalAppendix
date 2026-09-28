@@ -12,7 +12,7 @@ const page644 = {
   location: "Bentley Junction to Hexthorpe Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bentley Junction", "Hexthorpe Junction"],
-  connections: [],
+  connections: ["Thorne Junction, LN752 sequence 004", "Hexthorpe Junction, LN826 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN766 sequence 001, Bentley Junction to Hexthorpe Junction (Doncaster Avoiding Line), physical PDF page 644. Bentley Junction to Hexthorpe Junction. Mileages, signalling and speed restrictions are shown in the source table."

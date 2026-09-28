@@ -12,7 +12,7 @@ const page645 = {
   location: "Mansfield Woodhouse to Shireoaks East Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Mansfield Woodhouse", "Shireoaks East Junction"],
-  connections: [],
+  connections: ["Kirkby Summit, LN3273 sequence 004", "Warsop Junction, LN772 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN768 sequence 001, Mansfield Woodhouse to Shireoaks East Junction, physical PDF page 645. Mansfield Woodhouse to Shireoaks East Junction. Mileages, signalling and speed restrictions are shown in the source table."

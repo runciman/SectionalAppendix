@@ -12,7 +12,7 @@ const page646 = {
   location: "Mansfield Woodhouse to Shireoaks East Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Mansfield Woodhouse", "Shireoaks East Junction"],
-  connections: [],
+  connections: ["High Marnham, LN784 sequence 002", "Shireoaks West Junction, LN782 sequence 001", "Worksop, LN736 sequence 010"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN768 sequence 002, Mansfield Woodhouse to Shireoaks East Junction, physical PDF page 646. Mansfield Woodhouse to Shireoaks East Junction. Mileages, signalling and speed restrictions are shown in the source table."

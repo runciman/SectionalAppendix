@@ -12,7 +12,7 @@ const page636 = {
   location: "Scunthorpe Foreign Ore Branch",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Scunthorpe Foreign Ore Branch"],
-  connections: [],
+  connections: ["Wrawby Junction, LN752 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN754 sequence 001, Scunthorpe Foreign Ore Branch, physical PDF page 636. Scunthorpe Foreign Ore Branch. Mileages, signalling and speed restrictions are shown in the source table."

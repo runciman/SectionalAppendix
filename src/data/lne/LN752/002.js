@@ -12,7 +12,7 @@ const page633 = {
   location: "Wrawby Junction to Marshgate Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Wrawby Junction", "Marshgate Junction"],
-  connections: [],
+  connections: ["Roxby, LN756 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN752 sequence 002, Wrawby Junction to Marshgate Junction, physical PDF page 633. Wrawby Junction to Marshgate Junction. Mileages, signalling and speed restrictions are shown in the source table."

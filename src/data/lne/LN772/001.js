@@ -12,7 +12,7 @@ const page647 = {
   location: "Warsop Junction to Shirebrook Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Warsop Junction", "Shirebrook Junction"],
-  connections: [],
+  connections: ["Welbeck Colliery Junction, LN784 sequence 002", "Mansfield Woodhouse, LN768 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN772 sequence 001, Warsop Junction to Shirebrook Junction, physical PDF page 647. Warsop Junction to Shirebrook Junction. Mileages, signalling and speed restrictions are shown in the source table."

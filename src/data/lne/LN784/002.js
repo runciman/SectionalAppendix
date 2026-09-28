@@ -12,7 +12,7 @@ const page650 = {
   location: "High Marnham to Shirebrook East Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["High Marnham", "Shirebrook East Junction"],
-  connections: [],
+  connections: ["Shirebrook Junction, LN772 sequence 001", "Shireoaks East Junction, LN768 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN784 sequence 002, High Marnham to Shirebrook East Junction, physical PDF page 650. High Marnham to Shirebrook East Junction. Mileages, signalling and speed restrictions are shown in the source table."
