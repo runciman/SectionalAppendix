@@ -12,7 +12,7 @@ const page1007 = {
   location: "King Edward Bridge South Junction to Petteril Bridge Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["King Edward Bridge South Junction", "Petteril Bridge Junction"],
-  connections: [],
+  connections: ["King Edward Bridge Junctions, LN676 sequence 001", "Newcastle Station / KEB South Junction, LN600 sequence 015", "Heaton Junction, LN684 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN682 sequence 001, King Edward Bridge South Junction to Petteril Bridge Junction, physical PDF page 1007. King Edward Bridge South Junction to Petteril Bridge Junction. Mileages, signalling and speed restrictions are shown in the source table."

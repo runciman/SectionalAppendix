@@ -12,7 +12,7 @@ const page1026 = {
   location: "Bedlington North to Lynemouth Alcan",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bedlington North", "Lynemouth Alcan"],
-  connections: [],
+  connections: ["Cramlington, LN694 sequence 000", "Ashington, LN708 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN702 sequence 001, Bedlington North to Lynemouth Alcan, physical PDF page 1026. Bedlington North to Lynemouth Alcan. Mileages, signalling and speed restrictions are shown in the source table."

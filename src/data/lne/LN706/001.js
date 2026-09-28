@@ -12,7 +12,7 @@ const page1028 = {
   location: "West Sleekburn Junction to North Blyth",
   mileage: "Mileage is shown on the source diagram",
   locations: ["West Sleekburn Junction", "North Blyth"],
-  connections: [],
+  connections: ["Cramlington, LN702 sequence 001", "Ashington, LN708 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN706 sequence 001, West Sleekburn Junction to North Blyth, physical PDF page 1028. West Sleekburn Junction to North Blyth. Mileages, signalling and speed restrictions are shown in the source table."

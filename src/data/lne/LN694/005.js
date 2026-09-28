@@ -11,7 +11,7 @@ const page1021 = {
   location: "Benton North Junction to Morpeth North Junction via Bedlington",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Benton North Junction", "Morpeth North Junction via Bedlington"],
-  connections: [],
+  connections: ["Bedlington, LN696 sequence 001", "Newcastle Station, LN600 sequence 021"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN694 sequence 005, Benton North Junction to Morpeth North Junction via Bedlington, physical PDF page 1021. Benton North Junction to Morpeth North Junction via Bedlington. Mileages, signalling and speed restrictions are shown in the source table."

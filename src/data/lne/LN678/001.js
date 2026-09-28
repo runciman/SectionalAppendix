@@ -12,7 +12,7 @@ const page1004 = {
   location: "Darlington North Junction to Eastgate",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Darlington North Junction", "Eastgate"],
-  connections: [],
+  connections: ["Darlington, LN600 sequence 010"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN678 sequence 001, Darlington North Junction to Eastgate, physical PDF page 1004. Darlington North Junction to Eastgate. Mileages, signalling and speed restrictions are shown in the source table."

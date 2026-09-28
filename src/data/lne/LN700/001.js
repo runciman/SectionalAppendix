@@ -11,7 +11,7 @@ const page1025 = {
   location: "Butterwell North Branch",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Butterwell North Branch"],
-  connections: [],
+  connections: ["Newcastle Station, LN600 sequence 022"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN700 sequence 001, Butterwell North Branch Arrival and Departure, physical PDF page 1025. Butterwell North Branch. Mileages, signalling and speed restrictions are shown in the source table."

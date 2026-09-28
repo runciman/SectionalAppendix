@@ -12,7 +12,7 @@ const page1023 = {
   location: "Hepscott Junction to Morpeth Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hepscott Junction", "Morpeth Junction"],
-  connections: [],
+  connections: ["Bedlington, LN694 sequence 002", "Newcastle Station, LN600 sequence 021"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN696 sequence 001, Hepscott Junction to Morpeth Junction, physical PDF page 1023. Hepscott Junction to Morpeth Junction. Mileages, signalling and speed restrictions are shown in the source table."

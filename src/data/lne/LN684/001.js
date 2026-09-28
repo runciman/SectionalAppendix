@@ -12,7 +12,7 @@ const page1016 = {
   location: "Low Fell Junction to Norwood Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Low Fell Junction", "Norwood Junction"],
-  connections: [],
+  connections: ["Newcastle Station, LN600 sequence 014", "Heaton Junction, LN682 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN684 sequence 001, Low Fell Junction to Norwood Junction, physical PDF page 1016. Low Fell Junction to Norwood Junction. Mileages, signalling and speed restrictions are shown in the source table."
