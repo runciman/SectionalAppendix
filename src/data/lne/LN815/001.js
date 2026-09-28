@@ -12,7 +12,7 @@ const page711 = {
   location: "Parkgate Junction to Sheffield Tram Parkgate Transfer Line",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Parkgate Junction", "Sheffield Tram Parkgate Transfer Line"],
-  connections: [],
+  connections: ["Aldwarke Junction, LN830 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN815 sequence 001, Parkgate Junction to Sheffield Tram Parkgate Transfer Line, physical PDF page 711. Parkgate Junction to Sheffield Tram Parkgate Transfer Line. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page708 = {
   location: "Shepcote Lane West Junction to Tinsley South Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Shepcote Lane West Junction", "Tinsley South Junction"],
-  connections: [],
+  connections: ["Tinsley Yard, LN809 sequence 001", "Broughton Lane Junction, LN812 sequence 001", "Tinsley East Junction, LN830 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN810 sequence 001, Shepcote Lane West Junction to Tinsley South Junction, physical PDF page 708. Shepcote Lane West Junction to Tinsley South Junction. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page719 = {
   location: "Mexborough Junction to Aldwarke Junction via Kilnhurst",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Mexborough Junction", "Aldwarke Junction via Kilnhurst"],
-  connections: [],
+  connections: ["Doncaster South Yorkshire Junction, LN826 sequence 003", "Sheffield, LN804 sequence 005"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN828 sequence 001, Mexborough Junction to Aldwarke Junction via Kilnhurst, physical PDF page 719. Mexborough Junction to Aldwarke Junction via Kilnhurst. Mileages, signalling and speed restrictions are shown in the source table."

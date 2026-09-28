@@ -12,7 +12,7 @@ const page710 = {
   location: "Tinsley North Junction to Sheffield Tram Transfer Line",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Tinsley North Junction", "Sheffield Tram Transfer Line"],
-  connections: [],
+  connections: ["Tinsley East Junction, LN830 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN814 sequence 001, Tinsley North Junction to Sheffield Tram Transfer Line, physical PDF page 710. Tinsley North Junction to Sheffield Tram Transfer Line. Mileages, signalling and speed restrictions are shown in the source table."

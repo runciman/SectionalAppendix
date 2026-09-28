@@ -12,7 +12,7 @@ const page722 = {
   location: "Aldwarke Junction to Woodburn Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Aldwarke Junction", "Woodburn Junction"],
-  connections: [],
+  connections: ["Tinsley South Junction, LN810 sequence 001", "Shepcote Lane Junction, LN812 sequence 001", "Nunnery Main Line Junction, LN736 sequence 012", "Deepcar, LN750 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN830 sequence 003, Aldwarke Junction to Woodburn Junction, physical PDF page 722. Aldwarke Junction to Woodburn Junction. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page724 = {
   location: "Doncaster Bridge Junction to St James Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Doncaster Bridge Junction", "St James Junction"],
-  connections: [],
+  connections: ["Decoy North Junction, LN101 sequence 028", "Hexthorpe Junction, LN826 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN832 sequence 001, Doncaster Bridge Junction to St James Junction, physical PDF page 724. Doncaster Bridge Junction to St James Junction. Mileages, signalling and speed restrictions are shown in the source table."

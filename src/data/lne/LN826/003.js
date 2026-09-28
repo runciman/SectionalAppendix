@@ -12,7 +12,7 @@ const page715 = {
   location: "Doncaster South Yorkshire Junction to Swinton Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Doncaster South Yorkshire Junction", "Swinton Junction"],
-  connections: [],
+  connections: ["Thrybergh Junction, LN828 sequence 001", "Sheffield, LN804 sequence 005"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN826 sequence 003, Doncaster South Yorkshire Junction to Swinton Junction North and South, physical PDF page 715. Doncaster South Yorkshire Junction to Swinton Junction. Mileages, signalling and speed restrictions are shown in the source table."

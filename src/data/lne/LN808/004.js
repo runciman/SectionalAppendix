@@ -11,7 +11,7 @@ const page705 = {
   location: "Dore Station Junction to Earles Sidings",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Dore Station Junction", "Earles Sidings"],
-  connections: [],
+  connections: ["Edale, NW9001 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN808 sequence 004, Dore Station Junction to Earles Sidings (exclusive), physical PDF page 705. Dore Station Junction to Earles Sidings. Mileages, signalling and speed restrictions are shown in the source table."

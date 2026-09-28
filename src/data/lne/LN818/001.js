@@ -12,7 +12,7 @@ const page713 = {
   location: "Holmes Curve",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Holmes Curve"],
-  connections: [],
+  connections: ["Sheffield, LN804 sequence 004", "Aldwarke Junction, LN830 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN818 sequence 001, Holmes Curve, physical PDF page 713. Holmes Curve. Mileages, signalling and speed restrictions are shown in the source table."

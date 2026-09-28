@@ -12,7 +12,7 @@ const page709 = {
   location: "Shepcote Lane East Junction to Broughton Lane Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Shepcote Lane East Junction", "Broughton Lane Junction"],
-  connections: [],
+  connections: ["Tinsley Yard, LN809 sequence 001", "Broughton Lane Junction, LN810 sequence 001", "Tinsley South Junction, LN830 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN812 sequence 001, Shepcote Lane East Junction to Broughton Lane Junction, physical PDF page 709. Shepcote Lane East Junction to Broughton Lane Junction. Mileages, signalling and speed restrictions are shown in the source table."
