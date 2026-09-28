@@ -12,7 +12,7 @@ const page699 = {
   location: "Tapton Junction to Masborough Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Tapton Junction", "Masborough Junction"],
-  connections: [],
+  connections: ["Clay Cross North Junction, LN3201 sequence 044", "Seymour Junction, LN774 sequence 001", "Hall Lane Junction, LN776 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN806 sequence 001, Tapton Junction to Masborough Junction, physical PDF page 699. Tapton Junction to Masborough Junction. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page688 = {
   location: "Hall Lane Junction to Foxlow Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hall Lane Junction", "Foxlow Junction"],
-  connections: [],
+  connections: ["Seymour Junction, LN774 sequence 001", "Masborough Junction, LN806 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN776 sequence 001, Hall Lane Junction to Foxlow Junction, physical PDF page 688. Hall Lane Junction to Foxlow Junction. Mileages, signalling and speed restrictions are shown in the source table."

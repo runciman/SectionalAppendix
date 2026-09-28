@@ -12,7 +12,7 @@ const page701 = {
   location: "Dore South Junction to Dore West Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Dore South Junction", "Dore West Junction"],
-  connections: [],
+  connections: ["Clay Cross North Junction, LN804 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN807 sequence 001, Dore South Junction to Dore West Junction, physical PDF page 701. Dore South Junction to Dore West Junction. Mileages, signalling and speed restrictions are shown in the source table."

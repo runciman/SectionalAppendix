@@ -12,7 +12,7 @@ const page694 = {
   location: "Tapton Junction to Gascoigne Wood via Sheffield",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Tapton Junction", "Gascoigne Wood via Sheffield"],
-  connections: [],
+  connections: ["Barrow Hill, LN806 sequence 002", "Rotherham Central, LN830 sequence 001", "Roundwood 11 inch Mill, LN828 sequence 001", "Doncaster South Yorkshire Junction, LN826 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN804 sequence 005, Tapton Junction to Gascoigne Wood via Sheffield, physical PDF page 694. Tapton Junction to Gascoigne Wood via Sheffield. Mileages, signalling and speed restrictions are shown in the source table."

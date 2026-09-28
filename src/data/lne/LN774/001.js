@@ -12,7 +12,7 @@ const page687 = {
   location: "Barrow Hill North Junction to Oxcroft Disposal Point",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Barrow Hill North Junction", "Oxcroft Disposal Point"],
-  connections: [],
+  connections: ["Tapton Junction, LN806 sequence 001", "Foxlow Junction, LN776 sequence 001", "Bolsover, LN778 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN774 sequence 001, Barrow Hill North Junction to Oxcroft Disposal Point, physical PDF page 687. Barrow Hill North Junction to Oxcroft Disposal Point. Mileages, signalling and speed restrictions are shown in the source table."

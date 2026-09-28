@@ -12,7 +12,7 @@ const page691 = {
   location: "Tapton Junction to Gascoigne Wood via Sheffield",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Tapton Junction", "Gascoigne Wood via Sheffield"],
-  connections: [],
+  connections: ["Dore West Junction, LN807 sequence 001", "Totley Tunnel East, LN808 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN804 sequence 002, Tapton Junction to Gascoigne Wood via Sheffield, physical PDF page 691. Tapton Junction to Gascoigne Wood via Sheffield. Mileages, signalling and speed restrictions are shown in the source table."
