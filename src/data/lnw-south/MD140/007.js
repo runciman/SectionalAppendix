@@ -12,7 +12,7 @@ const page199 = {
   location: "Kempston Hardwick / Bedford St Johns",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Kempston Hardwick / Bedford St Johns"],
-  connections: [],
+  connections: ["Bedford St. Johns, LN3140 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD140 sequence 007, Bletchley to Bedford St. Johns (Inclusive), physical PDF page 199. Kempston Hardwick / Bedford St Johns. Mileages, signalling and speed restrictions are shown in the source table."
