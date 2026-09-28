@@ -12,7 +12,7 @@ const page856 = {
   location: "Neville Hill West Junction to Hunslet East",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Neville Hill West Junction", "Hunslet East"],
-  connections: [],
+  connections: ["Neville Hill, LN836 sequence 009"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN900 sequence 001, Neville Hill West Junction to Hunslet East, physical PDF page 856. Neville Hill West Junction to Hunslet East. Mileages, signalling and speed restrictions are shown in the source table."

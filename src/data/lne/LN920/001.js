@@ -11,7 +11,7 @@ const page877 = {
   location: "Anlaby Road Junction to West Parade North Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Anlaby Road Junction", "West Parade North Junction"],
-  connections: [],
+  connections: ["Gilberdyke Junction, LN898 sequence 008", "Beverley, LN914 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN920 sequence 001, Anlaby Road Junction to West Parade North Junction, physical PDF page 877. Anlaby Road Junction to West Parade North Junction. Mileages, signalling and speed restrictions are shown in the source table."

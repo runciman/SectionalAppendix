@@ -12,7 +12,7 @@ const page860 = {
   location: "Hambleton South Junction to Hambleton West Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hambleton South Junction", "Hambleton West Junction"],
-  connections: [],
+  connections: ["Temple Hirst Junction, LN600 sequence 002", "Gascoigne Wood Junction, LN898 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN904 sequence 001, Hambleton South Junction to Hambleton West Junction, physical PDF page 860. Hambleton South Junction to Hambleton West Junction. Mileages, signalling and speed restrictions are shown in the source table."

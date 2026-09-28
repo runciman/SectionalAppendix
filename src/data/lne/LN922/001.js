@@ -12,7 +12,7 @@ const page878 = {
   location: "Whitehall West Junction to Hellifield South Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Whitehall West Junction", "Hellifield South Junction"],
-  connections: [],
+  connections: ["Leeds / Engine Shed Junction, LN836 sequence 007", "Harrogate, LN838 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN922 sequence 001, Whitehall West Junction to Hellifield South Junction, physical PDF page 878. Whitehall West Junction to Hellifield South Junction. Mileages, signalling and speed restrictions are shown in the source table."

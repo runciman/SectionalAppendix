@@ -12,7 +12,7 @@ const page861 = {
   location: "Hambleton East Junction to Hambleton North Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hambleton East Junction", "Hambleton North Junction"],
-  connections: [],
+  connections: ["Selby West Junction, LN898 sequence 002", "Colton Junction, LN600 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN906 sequence 001, Hambleton East Junction to Hambleton North Junction, physical PDF page 861. Hambleton East Junction to Hambleton North Junction. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page874 = {
   location: "Hessle Road to Saltend",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hessle Road", "Saltend"],
-  connections: [],
+  connections: ["Gilberdyke Junction, LN898 sequence 007", "Walton Street Junction, LN918 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN916 sequence 001, Hessle Road to Saltend, physical PDF page 874. Hessle Road to Saltend. Mileages, signalling and speed restrictions are shown in the source table."

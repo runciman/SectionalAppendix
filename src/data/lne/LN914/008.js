@@ -12,7 +12,7 @@ const page873 = {
   location: "Hull Paragon to Seamer West Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hull Paragon", "Seamer West Junction"],
-  connections: [],
+  connections: ["Scarborough, LN880 sequence 007"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN914 sequence 008, Hull Paragon to Seamer West Junction, physical PDF page 873. Hull Paragon to Seamer West Junction. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page862 = {
   location: "Selby West Junction to Canal Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Selby West Junction", "Canal Junction"],
-  connections: [],
+  connections: ["Hambleton East Junction, LN898 sequence 002", "Temple Hirst Junction, LN910 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN908 sequence 001, Selby West Junction to Canal Junction, physical PDF page 862. Selby West Junction to Canal Junction. Mileages, signalling and speed restrictions are shown in the source table."

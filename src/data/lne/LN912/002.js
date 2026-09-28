@@ -12,7 +12,7 @@ const page865 = {
   location: "Thorne Junction to Gilberdyke Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Thorne Junction", "Gilberdyke Junction"],
-  connections: [],
+  connections: ["Hessle East Junction, LN898 sequence 005"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN912 sequence 002, Thorne Junction to Gilberdyke Junction, physical PDF page 865. Thorne Junction to Gilberdyke Junction. Mileages, signalling and speed restrictions are shown in the source table."

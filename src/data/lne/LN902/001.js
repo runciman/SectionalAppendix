@@ -12,7 +12,7 @@ const page857 = {
   location: "Micklefield Junction to Church Fenton North Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Micklefield Junction", "Church Fenton North Junction"],
-  connections: [],
+  connections: ["Neville Hill East Junction, LN898 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN902 sequence 001, Micklefield Junction to Church Fenton North Junction, physical PDF page 857. Micklefield Junction to Church Fenton North Junction. Mileages, signalling and speed restrictions are shown in the source table."

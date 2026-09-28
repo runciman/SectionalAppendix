@@ -12,7 +12,7 @@ const page864 = {
   location: "Thorne Junction to Gilberdyke Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Thorne Junction", "Gilberdyke Junction"],
-  connections: [],
+  connections: ["Doncaster, LN752 sequence 004", "Engine Shed Junction, LN882 sequence 005"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN912 sequence 001, Thorne Junction to Gilberdyke Junction, physical PDF page 864. Thorne Junction to Gilberdyke Junction. Mileages, signalling and speed restrictions are shown in the source table."

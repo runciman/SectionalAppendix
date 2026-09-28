@@ -12,7 +12,7 @@ const page854 = {
   location: "Hessle East Junction to Hull Dairycoates",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hessle East Junction", "Hull Dairycoates"],
-  connections: [],
+  connections: ["Hull, LN898 sequence 007"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN899 sequence 001, Hessle East Junction to Hull Dairycoates, physical PDF page 854. Hessle East Junction to Hull Dairycoates. Mileages, signalling and speed restrictions are shown in the source table."
