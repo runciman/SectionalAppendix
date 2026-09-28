@@ -12,7 +12,7 @@ const page559 = {
   location: "Allington West Junction to Netherfield Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Allington West Junction", "Netherfield Junction"],
-  connections: [],
+  connections: ["Nottingham / Carlton, LN3625 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3635 sequence 005, Allington West Junction (exclusive) to Netherfield Junction, physical PDF page 559. Allington West Junction to Netherfield Junction. Mileages, signalling and speed restrictions are shown in the source table."

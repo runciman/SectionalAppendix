@@ -12,7 +12,7 @@ const page554 = {
   location: "Nottingham East Junction to Newark Flat Crossing",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Nottingham East Junction", "Newark Flat Crossing"],
-  connections: [],
+  connections: ["Grantham / ECML, LN101 sequence 022", "Lincoln, LN206 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3625 sequence 006, Nottingham East Junction to Newark Flat Crossing (exclusive), physical PDF page 554. Nottingham East Junction to Newark Flat Crossing. Mileages, signalling and speed restrictions are shown in the source table."
