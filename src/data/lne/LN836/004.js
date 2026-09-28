@@ -12,7 +12,7 @@ const page759 = {
   location: "Doncaster Marshgate Junction to Neville Hill East Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Doncaster Marshgate Junction", "Neville Hill East Junction"],
-  connections: [],
+  connections: ["Crofton West Junction, LN848 sequence 001", "Wakefield Kirkgate West Junction, LN850 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN836 sequence 004, Doncaster Marshgate Junction to Neville Hill East Junction, physical PDF page 759. Doncaster Marshgate Junction to Neville Hill East Junction. Mileages, signalling and speed restrictions are shown in the source table."

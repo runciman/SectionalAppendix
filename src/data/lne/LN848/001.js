@@ -12,7 +12,7 @@ const page775 = {
   location: "Hare Park Junction to Crofton West Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hare Park Junction", "Crofton West Junction"],
-  connections: [],
+  connections: ["South Kirkby Junction, LN836 sequence 004", "Calder Bridge Junction, LN882 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN848 sequence 001, Hare Park Junction to Crofton West Junction, physical PDF page 775. Hare Park Junction to Crofton West Junction. Mileages, signalling and speed restrictions are shown in the source table."

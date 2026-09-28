@@ -12,7 +12,7 @@ const page773 = {
   location: "Applehurst Loop",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Applehurst Loop"],
-  connections: [],
+  connections: ["Thorpe Marsh Junction, LN842 sequence 001", "Temple Hirst Junction, LN600 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN844 sequence 001, Applehurst Loop, physical PDF page 773. Applehurst Loop. Mileages, signalling and speed restrictions are shown in the source table."

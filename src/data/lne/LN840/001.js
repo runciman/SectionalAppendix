@@ -12,7 +12,7 @@ const page771 = {
   location: "Leeds Engine Shed Junction to Whitehall East Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Leeds Engine Shed Junction", "Whitehall East Junction"],
-  connections: [],
+  connections: ["Altofts Junction, LN872 sequence 002", "Copley Hill East Junction / Holbeck / Armley, LN836 sequence 007"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN840 sequence 001, Leeds Engine Shed Junction to Whitehall East Junction, physical PDF page 771. Leeds Engine Shed Junction to Whitehall East Junction. Mileages, signalling and speed restrictions are shown in the source table."

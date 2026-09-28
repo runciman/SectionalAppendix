@@ -12,7 +12,7 @@ const page777 = {
   location: "Holbeck Junction to Bradford Interchange",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Holbeck Junction", "Bradford Interchange"],
-  connections: [],
+  connections: ["Whitehall West Junction, LN836 sequence 006"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN852 sequence 001, Holbeck Junction to Bradford Interchange, physical PDF page 777. Holbeck Junction to Bradford Interchange. Mileages, signalling and speed restrictions are shown in the source table."
