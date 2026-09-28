@@ -12,7 +12,7 @@ const page887 = {
   location: "Skipton Middle Junction to Rylstone",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Skipton Middle Junction", "Rylstone"],
-  connections: [],
+  connections: ["Skipton North Junction, LN922 sequence 005"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN930 sequence 001, Skipton Middle Junction to Rylstone, physical PDF page 887. Skipton Middle Junction to Rylstone. Mileages, signalling and speed restrictions are shown in the source table."

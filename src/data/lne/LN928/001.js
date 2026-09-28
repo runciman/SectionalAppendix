@@ -12,7 +12,7 @@ const page886 = {
   location: "Shipley East Junction to Bradford Forster Square",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Shipley East Junction", "Bradford Forster Square"],
-  connections: [],
+  connections: ["Leeds, LN922 sequence 002", "Shipley West Junction, LN932 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN928 sequence 001, Shipley East Junction to Bradford Forster Square, physical PDF page 886. Shipley East Junction to Bradford Forster Square. Mileages, signalling and speed restrictions are shown in the source table."

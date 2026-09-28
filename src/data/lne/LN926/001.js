@@ -12,7 +12,7 @@ const page885 = {
   location: "Dockfield Junction to Esholt Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Dockfield Junction", "Esholt Junction"],
-  connections: [],
+  connections: ["Shipley, LN922 sequence 002", "Ilkley, LN924 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN926 sequence 001, Dockfield Junction to Esholt Junction, physical PDF page 885. Dockfield Junction to Esholt Junction. Mileages, signalling and speed restrictions are shown in the source table."

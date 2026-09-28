@@ -11,7 +11,7 @@ const page882 = {
   location: "Whitehall West Junction to Hellifield South Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Whitehall West Junction", "Hellifield South Junction"],
-  connections: [],
+  connections: ["Rylstone (Swinden Quarry), LN930 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN922 sequence 005, Whitehall West Junction to Hellifield South Junction, physical PDF page 882. Whitehall West Junction to Hellifield South Junction. Mileages, signalling and speed restrictions are shown in the source table."
