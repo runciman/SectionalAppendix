@@ -12,7 +12,7 @@ const page812 = {
   location: "Wincobank Junction to Horbury Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Wincobank Junction", "Horbury Junction"],
-  connections: [],
+  connections: ["Huddersfield, LN862 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN868 sequence 002, Wincobank Junction to Horbury Junction, physical PDF page 812. Wincobank Junction to Horbury Junction. Mileages, signalling and speed restrictions are shown in the source table."

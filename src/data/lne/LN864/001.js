@@ -12,7 +12,7 @@ const page810 = {
   location: "Dewsbury Railway Street Branch",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Dewsbury Railway Street Branch"],
-  connections: [],
+  connections: ["Healey Mills A Junction, LN854 sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN864 sequence 001, Dewsbury Railway Street Branch, physical PDF page 810. Dewsbury Railway Street Branch. Mileages, signalling and speed restrictions are shown in the source table."

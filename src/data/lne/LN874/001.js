@@ -12,7 +12,7 @@ const page817 = {
   location: "Methley Junction to Whitwood Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Methley Junction", "Whitwood Junction"],
-  connections: [],
+  connections: ["Leeds, LN872 sequence 001", "Castleford, LN854 sequence 007"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN874 sequence 001, Methley Junction to Whitwood Junction, physical PDF page 817. Methley Junction to Whitwood Junction. Mileages, signalling and speed restrictions are shown in the source table."

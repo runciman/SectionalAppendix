@@ -12,7 +12,7 @@ const page815 = {
   location: "Altofts Junction to Leeds West Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Altofts Junction", "Leeds West Junction"],
-  connections: [],
+  connections: ["Turners Lane Junction, LN854 sequence 007", "Whitwood Junction, LN874 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN872 sequence 001, Altofts Junction to Leeds West Junction, physical PDF page 815. Altofts Junction to Leeds West Junction. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page814 = {
   location: "Wakefield Turners Lane to Calder Bridge Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Wakefield Turners Lane", "Calder Bridge Junction"],
-  connections: [],
+  connections: ["Altofts Junction, LN854 sequence 006", "Goole / Potters Grange Junction, LN882 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN870 sequence 001, Wakefield Turners Lane to Calder Bridge Junction, physical PDF page 814. Wakefield Turners Lane to Calder Bridge Junction. Mileages, signalling and speed restrictions are shown in the source table."

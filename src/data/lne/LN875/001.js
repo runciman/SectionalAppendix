@@ -11,7 +11,7 @@ const page818 = {
   location: "Castleford West Junction to Pontefract West Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Castleford West Junction", "Pontefract West Junction"],
-  connections: [],
+  connections: ["Milford Junction, LN854 sequence 008", "Pontefract East Junction, LN882 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN875 sequence 001, Castleford West Junction to Pontefract West Junction, physical PDF page 818. Castleford West Junction to Pontefract West Junction. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page821 = {
   location: "York to Scarborough",
   mileage: "Mileage is shown on the source diagram",
   locations: ["York", "Scarborough"],
-  connections: [],
+  connections: ["York, LN854 sequence 011"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN880 sequence 001, York to Scarborough, physical PDF page 821. York to Scarborough. Mileages, signalling and speed restrictions are shown in the source table."

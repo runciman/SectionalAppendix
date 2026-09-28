@@ -12,7 +12,7 @@ const page804 = {
   location: "Bradley Junction to Bradley Wood Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bradley Junction", "Bradley Wood Junction"],
-  connections: [],
+  connections: ["Huddersfield, LN860 sequence 002", "Greetland Junction, LN854 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN861 sequence 001, Bradley Junction to Bradley Wood Junction, physical PDF page 804. Bradley Junction to Bradley Wood Junction. Mileages, signalling and speed restrictions are shown in the source table."

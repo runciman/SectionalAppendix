@@ -11,7 +11,7 @@ const page809 = {
   location: "Barnsley Station Junction to Huddersfield",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Barnsley Station Junction", "Huddersfield"],
-  connections: [],
+  connections: ["Huddersfield, LN860 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN862 sequence 005, Barnsley Station Junction to Huddersfield, physical PDF page 809. Barnsley Station Junction to Huddersfield. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page820 = {
   location: "Sherburn Junction to Gascoigne Wood",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Sherburn Junction", "Gascoigne Wood"],
-  connections: [],
+  connections: ["Church Fenton South Junction, LN854 sequence 009", "Hambleton West Junction, LN898 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN878 sequence 001, Sherburn Junction to Gascoigne Wood, physical PDF page 820. Sherburn Junction to Gascoigne Wood. Mileages, signalling and speed restrictions are shown in the source table."
