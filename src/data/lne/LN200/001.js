@@ -12,7 +12,7 @@ const page601 = {
   location: "Wrawby Junction to Pelham Street Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Wrawby Junction", "Pelham Street Junction"],
-  connections: [],
+  connections: ["Cleethorpes, LN736 sequence 004"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN200 sequence 001, Wrawby Junction to Pelham Street Junction, physical PDF page 601. Wrawby Junction to Pelham Street Junction. Mileages, signalling and speed restrictions are shown in the source table."
