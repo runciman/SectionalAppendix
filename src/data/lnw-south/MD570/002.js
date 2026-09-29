@@ -12,7 +12,7 @@ const page409 = {
   location: "St Andrew’s Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["St Andrew’s Jn"],
-  connections: ["MD401 sequence 019"],
+  connections: ["MD401 sequence 019", "MD435 sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD570 sequence 002, Saltley (Landor Street Jn) to Kings Norton Jn (Camp Hill Lines), physical PDF page 409. St Andrew’s Jn. Mileages, signalling and speed restrictions are shown in the source table."

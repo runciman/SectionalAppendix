@@ -12,7 +12,7 @@ const page408 = {
   location: "Saltley",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Saltley"],
-  connections: ["MD501 sequence 009", "MD301 sequence 007"],
+  connections: ["MD501 sequence 009", "MD301 sequence 007", "MD575 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "MD570 sequence 001, Saltley (Landor Street Jn) to Kings Norton Jn (Camp Hill Lines), physical PDF page 408. Saltley. Mileages, signalling and speed restrictions are shown in the source table."
