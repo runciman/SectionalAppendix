@@ -12,7 +12,10 @@ const page369 = {
   location: "Ely to Kings Lynn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Ely", "Kings Lynn"],
-  connections: [],
+  connections: [
+    "To/from referenced page \u2014 EA1560, sequence 001",
+    "To/from referenced page \u2014 EA1161, sequence 018"
+  ],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1580 sequence 001, Ely to Kings Lynn, physical PDF page 369. Ely to Kings Lynn. Mileages, signalling and speed restrictions are shown in the source table."
