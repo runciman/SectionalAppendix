@@ -23,8 +23,9 @@ const page489 = {
   "Fowey Dock and Carne Point"
 ],
   connections: [
-  "GW108 sequences 026 and 027"
-],
+    "To/from Lostwithiel — GW108, sequence 026",
+    "To/from Par — GW108, sequence 027"
+  ],
   signalling: [
   "OT(S) Mid Cornwall, RA6",
   "GSM-R boundary at 281m 58ch"
@@ -37,4 +38,3 @@ const page489 = {
 };
 
 export default page489;
-
