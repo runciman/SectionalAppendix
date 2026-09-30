@@ -20,7 +20,9 @@ const page521 = {
     "Moreton-on-Lugg signal box - 46m 65ch",
     "Shelwick Junction - 49m 26ch"
   ],
-  connections: [],
+  connections: [
+    "To Ledbury — MD940, sequence 006"
+  ],
   signalling: [
     "MD940 sequence 006 toward Ledbury; absolute block and TCB at Hereford",
     "GSM-R"
@@ -33,4 +35,3 @@ const page521 = {
 };
 
 export default page521;
-

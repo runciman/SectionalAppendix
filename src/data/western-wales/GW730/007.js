@@ -23,7 +23,9 @@ const page517 = {
     "Ludlow Tunnel - 27m 47ch to 27m 53ch",
     "Saltmoor crossing - 29m 62ch"
   ],
-  connections: [],
+  connections: [
+    "To Broome — GW910, sequence 001"
+  ],
   signalling: [
     "GW910 sequence 001 toward Broome; absolute block signal boxes at Craven Arms, Onibury and Bromfield",
     "GSM-R"
@@ -36,4 +38,3 @@ const page517 = {
 };
 
 export default page517;
-

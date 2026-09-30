@@ -23,7 +23,9 @@ const page522 = {
     "Eign Viaduct - 52m 00ch to 52m 03ch",
     "Former Rotherwas Junction and ELR change - 52m 19ch"
   ],
-  connections: [],
+  connections: [
+    "To MEB Sidings — GW750, sequence 001"
+  ],
   signalling: [
     "GW750 sequence 001 toward MEB Sidings; Hereford signal box"
   ],
@@ -36,4 +38,3 @@ const page522 = {
 };
 
 export default page522;
-
