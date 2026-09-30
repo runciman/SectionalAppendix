@@ -20,8 +20,10 @@ const page308 = {
     "Greenford South Junction - 8m 45ch"
   ],
   connections: [
-    "GW110 at Greenford East Junction",
-    "GW174 at Greenford South Junction"
+    "To/from Greenford GW110 sequence 002",
+    "To/from Old Oak Common GW110 sequence 002",
+    "To/from Greenford GW174 sequence 003",
+    "To/from West Ealing Junction GW174 sequence 003"
   ],
   signalling: [
     "TCB, Greenford East signal box; GSM-R."
@@ -30,7 +32,7 @@ const page308 = {
     "Single-line and junction restrictions are shown."
   ],
   equipment: "Greenford branch junction layout is shown.",
-  transcription: "GW117, sequence 001. Greenford East Junction to Greenford South Junction, Western route; module WR2 physical PDF page 308, document page 127, last updated 25/05/2024. Covers Greenford East Junction to Greenford South Junction, 7m 15ch to 8m 45ch. Locations: Greenford East Junction - 7m 15ch; Greenford South Junction - 8m 45ch. TCB, Greenford East signal box; GSM-R. Single-line and junction restrictions are shown. Greenford branch junction layout is shown."
+  transcription: "GW117, sequence 001. Greenford East Junction to Greenford South Junction, Western route; module WR2 physical PDF page 308, document page 127, last updated 25/05/2024. Covers Greenford East Junction to Greenford South Junction, 7m 15ch to 8m 45ch. Locations: Greenford East Junction - 7m 15ch; Greenford South Junction - 8m 45ch. TCB, Greenford East signal box; GSM-R. Single-line and junction restrictions are shown. Connections: Greenford and Old Oak Common GW110/002; Greenford and West Ealing Junction GW174/003. Greenford branch junction layout is shown."
 };
 
 export default page308;
