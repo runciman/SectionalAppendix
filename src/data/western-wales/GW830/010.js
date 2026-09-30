@@ -12,7 +12,8 @@ const page594 = {
     "Queen Street South Junction - 0m 26ch",
     "Route boundary - 0m 13ch"
   ], connections: [
-    "GW840 sequence 006 toward Heath Junction and GW839 sequence 001 toward Cardiff Bay"
+    "To/from Heath Junction GW810 sequence 006",
+    "To/from Cardiff Bay GW839 sequence 001"
   ],
   signalling: [
     "TCB Wales Rail Operating Centre, Valleys, RA8",
@@ -21,8 +22,7 @@ const page594 = {
   ], speeds: [
     "Diagram shows 15, 20 and 25 mph"
   ],
-  equipment: "Mileage and ELR change at Queen Street South Junction.", transcription: "GW830, sequence 010. Merthyr Tydfil to Barry Island Via Cardiff Queen Street, ELR CAM; CEJ, Wales route; WR2 physical PDF page 594, document page 379, last updated 02/08/2025. Covers Cardiff Queen Street and route boundary, 1m 29ch to 0m 13ch. Locations: Queen Street North Junction - 1m 17ch; Cardiff Queen Street - approximately 1m 08ch to 1m 01ch; Queen Street South Junction - 0m 26ch; Route boundary - 0m 13ch. TCB Wales Rail Operating Centre, Valleys, RA8; GSM-R; Axle-counter area. Diagram shows 15, 20 and 25 mph. Mileage and ELR change at Queen Street South Junction. Connections: GW840 sequence 006 toward Heath Junction and GW839 sequence 001 toward Cardiff Bay."
+  equipment: "Mileage and ELR change at Queen Street South Junction.", transcription: "GW830, sequence 010. Merthyr Tydfil to Barry Island Via Cardiff Queen Street, ELR CAM; CEJ, Wales route; WR2 physical PDF page 594, document page 379, last updated 02/08/2025. Covers Cardiff Queen Street and route boundary, 1m 29ch to 0m 13ch. Locations: Queen Street North Junction - 1m 17ch; Cardiff Queen Street - approximately 1m 08ch to 1m 01ch; Queen Street South Junction - 0m 26ch; Route boundary - 0m 13ch. TCB Wales Rail Operating Centre, Valleys, RA8; GSM-R; Axle-counter area. Diagram shows 15, 20 and 25 mph. Mileage and ELR change at Queen Street South Junction. Connections: Heath Junction GW810 sequence 006 and Cardiff Bay GW839 sequence 001."
 };
 
 export default page594;
-
