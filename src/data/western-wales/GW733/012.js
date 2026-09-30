@@ -10,7 +10,9 @@ const page548 = {
     "Dovey Junction - 78m 62ch / 79m 03ch",
     "Brickyard No. 3 crossing - 84m 66ch",
     "Ynyslas crossing - 85m 21ch"
-  ], connections: [],
+  ], connections: [
+    "To Pwllheli — GW734, sequence 001"
+  ],
   signalling: [
     "GW734 sequence 001 toward Pwllheli; ERTMS Level 2, Machynlleth Signalling Centre West Work Station, RA2",
     "GSM-R"
@@ -23,4 +25,3 @@ const page548 = {
 };
 
 export default page548;
-
