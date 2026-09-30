@@ -23,7 +23,8 @@ const page331 = {
   "Appleford Junction - 54m 50ch"
 ],
   connections: [
-  "GW103 sequences 035 and 036",
+  "To/from Swindon GW103 sequence 036",
+  "To/from Didcot GW103 sequence 035",
   "GW250 sequence 001",
   "GW240 sequence 001"
 ],
@@ -40,4 +41,3 @@ const page331 = {
 };
 
 export default page331;
-

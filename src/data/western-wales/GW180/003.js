@@ -20,7 +20,7 @@ const page319 = {
     "TSC Escape Shaft - 25260m",
     "Heathrow Terminal 5 - 26285m"
   ],
-  connections: [],
+  connections: ["To/from Terminal 4 GW180 sequence 004"],
   signalling: [
     "TCB, Thames Valley Signalling Centre, RA8 Heathrow; ERTMS Level 2 overlay; ATP; GSM-R."
   ],

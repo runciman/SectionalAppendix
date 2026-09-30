@@ -20,8 +20,10 @@ const page314 = {
     "Drayton Green Junction - 0m 36ch"
   ],
   connections: [
-    "GW103 at Hanwell Junction",
-    "GW174 at Drayton Green Junction"
+    "To/from Paddington GW103 sequence 012",
+    "To/from Southall GW103 sequence 012",
+    "To/from West Ealing Junction GW174 sequence 002",
+    "To/from Greenford GW174 sequence 002"
   ],
   signalling: [
     "TCB, Thames Valley Signalling Centre, RA8 Acton; GSM-R."

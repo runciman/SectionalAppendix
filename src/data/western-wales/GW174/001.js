@@ -22,7 +22,8 @@ const page310 = {
     "Diagram boundary - 6m 75ch"
   ],
   connections: [
-    "GW103 at West Ealing Junction"
+    "To/from Ealing Broadway GW103 sequence 011",
+    "To/from Hanwell GW103 sequence 011"
   ],
   signalling: [
     "TCB, Thames Valley Signalling Centre, RA8 Acton; GSM-R."

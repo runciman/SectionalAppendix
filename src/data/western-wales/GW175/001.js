@@ -21,7 +21,9 @@ const page313 = {
     "Greenford - 9m 06ch"
   ],
   connections: [
-    "GW174 at Greenford LUL Bay Junction"
+    "To/from Greenford South Junction GW174 sequence 003",
+    "To/from Greenford East Junction GW117 sequence 001",
+    "To/from Greenford West Junction GW174 sequence 003"
   ],
   signalling: [
     "GSM-R; RA8."

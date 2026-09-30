@@ -22,8 +22,10 @@ const page312 = {
     "Greenford West Junction - 8m 76ch"
   ],
   connections: [
-    "GW175 at Greenford LUL Bay Junction",
-    "GW110 at Greenford East"
+    "To/from Greenford East Junction GW117 sequence 001",
+    "To/from Greenford (LUL) Bay Junction GW175 sequence 001",
+    "To/from Paddington GW110 sequence 003",
+    "To/from West Ruislip GW110 sequence 003"
   ],
   signalling: [
     "TCB, Greenford East signal box; GSM-R."

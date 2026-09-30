@@ -19,7 +19,7 @@ const page323 = {
     "Maidenhead - 24m 19ch",
     "Furze Platt - 25m 44ch"
   ],
-  connections: [],
+  connections: ["To/from Paddington GW103 sequence 025", "To/from Reading GW103 sequence 025"],
   signalling: [
     "No-signaller token working, Thames Valley Signalling Centre, RA6 Slough; GSM-R."
   ],

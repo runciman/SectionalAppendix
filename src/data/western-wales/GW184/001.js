@@ -19,7 +19,7 @@ const page322 = {
     "Slough - 18m 36ch",
     "Windsor & Eton Central - 21m 19ch"
   ],
-  connections: [],
+  connections: ["To/from Reading GW103 sequence 023", "To/from Paddington GW103 sequence 023"],
   signalling: [
     "TCB, Thames Valley Signalling Centre, RA3 Slough; GSM-R."
   ],

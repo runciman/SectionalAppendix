@@ -23,7 +23,7 @@ const page317 = {
     "Tunnel portals - 20464m"
   ],
   connections: [
-    "GW103 at Heathrow Airport Junction"
+    "To GW103 sequence 018"
   ],
   signalling: [
     "TCB, Thames Valley Signalling Centre, RA8 Heathrow; ERTMS Level 2 overlay; AC: Didcot."
