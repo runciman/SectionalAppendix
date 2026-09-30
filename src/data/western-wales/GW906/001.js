@@ -7,9 +7,8 @@ const page668 = {
     "Swansea Loop East Junction",
     "Swansea Loop West Junction"
   ],
-  connections: ["Connections are shown on the source diagram"], signalling: ["GSM-R", "Source table identifies the applicable signal box or control workstation"], speeds: ["Line-specific speed indications are shown; refer to source extract for exact alignment"],
+  connections: ["To/from Landore Junction GW9001 sequence 001", "To/from Llanelli GW900 sequence 021"], signalling: ["GSM-R", "Source table identifies the applicable signal box or control workstation"], speeds: ["Line-specific speed indications are shown; refer to source extract for exact alignment"],
   equipment: "Level crossings, platforms and signalling equipment are shown where applicable.", transcription: "GW906, sequence 001. Swansea Loop East Jn to Swansea Loop West Jn, ELR SWL, Wales route; WR2 physical PDF page 668, document page 449, last updated 10/09/2022. Covers Swansea Loop East to West Junction, 0m 00ch to 0m 18ch. Locations: Swansea Loop East Junction; Swansea Loop West Junction. Source diagram shows GSM-R, signalling/workstation control, level crossings, platforms and line-specific speed indications; exact dense-diagram alignment is preserved in the source extract."
 };
 
 export default page668;
-

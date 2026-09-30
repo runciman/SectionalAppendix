@@ -8,9 +8,8 @@ const page663 = {
     "Whitland East and West crossovers",
     "Clunderwen"
   ],
-  connections: ["Connections are shown on the source diagram"], signalling: ["GSM-R", "Source table identifies the applicable signal box or control workstation"], speeds: ["Line-specific speed indications are shown; refer to source extract for exact alignment"],
+  connections: ["To Pembroke Dock GW950 sequence 001"], signalling: ["GSM-R", "Source table identifies the applicable signal box or control workstation"], speeds: ["Line-specific speed indications are shown; refer to source extract for exact alignment"],
   equipment: "Level crossings, platforms and signalling equipment are shown where applicable.", transcription: "GW900, sequence 028. Pilning to Fishguard Harbour, ELR SWM2, Wales route; WR2 physical PDF page 663, document page 444, last updated 05/10/2024. Covers Whitland and Clunderwen, approximately 258m to 270m. Locations: Whitland; Whitland East and West crossovers; Clunderwen. Source diagram shows GSM-R, signalling/workstation control, level crossings, platforms and line-specific speed indications; exact dense-diagram alignment is preserved in the source extract."
 };
 
 export default page663;
-

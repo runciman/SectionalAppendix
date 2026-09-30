@@ -9,7 +9,7 @@ const page666 = {
     "Landore West Junction",
     "Swansea Loop East Junction"
   ],
-  connections: ["Connections are shown on the source diagram"], signalling: ["GSM-R", "Source table identifies the applicable signal box or control workstation"], speeds: ["Line-specific speed indications are shown; refer to source extract for exact alignment"],
+  connections: ["To Llanelli GW900 sequence 021", "To Neath GW900 sequence 021", "To/from Swansea Loop West Junction GW906 sequence 001"], signalling: ["GSM-R", "Source table identifies the applicable signal box or control workstation"], speeds: ["Line-specific speed indications are shown; refer to source extract for exact alignment"],
   equipment: "Level crossings, platforms and signalling equipment are shown where applicable.", transcription: "GW9001, sequence 001. Landore Jn to Swansea, ELR SWA, Wales route; WR2 physical PDF page 666, document page 447, last updated 18/04/2026. Covers Landore Junction to Swansea Loop East Junction, approximately 214m 62ch to 215m 49ch. Locations: Landore East Junction; Landore Depot; Landore West Junction; Swansea Loop East Junction. Source diagram shows GSM-R, signalling/workstation control, level crossings, platforms and line-specific speed indications; exact dense-diagram alignment is preserved in the source extract."
 };
 
