@@ -16,7 +16,7 @@ const page343 = {
   location: "Falkland to Newton Jn",
   mileage: "See source diagram",
   locations: ["Falkland to Newton Jn"],
-  connections: [],
+  connections: ["To Ayr Harbour — SC085 sequence 001", "To Mauchline — SC087 sequence 001"],
   signalling: ["See source diagram", "GSM-R"],
   speeds: ["See source diagram"],
   equipment: "See source diagram and remarks.",

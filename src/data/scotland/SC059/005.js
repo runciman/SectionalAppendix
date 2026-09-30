@@ -16,7 +16,7 @@ const page333 = {
   location: "Cardonald to Hillington West",
   mileage: "See source diagram",
   locations: ["Cardonald to Hillington West"],
-  connections: [],
+  connections: ["To Deanside — SC063 sequence 001"],
   signalling: ["See source diagram", "GSM-R"],
   speeds: ["See source diagram"],
   equipment: "See source diagram and remarks.",

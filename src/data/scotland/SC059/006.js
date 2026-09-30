@@ -16,7 +16,7 @@ const page334 = {
   location: "Arkleston Jn to Paisley Gilmour Street",
   mileage: "See source diagram",
   locations: ["Arkleston Jn to Paisley Gilmour Street"],
-  connections: [],
+  connections: ["To Gourock — SC065 sequence 001"],
   signalling: ["See source diagram", "GSM-R"],
   speeds: ["See source diagram"],
   equipment: "See source diagram and remarks.",

@@ -16,7 +16,7 @@ const page332 = {
   location: "Terminus to Shields Jn",
   mileage: "See source diagram",
   locations: ["Terminus to Shields Jn"],
-  connections: [],
+  connections: ["SC061 sequence 001", "SC061 sequence 002"],
   signalling: ["See source diagram", "GSM-R"],
   speeds: ["See source diagram"],
   equipment: "See source diagram and remarks.",

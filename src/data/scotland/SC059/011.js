@@ -16,7 +16,7 @@ const page339 = {
   location: "Kilwinning Jn and Kilwinning",
   mileage: "See source diagram",
   locations: ["Kilwinning Jn and Kilwinning"],
-  connections: [],
+  connections: ["To Largs — SC073 sequence 001"],
   signalling: ["See source diagram", "GSM-R"],
   speeds: ["See source diagram"],
   equipment: "See source diagram and remarks.",

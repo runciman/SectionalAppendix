@@ -55,9 +55,13 @@ def main() -> int:
             errors.append(f"PDF page {page} appears in both {records[page]} and {record}")
             continue
         records[page] = record
-        image = re.search(r"import\s+imageSrc\s+from\s+[\"']([^\"']+)[\"']", source)
+        # Existing records use descriptive import identifiers (for example,
+        # ``harthopeViaductPage175``) as well as the newer ``imageSrc`` name.
+        # The identifier is immaterial to crop validation; the imported path is
+        # what must resolve beneath the region asset directory.
+        image = re.search(r"import\s+[A-Za-z_$][\w$]*\s+from\s+[\"']([^\"']+)[\"']", source)
         if not image:
-            errors.append(f"PDF page {page}: no imageSrc import in {record}")
+            errors.append(f"PDF page {page}: no image import in {record}")
         else:
             crop = (record.parent / image.group(1)).resolve()
             if not crop.is_relative_to(asset_root):
