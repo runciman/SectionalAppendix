@@ -22,7 +22,10 @@ const page448 = {
     "Westbury signal box - 109m 50ch"
   ],
   connections: [
-    "GW500 sequence 010, GW520 sequence 001 and GW510 sequence 001"
+    "To/from Pewsey — GW500, sequence 010",
+    "To/from Hawkeridge Junction — GW520, sequence 001",
+    "To/from Trowbridge — GW510, sequence 001",
+    "To/from Fairwood Junction — GW500, sequence 010"
   ],
   signalling: [
     "TCB Westbury signal box, Panel A, RA8",
@@ -36,4 +39,3 @@ const page448 = {
 };
 
 export default page448;
-

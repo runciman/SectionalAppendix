@@ -22,7 +22,8 @@ const page446 = {
     "Clifton Bridge No. 1 Tunnel - approximately 122m 23ch to 122m 35ch"
   ],
   connections: [
-    "GW105 sequences 007 and 017 toward Bristol Temple Meads and Taunton"
+    "To/from Bristol Temple Meads — GW105, sequence 017",
+    "To/from Taunton — GW105, sequence 017"
   ],
   signalling: [
     "TCB Thames Valley Signalling Centre, Temple Meads, RA8",
@@ -37,4 +38,3 @@ const page446 = {
 };
 
 export default page446;
-

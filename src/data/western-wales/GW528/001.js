@@ -22,7 +22,10 @@ const page442 = {
     "Bristol West Junction - 1m 08ch"
   ],
   connections: [
-    "Connections to Bristol Temple Meads, Bath Spa and Bedminster; GW105 sequences 009 and 015"
+    "To/from Bristol Temple Meads — GW105, sequence 011",
+    "To/from Bath Spa — GW105, sequence 011",
+    "To/from Bristol Temple Meads — GW105, sequence 015",
+    "To/from Bedminster — GW105, sequence 015"
   ],
   signalling: [
     "TCB Thames Valley Signalling Centre, Bristol, RA8",
@@ -36,4 +39,3 @@ const page442 = {
 };
 
 export default page442;
-

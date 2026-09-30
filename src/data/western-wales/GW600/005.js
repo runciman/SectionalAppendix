@@ -25,7 +25,8 @@ const page457 = {
     "Up Filton and DPR - 112m 43ch"
   ],
   connections: [
-    "GW4501, sequence 001"
+    "To Narroways Hill Junction — GW450, sequence 001",
+    "To Filton West Junction Primary Depot Exit — GW4501, sequence 001"
   ],
   signalling: [
     "TCB Thames Valley Signalling Centre, RA8 Stoke Gifford; GSM-R."

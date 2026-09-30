@@ -23,7 +23,9 @@ const page458 = {
     "Western/Wales route boundary - 8m 60ch",
     "Pilning HABD - 9m 08ch"
   ],
-  connections: [],
+  connections: [
+    "To Filton Junction — GW540, sequence 001"
+  ],
   signalling: [
     "TCB Thames Valley Signalling Centre then Wales Rail Operating Centre; RA8 Stoke Gifford then Severn Tunnel; GSM-R."
   ],

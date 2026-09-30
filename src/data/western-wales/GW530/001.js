@@ -21,7 +21,10 @@ const page443 = {
     "Dr. Day's Junction - 117m 73ch / 0m 55ch"
   ],
   connections: [
-    "Connections toward Bath Spa, Bristol Temple Meads, Filton Junction and Lawrence Hill"
+    "To/from Bath Spa — GW105, sequence 011",
+    "To/from Bristol Temple Meads — GW105, sequence 011",
+    "To/from Bristol Temple Meads — GW450, sequence 003",
+    "To/from Filton Junction — GW450, sequence 003"
   ],
   signalling: [
     "TCB Thames Valley Signalling Centre, Bristol, RA8",
@@ -35,4 +38,3 @@ const page443 = {
 };
 
 export default page443;
-

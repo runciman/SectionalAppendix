@@ -23,7 +23,12 @@ const page444 = {
     "Patchway Junction - 5m 61ch"
   ],
   connections: [
-    "GW450 sequence 001, GW4501 sequence 001 and GW600 sequence 006"
+    "To/from Filton Abbey Wood — GW450, sequence 001",
+    "To/from Stoke Gifford Junction — GW450, sequence 001",
+    "To/from Filton Junction — GW451, sequence 001",
+    "To/from Filton West Junction — GW5401, sequence 001",
+    "To/from Stoke Gifford Junction — GW600, sequence 006",
+    "To/from Patchway — GW600, sequence 006"
   ],
   signalling: [
     "TCB Thames Valley Signalling Centre, Stoke Gifford, RA8",
@@ -37,4 +42,3 @@ const page444 = {
 };
 
 export default page444;
-
