@@ -5,7 +5,7 @@ export default {
   lOR: "SC107", sequence: "003", title: "Edinburgh Waverley to Glasgow Queen Street (via Falkirk High)", elr: "ECN2 EGM3 EGM2", route: "Scotland",
   imageSrc, imageAlt: "Original PDF table extract from page 449 showing Haymarket and running-line restrictions.", lastUpdated: "06/02/2016",
   location: "Haymarket North & South Tunnels to Haymarket East Jn", mileage: "0m 47ch to 1m 29ch",
-  locations: ["Haymarket North & South Tunnels", "1040 yards to 144 yards", "Haymarket", "Haymarket East Jn"], connections: ["To Carstairs"],
+  locations: ["Haymarket North & South Tunnels", "1040 yards to 144 yards", "Haymarket", "Haymarket East Jn"], connections: ["To Carstairs — SC003 sequence 005"],
   signalling: ["TCB Edinburgh SC (EH)", "AC: Cathcart ECR", "GSM-R", "For tunnel lockouts see Local Instructions", "North line mileages are shown in brackets"],
   speeds: ["20, 25, 35, 40, 50, 70, 80 and 90 mph restrictions shown in source diagram", "North and South lines identified; through siding shown"],
   equipment: "See source diagram.",
