@@ -20,7 +20,7 @@ const page433 = {
     "Beechgrove ground frame - 115m 27ch"
   ],
   connections: [
-    "Connection toward Wilton Junction"
+    "To/from Wilton Junction — SW170, sequence 004"
   ],
   signalling: [
     "TCB Westbury signal box, Panel A, RA8",
@@ -34,4 +34,3 @@ const page433 = {
 };
 
 export default page433;
-

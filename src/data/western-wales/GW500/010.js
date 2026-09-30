@@ -22,7 +22,8 @@ const page427 = {
     "Masters crossing - 111m 53ch"
   ],
   connections: [
-    "GW560 sequences 001 and 002"
+    "To/from Westbury — GW560, sequence 001",
+    "To/from Westbury — GW560, sequence 002"
   ],
   signalling: [
     "TCB Westbury signal box, Panels A and B, RA8",
@@ -36,4 +37,3 @@ const page427 = {
 };
 
 export default page427;
-
