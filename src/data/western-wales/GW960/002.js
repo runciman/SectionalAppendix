@@ -7,8 +7,7 @@ const page692 = {
     "Johnston",
     "Houghton",
     "Steynton"
-  ], connections: ["Connections are shown on the source diagram"], signalling: ["GSM-R", "Applicable signalling control is identified on the source table"], speeds: ["Line-specific speed indications are shown in the source extract"], equipment: "Level crossings, platforms and signalling equipment are shown where applicable.", transcription: "GW960, sequence 002. Clarbeston Road to Milford Haven, ELR SWM2; MIL, Wales route; WR2 physical PDF page 692, document page 473, last updated 08/04/2023. Covers Johnston to Milford Haven approaches. Locations: Johnston; Houghton; Steynton. The source diagram shows GSM-R, signalling control, level crossings, platforms, mileage and line-specific speed restrictions; exact dense-diagram alignment is preserved in the source extract."
+  ], connections: ["To Gulf Oil branch Waterston GW970 sequence 001", "To Robeston GW980 sequence 001"], signalling: ["GSM-R", "Applicable signalling control is identified on the source table"], speeds: ["Line-specific speed indications are shown in the source extract"], equipment: "Level crossings, platforms and signalling equipment are shown where applicable.", transcription: "GW960, sequence 002. Clarbeston Road to Milford Haven, ELR SWM2; MIL, Wales route; WR2 physical PDF page 692, document page 473, last updated 08/04/2023. Covers Johnston to Milford Haven approaches. Locations: Johnston; Houghton; Steynton. Connections to Gulf Oil branch Waterston GW970/001 and Robeston GW980/001. The source diagram shows GSM-R, signalling control, level crossings, platforms, mileage and line-specific speed restrictions; exact dense-diagram alignment is preserved in the source extract."
 };
 
 export default page692;
-

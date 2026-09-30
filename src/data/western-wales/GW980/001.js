@@ -6,8 +6,7 @@ const page695 = {
   lastUpdated: "10/09/2022", location: "Herbrandston Junction to Robeston", mileage: "See source table for the route-aligned mileage span", locations: [
     "Herbrandston Junction",
     "Robeston"
-  ], connections: ["Connections are shown on the source diagram"], signalling: ["GSM-R", "Applicable signalling control is identified on the source table"], speeds: ["Line-specific speed indications are shown in the source extract"], equipment: "Level crossings, platforms and signalling equipment are shown where applicable.", transcription: "GW980, sequence 001. Herbrandston Jn to Robeston, ELR ROB, Wales route; WR2 physical PDF page 695, document page 476, last updated 10/09/2022. Covers Herbrandston Junction to Robeston. Locations: Herbrandston Junction; Robeston. The source diagram shows GSM-R, signalling control, level crossings, platforms, mileage and line-specific speed restrictions; exact dense-diagram alignment is preserved in the source extract."
+  ], connections: ["To/from Johnston GW960 sequence 002", "To/from Milford Haven GW960 sequence 002"], signalling: ["GSM-R", "Applicable signalling control is identified on the source table"], speeds: ["Line-specific speed indications are shown in the source extract"], equipment: "Level crossings, platforms and signalling equipment are shown where applicable.", transcription: "GW980, sequence 001. Herbrandston Jn to Robeston, ELR ROB, Wales route; WR2 physical PDF page 695, document page 476, last updated 10/09/2022. Covers Herbrandston Junction to Robeston. Locations: Herbrandston Junction; Robeston. Connections to Johnston and Milford Haven GW960/002. The source diagram shows GSM-R, signalling control, level crossings, platforms, mileage and line-specific speed restrictions; exact dense-diagram alignment is preserved in the source extract."
 };
 
 export default page695;
-

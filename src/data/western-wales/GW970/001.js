@@ -7,8 +7,7 @@ const page694 = {
     "Gulf Oil Branch Junction",
     "Waterston",
     "Gulf Oil Refinery"
-  ], connections: ["Connections are shown on the source diagram"], signalling: ["GSM-R", "Applicable signalling control is identified on the source table"], speeds: ["Line-specific speed indications are shown in the source extract"], equipment: "Level crossings, platforms and signalling equipment are shown where applicable.", transcription: "GW970, sequence 001. Gulf Oil Branch Jn To Waterston, Gulf Oil Refinery, ELR GFR, Wales route; WR2 physical PDF page 694, document page 475, last updated 08/07/2023. Covers Gulf Oil Branch Junction to Waterston. Locations: Gulf Oil Branch Junction; Waterston; Gulf Oil Refinery. The source diagram shows GSM-R, signalling control, level crossings, platforms, mileage and line-specific speed restrictions; exact dense-diagram alignment is preserved in the source extract."
+  ], connections: ["To/from Johnston GW960 sequence 002", "To/from Milford Haven GW960 sequence 002"], signalling: ["GSM-R", "Applicable signalling control is identified on the source table"], speeds: ["Line-specific speed indications are shown in the source extract"], equipment: "Level crossings, platforms and signalling equipment are shown where applicable.", transcription: "GW970, sequence 001. Gulf Oil Branch Jn To Waterston, Gulf Oil Refinery, ELR GFR, Wales route; WR2 physical PDF page 694, document page 475, last updated 08/07/2023. Covers Gulf Oil Branch Junction to Waterston. Locations: Gulf Oil Branch Junction; Waterston; Gulf Oil Refinery. Connections to Johnston and Milford Haven GW960/002. The source diagram shows GSM-R, signalling control, level crossings, platforms, mileage and line-specific speed restrictions; exact dense-diagram alignment is preserved in the source extract."
 };
 
 export default page694;
-

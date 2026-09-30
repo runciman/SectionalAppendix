@@ -7,8 +7,7 @@ const page691 = {
     "Clarbeston Road",
     "Haverfordwest",
     "Johnston"
-  ], connections: ["Connections are shown on the source diagram"], signalling: ["GSM-R", "Applicable signalling control is identified on the source table"], speeds: ["Line-specific speed indications are shown in the source extract"], equipment: "Level crossings, platforms and signalling equipment are shown where applicable.", transcription: "GW960, sequence 001. Clarbeston Road to Milford Haven, ELR SWM2, Wales route; WR2 physical PDF page 691, document page 472, last updated 07/09/2024. Covers Clarbeston Road to Johnston. Locations: Clarbeston Road; Haverfordwest; Johnston. The source diagram shows GSM-R, signalling control, level crossings, platforms, mileage and line-specific speed restrictions; exact dense-diagram alignment is preserved in the source extract."
+  ], connections: ["To/from Clarbeston Road GW900 sequence 029", "To/from Fishguard Harbour GW900 sequence 029"], signalling: ["GSM-R", "Applicable signalling control is identified on the source table"], speeds: ["Line-specific speed indications are shown in the source extract"], equipment: "Level crossings, platforms and signalling equipment are shown where applicable.", transcription: "GW960, sequence 001. Clarbeston Road to Milford Haven, ELR SWM2, Wales route; WR2 physical PDF page 691, document page 472, last updated 07/09/2024. Covers Clarbeston Road to Johnston. Locations: Clarbeston Road; Haverfordwest; Johnston. Connections to GW900 sequence 029 at Clarbeston Road and Fishguard Harbour. The source diagram shows GSM-R, signalling control, level crossings, platforms, mileage and line-specific speed restrictions; exact dense-diagram alignment is preserved in the source extract."
 };
 
 export default page691;
-
