@@ -22,8 +22,8 @@ const page471 = {
     "Exmouth Junction - 170m 27ch"
   ],
   connections: [
-    "SW115, sequence 015 toward Honiton",
-    "GW611 at Exmouth Junction"
+    "To/from Honiton — SW115, sequence 015",
+    "To/from Exmouth — GW611, sequence 001"
   ],
   signalling: [
     "TOS Exmouth Junction signal box, RA6; GSM-R; axle-counter area."

@@ -22,7 +22,10 @@ const page472 = {
     "St Davids Tunnel West - 171m 64ch",
     "Exeter St Davids Junction - 172m 04ch"
   ],
-  connections: [],
+  connections: [
+    "To/from Newton Abbot — GW108, sequence 007",
+    "To/from Exeter St Davids — GW108, sequence 007"
+  ],
   signalling: [
     "TCB Exeter signal box, RA8 Panel B; GSM-R."
   ],

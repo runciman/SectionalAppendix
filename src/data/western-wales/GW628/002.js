@@ -24,9 +24,11 @@ const page481 = {
   "Plymouth Friary - 245m 40ch"
 ],
   connections: [
-  "GW108 sequence 017",
-  "GW628 sequences 001 and 003"
-],
+    "To/from Plymouth — GW108, sequence 017",
+    "To/from Newton Abbot — GW108, sequence 017",
+    "To/from Laira Junction — GW628, sequence 001",
+    "To/from Cattewater — GW628, sequence 003"
+  ],
   signalling: [
   "TCB/Sidings Plymouth SB East, RA7",
   "GSM-R boundary at 245m 40ch"
@@ -39,4 +41,3 @@ const page481 = {
 };
 
 export default page481;
-
