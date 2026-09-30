@@ -23,9 +23,10 @@ const page344 = {
   "Oxford Road Junction - 36m 67ch / 36m 68ch"
 ],
   connections: [
-  "GW103 sequence 029",
-  "GW220 sequence 001",
-  "GW500 sequences 001 and 002"
+  "To/from Reading GW103 sequence 029",
+  "To/from Reading West Junction GW220 sequence 001",
+  "To/from Reading GW500 sequence 002",
+  "To/from Southcote Junction GW500 sequence 001"
 ],
   signalling: [
   "TCB Thames Valley Signalling Centre, RA8 Reading and West Junction (T)",
@@ -41,4 +42,3 @@ const page344 = {
 };
 
 export default page344;
-
