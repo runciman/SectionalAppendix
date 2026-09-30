@@ -22,7 +22,8 @@ const page216 = {
   "Diagram boundary - 4m 19ch"
 ],
   connections: [
-  "GW130 sequence 001 to Acton Wells Junction"
+  "GW130 sequence 001 to Acton Wells Junction",
+  "Adjoining diagram EA1310 sequence 005"
 ],
   signalling: [
   "TCB, Thames Valley Signalling Centre, RA8 Paddington and RA8 Acton (SN)",
@@ -34,8 +35,7 @@ const page216 = {
   "Diagram shows 15, 30, 70, 80, 85 and 100 mph restrictions"
 ],
   equipment: "ATP on main and relief lines; Up and Down Poplar plus main and relief lines electrified; Acton Bank neutral section and ECR control boundaries described.",
-  transcription: "GW103, sequence 008. Paddington to Uffington, ELR MLN1, Western route; module WR2 physical PDF page 216, document page 36, last updated 06/04/2026. Covers Friars Junction to Acton East Junction, 3m 53ch to 4m 19ch. Locations: Diagram boundary - 3m 53ch; Acton Bank Neutral Section - 0m 29ch on Poplar lines; Acton East Junction - 4m 07ch; Diagram boundary - 4m 19ch. TCB, Thames Valley Signalling Centre, RA8 Paddington and RA8 Acton (SN); AC: Didcot; GSM-R; Axle Counter area. Diagram shows 15, 30, 70, 80, 85 and 100 mph restrictions. ATP on main and relief lines; Up and Down Poplar plus main and relief lines electrified; Acton Bank neutral section and ECR control boundaries described. Connections: GW130 sequence 001 to Acton Wells Junction."
+  transcription: "GW103, sequence 008. Paddington to Uffington, ELR MLN1, Western route; module WR2 physical PDF page 216, document page 36, last updated 06/04/2026. Covers Friars Junction to Acton East Junction, 3m 53ch to 4m 19ch. Locations: Diagram boundary - 3m 53ch; Acton Bank Neutral Section - 0m 29ch on Poplar lines; Acton East Junction - 4m 07ch; Diagram boundary - 4m 19ch. TCB, Thames Valley Signalling Centre, RA8 Paddington and RA8 Acton (SN); AC: Didcot; GSM-R; Axle Counter area. Diagram shows 15, 30, 70, 80, 85 and 100 mph restrictions. ATP on main and relief lines; Up and Down Poplar plus main and relief lines electrified; Acton Bank neutral section and ECR control boundaries described. Connections: GW130 sequence 001 to Acton Wells Junction and adjoining diagram EA1310 sequence 005."
 };
 
 export default page216;
-
