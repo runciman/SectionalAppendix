@@ -22,7 +22,7 @@ const page396 = {
     "Cam & Dursley - 105m 30ch"
   ],
   connections: [
-    "GW480 toward Kemble at Standish Junction"
+    "To/from Kemble — GW480, sequence 003"
   ],
   signalling: [
     "TCB, Gloucester signal box; GSM-R."

@@ -21,7 +21,10 @@ const page399 = {
     "Westerleigh Junction - 121m 28ch",
     "Connected-line mileage shown separately - 107m 14ch"
   ],
-  connections: [],
+  connections: [
+    "To/from Swindon — GW600, sequence 004",
+    "To/from Bristol Parkway — GW600, sequence 004"
+  ],
   signalling: [
     "TCB, Thames Valley Signalling Centre, RA8 Stoke Gifford; AC: Didcot; GSM-R; HST restrictions."
   ],

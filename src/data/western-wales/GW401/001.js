@@ -23,7 +23,8 @@ const page390 = {
     "Diagram boundary - 79m 20ch"
   ],
   connections: [
-    "MD306, sequence 017 toward Abbotswood Junction"
+    "To/from Abbotswood Junction — MD306, sequence 017",
+    "To/from Ashchurch — GW401, sequence 002"
   ],
   signalling: [
     "Bromsgrove Workstation then Gloucester signal box; GSM-R; HST restrictions."

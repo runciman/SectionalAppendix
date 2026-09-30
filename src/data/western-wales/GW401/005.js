@@ -24,7 +24,7 @@ const page394 = {
     "Diagram boundary - 93m 00ch"
   ],
   connections: [
-    "GW490 toward Horton Road Junction"
+    "To/from Horton Road Junction — GW700, sequence 001"
   ],
   signalling: [
     "TCB, Gloucester signal box, RA8 Panel A; GSM-R."

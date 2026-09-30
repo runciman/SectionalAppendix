@@ -24,8 +24,12 @@ const page406 = {
   "Diagram boundary - 116m 00ch"
 ],
   connections: [
-  "GW600, GW540, GW5401, GW450 and GW451 connections"
-],
+    "To/from Bristol Parkway — GW600, sequence 005",
+    "To/from Patchway — GW600, sequence 005",
+    "To/from Bristol Temple Meads — GW450, sequence 001",
+    "To/from Patchway Junction Primary — GW5401, sequence 001",
+    "To/from Filton Abbey Wood — GW451, sequence 001"
+  ],
   signalling: [
   "TCB Thames Valley Signalling Centre, RA8 Stoke Gifford (BL)",
   "AC: Didcot",
@@ -40,4 +44,3 @@ const page406 = {
 };
 
 export default page406;
-

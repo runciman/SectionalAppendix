@@ -24,7 +24,8 @@ const page398 = {
     "Diagram boundary - about 120m 16ch"
   ],
   connections: [
-    "GW430 at Tytherington"
+    "To/from Tytherington — GW430, sequence 001",
+    "To/from Westerleigh — GW440, sequence 001"
   ],
   signalling: [
     "TCB, Thames Valley Signalling Centre, RA8 Stoke Gifford; GSM-R; axle-counter area."
