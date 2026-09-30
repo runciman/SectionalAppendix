@@ -20,7 +20,7 @@ const page383 = {
     "Berkeley Road Junction - 107m 70ch",
     "Charfield - 112m 72ch"
   ],
-  connections: [],
+  connections: ["To Sharpness GW425 sequence 001"],
   signalling: [
     "Absolute block; GSM-R."
   ],

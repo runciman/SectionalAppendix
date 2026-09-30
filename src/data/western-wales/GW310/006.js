@@ -25,7 +25,7 @@ const page362 = {
     "Route boundary - 112m 00ch"
   ],
   connections: [
-    "MD810 sequence 001 to and from Pershore"
+    "To/from Pershore MD910 sequence 001"
   ],
   signalling: [
     "TCB Evesham signal box",
@@ -40,4 +40,3 @@ const page362 = {
 };
 
 export default page362;
-
