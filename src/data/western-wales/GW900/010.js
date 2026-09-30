@@ -7,7 +7,7 @@ const page645 = {
   imageAlt: "Original source-PDF table extract from physical page 645 showing GW900 sequence 010, Newtown Junction to Cardiff East Junction, with the complete location, mileage, running-lines, speed-restrictions, signalling and remarks table.",
   lastUpdated: "05/10/2024", location: "Newtown Junction to Cardiff East Junction", mileage: "approximately 169m 36ch to 170m 22ch",
   locations: ["Newtown Junction to Cardiff East Junction"],
-  connections: ["Connections and junction routes are shown on the source diagram"],
+  connections: ["To Queen Street GW830 sequence 009"],
   signalling: ["TCB Wales Rail Operating Centre", "GSM-R", "Axle-counter areas are shown"],
   speeds: ["Multiple line-specific speed indications are shown; refer to the source extract for exact line alignment"],
   equipment: "The source diagram shows line-specific electrification, junction, platform and signalling details where applicable.",
@@ -15,4 +15,3 @@ const page645 = {
 };
 
 export default page645;
-

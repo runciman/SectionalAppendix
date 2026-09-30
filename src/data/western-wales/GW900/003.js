@@ -7,7 +7,7 @@ const page638 = {
   imageAlt: "Original source-PDF table extract from physical page 638 showing GW900 sequence 003, Briton Ferry and Llanwern connections, with the complete location, mileage, running-lines, speed-restrictions, signalling and remarks table.",
   lastUpdated: "05/10/2024", location: "Briton Ferry and Llanwern connections", mileage: "156m 37ch to 159m 36ch",
   locations: ["Briton Ferry and Llanwern connections"],
-  connections: ["Connections and junction routes are shown on the source diagram"],
+  connections: ["To Corus Llanwern GW710 sequence 001", "To Llanwern GW710 sequence 002"],
   signalling: ["TCB Wales Rail Operating Centre", "GSM-R", "Axle-counter areas are shown"],
   speeds: ["Multiple line-specific speed indications are shown; refer to the source extract for exact line alignment"],
   equipment: "The source diagram shows line-specific electrification, junction, platform and signalling details where applicable.",
@@ -15,4 +15,3 @@ const page638 = {
 };
 
 export default page638;
-

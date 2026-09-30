@@ -7,7 +7,7 @@ const page639 = {
   imageAlt: "Original source-PDF table extract from physical page 639 showing GW900 sequence 004, East Usk Junction and Spytty, with the complete location, mileage, running-lines, speed-restrictions, signalling and remarks table.",
   lastUpdated: "04/07/2026", location: "East Usk Junction and Spytty", mileage: "159m 36ch to approximately 157m 50ch",
   locations: ["East Usk Junction and Spytty"],
-  connections: ["Connections and junction routes are shown on the source diagram"],
+  connections: ["To Uskmouth GW720 sequence 001"],
   signalling: ["TCB Wales Rail Operating Centre", "GSM-R", "Axle-counter areas are shown"],
   speeds: ["Multiple line-specific speed indications are shown; refer to the source extract for exact line alignment"],
   equipment: "The source diagram shows line-specific electrification, junction, platform and signalling details where applicable.",
@@ -15,4 +15,3 @@ const page639 = {
 };
 
 export default page639;
-

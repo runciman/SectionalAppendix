@@ -7,7 +7,7 @@ const page650 = {
   imageAlt: "Original source-PDF table extract from physical page 650 showing GW900 sequence 015, Bridgend / Pen-y-bont approaches, with the complete location, mileage, running-lines, speed-restrictions, signalling and remarks table.",
   lastUpdated: "05/10/2024", location: "Bridgend / Pen-y-bont approaches", mileage: "approximately 189m 75ch to 191m 31ch",
   locations: ["Bridgend / Pen-y-bont approaches"],
-  connections: ["Connections and junction routes are shown on the source diagram"],
+  connections: ["To Barry GW870 sequence 005", "To Tondu GW874 sequence 001"],
   signalling: ["TCB Wales Rail Operating Centre", "GSM-R", "Axle-counter areas are shown"],
   speeds: ["Multiple line-specific speed indications are shown; refer to the source extract for exact line alignment"],
   equipment: "The source diagram shows line-specific electrification, junction, platform and signalling details where applicable.",
@@ -15,4 +15,3 @@ const page650 = {
 };
 
 export default page650;
-

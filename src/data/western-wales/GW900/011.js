@@ -7,7 +7,7 @@ const page646 = {
   imageAlt: "Original source-PDF table extract from physical page 646 showing GW900 sequence 011, Cardiff Central / Caerdydd Canolog, with the complete location, mileage, running-lines, speed-restrictions, signalling and remarks table.",
   lastUpdated: "01/08/2026", location: "Cardiff Central / Caerdydd Canolog", mileage: "approximately 170m 22ch to 170m 61ch",
   locations: ["Cardiff Central / Caerdydd Canolog"],
-  connections: ["Connections and junction routes are shown on the source diagram"],
+  connections: ["To Grangetown GW830 sequence 009", "To Canton Depot"],
   signalling: ["TCB Wales Rail Operating Centre", "GSM-R", "Axle-counter areas are shown"],
   speeds: ["Multiple line-specific speed indications are shown; refer to the source extract for exact line alignment"],
   equipment: "The source diagram shows line-specific electrification, junction, platform and signalling details where applicable.",
@@ -15,4 +15,3 @@ const page646 = {
 };
 
 export default page646;
-

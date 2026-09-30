@@ -7,7 +7,7 @@ const page647 = {
   imageAlt: "Original source-PDF table extract from physical page 647 showing GW900 sequence 012, Cardiff West, Leckwith and Ely approaches, with the complete location, mileage, running-lines, speed-restrictions, signalling and remarks table.",
   lastUpdated: "05/10/2024", location: "Cardiff West, Leckwith and Ely approaches", mileage: "approximately 170m 61ch to 178m 75ch",
   locations: ["Cardiff West, Leckwith and Ely approaches"],
-  connections: ["Connections and junction routes are shown on the source diagram"],
+  connections: ["To Leckwith Loop South Junction GW850 sequence 001", "To Canton Depot"],
   signalling: ["TCB Wales Rail Operating Centre", "GSM-R", "Axle-counter areas are shown"],
   speeds: ["Multiple line-specific speed indications are shown; refer to the source extract for exact line alignment"],
   equipment: "The source diagram shows line-specific electrification, junction, platform and signalling details where applicable.",
@@ -15,4 +15,3 @@ const page647 = {
 };
 
 export default page647;
-

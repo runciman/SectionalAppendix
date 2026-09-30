@@ -7,7 +7,7 @@ const page642 = {
   imageAlt: "Original source-PDF table extract from physical page 642 showing GW900 sequence 007, Gaer Junction, Alexandra Dock Junction and Ebbw Junction, with the complete location, mileage, running-lines, speed-restrictions, signalling and remarks table.",
   lastUpdated: "02/05/2026", location: "Gaer Junction, Alexandra Dock Junction and Ebbw Junction", mileage: "approximately 159m 36ch to 161m 04ch",
   locations: ["Gaer Junction, Alexandra Dock Junction and Ebbw Junction"],
-  connections: ["Connections and junction routes are shown on the source diagram"],
+  connections: ["To Park Junction GW770 sequence 003", "To Park Junction GW780 sequence 001", "To Newport Docks GW784 sequence 001"],
   signalling: ["TCB Wales Rail Operating Centre", "GSM-R", "Axle-counter areas are shown"],
   speeds: ["Multiple line-specific speed indications are shown; refer to the source extract for exact line alignment"],
   equipment: "The source diagram shows line-specific electrification, junction, platform and signalling details where applicable.",
@@ -15,4 +15,3 @@ const page642 = {
 };
 
 export default page642;
-

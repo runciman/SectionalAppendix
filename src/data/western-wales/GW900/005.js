@@ -7,7 +7,7 @@ const page640 = {
   imageAlt: "Original source-PDF table extract from physical page 640 showing GW900 sequence 005, Maindee East Junction and River Usk Viaduct, with the complete location, mileage, running-lines, speed-restrictions, signalling and remarks table.",
   lastUpdated: "13/06/2026", location: "Maindee East Junction and River Usk Viaduct", mileage: "approximately 157m 50ch to 158m 30ch",
   locations: ["Maindee East Junction and River Usk Viaduct"],
-  connections: ["Connections and junction routes are shown on the source diagram"],
+  connections: ["To Maindee North Junction GW740 sequence 001", "To Maindee North Junction GW730 sequence 018"],
   signalling: ["TCB Wales Rail Operating Centre", "GSM-R", "Axle-counter areas are shown"],
   speeds: ["Multiple line-specific speed indications are shown; refer to the source extract for exact line alignment"],
   equipment: "The source diagram shows line-specific electrification, junction, platform and signalling details where applicable.",
@@ -15,4 +15,3 @@ const page640 = {
 };
 
 export default page640;
-

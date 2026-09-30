@@ -7,7 +7,7 @@ const page644 = {
   imageAlt: "Original source-PDF table extract from physical page 644 showing GW900 sequence 009, Pengam Junction and Moorland Road, with the complete location, mileage, running-lines, speed-restrictions, signalling and remarks table.",
   lastUpdated: "05/10/2024", location: "Pengam Junction and Moorland Road", mileage: "approximately 168m 00ch to 169m 36ch",
   locations: ["Pengam Junction and Moorland Road"],
-  connections: ["Connections and junction routes are shown on the source diagram"],
+  connections: ["To Tidal Sidings GW790 sequence 001"],
   signalling: ["TCB Wales Rail Operating Centre", "GSM-R", "Axle-counter areas are shown"],
   speeds: ["Multiple line-specific speed indications are shown; refer to the source extract for exact line alignment"],
   equipment: "The source diagram shows line-specific electrification, junction, platform and signalling details where applicable.",
@@ -15,4 +15,3 @@ const page644 = {
 };
 
 export default page644;
-
