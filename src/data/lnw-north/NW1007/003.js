@@ -21,7 +21,7 @@ const page189 = {
     "Western Sidings",
     "Down Salop Goods Loop"
   ],
-  connections: [],
+  connections: ["NW1013 sequence 002", "NW1011 sequence 001"],
   signalling: [
     "TCB Gresty Lane SCC (GL), AC Crewe",
     "GSM-R",

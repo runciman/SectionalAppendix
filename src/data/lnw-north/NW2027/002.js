@@ -24,7 +24,7 @@ const page267 = {
     "Bootle Jn",
     "Alexandra Dock Tunnel"
   ],
-  connections: [],
+  connections: ["NW8001 sequence 007"],
   signalling: ["Signalling details shown on the source Table A diagram", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW2027 sequence 002, Edge Hill Bootle Branch Jn to Liverpool Docks, ELR SCT1, SCT2, BSJ; Module NW2 physical PDF page 267, document page 42, last updated 31/07/2021. Covers Spellow tunnels to Alexandra Dock Tunnel. Locations: Spellow No.2 Tunnel; Spellow No.1 Tunnel; Westminster Tunnel; Atlantic Docks Jn; Oriel Road Tunnel; Bootle Jn; Alexandra Dock Tunnel. Source Table A shows running lines and speed restrictions, signalling, GSM-R and remarks."

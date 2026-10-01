@@ -19,7 +19,7 @@ const page192 = {
     "Basford Hall Jn",
     "Basford Hall Up Departure Siding connection"
   ],
-  connections: [],
+  connections: ["NW1001 sequence 007"],
   signalling: [
     "TCB Manchester ROC, Crewe South Workstation (CS), AC Crewe",
     "GSM-R",

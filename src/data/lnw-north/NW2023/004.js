@@ -21,7 +21,7 @@ const page264 = {
     "Huyton Jn",
     "Huyton"
   ],
-  connections: [],
+  connections: ["NW2015 sequence 007"],
   signalling: ["Signalling details shown on the source Table A diagram", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW2023 sequence 004, Springs Branch Jn. to Huyton Jn. (St. Helens lines), ELR SBH1, DSE; Module NW2 physical PDF page 264, document page 39, last updated 09/10/2017. Covers Prescot and Huyton. Locations: Prescot; OHNS; Huyton Jn; Huyton. Source Table A shows running lines and speed restrictions, signalling, GSM-R and remarks."

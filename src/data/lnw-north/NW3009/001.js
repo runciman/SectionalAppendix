@@ -16,7 +16,7 @@ const page345 = {
   location: "Chester North Jn to Windmill Lane Tunnel",
   mileage: "Chester North Jn to Chester South Jn",
   locations: ["Chester North Jn", "Engineers' Sidings", "Chester South Jn", "Windmill Lane Tunnel"],
-  connections: [],
+  connections: ["NW3011 sequence 002", "NW3001 sequence 005"],
   signalling: ["Chester PSB Chester Panel", "TCB", "DC Sandhills", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW3009 sequence 001, Chester North Jn to Chester South Jn, ELR CVS, Module NW3 physical PDF page 345, document page 50, last updated 14/03/2026. Mileage span Chester North Jn to Chester South Jn. Locations: Chester North Jn; Engineers' Sidings; Chester South Jn; Windmill Lane Tunnel. The source Table A diagram shows running lines, speed restrictions, signalling, GSM-R and associated remarks."

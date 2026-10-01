@@ -21,7 +21,7 @@ const page195 = {
     "Chester Independent line connection",
     "Salop Goods Jn"
   ],
-  connections: [],
+  connections: ["NW1007 sequence 003", "NW1011 sequence 001", "NW1015 sequence 001"],
   signalling: [
     "TCB Manchester ROC, Crewe Independent Lines Workstation (IL), AC Crewe",
     "GSM-R",

@@ -16,7 +16,7 @@ const page317 = {
   location: "Llandudno Jn to Llandudno Jn SB",
   mileage: "222m 31ch to 223m 55ch",
   locations: ["Llandudno Jn", "Tamper Siding GF", "Llandudno Junction", "Llandudno Jn SB"],
-  connections: [],
+  connections: ["NW3015 sequence 001", "NW3017 sequence 001"],
   signalling: ["Llandudno Jn SB", "TCB", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW3001 sequence 014, Crewe North Jn. to Holyhead, ELR CNH3, Module NW3 physical PDF page 317, document page 26, last updated 19/10/2024. Mileage span 222m 31ch to 223m 55ch. Locations: Llandudno Jn; Tamper Siding GF; Llandudno Junction; Llandudno Jn SB. The source Table A diagram shows running lines, speed restrictions, signalling, GSM-R and associated remarks."

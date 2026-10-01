@@ -6,7 +6,7 @@ const page425 = {
   imageSrc,
   imageAlt: "Original source-PDF table extract from physical page 425 showing NW4001 sequence 008, with the complete location, mileage, running-lines, speed-restrictions, signalling and remarks table.",
   lastUpdated: "24/05/2025", location: "WCR Depot GF to Milnthorpe GF", mileage: "See source diagram",
-  locations: ["WCR Depot GF", "Carnforth North Jn", "Milnthorpe GF"], connections: [],
+  locations: ["WCR Depot GF", "Carnforth North Jn", "Milnthorpe GF"], connections: ["NW4033 sequence 001"],
   signalling: ["Preston PSB", "TCB", "AC Crewe", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW4001 sequence 008, Preston Ribble Jn to Cove L.C., ELR CGJ7 / CBC1, Module NW4 physical PDF page 425, document page 20, last updated 24/05/2025. Locations include WCR Depot GF; Carnforth North Jn; Milnthorpe GF. The source Table A diagram shows mileage, running lines, speed restrictions, signalling, GSM-R and associated remarks."

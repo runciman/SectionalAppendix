@@ -20,7 +20,7 @@ const page241 = {
     "Speke West Jn",
     "Garston Jn"
   ],
-  connections: [],
+  connections: ["NW2001 sequence 004", "NW2001 sequence 005", "NW2007 sequence 001"],
   signalling: ["TCB signalling", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW2005 sequence 001, Speke Jn to Garston Jn, Module NW2 physical PDF page 241, document page 18, last updated 09/07/2022. Covers Speke to Garston. Locations: Speke East Jn; Speke West Jn; Garston Jn. The source Table A diagram shows running lines and speed restrictions, TCB signalling, GSM-R and associated remarks."

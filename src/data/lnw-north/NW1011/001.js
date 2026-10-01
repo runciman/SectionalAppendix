@@ -20,7 +20,7 @@ const page197 = {
     "Gates",
     "Salop Goods Jn"
   ],
-  connections: [],
+  connections: ["NW1007 sequence 003", "NW1013 sequence 001", "NW1009 sequence 004", "NW1017 sequence 001"],
   signalling: [
     "TCB Gresty Lane SCC (GL) and Manchester ROC Independent Lines Workstation (IL), AC Crewe",
     "GSM-R",

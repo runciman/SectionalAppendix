@@ -21,7 +21,7 @@ const page266 = {
     "Picko tunnels",
     "Edge Lane Jn"
   ],
-  connections: [],
+  connections: ["NW2015 sequence 009", "NW2029 sequence 001"],
   signalling: ["Signalling details shown on the source Table A diagram", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW2027 sequence 001, Edge Hill Bootle Branch Jn to Liverpool Docks, ELR SCT1; Module NW2 physical PDF page 266, document page 41, last updated 14/03/2026. Covers Bootle Branch Jn to Edge Lane Jn. Locations: Bootle Branch Jn; Edge Hill OHNS; Picko tunnels; Edge Lane Jn. Source Table A shows running lines and speed restrictions, signalling, GSM-R and remarks."

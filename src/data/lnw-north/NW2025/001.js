@@ -20,7 +20,7 @@ const page265 = {
     "Ravenhead Jn",
     "Network Rail boundary"
   ],
-  connections: [],
+  connections: ["NW2023 sequence 002", "NW2023 sequence 000"],
   signalling: ["Signalling details shown on the source Table A diagram", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW2025 sequence 001, St Helens Station Jn. to Ravenhead Jn., ELR SHS; Module NW2 physical PDF page 265, document page 40, last updated 14/05/2016. Covers St Helens Station Jn to Ravenhead Jn. Locations: St Helens Station Jn; Ravenhead Jn; Network Rail boundary. Source Table A shows running lines and speed restrictions, signalling, GSM-R and remarks."

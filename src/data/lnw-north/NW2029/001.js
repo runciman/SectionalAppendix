@@ -20,7 +20,7 @@ const page269 = {
     "Olive Mount Tunnel",
     "Edge Lane Jn"
   ],
-  connections: [],
+  connections: ["NW2015 sequence 008", "NW2027 sequence 001"],
   signalling: ["Signalling details shown on the source Table A diagram", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW2029 sequence 001, Olive Mount Jn. to Edge Lane Jn., ELR OME3; Module NW2 physical PDF page 269, document page 44, last updated 04/11/2019. Covers Olive Mount Jn to Edge Lane Jn. Locations: Olive Mount Jn; Olive Mount Tunnel; Edge Lane Jn. Source Table A shows running lines and speed restrictions, signalling, GSM-R and remarks."

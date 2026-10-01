@@ -21,7 +21,7 @@ const page190 = {
     "Crewe South Jn",
     "Crewe"
   ],
-  connections: [],
+  connections: ["NW1009 sequence 004", "NW1001 sequence 008"],
   signalling: [
     "TCB Gresty Lane SCC (GL) and Crewe SCC (CE), AC Crewe",
     "GSM-R"

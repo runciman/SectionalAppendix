@@ -19,7 +19,7 @@ const page242 = {
     "Allerton East Jn",
     "Garston Jn"
   ],
-  connections: [],
+  connections: ["NW2001 sequence 005", "NW2005 sequence 001"],
   signalling: ["TCB signalling", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW2007 sequence 001, Allerton East Jn. to Garston Jn., Module NW2 physical PDF page 242, document page 19, last updated 03/12/2022. Covers Allerton East Jn to Garston Jn. Locations: Allerton East Jn; Garston Jn. The source Table A diagram shows running lines and speed restrictions, TCB signalling, GSM-R and associated remarks."

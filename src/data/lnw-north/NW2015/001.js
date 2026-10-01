@@ -18,7 +18,7 @@ const page248 = {
   locations: [
     "Ordsall Lane Jn"
   ],
-  connections: [],
+  connections: ["NW6007 sequence 002", "NW6001 sequence 004"],
   signalling: ["TCB signalling", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW2015 sequence 001, Ordsall Lane Jn. to Edge Hill, Module NW2 physical PDF page 248, document page 25, last updated 24/04/2017. Covers Ordsall Lane Jn. Locations: Ordsall Lane Jn. The source Table A diagram shows running lines and speed restrictions, TCB signalling, GSM-R and associated remarks."

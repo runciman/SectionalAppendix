@@ -16,7 +16,7 @@ const page344 = {
   location: "Upton to Bidston West Jn",
   mileage: "2m 40ch to Bidston West Jn",
   locations: ["Upton", "Bidston Dee Jn", "Bidston", "Bidston West Jn"],
-  connections: [],
+  connections: ["NW8011 sequence 006"],
   signalling: ["Merseyrail SCC", "TCB", "DC Sandhills", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW3007 sequence 006, Wrexham Central to Bidston West Jn, ELR WDB3 / CWK3, Module NW3 physical PDF page 344, document page 49, last updated 15/04/2023. Mileage span 2m 40ch to Bidston West Jn. Locations: Upton; Bidston Dee Jn; Bidston; Bidston West Jn. The source Table A diagram shows running lines, speed restrictions, signalling, GSM-R and associated remarks."

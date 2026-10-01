@@ -6,7 +6,7 @@ const page364 = {
   imageSrc,
   imageAlt: "Original source-PDF table extract from physical page 364 showing NW3023 sequence 002, with the complete location, mileage, running-lines, speed-restrictions, signalling and remarks table.",
   lastUpdated: "04/10/2025", location: "Edgeley Jn No.2 to Mickle Trafford", mileage: "See source diagram",
-  locations: ["Edgeley Jn No.2", "Mickle Trafford"], connections: [], signalling: ["TCB", "GSM-R"],
+  locations: ["Edgeley Jn No.2", "Mickle Trafford"], connections: ["NW9017 sequence 003", "NW3025 sequence 001"], signalling: ["TCB", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW3023 sequence 002, Edgeley Jn No.2 to Mickle Trafford, ELR EJN / WJP1 / SJD, Module NW3 physical PDF page 364, document page 67, last updated 04/10/2025. Locations include Edgeley Jn No.2; Mickle Trafford. The source Table A diagram shows mileage, running lines, speed restrictions, signalling and associated remarks."
 };

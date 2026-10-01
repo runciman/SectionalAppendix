@@ -19,7 +19,7 @@ const page240 = {
     "Runcorn Jn",
     "Runcorn"
   ],
-  connections: [],
+  connections: ["NW2001 sequence 002"],
   signalling: ["TCB signalling", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW2003 sequence 001, Runcorn to I.C.I. Salt Works (Runcorn Dock Branch), Module NW2 physical PDF page 240, document page 17, last updated 28/05/2018. Covers Runcorn Dock Branch. Locations: Runcorn Jn; Runcorn. The source Table A diagram shows running lines and speed restrictions, TCB signalling, GSM-R and associated remarks."

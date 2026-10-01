@@ -16,7 +16,7 @@ const page349 = {
   location: "Hooton South Jn to Bay Platform 1",
   mileage: "6m 60ch to Hooton South Jn",
   locations: ["Hooton South Jn", "Run Round Siding", "Bay Platform 1"],
-  connections: [],
+  connections: ["NW3013 sequence 001", "NW8013 sequence 004"],
   signalling: ["Chester PSB Hooton Panel", "TCB", "DC Sandhills", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW3011 sequence 004, Chester West Jn to Hooton South Jn, ELR CRR1, Module NW3 physical PDF page 349, document page 52B, last updated 14/03/2026. Mileage span 6m 60ch to Hooton South Jn. Locations: Hooton South Jn; Run Round Siding; Bay Platform 1. The source Table A diagram shows running lines, speed restrictions, signalling, GSM-R and associated remarks."

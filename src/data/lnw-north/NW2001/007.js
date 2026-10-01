@@ -22,7 +22,7 @@ const page238 = {
     "Crown Street Jn",
     "Smithdown Lane Tunnel"
   ],
-  connections: [],
+  connections: ["NW2015 sequence 009"],
   signalling: ["TCB signalling", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW2001 sequence 007, Weaver Jn. to Liverpool Lime Street, ELR WJL3, WJL4, Module NW2 physical PDF page 238, document page 15, last updated 28/05/2022. Covers Edge Hill to Crown Street. Locations: Edge Hill East Jn; Tunnel Road Tunnel; Edge Hill West Jn; Crown Street Jn; Smithdown Lane Tunnel. The source Table A diagram shows running lines and speed restrictions, TCB signalling, GSM-R and associated remarks."

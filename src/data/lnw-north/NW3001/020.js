@@ -16,7 +16,7 @@ const page323 = {
   location: "Llanfair LC to Gaerwen Jn",
   mileage: "242m 21ch to 247m 55ch",
   locations: ["Llanfair LC", "Llanfairpwll", "Llanddaniel LC", "Gaerwen SB", "Gaerwen Jn"],
-  connections: [],
+  connections: ["NW3019 sequence 001"],
   signalling: ["Bangor SB", "Gaerwen SB", "AB", "RA8", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW3001 sequence 020, Crewe North Jn. to Holyhead, ELR CNH3, Module NW3 physical PDF page 323, document page 32, last updated 27/09/2025. Mileage span 242m 21ch to 247m 55ch. Locations: Llanfair LC; Llanfairpwll; Llanddaniel LC; Gaerwen SB; Gaerwen Jn. The source Table A diagram shows running lines, speed restrictions, signalling, GSM-R and associated remarks."

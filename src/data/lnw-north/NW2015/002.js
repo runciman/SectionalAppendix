@@ -19,7 +19,7 @@ const page249 = {
     "Windsor Street OHNS",
     "Eccles Station Jn"
   ],
-  connections: [],
+  connections: ["NW2017 sequence 001"],
   signalling: ["TCB signalling", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW2015 sequence 002, Ordsall Lane Jn to Edge Hill, Module NW2 physical PDF page 249, document page 26, last updated 24/02/2024. Covers Windsor Street to Eccles. Locations: Windsor Street OHNS; Eccles Station Jn. The source Table A diagram shows running lines and speed restrictions, TCB signalling, GSM-R and associated remarks."

@@ -16,7 +16,7 @@ const page350 = {
   location: "Hooton South Jn to Overpool",
   mileage: "Hooton South Jn to 3m 20ch",
   locations: ["Hooton South Jn", "Little Sutton", "Overpool"],
-  connections: [],
+  connections: ["NW8013 sequence 004", "NW3011 sequence 004"],
   signalling: ["Chester PSB Hooton Panel", "Ellesmere Port SB", "TCB", "DC Sandhills", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW3013 sequence 001, Hooton South Jn to Helsby Jn, ELR HHJ, Module NW3 physical PDF page 350, document page 53, last updated 14/03/2026. Mileage span Hooton South Jn to 3m 20ch. Locations: Hooton South Jn; Little Sutton; Overpool. The source Table A diagram shows running lines, speed restrictions, signalling, GSM-R and associated remarks."

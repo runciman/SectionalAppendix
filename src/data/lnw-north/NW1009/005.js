@@ -22,7 +22,7 @@ const page196 = {
     "Sandbach South Jn",
     "Sandbach"
   ],
-  connections: [],
+  connections: ["NW1017 sequence 001", "NW5001 sequence 001", "NW5001 sequence 002"],
   signalling: [
     "Manchester South SCC (MS)",
     "GSM-R",

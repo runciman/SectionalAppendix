@@ -19,7 +19,7 @@ const page198 = {
     "Crewe Sorting Sidings North SB former site",
     "Salop Goods Loop Jn"
   ],
-  connections: [],
+  connections: ["NW1009 sequence 003"],
   signalling: [
     "TCB Manchester ROC, Crewe Independent Lines Workstation (IL), AC Crewe",
     "GSM-R",

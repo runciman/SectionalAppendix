@@ -19,7 +19,7 @@ const page243 = {
     "Arpley Jn SB",
     "Arpley Jn"
   ],
-  connections: [],
+  connections: ["NW2011 sequence 001"],
   signalling: ["TCB signalling", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW2009 sequence 001, Arpley Jn. to Ditton East Jn., ELR SDJ2, Module NW2 physical PDF page 243, document page 20, last updated 30/04/2016. Covers Arpley Jn. Locations: Arpley Jn SB; Arpley Jn. The source Table A diagram shows running lines and speed restrictions, TCB signalling, GSM-R and associated remarks."

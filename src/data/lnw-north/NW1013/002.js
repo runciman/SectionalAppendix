@@ -20,7 +20,7 @@ const page199 = {
     "Gresty Bridge sidings",
     "Western Sidings"
   ],
-  connections: [],
+  connections: ["NW1007 sequence 003"],
   signalling: [
     "TCB Gresty Lane SCC and Manchester ROC Independent Lines Workstation (IL), AC Crewe",
     "GSM-R",

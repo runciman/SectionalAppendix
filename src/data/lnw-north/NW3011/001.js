@@ -16,7 +16,7 @@ const page346 = {
   location: "Chester to Chester West Jn",
   mileage: "Chester to 0m 27ch",
   locations: ["Chester", "Chester Middle Yard", "Chester Traincare Depot", "Chester West Jn"],
-  connections: [],
+  connections: ["NW3001 sequence 004"],
   signalling: ["Chester PSB Chester Panel", "TCB", "DC Sandhills", "GSM-R"],
   speeds: ["Running-line speed restrictions are shown on the source diagram."],
   transcription: "NW3011 sequence 001, Chester West Jn to Hooton South Jn, ELR CRR1, Module NW3 physical PDF page 346, document page 51, last updated 14/03/2026. Mileage span Chester to 0m 27ch. Locations: Chester; Chester Middle Yard; Chester Traincare Depot; Chester West Jn. The source Table A diagram shows running lines, speed restrictions, signalling, GSM-R and associated remarks."

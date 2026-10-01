@@ -21,7 +21,7 @@ const page194 = {
     "Salop Goods Loop Jn",
     "Crewe South Yard"
   ],
-  connections: [],
+  connections: ["NW1013 sequence 001"],
   signalling: [
     "TCB Manchester ROC, Crewe Independent Lines Workstation (IL)",
     "GSM-R",
