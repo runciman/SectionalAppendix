@@ -52,3 +52,4 @@ h1 { margin: 10px 0 8px; font-family: "Source Serif 4", Georgia, serif; font-siz
 @media (max-width: 470px) { .region-cards { grid-template-columns: 1fr; }.region-card { min-height: 112px; } }
 
 .route-availability em { display: block; margin-top: 5px; color: #444; font-size: .72rem; font-style: normal; line-height: 1.35; text-align: left; }
+.clearance-category { margin-top: 20px; }.clearance-category + .clearance-category { padding-top: 20px; border-top: 1px solid #dfe4e5; }.clearance-category-heading { display: flex; justify-content: space-between; gap: 18px; align-items: flex-start; }.clearance-category h4 { margin: 8px 0 0; color: #16314d; font-size: .92rem; }.clearance-category .route-availability { margin-left: auto; }
