@@ -32,9 +32,11 @@ export async function loadPage({ region, lOR, sequence }) {
   const allRouteClearance = region === "scotland"
     ? ((await import("./route-clearance/scotland")).default[lOR] || [])
     : [];
+  const routeClearance = clearanceForPage(allRouteClearance, page);
   return {
     ...page,
     region,
-    routeClearance: clearanceForPage(allRouteClearance, page),
+    routeClearance,
+    routeAvailability: [...new Set(routeClearance.map((segment) => segment.routeAvailability).filter(Boolean))],
   };
 }

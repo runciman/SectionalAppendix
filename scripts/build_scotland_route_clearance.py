@@ -28,7 +28,7 @@ TABLES = {
     "D4B": (range(1091, 1109), "Locomotives", 16, 15),
     "D4C": (range(1109, 1131), "Locomotives", 16, 15),
     "D4D": (range(1131, 1147), "Locomotives", 16, 15),
-    "D5A": (range(1147, 1161), "Freight containers and swap bodies", 2, None),
+    "D5A": (range(1147, 1161), "Loading gauge", 2, None),
     "D5B": (range(1161, 1173), "Locomotive gauge", 16, 15),
 }
 
@@ -57,8 +57,8 @@ def status(value: str | None) -> dict | None:
     raw = clean(value)
     if not raw:
         return None
-    codes = re.findall(r"R\d+", raw)
-    primary = next((token for token in re.findall(r"EH|Y|N|E|H|B|T|R\d+", raw) if not token.startswith("R")), None)
+    codes = re.findall(r"[RS]\d+", raw)
+    primary = next((token for token in re.findall(r"EH|Y|N|E|H|B|T|R\d+|S\d+", raw) if not token.startswith(("R", "S"))), None)
     if primary is None and codes:
         primary = codes[0]
     if primary is None:
@@ -67,7 +67,7 @@ def status(value: str | None) -> dict | None:
 
 
 def note_map(notes: str) -> dict[str, str]:
-    found = list(re.finditer(r"\b(R\d+)\b", notes))
+    found = list(re.finditer(r"\b([RS]\d+)\b", notes))
     return {
         match.group(1): clean(notes[match.end():found[index + 1].start() if index + 1 < len(found) else len(notes)])
         for index, match in enumerate(found)
@@ -105,6 +105,12 @@ def main() -> None:
                 if has_header:
                     previous_headers = [heading(cell) for cell in table[0]]
                     data_rows = table[1:]
+                    # D5A has a two-line header: "Gauge" spans the W6–W12
+                    # columns on the first row, with the actual gauge names
+                    # on the following row. That second row is not route data.
+                    if table_id == "D5A" and data_rows and not clean(data_rows[0][0]):
+                        previous_headers = [heading(cell) or previous_headers[index] for index, cell in enumerate(data_rows[0])]
+                        data_rows = data_rows[1:]
                 else:
                     data_rows = table
                 if previous_headers is None:
@@ -129,7 +135,7 @@ def main() -> None:
                         "table": table_id,
                         "category": label,
                         "pdfPage": page_number,
-                        "scope": clean(row[2]),
+                        "scope": clean(row[1] if table_id == "D5A" else row[2]),
                         # Scope text is reliable; some continuation pages split
                         # mileage digits across drawing cells, so do not publish
                         # a reconstructed mileage unless it has been manually

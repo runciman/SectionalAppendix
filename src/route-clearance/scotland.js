@@ -6923,75 +6923,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1147,
-      "scope": "Y *",
+      "scope": "Gretna Jn \u2013 Law Jn (via Beattock)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
           "restrictionNotes": {}
-        }
-      ],
-      "notes": null
-    },
-    {
-      "table": "D5A",
-      "category": "Freight containers and swap bodies",
-      "pdfPage": 1147,
-      "scope": "Y *",
-      "mileage": null,
-      "routeAvailability": null,
-      "routeAvailabilityRestrictions": [],
-      "clearances": [
+        },
         {
-          "type": "Gauge",
-          "status": "Y",
-          "restrictions": [],
-          "raw": "Y *",
-          "restrictionNotes": {}
-        }
-      ],
-      "notes": null
-    },
-    {
-      "table": "D5A",
-      "category": "Freight containers and swap bodies",
-      "pdfPage": 1147,
-      "scope": "Y",
-      "mileage": null,
-      "routeAvailability": null,
-      "routeAvailabilityRestrictions": [],
-      "clearances": [
-        {
-          "type": "Gauge",
+          "type": "W7",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
           "restrictionNotes": {}
-        }
-      ],
-      "notes": null
-    },
-    {
-      "table": "D5A",
-      "category": "Freight containers and swap bodies",
-      "pdfPage": 1147,
-      "scope": "Y *",
-      "mileage": null,
-      "routeAvailability": null,
-      "routeAvailabilityRestrictions": [],
-      "clearances": [
+        },
         {
-          "type": "Gauge",
+          "type": "W8",
           "status": "Y",
           "restrictions": [],
-          "raw": "Y *",
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -6999,18 +6991,271 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
+      "pdfPage": 1147,
+      "scope": "Law Jn \u2013 Larkfield Jn",
+      "mileage": null,
+      "routeAvailability": null,
+      "routeAvailabilityRestrictions": [],
+      "clearances": [
+        {
+          "type": "W6",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
+      "notes": null
+    },
+    {
+      "table": "D5A",
+      "category": "Loading gauge",
+      "pdfPage": 1147,
+      "scope": "Larkfield Jn \u2013 Eglinton Street",
+      "mileage": null,
+      "routeAvailability": null,
+      "routeAvailabilityRestrictions": [],
+      "clearances": [
+        {
+          "type": "W6",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
+      "notes": null
+    },
+    {
+      "table": "D5A",
+      "category": "Loading gauge",
+      "pdfPage": 1147,
+      "scope": "Eglinton Street \u2013 Glasgow Central",
+      "mileage": null,
+      "routeAvailability": null,
+      "routeAvailabilityRestrictions": [],
+      "clearances": [
+        {
+          "type": "W6",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
+      "notes": null
+    },
+    {
+      "table": "D5A",
+      "category": "Loading gauge",
       "pdfPage": 1148,
-      "scope": "Y",
+      "scope": "Newton East Jn \u2013 Newton West Jn via South Connecting Line,Newton Station and North Connecting Line",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -8906,19 +9151,84 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1148,
-      "scope": "Y",
+      "scope": "Carstairs South Jn \u2013 Haymarket East Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
           "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Slateford Jn to Haymarket East Jn"
+          }
+        },
+        {
+          "type": "W10",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Slateford Jn to Haymarket East Jn"
+          }
+        },
+        {
+          "type": "W10A",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Slateford Jn to Haymarket East Jn"
+          }
+        },
+        {
+          "type": "W12",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Slateford Jn to Haymarket East Jn"
+          }
         }
       ],
       "notes": "R1 PROHIBITED Slateford Jn to Haymarket East Jn"
@@ -9551,19 +9861,100 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1148,
-      "scope": "Y",
+      "scope": "Carstairs Station Jn \u2013 Carstairs East Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
           "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "R1",
+          "restrictions": [
+            "R1",
+            "R2",
+            "R3"
+          ],
+          "raw": "R1 R2 R3",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Carstairs platform 1",
+            "R2": "PROHIBITED Carstairs platform 2",
+            "R3": "PROHIBITED Carstairs Through Siding"
+          }
+        },
+        {
+          "type": "W10",
+          "status": "R1",
+          "restrictions": [
+            "R1",
+            "R2",
+            "R3"
+          ],
+          "raw": "R1 R2 R3",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Carstairs platform 1",
+            "R2": "PROHIBITED Carstairs platform 2",
+            "R3": "PROHIBITED Carstairs Through Siding"
+          }
+        },
+        {
+          "type": "W10A",
+          "status": "R1",
+          "restrictions": [
+            "R1",
+            "R2",
+            "R3"
+          ],
+          "raw": "R1 R2 R3",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Carstairs platform 1",
+            "R2": "PROHIBITED Carstairs platform 2",
+            "R3": "PROHIBITED Carstairs Through Siding"
+          }
+        },
+        {
+          "type": "W12",
+          "status": "R1",
+          "restrictions": [
+            "R1",
+            "R2",
+            "R3"
+          ],
+          "raw": "R1 R2 R3",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Carstairs platform 1",
+            "R2": "PROHIBITED Carstairs platform 2",
+            "R3": "PROHIBITED Carstairs Through Siding"
+          }
         }
       ],
       "notes": "R1 PROHIBITED Carstairs platform 1 R2 PROHIBITED Carstairs platform 2 R3 PROHIBITED Carstairs Through Siding"
@@ -10182,18 +10573,75 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1148,
-      "scope": "Y *",
+      "scope": "Midcalder Jn \u2013 Holytown Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W7 15mph on Up Line Br.59 Shotts Station [8m 38ch]"
+          }
+        },
+        {
+          "type": "W8",
+          "status": "S1",
+          "restrictions": [
+            "S1"
+          ],
+          "raw": "S1",
+          "restrictionNotes": {
+            "S1": "The following combinations are permitted: 2590 high x 2500 wide box on FSA/FTA KFA wagons. All lines 2590 high x 2550 wide box on FEA FSA/FTA KFA wagons All lines 2896 high x 2500 wide box on FLA wagons Down line ONLY 2896 high x 2500 wide box on FLA wagons Up line 15 mph at Br 59 Shotts Station [08m 38ch]"
+          }
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -10799,18 +11247,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1148,
-      "scope": "Y *",
+      "scope": "Lanark \u2013 Lanark Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -12544,18 +13041,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1148,
-      "scope": "Y *",
+      "scope": "Law Jn \u2013 Uddingston Jn (via Holytown)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -13189,18 +13735,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1148,
-      "scope": "Y",
+      "scope": "Wishaw Central Jn \u2013 Shieldmuir Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -13796,18 +14391,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1148,
-      "scope": "Y",
+      "scope": "Mossend East Jn \u2013 Mossend North Jn (North Curve)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -14403,18 +15047,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1149,
-      "scope": "Y",
+      "scope": "Mossend East Jn \u2013 Mossend South Jn (East Curve)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -15010,18 +15703,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1149,
-      "scope": "Y",
+      "scope": "Mossend South Jn \u2013 Mossend West Jn (West Curve)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -16176,18 +16918,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1149,
-      "scope": "Y",
+      "scope": "Coltness \u2013 Garriongill Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -17389,18 +18180,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1149,
-      "scope": "Y *",
+      "scope": "Motherwell \u2013 Newton, Hamilton Jn (via Hamilton)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -18019,18 +18859,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1149,
-      "scope": "Y",
+      "scope": "Larkhall \u2013 Haughhead Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -20319,18 +21208,71 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1149,
-      "scope": "Y *",
+      "scope": "Rutherglen Central Jn \u2013 Finnieston incl. Bridgeton Yard (via Arrival Line) (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W7 traffic prohibited from using Bridgeton Yard Arrival Line"
+          }
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -20979,18 +21921,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1149,
-      "scope": "Y",
+      "scope": "Rutherglen West Jn \u2013 Rutherglen North Jn (West Curve)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -22641,18 +23632,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1149,
-      "scope": "Y",
+      "scope": "Larkfield Jn \u2013 Shields Jn Incl. Shields Jn \u2013 Terminus Jn (Up Through Terminus)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -26650,18 +27690,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1149,
-      "scope": "Y *",
+      "scope": "Gretna Jn \u2013 Dumfries",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -26669,18 +27758,71 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1149,
-      "scope": "Y *",
+      "scope": "Dumfries to Kilmarnock GB&K Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W9 prohibited EXCEPT to traffic working from / to SC039 Kilmarnock to Barrasie Line using Kilmarnock Platform 3 Line between 33m 47ch and 33m 78ch ONLY."
+          }
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -26688,18 +27830,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1149,
-      "scope": "Y *",
+      "scope": "Kilmarnock GB&K Jn to Eglinton Street Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -26850,9 +28041,9 @@ export default {
   "SC033": [
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1149,
-      "scope": "\u2013",
+      "scope": "Dumfries to Maxwelltown (Goods Line) (OOU)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
@@ -27426,18 +28617,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1149,
-      "scope": "Y",
+      "scope": "Bank Jn \u2013 Greenburn Jn (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -27445,9 +28685,9 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1149,
-      "scope": "\u2013",
+      "scope": "Greenburn Jn \u2013 Knockshinnoch (Goods Line) (OOU)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
@@ -28040,18 +29280,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1149,
-      "scope": "Y",
+      "scope": "Greenburn Jn \u2013 Greenburn Open Cast (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -29206,18 +30495,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1149,
-      "scope": "Y",
+      "scope": "Kay Park Jn \u2013 Riccarton (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -29836,18 +31174,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "Y",
+      "scope": "Kilmarnock \u2013 Barassie",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -29880,9 +31267,9 @@ export default {
   "SC041": [
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "\u2013",
+      "scope": "Shewalton Moss \u2013 Hillhouse (Goods Line) (OOU)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
@@ -29893,9 +31280,9 @@ export default {
   "SC043": [
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "\u2013",
+      "scope": "Giffen \u2013 Lugton (Goods Line) (OOU)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
@@ -30485,18 +31872,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "Y *",
+      "scope": "East Kilbride \u2013 Busby Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -31657,18 +33093,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "Y",
+      "scope": "Muirhouse South Jn \u2013 Larkfield Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -32283,18 +33768,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "Y",
+      "scope": "Muirhouse Central Jn \u2013 Terminus Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -33561,18 +35095,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "Y *",
+      "scope": "Muirhouse Central Jn \u2013 Muirhouse North Jn (via Cathcart) (Cathcart Circle)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -34140,18 +35723,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "Y *",
+      "scope": "Neilston \u2013 Cathcart West Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -35322,18 +36954,79 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "Y *",
+      "scope": "Newton Hamilton Jn \u2013 Cathcart West Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W10 W9 W8 prohibited EXCEPT between Newton, Hamilton Jn and Newton Kirkhill Jn to/from North Connecting Line"
+          }
+        },
+        {
+          "type": "W9",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W10 W9 W8 prohibited EXCEPT between Newton, Hamilton Jn and Newton Kirkhill Jn to/from North Connecting Line"
+          }
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W10 W9 W8 prohibited EXCEPT between Newton, Hamilton Jn and Newton Kirkhill Jn to/from North Connecting Line"
+          }
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -35948,18 +37641,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "Y",
+      "scope": "Cathcart East Jn \u2013 Cathcart North Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -45003,18 +46745,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "Y *",
+      "scope": "Bridge Street Jn \u2013 Shields Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -45022,18 +46813,71 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "Y *",
+      "scope": "Shields Jn \u2013 Falkland Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W9 prohibited through Barassie Up Platform"
+          }
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -45041,18 +46885,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "Y *",
+      "scope": "Falkland Jn \u2013 Stranraer Harbour",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -45060,18 +46953,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "Y",
+      "scope": "Cook Street \u2013 Shields Road (through siding)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -46575,18 +48517,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "Y *",
+      "scope": "Shields Jn \u2013 Corkerhill",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -46594,15 +48585,15 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "R1",
+      "scope": "Corkerhill \u2013 Paisley Canal",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "R1",
           "restrictions": [
             "R1"
@@ -46611,6 +48602,59 @@ export default {
           "restrictionNotes": {
             "R1": "Prohibited when overhead line equipment is energised"
           }
+        },
+        {
+          "type": "W7",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "Prohibited when overhead line equipment is energised"
+          }
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
         }
       ],
       "notes": "R1 Prohibited when overhead line equipment is energised"
@@ -47783,18 +49827,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "Y",
+      "scope": "Cardonald Jn \u2013 Deanside (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -49713,18 +51806,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "Y *",
+      "scope": "Paisley \u2013 Wemyss Bay Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -49732,18 +51874,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1150,
-      "scope": "Y *",
+      "scope": "Wemyss Bay Jn \u2013 Gourock",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -50431,18 +52622,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "Y *",
+      "scope": "Wemyss Bay Jn \u2013 Wemyss Bay",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -50471,9 +52711,9 @@ export default {
   "SC069": [
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "\u2013",
+      "scope": "Containerbase Jn \u2013 Greenock CPA Terminal (Goods Line) (OOU)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
@@ -52203,18 +54443,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "Y *",
+      "scope": "Kilwinning Jn \u2013 Largs",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -52281,9 +54570,9 @@ export default {
   "SC075": [
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "\u2013",
+      "scope": "Misk to Stevenston (Goods Line) (OOU)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
@@ -52861,18 +55150,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "Y *",
+      "scope": "Ardrossan South Beach to Adrossan Harbour",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -53464,18 +55802,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "Y",
+      "scope": "Hunterston \u2013 Hunterston Low Level Sdgs (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -54067,18 +56454,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "Y",
+      "scope": "Byrehill Jn \u2013 Dubbs Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -54107,9 +56543,9 @@ export default {
   "SC083": [
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "\u2013",
+      "scope": "Snodgrass - Bogside (Goods Line) (OOU)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
@@ -54683,18 +57119,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "Y",
+      "scope": "Ayr Harbour \u2013 Newton Jn (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -55286,18 +57771,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "Y",
+      "scope": "Newton Jn \u2013 Mauchline (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -56452,18 +58986,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "Y",
+      "scope": "Annbank \u2013 Killoch Colliery (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -57074,18 +59657,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "Y",
+      "scope": "Dalrymple Jn \u2013 Chalmerston (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -59342,56 +61974,203 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "Y *",
+      "scope": "Motherwell \u2013 Coatbridge FLT",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
           "restrictionNotes": {}
-        }
-      ],
-      "notes": null
-    },
-    {
-      "table": "D5A",
-      "category": "Freight containers and swap bodies",
-      "pdfPage": 1151,
-      "scope": "Y",
-      "mileage": null,
-      "routeAvailability": null,
-      "routeAvailabilityRestrictions": [],
-      "clearances": [
+        },
         {
-          "type": "Gauge",
+          "type": "W7",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
           "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
         }
       ],
       "notes": null
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "Y *",
+      "scope": "Coatbridge FLT \u2013 Garnqueen North Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
+      "notes": null
+    },
+    {
+      "table": "D5A",
+      "category": "Loading gauge",
+      "pdfPage": 1151,
+      "scope": "Garnqueen North Jn \u2013 Greenhill Lower Jn",
+      "mileage": null,
+      "routeAvailability": null,
+      "routeAvailabilityRestrictions": [],
+      "clearances": [
+        {
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -59979,18 +62758,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "Y",
+      "scope": "Whifflet South Jn \u2013 Sunnyside Jn (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -61682,18 +64510,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "Y *",
+      "scope": "Whifflet North Jn \u2013 Rutherglen East Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -62317,18 +65194,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "Y",
+      "scope": "Coatbridge Jn \u2013 Langloan Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -64022,18 +66948,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "Y *",
+      "scope": "Garnqueen North Jn \u2013 Cowlairs West Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -64673,18 +67648,71 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "Y",
+      "scope": "Gartsherrie South Jn \u2013 Gartcosh Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W10 prohibited EXCEPT for use of Coatbridge FLT Headshunt Line"
+          }
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -65238,18 +68266,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1151,
-      "scope": "Y",
+      "scope": "Sighthill West Jn \u2013 Cowlairs South Jn (Chord Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -72302,18 +75379,79 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1152,
-      "scope": "Y *",
+      "scope": "Edinburgh Waverley \u2013 Princes Street Gardens",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W9 prohibited EXCEPT all through routes Edinburgh Waverley Station and Lines W & Z between Edinburgh Waverley and Princes Street Gardens W9 W8 W7 prohibited Lines X & Y between Edinburgh Waverley and Princes Street Gardens"
+          }
+        },
+        {
+          "type": "W8",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W9 prohibited EXCEPT all through routes Edinburgh Waverley Station and Lines W & Z between Edinburgh Waverley and Princes Street Gardens W9 W8 W7 prohibited Lines X & Y between Edinburgh Waverley and Princes Street Gardens"
+          }
+        },
+        {
+          "type": "W9",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W9 prohibited EXCEPT all through routes Edinburgh Waverley Station and Lines W & Z between Edinburgh Waverley and Princes Street Gardens W9 W8 W7 prohibited Lines X & Y between Edinburgh Waverley and Princes Street Gardens"
+          }
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -72321,18 +75459,75 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1152,
-      "scope": "Y *",
+      "scope": "Princes Street Gardens \u2013 Haymarket Central Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W8 W9 ~prohibited both Lines Haymarket North Tunnel"
+          }
+        },
+        {
+          "type": "W9",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W8 W9 ~prohibited both Lines Haymarket North Tunnel"
+          }
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -72340,132 +75535,475 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1152,
-      "scope": "Y",
+      "scope": "Haymarket Central Jn \u2013 Haymarket West Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
           "restrictionNotes": {}
-        }
-      ],
-      "notes": null
-    },
-    {
-      "table": "D5A",
-      "category": "Freight containers and swap bodies",
-      "pdfPage": 1152,
-      "scope": "Y *",
-      "mileage": null,
-      "routeAvailability": null,
-      "routeAvailabilityRestrictions": [],
-      "clearances": [
+        },
         {
-          "type": "Gauge",
-          "status": "Y",
-          "restrictions": [],
-          "raw": "Y *",
-          "restrictionNotes": {}
-        }
-      ],
-      "notes": null
-    },
-    {
-      "table": "D5A",
-      "category": "Freight containers and swap bodies",
-      "pdfPage": 1152,
-      "scope": "Y *",
-      "mileage": null,
-      "routeAvailability": null,
-      "routeAvailabilityRestrictions": [],
-      "clearances": [
-        {
-          "type": "Gauge",
-          "status": "Y",
-          "restrictions": [],
-          "raw": "Y *",
-          "restrictionNotes": {}
-        }
-      ],
-      "notes": null
-    },
-    {
-      "table": "D5A",
-      "category": "Freight containers and swap bodies",
-      "pdfPage": 1152,
-      "scope": "Y *",
-      "mileage": null,
-      "routeAvailability": null,
-      "routeAvailabilityRestrictions": [],
-      "clearances": [
-        {
-          "type": "Gauge",
-          "status": "Y",
-          "restrictions": [],
-          "raw": "Y *",
-          "restrictionNotes": {}
-        }
-      ],
-      "notes": null
-    },
-    {
-      "table": "D5A",
-      "category": "Freight containers and swap bodies",
-      "pdfPage": 1152,
-      "scope": "Y *",
-      "mileage": null,
-      "routeAvailability": null,
-      "routeAvailabilityRestrictions": [],
-      "clearances": [
-        {
-          "type": "Gauge",
-          "status": "Y",
-          "restrictions": [],
-          "raw": "Y *",
-          "restrictionNotes": {}
-        }
-      ],
-      "notes": null
-    },
-    {
-      "table": "D5A",
-      "category": "Freight containers and swap bodies",
-      "pdfPage": 1152,
-      "scope": "Y *",
-      "mileage": null,
-      "routeAvailability": null,
-      "routeAvailabilityRestrictions": [],
-      "clearances": [
-        {
-          "type": "Gauge",
-          "status": "Y",
-          "restrictions": [],
-          "raw": "Y *",
-          "restrictionNotes": {}
-        }
-      ],
-      "notes": null
-    },
-    {
-      "table": "D5A",
-      "category": "Freight containers and swap bodies",
-      "pdfPage": 1152,
-      "scope": "Y",
-      "mileage": null,
-      "routeAvailability": null,
-      "routeAvailabilityRestrictions": [],
-      "clearances": [
-        {
-          "type": "Gauge",
+          "type": "W7",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
+      "notes": null
+    },
+    {
+      "table": "D5A",
+      "category": "Loading gauge",
+      "pdfPage": 1152,
+      "scope": "Haymarket West Jn \u2013 Newbridge Jn",
+      "mileage": null,
+      "routeAvailability": null,
+      "routeAvailabilityRestrictions": [],
+      "clearances": [
+        {
+          "type": "W6",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
+      "notes": null
+    },
+    {
+      "table": "D5A",
+      "category": "Loading gauge",
+      "pdfPage": 1152,
+      "scope": "Newbridge Jn \u2013 Winchburgh Jn",
+      "mileage": null,
+      "routeAvailability": null,
+      "routeAvailabilityRestrictions": [],
+      "clearances": [
+        {
+          "type": "W6",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
+      "notes": null
+    },
+    {
+      "table": "D5A",
+      "category": "Loading gauge",
+      "pdfPage": 1152,
+      "scope": "Winchburgh Jn \u2013 Polmont Jn",
+      "mileage": null,
+      "routeAvailability": null,
+      "routeAvailabilityRestrictions": [],
+      "clearances": [
+        {
+          "type": "W6",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
+      "notes": null
+    },
+    {
+      "table": "D5A",
+      "category": "Loading gauge",
+      "pdfPage": 1152,
+      "scope": "Polmont Jn \u2013 Greenhill Upper Jn via Falkirk High",
+      "mileage": null,
+      "routeAvailability": null,
+      "routeAvailabilityRestrictions": [],
+      "clearances": [
+        {
+          "type": "W6",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
+      "notes": null
+    },
+    {
+      "table": "D5A",
+      "category": "Loading gauge",
+      "pdfPage": 1152,
+      "scope": "Greenhill Upper Jn \u2013 Cowlairs West Jn",
+      "mileage": null,
+      "routeAvailability": null,
+      "routeAvailabilityRestrictions": [],
+      "clearances": [
+        {
+          "type": "W6",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
+      "notes": null
+    },
+    {
+      "table": "D5A",
+      "category": "Loading gauge",
+      "pdfPage": 1152,
+      "scope": "Cowlairs West Jn \u2013 Glasgow Queen Street",
+      "mileage": null,
+      "routeAvailability": null,
+      "routeAvailabilityRestrictions": [],
+      "clearances": [
+        {
+          "type": "W6",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -75557,18 +79095,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1152,
-      "scope": "Y",
+      "scope": "Polmont Jn \u2013 Grangemouth Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -75576,37 +79163,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1152,
-      "scope": "Y *",
+      "scope": "Grangemouth Jn \u2013 Carmuirs East Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
           "restrictionNotes": {}
-        }
-      ],
-      "notes": null
-    },
-    {
-      "table": "D5A",
-      "category": "Freight containers and swap bodies",
-      "pdfPage": 1152,
-      "scope": "Y",
-      "mileage": null,
-      "routeAvailability": null,
-      "routeAvailabilityRestrictions": [],
-      "clearances": [
+        },
         {
-          "type": "Gauge",
+          "type": "W7",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -75614,18 +79231,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1152,
-      "scope": "Y",
+      "scope": "Carmuirs East Jn \u2013 Carmuirs West Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -75633,18 +79299,135 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1152,
-      "scope": "Y",
+      "scope": "Carmuirs West Jn \u2013 Greenhill Lower Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
+      "notes": null
+    },
+    {
+      "table": "D5A",
+      "category": "Loading gauge",
+      "pdfPage": 1152,
+      "scope": "Greenhill Lower Jn \u2013 Greenhill Upper Jn",
+      "mileage": null,
+      "routeAvailability": null,
+      "routeAvailabilityRestrictions": [],
+      "clearances": [
+        {
+          "type": "W6",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -76316,18 +80099,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1152,
-      "scope": "Y",
+      "scope": "Carmuirs East Jn \u2013 Larbert Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -76919,18 +80751,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1152,
-      "scope": "Y *",
+      "scope": "Newbridge Jn \u2013 Bathgate inc. Carmondean Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -77542,18 +81423,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1152,
-      "scope": "Y *",
+      "scope": "Winchburgh Jn \u2013 Dalmeny Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -78708,18 +82638,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1152,
-      "scope": "Y",
+      "scope": "Cowlairs West Jn \u2013 Knightswood North Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -79932,18 +83911,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1152,
-      "scope": "Y *",
+      "scope": "Grangemouth Jn \u2013 Grangemouth",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -84470,18 +88498,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1152,
-      "scope": "Y",
+      "scope": "Greenhill Upper Jn \u2013 Greenhill Lower Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -84489,18 +88566,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1153,
-      "scope": "Y",
+      "scope": "Greenhill Lower Jn \u2013 Carmuirs West Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -84508,18 +88634,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1153,
-      "scope": "Y",
+      "scope": "Carmuirs West Jn \u2013 Stirling Middle Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -84527,18 +88702,71 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1153,
-      "scope": "Y *",
+      "scope": "Stirling Middle Jn \u2013 Perth South Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "S1",
+          "restrictions": [
+            "S1"
+          ],
+          "raw": "S1",
+          "restrictionNotes": {
+            "S1": "The following combinations are permitted: Up to: 2590 high x 2500 wide box on FCA All Lines 2590 high x 2550 wide box on FKA IKA wagons All Lines Safeway refrigerated box on IKA FKA IFA FIA wagon 2896 high x 2500 wide box on FKA wagons Up Line 2675 high x 2550 wide box on FCA wagons Up Line 2896 high x 2600 wide box on IKA wagons Up line 30 mph at Br.66 [140m 09ch]"
+          }
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -84546,18 +88774,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1153,
-      "scope": "Y *",
+      "scope": "Perth South Jn \u2013 Dundee Central Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -93521,56 +97798,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1153,
-      "scope": "Y",
+      "scope": "Bathgate \u2013 Airdrie",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
           "restrictionNotes": {}
-        }
-      ],
-      "notes": null
-    },
-    {
-      "table": "D5A",
-      "category": "Freight containers and swap bodies",
-      "pdfPage": 1153,
-      "scope": "Y",
-      "mileage": null,
-      "routeAvailability": null,
-      "routeAvailabilityRestrictions": [],
-      "clearances": [
+        },
         {
-          "type": "Gauge",
+          "type": "W7",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
           "restrictionNotes": {}
-        }
-      ],
-      "notes": null
-    },
-    {
-      "table": "D5A",
-      "category": "Freight containers and swap bodies",
-      "pdfPage": 1153,
-      "scope": "Y *",
-      "mileage": null,
-      "routeAvailability": null,
-      "routeAvailabilityRestrictions": [],
-      "clearances": [
+        },
         {
-          "type": "Gauge",
+          "type": "W8",
           "status": "Y",
           "restrictions": [],
-          "raw": "Y *",
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -93578,18 +97866,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1153,
-      "scope": "Y *",
+      "scope": "Airdrie \u2013 Sunnyside Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
-          "raw": "Y *",
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -93597,18 +97934,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1153,
-      "scope": "Y *",
+      "scope": "Sunnyside Jn \u2013 High Street Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -93616,18 +98002,203 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1153,
-      "scope": "Y *",
+      "scope": "High Street Jn \u2013 Knightswood North Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
+      "notes": null
+    },
+    {
+      "table": "D5A",
+      "category": "Loading gauge",
+      "pdfPage": 1153,
+      "scope": "Knightswood North Jn \u2013 Craigendoran Jn",
+      "mileage": null,
+      "routeAvailability": null,
+      "routeAvailabilityRestrictions": [],
+      "clearances": [
+        {
+          "type": "W6",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
+      "notes": null
+    },
+    {
+      "table": "D5A",
+      "category": "Loading gauge",
+      "pdfPage": 1153,
+      "scope": "Craigendoran Jn \u2013 Helensburgh Central",
+      "mileage": null,
+      "routeAvailability": null,
+      "routeAvailabilityRestrictions": [],
+      "clearances": [
+        {
+          "type": "W6",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -95160,18 +99731,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1153,
-      "scope": "Y *",
+      "scope": "Hyndland East Jn \u2013 Dalmuir (via Yoker)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -95219,9 +99839,9 @@ export default {
   "SC127": [
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1153,
-      "scope": "\u2013",
+      "scope": "Sunnyside Jn \u2013 Gunnie Yard Goods Line) (OOU)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
@@ -95819,18 +100439,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1153,
-      "scope": "Y",
+      "scope": "Springburn \u2013 Bellgrove Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -95838,18 +100507,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1153,
-      "scope": "Y *",
+      "scope": "Sighthill East Jn \u2013 Glasgow Works (Springburn) (Railcare Ltd)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -96944,18 +101662,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1153,
-      "scope": "Y *",
+      "scope": "High Street Jn \u2013 Shields Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -97582,18 +102349,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1153,
-      "scope": "Y *",
+      "scope": "Westerton Jn \u2013 Milngavie",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -98189,18 +103005,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1154,
-      "scope": "Y *",
+      "scope": "Dalreoch Jn \u2013 Balloch",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -98796,18 +103661,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1154,
-      "scope": "Y",
+      "scope": "Hyndland North Jn \u2013 Hyndland West Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -98836,9 +103750,9 @@ export default {
   "SC137": [
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1154,
-      "scope": "\u2013",
+      "scope": "Clydebank Dock Jn \u2013 Rothesay Dock (Goods Line) (OOU)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
@@ -98849,9 +103763,9 @@ export default {
   "SC139": [
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1154,
-      "scope": "\u2013",
+      "scope": "Clydebank Jn \u2013 Dalmuir Riverside (Goods Line) (OOU)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
@@ -99736,18 +104650,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1154,
-      "scope": "Y *",
+      "scope": "Craigendoran Jn \u2013 Fort William",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -101444,18 +106407,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1154,
-      "scope": "Y *",
+      "scope": "Crianlarich \u2013 Oban",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -101463,15 +106475,64 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1154,
-      "scope": "N",
+      "scope": "Lower Crianlarich Siding",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
           "status": "N",
           "restrictions": [],
           "raw": "N",
@@ -102703,18 +107764,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1154,
-      "scope": "Y *",
+      "scope": "Fort William \u2013 Annat Paper Mill GF",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -102722,18 +107832,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1154,
-      "scope": "Y *",
+      "scope": "Annat Paper Mill GF \u2013 Mallaig",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -110358,37 +115517,215 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1154,
-      "scope": "Y *",
+      "scope": "Berwick \u2013 Edinburgh, Waverley East End",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
           "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "R1",
+          "restrictions": [
+            "R1",
+            "R2",
+            "R3",
+            "R4",
+            "R5",
+            "R6",
+            "R7",
+            "R8"
+          ],
+          "raw": "R1 R2 R3 R4 R5 R6 R7 R8",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Berwick to Territory Bounday",
+            "R2": "PROHIBITED Monktonhall Jn to Edinburgh, Waverley East End",
+            "R3": "PROHIBITED Granthouse Up and Down Passenger Loops",
+            "R4": "PROHIBITED Torness Up sidings",
+            "R5": "PROHIBITED Oxwellmains Up and Down sidings",
+            "R6": "PROHIBITED Dunbar Down and Up Passenger Loop",
+            "R7": "PROHIBITED Drem Up and Down Passenger Loops",
+            "R8": "PROHIBITED Prestonpans Up Passenger Loop"
+          }
+        },
+        {
+          "type": "W10",
+          "status": "R1",
+          "restrictions": [
+            "R1",
+            "R2",
+            "R3",
+            "R4",
+            "R5",
+            "R6",
+            "R7",
+            "R8"
+          ],
+          "raw": "R1 R2 R3 R4 R5 R6 R7 R8",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Berwick to Territory Bounday",
+            "R2": "PROHIBITED Monktonhall Jn to Edinburgh, Waverley East End",
+            "R3": "PROHIBITED Granthouse Up and Down Passenger Loops",
+            "R4": "PROHIBITED Torness Up sidings",
+            "R5": "PROHIBITED Oxwellmains Up and Down sidings",
+            "R6": "PROHIBITED Dunbar Down and Up Passenger Loop",
+            "R7": "PROHIBITED Drem Up and Down Passenger Loops",
+            "R8": "PROHIBITED Prestonpans Up Passenger Loop"
+          }
+        },
+        {
+          "type": "W10A",
+          "status": "R1",
+          "restrictions": [
+            "R1",
+            "R2",
+            "R3",
+            "R4",
+            "R5",
+            "R6",
+            "R7",
+            "R8"
+          ],
+          "raw": "R1 R2 R3 R4 R5 R6 R7 R8",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Berwick to Territory Bounday",
+            "R2": "PROHIBITED Monktonhall Jn to Edinburgh, Waverley East End",
+            "R3": "PROHIBITED Granthouse Up and Down Passenger Loops",
+            "R4": "PROHIBITED Torness Up sidings",
+            "R5": "PROHIBITED Oxwellmains Up and Down sidings",
+            "R6": "PROHIBITED Dunbar Down and Up Passenger Loop",
+            "R7": "PROHIBITED Drem Up and Down Passenger Loops",
+            "R8": "PROHIBITED Prestonpans Up Passenger Loop"
+          }
+        },
+        {
+          "type": "W12",
+          "status": "R1",
+          "restrictions": [
+            "R1",
+            "R2",
+            "R3",
+            "R4",
+            "R5",
+            "R6",
+            "R7",
+            "R8"
+          ],
+          "raw": "R1 R2 R3 R4 R5 R6 R7 R8",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Berwick to Territory Bounday",
+            "R2": "PROHIBITED Monktonhall Jn to Edinburgh, Waverley East End",
+            "R3": "PROHIBITED Granthouse Up and Down Passenger Loops",
+            "R4": "PROHIBITED Torness Up sidings",
+            "R5": "PROHIBITED Oxwellmains Up and Down sidings",
+            "R6": "PROHIBITED Dunbar Down and Up Passenger Loop",
+            "R7": "PROHIBITED Drem Up and Down Passenger Loops",
+            "R8": "PROHIBITED Prestonpans Up Passenger Loop"
+          }
         }
       ],
       "notes": "R1 PROHIBITED Berwick to Territory Bounday R2 PROHIBITED Monktonhall Jn to Edinburgh, Waverley East End R3 PROHIBITED Granthouse Up and Down Passenger Loops R4 PROHIBITED Torness Up sidings R5 PROHIBITED Oxwellmains Up and Down sidings R6 PROHIBITED Dunbar Down and Up Passenger Loop R7 PROHIBITED Drem Up and Down Passenger Loops R8 PROHIBITED Prestonpans Up Passenger Loop"
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1154,
-      "scope": "Y *",
+      "scope": "Edinburgh, Waverley East End \u2013 Princes Street Gardens",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W8 W9 Prohibited EXCEPT all through routes Edinburgh Waverley Station and Lines W & Z between Edinburgh Waverley and Princes Street Gardens"
+          }
+        },
+        {
+          "type": "W9",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W8 W9 Prohibited EXCEPT all through routes Edinburgh Waverley Station and Lines W & Z between Edinburgh Waverley and Princes Street Gardens"
+          }
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -110396,18 +115733,75 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1154,
-      "scope": "Y *",
+      "scope": "Princes Street Gardens to Haymarket Central Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W8 W9 Prohibited both Lines Haymarket North Tunnel"
+          }
+        },
+        {
+          "type": "W9",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W8 W9 Prohibited both Lines Haymarket North Tunnel"
+          }
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -111208,18 +116602,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1154,
-      "scope": "Y",
+      "scope": "North Berwick \u2013 Drem Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -111711,18 +117154,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1155,
-      "scope": "Y",
+      "scope": "Portobello \u2013 Leith South Yard (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -112178,18 +117670,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1155,
-      "scope": "Y",
+      "scope": "Craigentinny \u2013 Powderhall (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -113403,19 +118944,84 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1155,
-      "scope": "Y",
+      "scope": "Monktonhall Jn \u2013 Millerhill Yard (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
           "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Millerhill Yard sidings"
+          }
+        },
+        {
+          "type": "W10",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Millerhill Yard sidings"
+          }
+        },
+        {
+          "type": "W10A",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Millerhill Yard sidings"
+          }
+        },
+        {
+          "type": "W12",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Millerhill Yard sidings"
+          }
         }
       ],
       "notes": "R1 PROHIBITED Millerhill Yard sidings"
@@ -113810,18 +119416,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1155,
-      "scope": "Y",
+      "scope": "Millerhill South Jn \u2013 Millerhill East Jn (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -114171,18 +119826,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1155,
-      "scope": "Y",
+      "scope": "End of Line (former Bilston Br) \u2013 Millerhill South Jn (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -114190,18 +119894,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1155,
-      "scope": "Y",
+      "scope": "Millerhill South Jn \u2013 Millerhill Yard Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -115129,19 +120882,84 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1155,
-      "scope": "Y *",
+      "scope": "Millerhill Yard \u2013 Portobello",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
           "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Nidrie South Jn to Portobello"
+          }
+        },
+        {
+          "type": "W10",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Nidrie South Jn to Portobello"
+          }
+        },
+        {
+          "type": "W10A",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Nidrie South Jn to Portobello"
+          }
+        },
+        {
+          "type": "W12",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Nidrie South Jn to Portobello"
+          }
         }
       ],
       "notes": "R1 PROHIBITED Nidrie South Jn to Portobello"
@@ -115830,15 +121648,64 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1155,
-      "scope": "Y",
+      "scope": "Portobello \u2013 Niddrie West",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
@@ -117511,15 +123378,64 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1155,
-      "scope": "Y",
+      "scope": "Niddrie South Jn \u2013 Niddrie West Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
@@ -117530,15 +123446,64 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1155,
-      "scope": "Y",
+      "scope": "Niddrie West Jn \u2013 Craiglockhart Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
@@ -117549,18 +123514,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1155,
-      "scope": "Y",
+      "scope": "Craiglockhart Jn \u2013 Gorgie Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -117568,18 +123582,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1155,
-      "scope": "Y",
+      "scope": "Gorgie Jn \u2013 Haymarket West Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -117967,19 +124030,84 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1155,
-      "scope": "Y",
+      "scope": "Craiglockhart Jn \u2013 Slateford Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
           "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Slateford east sidings"
+          }
+        },
+        {
+          "type": "W10",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Slateford east sidings"
+          }
+        },
+        {
+          "type": "W10A",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Slateford east sidings"
+          }
+        },
+        {
+          "type": "W12",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "PROHIBITED Slateford east sidings"
+          }
         }
       ],
       "notes": "R1 PROHIBITED Slateford east sidings"
@@ -118328,18 +124456,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1155,
-      "scope": "Y",
+      "scope": "Gorgie Jn \u2013 Haymarket Central Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -122209,18 +128386,79 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1155,
-      "scope": "Y *",
+      "scope": "Edinburgh Waverley \u2013 Princes Street Gardens",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W9 prohibited EXCEPT all through routes Edinburgh Waverley Station and Lines W & Z between Edinburh Waverley and Princes Street Gardens W9 W8 W7 prohibited Lines X & Y between Edinburh Waverley and Princes Street Gardens"
+          }
+        },
+        {
+          "type": "W8",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W9 prohibited EXCEPT all through routes Edinburgh Waverley Station and Lines W & Z between Edinburh Waverley and Princes Street Gardens W9 W8 W7 prohibited Lines X & Y between Edinburh Waverley and Princes Street Gardens"
+          }
+        },
+        {
+          "type": "W9",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W9 prohibited EXCEPT all through routes Edinburgh Waverley Station and Lines W & Z between Edinburh Waverley and Princes Street Gardens W9 W8 W7 prohibited Lines X & Y between Edinburh Waverley and Princes Street Gardens"
+          }
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -122228,18 +128466,75 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1156,
-      "scope": "Y *",
+      "scope": "Princes Street Gardens \u2013 Haymarket Central Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W8 W9 Prohibited both Lines Haymarket North Tunnel"
+          }
+        },
+        {
+          "type": "W9",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "W8 W9 Prohibited both Lines Haymarket North Tunnel"
+          }
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -122247,18 +128542,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1156,
-      "scope": "Y *",
+      "scope": "Haymarket West Jn \u2013 Thornton North Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -122266,18 +128610,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1156,
-      "scope": "Y *",
+      "scope": "Thornton North Jn \u2013 Ladybank Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -122285,18 +128678,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1156,
-      "scope": "Y *",
+      "scope": "Ladybank Jn \u2013 Dundee",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -123592,18 +130034,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1156,
-      "scope": "Y *",
+      "scope": "Inverkeithing Central Jn \u2013 Thornton North Jn (via Cowdenbeath)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -124245,18 +130736,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1156,
-      "scope": "Y",
+      "scope": "Rosyth Dockyard \u2013 Inverkeithing South Jn (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -124582,18 +131122,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1156,
-      "scope": "Y",
+      "scope": "Inverkeithing North Jn \u2013 Inverkeithing East Jn (Inverkeithing Curve)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -125178,18 +131767,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1156,
-      "scope": "Y",
+      "scope": "Thornton North Jn \u2013 Methil Power Station (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -125515,18 +132153,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1156,
-      "scope": "Y",
+      "scope": "Thornton South Jn \u2013 Thornton West Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -126111,18 +132798,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1156,
-      "scope": "Y",
+      "scope": "Ladybank Jn \u2013 Hilton Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -127288,18 +134024,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1156,
-      "scope": "Y",
+      "scope": "Stirling Middle Jn \u2013 (Kincardine (Clackmannan) Jn)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -127307,18 +134092,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1156,
-      "scope": "Y",
+      "scope": "(Kincardine (Clackmannan) Jn) \u2013 Charlestown Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -127404,9 +134238,9 @@ export default {
   "SC185": [
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1156,
-      "scope": "\u2013",
+      "scope": "Elbowend Jn \u2013 Crombie RNAD (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
@@ -127417,9 +134251,9 @@ export default {
   "SC187": [
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1156,
-      "scope": "\u2013",
+      "scope": "Glencraig GF \u2013 Bowhill (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
@@ -127986,18 +134820,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1157,
-      "scope": "Y",
+      "scope": "Westfield \u2013 Redford Jn (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -129717,18 +136600,71 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1157,
-      "scope": "Y *",
+      "scope": "Dundee to Aberdeen",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "S1",
+          "restrictions": [
+            "S1"
+          ],
+          "raw": "S1",
+          "restrictionNotes": {
+            "S1": "The following combinations are permitted: 2590 high x 2500 wide box, on KFA wagon 2770 high x 2500 wide box, on IKA wagon 2896 wide x 2500 wide box, on FLA wagon 2590 wide x 2600 wide box, on IFA wagon Safeway refrigerated box on IKA wagon All Lines"
+          }
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -131524,18 +138460,71 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1157,
-      "scope": "Y *",
+      "scope": "Perth South Jn \u2013 Stanley Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "S1",
+          "restrictions": [
+            "S1"
+          ],
+          "raw": "S1",
+          "restrictionNotes": {
+            "S1": "The following combinations are permitted: Up to: 2590 high x 2550 wide box on FKA IKA wagons Safeway refrigerated box on IKA FKA IFA FIA wagon All Lines"
+          }
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -131543,18 +138532,71 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1157,
-      "scope": "Y *",
+      "scope": "Stanley Jn \u2013 Pitlochry",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "S1",
+          "restrictions": [
+            "S1"
+          ],
+          "raw": "S1",
+          "restrictionNotes": {
+            "S1": "The following combinations are permitted: Up to: 2590 high x 2550 wide box on FKA IKA wagons Safeway refrigerated box on IKA FKA IFA FIA wagon All Lines"
+          }
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -131562,37 +138604,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1157,
-      "scope": "Y *",
+      "scope": "Pitlochry \u2013 Inverness",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
           "restrictionNotes": {}
-        }
-      ],
-      "notes": null
-    },
-    {
-      "table": "D5A",
-      "category": "Freight containers and swap bodies",
-      "pdfPage": 1158,
-      "scope": "Y",
-      "mileage": null,
-      "routeAvailability": null,
-      "routeAvailabilityRestrictions": [],
-      "clearances": [
+        },
         {
-          "type": "Gauge",
+          "type": "W7",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -131600,18 +138672,135 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1158,
-      "scope": "Y",
+      "scope": "Welsh's Bridge Jn \u2013 Rose Street Jn",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
+      "notes": null
+    },
+    {
+      "table": "D5A",
+      "category": "Loading gauge",
+      "pdfPage": 1158,
+      "scope": "Welsh's Bridge Jn \u2013 Inverness Harbour",
+      "mileage": null,
+      "routeAvailability": null,
+      "routeAvailabilityRestrictions": [],
+      "clearances": [
+        {
+          "type": "W6",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -133681,18 +140870,71 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1158,
-      "scope": "Y *",
+      "scope": "Aberdeen to Elgin",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "S1",
+          "restrictions": [
+            "S1"
+          ],
+          "raw": "S1",
+          "restrictionNotes": {
+            "S1": "The following combinations are permitted: 2590 high x 2500 wide box, on KFA wagon 2770 high x 2500 wide box, on IKA wagon 2896 wide x 2500 wide box, on FLA wagon 2590 wide x 2600 wide box, on IFA wagon Safeway refrigerated box on IKA wagon All Lines"
+          }
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -133700,18 +140942,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1158,
-      "scope": "Y *",
+      "scope": "Elgin \u2013 Inverness",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -134132,18 +141423,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1158,
-      "scope": "Y",
+      "scope": "Kittybrewster \u2013 Waterloo Goods (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -134450,18 +141790,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1158,
-      "scope": "Y",
+      "scope": "Keith Branch",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -134490,9 +141879,9 @@ export default {
   "SC201": [
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1158,
-      "scope": "\u2013",
+      "scope": "Alves GF \u2013 Burghead (Goods Line)",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
@@ -135840,18 +143229,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1158,
-      "scope": "Y *",
+      "scope": "Inverness \u2013 Wick",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -136242,18 +143680,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1158,
-      "scope": "Y *",
+      "scope": "Dingwall \u2013 Kyle of Lochalsh",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
@@ -136566,18 +144053,67 @@ export default {
     },
     {
       "table": "D5A",
-      "category": "Freight containers and swap bodies",
+      "category": "Loading gauge",
       "pdfPage": 1158,
-      "scope": "Y *",
+      "scope": "Georgemas Junction \u2013 Thurso",
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
       "clearances": [
         {
-          "type": "Gauge",
+          "type": "W6",
           "status": "Y",
           "restrictions": [],
           "raw": "Y *",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W7",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W8",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W9Plus",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W10A",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "W12",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
           "restrictionNotes": {}
         }
       ],
