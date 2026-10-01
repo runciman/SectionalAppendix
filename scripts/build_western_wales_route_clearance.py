@@ -18,7 +18,7 @@ import build_scotland_route_clearance as builder
 builder.TABLES = {
     "D1A-W": (range(712, 726), "Diesel multiple units", 15, None),
     "D1B-W": (range(726, 743), "Diesel multiple units", 15, None),
-    "D2A-W": (range(743, 757), "Electric multiple units", 15, None),
+    "D2A-W": (range(743, 757), "Electric multiple units", 7, None),
     "D3-W": (range(757, 771), "Coaching stock", 15, None),
     "D4A-W": (range(771, 783), "Locomotives", 16, 15),
     "D4B-W": (range(783, 795), "Locomotives", 16, 15),
@@ -28,7 +28,7 @@ builder.TABLES = {
     "D5C-W": (range(837, 850), "Locomotive gauge", 16, 15),
     "D1A-CVL": (range(851, 852), "Diesel multiple units", 15, None),
     "D1B-CVL": (range(852, 853), "Diesel multiple units", 15, None),
-    "D2A-CVL": (range(853, 854), "Electric multiple units", 15, None),
+    "D2A-CVL": (range(853, 854), "Electric multiple units", 7, None),
     "D3-CVL": (range(854, 855), "Coaching stock", 15, None),
     "D4A-CVL": (range(855, 856), "Locomotives", 16, 15),
     "D4B-CVL": (range(856, 857), "Locomotives", 16, 15),

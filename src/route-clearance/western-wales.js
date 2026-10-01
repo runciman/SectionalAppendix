@@ -3239,7 +3239,104 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "Prohibited Paddington platforms 1 and 2"
+          }
+        },
+        {
+          "type": "345",
+          "status": "R2",
+          "restrictions": [
+            "R2",
+            "R3"
+          ],
+          "raw": "R2 R3",
+          "restrictionNotes": {
+            "R2": "Prohibited Paddington platforms 4, 5 and 9 with deflated suspension",
+            "R3": "Prohibited Paddington platforms 6 and 7"
+          }
+        },
+        {
+          "type": "360",
+          "status": "R4",
+          "restrictions": [
+            "R4",
+            "R5",
+            "R6",
+            "R10"
+          ],
+          "raw": "R4 R5 R6 R10",
+          "restrictionNotes": {
+            "R4": "20mph Paddington platforms 3 and 4",
+            "R5": "Route prohibited to Class 360/1",
+            "R6": "Prohibited Paddington platform 13",
+            "R10": "15mph Paddington platform 2"
+          }
+        },
+        {
+          "type": "387",
+          "status": "R7",
+          "restrictions": [
+            "R7",
+            "R8",
+            "R9"
+          ],
+          "raw": "R7 R8 R9",
+          "restrictionNotes": {
+            "R7": "Prohibited with air bags deflated / failed secondary suspension Paddington platform 4",
+            "R8": "Prohibited Marcon Siding",
+            "R9": "100mph maximum speed"
+          }
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "EH",
+          "restrictions": [
+            "R10"
+          ],
+          "raw": "EH R10",
+          "restrictionNotes": {
+            "R10": "15mph Paddington platform 2"
+          }
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [
+            "R11"
+          ],
+          "raw": "EH R11",
+          "restrictionNotes": {
+            "R11": "Prohibited Paddington Platforms 2 and 6"
+          }
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [
+            "R11"
+          ],
+          "raw": "EH R11",
+          "restrictionNotes": {
+            "R11": "Prohibited Paddington Platforms 2 and 6"
+          }
+        }
+      ],
       "notes": "R1 Prohibited Paddington platforms 1 and 2 R2 Prohibited Paddington platforms 4, 5 and 9 with deflated suspension R3 Prohibited Paddington platforms 6 and 7 R4 20mph Paddington platforms 3 and 4 R5 Route prohibited to Class 360/1 R6 Prohibited Paddington platform 13 R7 Prohibited with air bags deflated / failed secondary suspension Paddington platform 4 R8 Prohibited Marcon Siding R9 100mph maximum speed R10 15mph Paddington platform 2 R11 Prohibited Paddington Platforms 2 and 6"
     },
     {
@@ -3250,7 +3347,61 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "Route prohibited to Class 360/1"
+          }
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": "R1 Route prohibited to Class 360/1"
     },
     {
@@ -3261,7 +3412,78 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "Route prohibited to Class 360/1"
+          }
+        },
+        {
+          "type": "387",
+          "status": "R2",
+          "restrictions": [
+            "R2",
+            "R3",
+            "R4",
+            "R5"
+          ],
+          "raw": "R2 R3 R4 R5",
+          "restrictionNotes": {
+            "R2": "Prohibited Acton Yard",
+            "R3": "100mph maximum speed",
+            "R4": "Prohibited Acton Yard",
+            "R5": "Prohibited Acton East Jn - Acton West Jn Up and Down Poplar lines"
+          }
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": "R1 Route prohibited to Class 360/1 R2 Prohibited Acton Yard R3 100mph maximum speed R4 Prohibited Acton Yard R5 Prohibited Acton East Jn - Acton West Jn Up and Down Poplar lines"
     },
     {
@@ -3272,7 +3494,72 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "Route prohibited to Class 360/1"
+          }
+        },
+        {
+          "type": "387",
+          "status": "R2",
+          "restrictions": [
+            "R2"
+          ],
+          "raw": "R2",
+          "restrictionNotes": {
+            "R2": "100mph maximum speed"
+          }
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": "R1 Route prohibited to Class 360/1 R2 100mph maximum speed"
     },
     {

@@ -39,7 +39,8 @@ def clean(value: str | None) -> str:
 
 def heading(value: str | None) -> str:
     lines = [line.strip() for line in (value or "").splitlines()]
-    return " ".join(line for line in lines if line and not re.fullmatch(r"o+|0+", line)).replace("W9 Plus", "W9Plus")
+    value = " ".join(line for line in lines if line and not re.fullmatch(r"o+|0+", line)).replace("W9 Plus", "W9Plus")
+    return value.replace("720/ 1 & /5", "720/1 & 720/5")
 
 
 def mileage(row: list[str | None], first_class: int) -> str | None:
