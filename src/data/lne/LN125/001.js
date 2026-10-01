@@ -12,7 +12,7 @@ const page242 = {
   location: "Hitchin / Letchworth / Baldock",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hitchin / Letchworth / Baldock"],
-  connections: [],
+  connections: ["LN101, sequence 010", "LN126, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN125 sequence 001, Hitchin, Cambridge Jn to Royston (Route Boundary), physical PDF page 242. Hitchin / Letchworth / Baldock. Mileages, signalling and speed restrictions are shown in the source table."

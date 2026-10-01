@@ -12,7 +12,7 @@ const page231 = {
   location: "Decoy North Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Decoy North Jn"],
-  connections: [],
+  connections: ["LN832, sequence 001", "LN826, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN101 sequence 028, Kings Cross to Shaftholme Jn, physical PDF page 231. Decoy North Jn. Mileages, signalling and speed restrictions are shown in the source table."

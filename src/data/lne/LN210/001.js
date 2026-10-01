@@ -12,7 +12,7 @@ const page302 = {
   location: "Newark Crossing South Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Newark Crossing South Jn"],
-  connections: [],
+  connections: ["LN101, sequence 022", "LN206, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN210 sequence 001, Newark Crossing Curve, physical PDF page 302. Newark Crossing South Jn. Mileages, signalling and speed restrictions are shown in the source table."

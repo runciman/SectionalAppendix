@@ -12,7 +12,7 @@ const page236 = {
   location: "Copenhagen Jn / Camden Road",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Copenhagen Jn / Camden Road"],
-  connections: [],
+  connections: ["LN101, sequence 002", "SO400, sequence 002", "EA1320, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN115 sequence 001, Copenhagen Jn. to Camden Road Central Jn., physical PDF page 236. Copenhagen Jn / Camden Road. Mileages, signalling and speed restrictions are shown in the source table."

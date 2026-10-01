@@ -12,7 +12,7 @@ const page269 = {
   location: "Brayford / Holmes Jns",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Brayford / Holmes Jns"],
-  connections: [],
+  connections: ["LN206, sequence 004"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN170 sequence 010, Werrington Jn. to Flyover East Jn. Via Lincoln, physical PDF page 269. Brayford / Holmes Jns. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page270 = {
   location: "Pyewipe / Saxilby",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Pyewipe / Saxilby"],
-  connections: [],
+  connections: ["LN215, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN170 sequence 011, Werrington Jn. to Flyover East Jn. Via Lincoln, physical PDF page 270. Pyewipe / Saxilby. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page272 = {
   location: "Gainsborough Lea Road",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Gainsborough Lea Road"],
-  connections: [],
+  connections: ["LN736, sequence 007"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN170 sequence 013, Werrington Jn. to Flyover East Jn. Via Lincoln, physical PDF page 272. Gainsborough Lea Road. Mileages, signalling and speed restrictions are shown in the source table."

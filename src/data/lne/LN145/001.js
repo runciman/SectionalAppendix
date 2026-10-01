@@ -12,7 +12,7 @@ const page253 = {
   location: "Marholm Jn / Glinton Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Marholm Jn / Glinton Jn"],
-  connections: [],
+  connections: ["LN101, sequence 016", "LN101, sequence 017", "LN170, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN145 sequence 001, Marholm Jn to Glinton Jn., physical PDF page 253. Marholm Jn / Glinton Jn. Mileages, signalling and speed restrictions are shown in the source table."

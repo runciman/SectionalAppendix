@@ -12,7 +12,7 @@ const page208 = {
   location: "Hornsey",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hornsey"],
-  connections: [],
+  connections: ["LN120, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN101 sequence 005, Kings Cross to Shaftholme Jn, physical PDF page 208. Hornsey. Mileages, signalling and speed restrictions are shown in the source table."

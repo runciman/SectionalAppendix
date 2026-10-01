@@ -12,7 +12,7 @@ const page266 = {
   location: "Sleaford",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Sleaford"],
-  connections: [],
+  connections: ["LN175, sequence 001", "LN180, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN170 sequence 007, Werrington Jn. to Flyover East Jn. Via Lincoln, physical PDF page 266. Sleaford. Mileages, signalling and speed restrictions are shown in the source table."

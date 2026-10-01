@@ -12,7 +12,7 @@ const page301 = {
   location: "Doddington Road LC",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Doddington Road LC"],
-  connections: [],
+  connections: ["LN215, sequence 001", "LN170, sequence 010"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN206 sequence 005, Staythorpe Crossing to West Holmes Jn., physical PDF page 301. Doddington Road LC. Mileages, signalling and speed restrictions are shown in the source table."

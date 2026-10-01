@@ -12,7 +12,7 @@ const page220 = {
   location: "Werrington / Helpston / Maxey",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Werrington / Helpston / Maxey"],
-  connections: [],
+  connections: ["LN170, sequence 001", "LN145, sequence 001", "LN147, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN101 sequence 017, Kings Cross to Shaftholme Jn, physical PDF page 220. Werrington / Helpston / Maxey. Mileages, signalling and speed restrictions are shown in the source table."

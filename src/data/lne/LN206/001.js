@@ -12,7 +12,7 @@ const page297 = {
   location: "Newark Flat Crossing / Collingham",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Newark Flat Crossing / Collingham"],
-  connections: [],
+  connections: ["LN3625, sequence 006", "LN101, sequence 022", "LN210, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN206 sequence 001, Newark Flat Crossing (Incl) to West Holmes Jn, physical PDF page 297. Newark Flat Crossing / Collingham. Mileages, signalling and speed restrictions are shown in the source table."

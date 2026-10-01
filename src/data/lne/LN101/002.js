@@ -12,7 +12,7 @@ const page205 = {
   location: "Canal Tunnels / Finsbury Park",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Canal Tunnels / Finsbury Park"],
-  connections: [],
+  connections: ["LN3214, sequence 001", "SO400, sequence 003", "LN115, sequence 001", "EA1320, sequence 002", "EA1320, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN101 sequence 002, Kings Cross to Shaftholme Jn, physical PDF page 205. Canal Tunnels / Finsbury Park. Mileages, signalling and speed restrictions are shown in the source table."

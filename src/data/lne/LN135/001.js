@@ -12,7 +12,7 @@ const page252 = {
   location: "Kings Dyke / Crescent Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Kings Dyke / Crescent Jn"],
-  connections: [],
+  connections: ["EA1560, sequence 009", "LN101, sequence 014"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN135 sequence 001, Kings Dyke to Crescent Jn., physical PDF page 252. Kings Dyke / Crescent Jn. Mileages, signalling and speed restrictions are shown in the source table."

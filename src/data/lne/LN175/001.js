@@ -12,7 +12,7 @@ const page274 = {
   location: "Sleaford South Jn / Sleaford East Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Sleaford South Jn / Sleaford East Jn"],
-  connections: [],
+  connections: ["LN170, sequence 007", "LN185, sequence 005"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN175 sequence 001, Sleaford South Jn to Sleaford East Jn, physical PDF page 274. Sleaford South Jn / Sleaford East Jn. Mileages, signalling and speed restrictions are shown in the source table."

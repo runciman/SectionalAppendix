@@ -12,7 +12,7 @@ const page212 = {
   location: "Welwyn Tunnels",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Welwyn Tunnels"],
-  connections: [],
+  connections: ["LN120, sequence 004"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN101 sequence 009, Kings Cross to Shaftholme Jn, physical PDF page 212. Welwyn Tunnels. Mileages, signalling and speed restrictions are shown in the source table."

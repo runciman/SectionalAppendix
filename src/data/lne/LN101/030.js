@@ -12,7 +12,7 @@ const page233 = {
   location: "Shaftholme Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Shaftholme Jn"],
-  connections: [],
+  connections: ["LN752, sequence 004", "LN836, sequence 001", "LN842, sequence 001", "LN889, sequence 001", "LN600, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN101 sequence 030, Kings Cross to Shaftholme Jn, physical PDF page 233. Shaftholme Jn. Mileages, signalling and speed restrictions are shown in the source table."

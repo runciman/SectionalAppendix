@@ -12,7 +12,7 @@ const page293 = {
   location: "Allington East Jn / Allington North Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Allington East Jn / Allington North Jn"],
-  connections: [],
+  connections: ["LN195, sequence 002", "LN185, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN190 sequence 001, Allington East Jn. to Allington North Jn., physical PDF page 293. Allington East Jn / Allington North Jn. Mileages, signalling and speed restrictions are shown in the source table."

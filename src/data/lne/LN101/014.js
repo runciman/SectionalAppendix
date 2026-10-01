@@ -12,7 +12,7 @@ const page217 = {
   location: "Fletton Jn / Crescent Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Fletton Jn / Crescent Jn"],
-  connections: [],
+  connections: ["LN135, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN101 sequence 014, Kings Cross to Shaftholme Jn, physical PDF page 217. Fletton Jn / Crescent Jn. Mileages, signalling and speed restrictions are shown in the source table."

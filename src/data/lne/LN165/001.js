@@ -12,7 +12,7 @@ const page259 = {
   location: "Harringay Park Jn / Harringay Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Harringay Park Jn / Harringay Jn"],
-  connections: [],
+  connections: ["EA1370, sequence 002", "LN101, sequence 004"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN165 sequence 001, Harringay Park Jn to Harringay Jn, physical PDF page 259. Harringay Park Jn / Harringay Jn. Mileages, signalling and speed restrictions are shown in the source table."

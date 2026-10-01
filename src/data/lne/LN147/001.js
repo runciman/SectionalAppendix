@@ -12,7 +12,7 @@ const page255 = {
   location: "Helpston Jn / Uffington",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Helpston Jn / Uffington"],
-  connections: [],
+  connections: ["LN101, sequence 017", "LN3615, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN147 sequence 001, Helpston Jn. to Uffington, physical PDF page 255. Helpston Jn / Uffington. Mileages, signalling and speed restrictions are shown in the source table."

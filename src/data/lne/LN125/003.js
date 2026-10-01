@@ -12,7 +12,7 @@ const page244 = {
   location: "Royston",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Royston"],
-  connections: [],
+  connections: ["EA1230, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN125 sequence 003, Hitchin, Cambridge Jn to Royston (Route Boundary), physical PDF page 244. Royston. Mileages, signalling and speed restrictions are shown in the source table."

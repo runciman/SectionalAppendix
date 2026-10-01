@@ -12,7 +12,7 @@ const page276 = {
   location: "Allington West Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Allington West Jn"],
-  connections: [],
+  connections: ["LN195, sequence 002", "LN190, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN185 sequence 001, Allington West Jn to Skegness, physical PDF page 276. Allington West Jn. Mileages, signalling and speed restrictions are shown in the source table."

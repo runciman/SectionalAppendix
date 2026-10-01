@@ -11,7 +11,7 @@ const page303 = {
   location: "Boultham Jn / Pyewipe Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Boultham Jn / Pyewipe Jn"],
-  connections: [],
+  connections: ["LN206, sequence 004", "LN170, sequence 011"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN215 sequence 001, Boultham Jn. to Pyewipe Jn., physical PDF page 303. Boultham Jn / Pyewipe Jn. Mileages, signalling and speed restrictions are shown in the source table."

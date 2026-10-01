@@ -12,7 +12,7 @@ const page260 = {
   location: "Werrington Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Werrington Jn"],
-  connections: [],
+  connections: ["LN101, sequence 017", "LN145, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN170 sequence 001, Werrington Jn. to Flyover East Jn. Via Lincoln, physical PDF page 260. Werrington Jn. Mileages, signalling and speed restrictions are shown in the source table."

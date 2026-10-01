@@ -12,7 +12,7 @@ const page257 = {
   location: "Up Loversall Curve",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Up Loversall Curve"],
-  connections: [],
+  connections: ["LN101, sequence 027", "LN150, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN155 sequence 001, Flyover East Jn to Loversall Jn, physical PDF page 257. Up Loversall Curve. Mileages, signalling and speed restrictions are shown in the source table."

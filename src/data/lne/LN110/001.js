@@ -11,7 +11,7 @@ const page235 = {
   location: "Canonbury West Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Canonbury West Jn"],
-  connections: [],
+  connections: ["EA1320, sequence 004", "LN105, sequence 001", "LN101, sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN110 sequence 001, Canonbury West Jn to Finsbury Park Jn, physical PDF page 235. Canonbury West Jn. Mileages, signalling and speed restrictions are shown in the source table."

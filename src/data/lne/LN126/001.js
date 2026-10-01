@@ -12,7 +12,7 @@ const page249 = {
   location: "Hitchin North Jn / Hitchin East Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hitchin North Jn / Hitchin East Jn"],
-  connections: [],
+  connections: ["LN101, sequence 010", "LN125, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN126 sequence 001, Hitchin North Jn to Hitchin East Jn, physical PDF page 249. Hitchin North Jn / Hitchin East Jn. Mileages, signalling and speed restrictions are shown in the source table."

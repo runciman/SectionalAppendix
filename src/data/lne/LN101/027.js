@@ -12,7 +12,7 @@ const page230 = {
   location: "Doncaster",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Doncaster"],
-  connections: [],
+  connections: ["LN155, sequence 001", "LN160, sequence 001", "LN150, sequence 001", "LN170, sequence 014", "LN220, sequence 001", "LN758, sequence 002", "LN764, sequence 001", "LN762, sequence 001", "LN235, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN101 sequence 027, Kings Cross to Shaftholme Jn, physical PDF page 230. Doncaster. Mileages, signalling and speed restrictions are shown in the source table."

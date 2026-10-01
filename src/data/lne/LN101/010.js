@@ -12,7 +12,7 @@ const page213 = {
   location: "Hitchin / Cadwell",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hitchin / Cadwell"],
-  connections: [],
+  connections: ["LN125, sequence 001", "LN126, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN101 sequence 010, Kings Cross to Shaftholme Jn, physical PDF page 213. Hitchin / Cadwell. Mileages, signalling and speed restrictions are shown in the source table."

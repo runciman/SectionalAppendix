@@ -12,7 +12,7 @@ const page225 = {
   location: "Newark North Gate / Newark Crossing",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Newark North Gate / Newark Crossing"],
-  connections: [],
+  connections: ["LN210, sequence 001", "LN3625, sequence 006", "LN206, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN101 sequence 022, Kings Cross to Shaftholme Jn, physical PDF page 225. Newark North Gate / Newark Crossing. Mileages, signalling and speed restrictions are shown in the source table."

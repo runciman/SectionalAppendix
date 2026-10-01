@@ -12,7 +12,7 @@ const page304 = {
   location: "Bessacarr Jn / Black Carr Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bessacarr Jn / Black Carr Jn"],
-  connections: [],
+  connections: ["Gainsborough Trent Junction, LN170 sequence 014", "Black Carr Junction, LN101 sequence 027"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN220 sequence 001, Bessacarr Jn. to Black Carr Jn, physical PDF page 304. Bessacarr Jn / Black Carr Jn. Mileages, signalling and speed restrictions are shown in the source table."

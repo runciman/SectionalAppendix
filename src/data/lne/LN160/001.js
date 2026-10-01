@@ -12,7 +12,7 @@ const page258 = {
   location: "Loversall Carr Jn / Flyover West Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Loversall Carr Jn / Flyover West Jn"],
-  connections: [],
+  connections: ["LN235, sequence 001", "LN101, sequence 027", "LN150, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN160 sequence 001, Loversall Carr Jn. to Flyover West Jn., physical PDF page 258. Loversall Carr Jn / Flyover West Jn. Mileages, signalling and speed restrictions are shown in the source table."

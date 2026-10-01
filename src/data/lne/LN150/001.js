@@ -12,7 +12,7 @@ const page256 = {
   location: "Bessacarr Jn",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bessacarr Jn"],
-  connections: [],
+  connections: ["LN170, sequence 014", "LN220, sequence 001", "LN155, sequence 001", "LN101, sequence 027", "LN160, sequence 001", "LN762, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN150 sequence 001, Flyover East Jn to Decoy North Jn, physical PDF page 256. Bessacarr Jn. Mileages, signalling and speed restrictions are shown in the source table."

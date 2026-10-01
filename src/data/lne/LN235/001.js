@@ -12,7 +12,7 @@ const page305 = {
   location: "Rossington Colliery Branch",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Rossington Colliery Branch"],
-  connections: [],
+  connections: ["ECML, LN101 sequence 027", "Flyover West Junction, LN160 sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN235 sequence 001, Rossington Colliery Branch, physical PDF page 305. Rossington Colliery Branch. Mileages, signalling and speed restrictions are shown in the source table."
