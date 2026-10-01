@@ -12,7 +12,7 @@ const page244 = {
   location: "Gospel Oak to Barking",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Gospel Oak", "Barking"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1370, sequence 003", "To/from referenced page \u2014 EA1170, sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1300 sequence 001, Gospel Oak to Barking, physical PDF page 244. Gospel Oak to Barking. Mileages, signalling and speed restrictions are shown in the source table."

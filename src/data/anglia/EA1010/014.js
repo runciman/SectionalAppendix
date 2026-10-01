@@ -12,7 +12,7 @@ const page123 = {
   location: "Liverpool Street to Seven Kings",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Liverpool Street", "Seven Kings"],
-  connections: [],
+  connections: ["Continued on — EA1011, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1010 sequence 014, Liverpool Street to Seven Kings, physical PDF page 123. Liverpool Street to Seven Kings. Mileages, signalling and speed restrictions are shown in the source table."

@@ -11,7 +11,7 @@ const page120 = {
   location: "Liverpool Street to Seven Kings",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Liverpool Street", "Seven Kings"],
-  connections: [],
+  connections: ["To Woodgrange Park Junction — EA1030, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1010 sequence 011, Liverpool Street to Seven Kings, physical PDF page 120. Liverpool Street to Seven Kings. Mileages, signalling and speed restrictions are shown in the source table."

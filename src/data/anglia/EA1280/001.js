@@ -12,7 +12,7 @@ const page241 = {
   location: "Lea Bridge to Temple Mills",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Lea Bridge", "Temple Mills"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1010, sequence 008", "To/from referenced page \u2014 EA1350, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1280 sequence 001, Lea Bridge to Temple Mills, physical PDF page 241. Lea Bridge to Temple Mills. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page355 = {
   location: "Ely North Junction to Ely West Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Ely North Junction", "Ely West Junction"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1161, sequence 015", "To/from referenced page \u2014 EA1580, sequence 001", "To/from referenced page \u2014 EA1560, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1550 sequence 001, Ely North Junction to Ely West Junction, physical PDF page 355. Ely North Junction to Ely West Junction. Mileages, signalling and speed restrictions are shown in the source table."

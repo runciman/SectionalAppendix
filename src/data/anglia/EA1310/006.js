@@ -12,7 +12,7 @@ const page250 = {
   location: "Camden Road West Junction to Richmond",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Camden Road West Junction", "Richmond"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1330, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1310 sequence 006, Camden Road West Junction to Richmond, physical PDF page 250. Camden Road West Junction to Richmond. Mileages, signalling and speed restrictions are shown in the source table."

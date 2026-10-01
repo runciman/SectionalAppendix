@@ -12,7 +12,7 @@ const page169 = {
   location: "Colchester to Clacton-on-Sea",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Colchester", "Clacton-on-Sea"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1011, sequence 016", "To/from referenced page \u2014 EA1100, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1090 sequence 001, Colchester to Clacton-on-Sea, physical PDF page 169. Colchester to Clacton-on-Sea. Mileages, signalling and speed restrictions are shown in the source table."

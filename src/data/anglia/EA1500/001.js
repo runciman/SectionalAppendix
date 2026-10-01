@@ -12,7 +12,7 @@ const page337 = {
   location: "Brundall Junction to Yarmouth",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Brundall Junction", "Yarmouth"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1470, sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1500 sequence 001, Brundall Junction to Yarmouth, physical PDF page 337. Brundall Junction to Yarmouth. Mileages, signalling and speed restrictions are shown in the source table."

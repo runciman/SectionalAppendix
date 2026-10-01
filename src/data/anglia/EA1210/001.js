@@ -12,7 +12,7 @@ const page232 = {
   location: "Broxbourne Junction to Hertford East",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Broxbourne Junction", "Hertford East"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1160, sequence 010"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1210 sequence 001, Broxbourne Junction to Hertford East, physical PDF page 232. Broxbourne Junction to Hertford East. Mileages, signalling and speed restrictions are shown in the source table."

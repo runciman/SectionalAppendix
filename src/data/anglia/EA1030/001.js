@@ -12,7 +12,7 @@ const page155 = {
   location: "Forest Gate Junction to Woodgrange Park Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Forest Gate Junction", "Woodgrange Park Junction"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1010, sequence 011", "To/from referenced page \u2014 EA1370, sequence 005"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1030 sequence 001, Forest Gate Junction to Woodgrange Park Junction, physical PDF page 155. Forest Gate Junction to Woodgrange Park Junction. Mileages, signalling and speed restrictions are shown in the source table."

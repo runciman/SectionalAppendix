@@ -12,7 +12,7 @@ const page268 = {
   location: "Barking to Tilbury",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Barking", "Tilbury"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 LN165, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1370 sequence 002, Barking to Tilbury, physical PDF page 268. Barking to Tilbury. Mileages, signalling and speed restrictions are shown in the source table."

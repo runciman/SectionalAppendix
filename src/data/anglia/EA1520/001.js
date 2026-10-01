@@ -12,7 +12,7 @@ const page343 = {
   location: "Dereham to Wymondham",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Dereham", "Wymondham"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1430, sequence 007", "To/from referenced page \u2014 EA1430, sequence 006"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1520 sequence 001, Dereham to Wymondham, physical PDF page 343. Dereham to Wymondham. Mileages, signalling and speed restrictions are shown in the source table."

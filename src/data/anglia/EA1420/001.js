@@ -12,7 +12,7 @@ const page303 = {
   location: "Thames Haven Junction to Thames Haven",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Thames Haven Junction", "Thames Haven"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1390, sequence 009"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1420 sequence 001, Thames Haven Junction to Thames Haven, physical PDF page 303. Thames Haven Junction to Thames Haven. Mileages, signalling and speed restrictions are shown in the source table."

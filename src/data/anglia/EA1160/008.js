@@ -12,7 +12,7 @@ const page193 = {
   location: "Bethnal Green East Junction to Bishops Stortford",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bethnal Green East Junction", "Bishops Stortford"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1190, sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1160 sequence 008, Bethnal Green East Junction to Bishops Stortford, physical PDF page 193. Bethnal Green East Junction to Bishops Stortford. Mileages, signalling and speed restrictions are shown in the source table."

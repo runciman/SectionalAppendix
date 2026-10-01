@@ -12,7 +12,7 @@ const page239 = {
   location: "Royston to Shepreth Branch Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Royston", "Shepreth Branch Junction"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1161, sequence 007"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1230 sequence 003, Royston to Shepreth Branch Junction, physical PDF page 239. Royston to Shepreth Branch Junction. Mileages, signalling and speed restrictions are shown in the source table."

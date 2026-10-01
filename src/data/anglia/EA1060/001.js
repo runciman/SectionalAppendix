@@ -12,7 +12,7 @@ const page161 = {
   location: "Wickford Junction to Southminster",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Wickford Junction", "Southminster"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1050, sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1060 sequence 001, Wickford Junction to Southminster, physical PDF page 161. Wickford Junction to Southminster. Mileages, signalling and speed restrictions are shown in the source table."

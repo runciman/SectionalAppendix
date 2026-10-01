@@ -12,7 +12,7 @@ const page243 = {
   location: "North London Line",
   mileage: "Mileage is shown on the source diagram",
   locations: ["North London Line"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1160, sequence 005", "To/from referenced page \u2014 EA1370, sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1290 sequence 001, North London Line, physical PDF page 243. North London Line. Mileages, signalling and speed restrictions are shown in the source table."

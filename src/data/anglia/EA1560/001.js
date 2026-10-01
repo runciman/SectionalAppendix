@@ -12,7 +12,7 @@ const page356 = {
   location: "Ely North Junction to Peterborough",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Ely North Junction", "Peterborough"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1580, sequence 001", "To/from referenced page \u2014 EA1161, sequence 015", "To/from referenced page \u2014 EA1550, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1560 sequence 001, Ely North Junction to Peterborough, physical PDF page 356. Ely North Junction to Peterborough. Mileages, signalling and speed restrictions are shown in the source table."

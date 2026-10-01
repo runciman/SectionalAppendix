@@ -12,7 +12,7 @@ const page222 = {
   location: "Hackney Downs North Junction to Enfield Town",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Hackney Downs North Junction", "Enfield Town"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1160, sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1170 sequence 001, Hackney Downs North Junction to Enfield Town, physical PDF page 222. Hackney Downs North Junction to Enfield Town. Mileages, signalling and speed restrictions are shown in the source table."

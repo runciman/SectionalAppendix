@@ -12,7 +12,7 @@ const page235 = {
   location: "Stansted South and North Junctions to Stansted Airport",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Stansted South and North Junctions", "Stansted Airport"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1161, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1220 sequence 001, Stansted South and North Junctions to Stansted Airport, physical PDF page 235. Stansted South and North Junctions to Stansted Airport. Mileages, signalling and speed restrictions are shown in the source table."

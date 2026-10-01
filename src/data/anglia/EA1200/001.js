@@ -12,7 +12,7 @@ const page229 = {
   location: "Clapton Junction to Chingford",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Clapton Junction", "Chingford"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1160, sequence 004"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1200 sequence 001, Clapton Junction to Chingford, physical PDF page 229. Clapton Junction to Chingford. Mileages, signalling and speed restrictions are shown in the source table."

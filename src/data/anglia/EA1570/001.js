@@ -12,7 +12,7 @@ const page365 = {
   location: "Peterborough to March",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Peterborough", "March"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1560, sequence 006"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1570 sequence 001, Peterborough to March, physical PDF page 365. Peterborough to March. Mileages, signalling and speed restrictions are shown in the source table."

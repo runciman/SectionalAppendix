@@ -11,7 +11,7 @@ const page185 = {
   location: "Channelsea South Junction to Stratford Central Junction West",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Channelsea South Junction", "Stratford Central Junction West"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1320, sequence 006", "To/from referenced page \u2014 EA1020, sequence 001", "To/from referenced page \u2014 EA1010, sequence 008"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1150 sequence 001, Channelsea South Junction to Stratford Central Junction West, physical PDF page 185. Channelsea South Junction to Stratford Central Junction West. Mileages, signalling and speed restrictions are shown in the source table."

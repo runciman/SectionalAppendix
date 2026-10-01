@@ -12,7 +12,7 @@ const page117 = {
   location: "Liverpool Street to Seven Kings",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Liverpool Street", "Seven Kings"],
-  connections: [],
+  connections: ["To Channelsea Junctions — EA1150, sequence 001", "To Stratford Central Junction — EA1320, sequence 007", "To Temple Mills East Junction — EA1280, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1010 sequence 008, Liverpool Street to Seven Kings, physical PDF page 117. Liverpool Street to Seven Kings. Mileages, signalling and speed restrictions are shown in the source table."

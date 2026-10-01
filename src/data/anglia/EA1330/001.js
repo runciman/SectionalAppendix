@@ -12,7 +12,7 @@ const page262 = {
   location: "South Acton Junction to Old and New Kew Junctions",
   mileage: "Mileage is shown on the source diagram",
   locations: ["South Acton Junction", "Old and New Kew Junctions"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1310, sequence 006", "To/from referenced page \u2014 SW230, sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1330 sequence 001, South Acton Junction to Old and New Kew Junctions, physical PDF page 262. South Acton Junction to Old and New Kew Junctions. Mileages, signalling and speed restrictions are shown in the source table."

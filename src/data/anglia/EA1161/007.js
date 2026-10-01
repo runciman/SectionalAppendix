@@ -12,7 +12,7 @@ const page206 = {
   location: "Bishops Stortford to Ely North Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bishops Stortford", "Ely North Junction"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1230, sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1161 sequence 007, Bishops Stortford to Ely North Junction, physical PDF page 206. Bishops Stortford to Ely North Junction. Mileages, signalling and speed restrictions are shown in the source table."

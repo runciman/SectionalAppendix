@@ -11,7 +11,7 @@ const page152 = {
   location: "Trowse Junction to Norwich",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Trowse Junction", "Norwich"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1012, sequence 007", "To/from referenced page \u2014 EA1580, sequence 010"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1013 sequence 001, Trowse Junction to Norwich, physical PDF page 152. Trowse Junction to Norwich. Mileages, signalling and speed restrictions are shown in the source table."

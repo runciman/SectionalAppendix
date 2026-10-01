@@ -12,7 +12,7 @@ const page158 = {
   location: "Shenfield Junction to Southend Victoria",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Shenfield Junction", "Southend Victoria"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1060, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1050 sequence 002, Shenfield Junction to Southend Victoria, physical PDF page 158. Shenfield Junction to Southend Victoria. Mileages, signalling and speed restrictions are shown in the source table."

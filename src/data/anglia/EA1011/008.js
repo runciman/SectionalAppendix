@@ -12,7 +12,7 @@ const page132 = {
   location: "Seven Kings to Ipswich",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Seven Kings", "Ipswich"],
-  connections: [],
+  connections: ["To Southend Victoria — EA1050, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1011 sequence 008, Seven Kings to Ipswich, physical PDF page 132. Seven Kings to Ipswich. Mileages, signalling and speed restrictions are shown in the source table."

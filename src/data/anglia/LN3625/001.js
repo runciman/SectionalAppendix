@@ -11,7 +11,7 @@ const page380 = {
   location: "Nottingham East Junction to Newark Flat Crossing",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Nottingham East Junction", "Newark Flat Crossing"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 LN3204, sequence 005", "To/from referenced page \u2014 LN3635, sequence 004"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "LN3625 sequence 001, Nottingham East Junction to Newark Flat Crossing, physical PDF page 380. Nottingham East Junction to Newark Flat Crossing. Mileages, signalling and speed restrictions are shown in the source table."

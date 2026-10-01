@@ -12,7 +12,7 @@ const page297 = {
   location: "Barking Tilbury Line Junction East to Pitsea Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Barking Tilbury Line Junction East", "Pitsea Junction"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1380, sequence 010"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1390 sequence 011, Barking Tilbury Line Junction East to Pitsea Junction, physical PDF page 297. Barking Tilbury Line Junction East to Pitsea Junction. Mileages, signalling and speed restrictions are shown in the source table."

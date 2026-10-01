@@ -12,7 +12,7 @@ const page330 = {
   location: "Whitlingham Junction to Cromer",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Whitlingham Junction", "Cromer"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1470, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1480 sequence 001, Whitlingham Junction to Cromer, physical PDF page 330. Whitlingham Junction to Cromer. Mileages, signalling and speed restrictions are shown in the source table."

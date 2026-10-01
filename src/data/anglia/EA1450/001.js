@@ -12,7 +12,7 @@ const page321 = {
   location: "Felixstowe Branch",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Felixstowe Branch"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1440, sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1450 sequence 001, Felixstowe Branch, physical PDF page 321. Felixstowe Branch. Mileages, signalling and speed restrictions are shown in the source table."

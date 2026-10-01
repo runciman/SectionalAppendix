@@ -11,7 +11,7 @@ const page304 = {
   location: "East Suffolk Junction to Oulton Broad North",
   mileage: "Mileage is shown on the source diagram",
   locations: ["East Suffolk Junction", "Oulton Broad North"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1012, sequence 001", "To/from referenced page \u2014 EA1744, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1430 sequence 001, East Suffolk Junction to Oulton Broad North, physical PDF page 304. East Suffolk Junction to Oulton Broad North. Mileages, signalling and speed restrictions are shown in the source table."

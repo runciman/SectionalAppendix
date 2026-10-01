@@ -12,7 +12,7 @@ const page240 = {
   location: "Cambridge Branch",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Cambridge Branch"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1162, sequence 007"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1270 sequence 001, Cambridge Branch, physical PDF page 240. Cambridge Branch. Mileages, signalling and speed restrictions are shown in the source table."

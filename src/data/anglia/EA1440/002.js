@@ -12,7 +12,7 @@ const page320 = {
   location: "Oulton Broad North to Lowestoft",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Oulton Broad North", "Lowestoft"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1450, sequence 001", "To/from referenced page \u2014 EA1460, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1440 sequence 002, Oulton Broad North to Lowestoft, physical PDF page 320. Oulton Broad North to Lowestoft. Mileages, signalling and speed restrictions are shown in the source table."

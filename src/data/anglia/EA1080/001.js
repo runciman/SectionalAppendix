@@ -12,7 +12,7 @@ const page166 = {
   location: "Witham to Braintree",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Witham", "Braintree"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1011, sequence 014"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1080 sequence 001, Witham to Braintree, physical PDF page 166. Witham to Braintree. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page323 = {
   location: "Norwich Thorpe Junction to Lowestoft",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Norwich Thorpe Junction", "Lowestoft"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1013, sequence 002", "To/from referenced page \u2014 EA1480, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1470 sequence 001, Norwich Thorpe Junction to Lowestoft, physical PDF page 323. Norwich Thorpe Junction to Lowestoft. Mileages, signalling and speed restrictions are shown in the source table."

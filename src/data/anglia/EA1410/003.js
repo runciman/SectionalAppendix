@@ -12,7 +12,7 @@ const page302 = {
   location: "Upminster to West Thurrock Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Upminster", "West Thurrock Junction"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1390, sequence 006", "To/from referenced page \u2014 EA1390, sequence 005"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1410 sequence 003, Upminster to West Thurrock Junction, physical PDF page 302. Upminster to West Thurrock Junction. Mileages, signalling and speed restrictions are shown in the source table."

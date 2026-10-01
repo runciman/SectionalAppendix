@@ -12,7 +12,7 @@ const page354 = {
   location: "Chippenham Junction to Ely Dock Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Chippenham Junction", "Ely Dock Junction"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1161, sequence 013"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1540 sequence 004, Chippenham Junction to Ely Dock Junction, physical PDF page 354. Chippenham Junction to Ely Dock Junction. Mileages, signalling and speed restrictions are shown in the source table."

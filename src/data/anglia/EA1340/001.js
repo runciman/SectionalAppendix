@@ -12,7 +12,7 @@ const page263 = {
   location: "Stratford Lea Junction to High Meads Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Stratford Lea Junction", "High Meads Junction"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1320, sequence 006", "To/from referenced page \u2014 EA1350, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1340 sequence 001, Stratford Lea Junction to High Meads Junction, physical PDF page 263. Stratford Lea Junction to High Meads Junction. Mileages, signalling and speed restrictions are shown in the source table."

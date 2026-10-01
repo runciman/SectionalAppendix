@@ -12,7 +12,7 @@ const page227 = {
   location: "Bury Street Junction to Cheshunt Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Bury Street Junction", "Cheshunt Junction"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1170, sequence 003"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1190 sequence 001, Bury Street Junction to Cheshunt Junction, physical PDF page 227. Bury Street Junction to Cheshunt Junction. Mileages, signalling and speed restrictions are shown in the source table."

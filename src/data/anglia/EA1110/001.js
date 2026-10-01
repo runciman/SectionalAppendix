@@ -12,7 +12,7 @@ const page176 = {
   location: "Thorpe-Le-Soken Junction to Walton-On-Naze",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Thorpe-Le-Soken Junction", "Walton-On-Naze"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1090, sequence 005"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1110 sequence 001, Thorpe-Le-Soken Junction to Walton-On-Naze, physical PDF page 176. Thorpe-Le-Soken Junction to Walton-On-Naze. Mileages, signalling and speed restrictions are shown in the source table."

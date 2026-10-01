@@ -11,7 +11,7 @@ const page264 = {
   location: "Channelsea North Junction to Temple Mills",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Channelsea North Junction", "Temple Mills"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1320, sequence 006", "To/from referenced page \u2014 EA1340, sequence 001", "To/from referenced page \u2014 EA1280, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1350 sequence 001, Channelsea North Junction to Temple Mills, physical PDF page 264. Channelsea North Junction to Temple Mills. Mileages, signalling and speed restrictions are shown in the source table."

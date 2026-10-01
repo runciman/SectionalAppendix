@@ -12,7 +12,7 @@ const page322 = {
   location: "Ipswich to Felixstowe",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Ipswich", "Felixstowe"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1440, sequence 002"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1460 sequence 001, Ipswich to Felixstowe, physical PDF page 322. Ipswich to Felixstowe. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page154 = {
   location: "Carpenters Road South Junction to Carpenters Road North Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Carpenters Road South Junction", "Carpenters Road North Junction"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1010, sequence 007", "To/from referenced page \u2014 EA1150, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1020 sequence 001, Carpenters Road South Junction to Carpenters Road North Junction, physical PDF page 154. Carpenters Road South Junction to Carpenters Road North Junction. Mileages, signalling and speed restrictions are shown in the source table."

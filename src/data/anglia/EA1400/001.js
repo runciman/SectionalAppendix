@@ -12,7 +12,7 @@ const page299 = {
   location: "Pitsea to Southend",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Pitsea", "Southend"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1380, sequence 002", "To/from referenced page \u2014 EA1010, sequence 005"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1400 sequence 001, Pitsea to Southend, physical PDF page 299. Pitsea to Southend. Mileages, signalling and speed restrictions are shown in the source table."

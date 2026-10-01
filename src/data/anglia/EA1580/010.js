@@ -12,7 +12,7 @@ const page378 = {
   location: "Ely North Junction to Trowse Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Ely North Junction", "Trowse Junction"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1013, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1580 sequence 010, Ely North Junction to Trowse Junction, physical PDF page 378. Ely North Junction to Trowse Junction. Mileages, signalling and speed restrictions are shown in the source table."

@@ -12,7 +12,7 @@ const page144 = {
   location: "Ipswich to Trowse Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Ipswich", "Trowse Junction"],
-  connections: [],
+  connections: ["Continued on — EA1011, sequence 018", "To Westerfield Junction — EA1430, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1012 sequence 001, Ipswich to Trowse Junction, physical PDF page 144. Ipswich to Trowse Junction. Mileages, signalling and speed restrictions are shown in the source table."

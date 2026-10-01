@@ -12,7 +12,7 @@ const page300 = {
   location: "Upminster to Grays",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Upminster", "Grays"],
-  connections: [],
+  connections: ["To/from referenced page \u2014 EA1380, sequence 008"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
   transcription: "EA1410 sequence 001, Upminster to Grays, physical PDF page 300. Upminster to Grays. Mileages, signalling and speed restrictions are shown in the source table."
