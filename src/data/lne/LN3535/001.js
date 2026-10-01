@@ -7,6 +7,7 @@ const page531 = {
   elr: "BCJ",
   title: "Birmingham Curve Jn to Branston Jn",
   route: "lne",
+  lastUpdated: "29/05/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3535 sequence 001.",
   location: "Birmingham Curve Jn / Branston Jn",

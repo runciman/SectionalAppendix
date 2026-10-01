@@ -7,6 +7,7 @@ const page170 = {
   elr: "COC STB CTH",
   title: "Colchester to Clacton-on-Sea",
   route: "Anglia",
+  lastUpdated: "20/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1090 sequence 002.",
   location: "Colchester to Clacton-on-Sea",

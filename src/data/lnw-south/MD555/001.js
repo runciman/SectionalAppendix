@@ -6,6 +6,7 @@ const page396 = {
   sequence: "001",
   title: "Nuneaton North Jn to Water Orton East Jn",
   route: "lnw-south",
+  lastUpdated: "30/05/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD555 sequence 001.",
   location: "Nuneaton North Jn / Abbey Jn / Arley Tunnel",

@@ -7,6 +7,7 @@ const page376 = {
   elr: "SJS",
   title: "Stourbridge Jn to Stourbridge Town",
   route: "lnw-south",
+  lastUpdated: "07/02/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD445 sequence 001.",
   location: "Stourbridge Jn / Stourbridge Town",

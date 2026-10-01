@@ -7,6 +7,7 @@ const page710 = {
   elr: "TST",
   title: "Tinsley North Junction to Sheffield Tram Transfer Line",
   route: "lne",
+  lastUpdated: "13/09/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN814 sequence 001.",
   location: "Tinsley North Junction to Sheffield Tram Transfer Line",

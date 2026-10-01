@@ -6,6 +6,7 @@ const page303 = {
   sequence: "001",
   title: "Boultham Jn. to Pyewipe Jn.",
   route: "lne",
+  lastUpdated: "07/11/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN215 sequence 001.",
   location: "Boultham Jn / Pyewipe Jn",

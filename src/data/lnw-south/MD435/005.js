@@ -7,6 +7,7 @@ const page367 = {
   elr: "DCL",
   title: "Small Heath South Jn to Stourbridge North Jn",
   route: "lnw-south",
+  lastUpdated: "07/02/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD435 sequence 005.",
   location: "Jewellery Quarter",

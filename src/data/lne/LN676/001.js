@@ -7,6 +7,7 @@ const page1003 = {
   elr: "PLG1 PLG2 HLK",
   title: "Park Lane Junction to King Edward Bridge South Junction",
   route: "lne",
+  lastUpdated: "10/05/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN676 sequence 001.",
   location: "Park Lane Junction to King Edward Bridge South Junction",

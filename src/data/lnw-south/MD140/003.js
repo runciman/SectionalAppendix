@@ -7,6 +7,7 @@ const page195 = {
   elr: "BBM",
   title: "Bletchley to Bedford St. Johns (Inclusive)",
   route: "lnw-south",
+  lastUpdated: "01/03/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD140 sequence 003.",
   location: "Bow Brickhill / Woburn Sands",

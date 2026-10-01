@@ -7,6 +7,7 @@ const page229 = {
   elr: "MYC",
   title: "Midland Yard Jn to Canal Farm Jn",
   route: "lnw-south",
+  lastUpdated: "11/11/2023",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD233 sequence 001.",
   location: "Midland Yard Jn / Canal Farm Jn",

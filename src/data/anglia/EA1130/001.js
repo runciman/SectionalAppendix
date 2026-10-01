@@ -7,6 +7,7 @@ const page183 = {
   elr: "GRW",
   title: "Griffin Wharf Branch",
   route: "Anglia",
+  lastUpdated: "19/01/2013",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1130 sequence 001.",
   location: "Griffin Wharf Branch",

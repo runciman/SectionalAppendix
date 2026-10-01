@@ -7,6 +7,7 @@ const page996 = {
   elr: "SOT",
   title: "Seaton-on-Tees Branch",
   route: "lne",
+  lastUpdated: "10/02/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN656 sequence 001.",
   location: "Seaton-on-Tees Branch",

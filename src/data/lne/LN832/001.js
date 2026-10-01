@@ -7,6 +7,7 @@ const page724 = {
   elr: "SJB",
   title: "Doncaster Bridge Junction to St James Junction",
   route: "lne",
+  lastUpdated: "01/05/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN832 sequence 001.",
   location: "Doncaster Bridge Junction to St James Junction",

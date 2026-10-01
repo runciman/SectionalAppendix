@@ -7,6 +7,7 @@ const page813 = {
   elr: "BAH2 CHS",
   title: "Wincobank Junction to Horbury Junction",
   route: "lne",
+  lastUpdated: "24/02/2018",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN868 sequence 003.",
   location: "Wincobank Junction to Horbury Junction",

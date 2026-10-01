@@ -6,6 +6,7 @@ const page173 = {
   sequence: "005",
   title: "Camden Junction to Watford Junction (DC Lines)",
   route: "lnw-south",
+  lastUpdated: "23/10/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD120 sequence 005.",
   location: "Wembley Central / North Wembley / South Kenton",

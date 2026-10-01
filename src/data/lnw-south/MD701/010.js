@@ -7,6 +7,7 @@ const page424 = {
   elr: "THA",
   title: "Marylebone to Aynho Junction",
   route: "lnw-south",
+  lastUpdated: "27/06/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD701 sequence 010.",
   location: "Princes Risborough",

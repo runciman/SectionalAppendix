@@ -7,6 +7,7 @@ const page306 = {
   elr: "RRN1",
   title: "Bescot Jn to Rugeley North Jn (Excl.)",
   route: "lnw-south",
+  lastUpdated: "18/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD345 sequence 004.",
   location: "Bloxwich North",

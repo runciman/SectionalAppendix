@@ -7,6 +7,7 @@ const page359 = {
   elr: "EMP",
   title: "Ely North Junction to Peterborough",
   route: "Anglia",
+  lastUpdated: "18/01/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1560 sequence 004.",
   location: "Ely North Junction to Peterborough",

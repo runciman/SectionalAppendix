@@ -7,6 +7,7 @@ const page352 = {
   elr: "TSB",
   title: "Tyseley South Jn to Bearley Jn",
   route: "lnw-south",
+  lastUpdated: "22/03/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD425 sequence 002.",
   location: "Tyseley South Jn",

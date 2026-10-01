@@ -7,6 +7,7 @@ const page474 = {
   elr: "CAW",
   title: "Cricklewood Curve Jn to Dudding Hill Jn",
   route: "lne",
+  lastUpdated: "02/03/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3219 sequence 001.",
   location: "Cricklewood Curve Jn / Dudding Hill Jn",

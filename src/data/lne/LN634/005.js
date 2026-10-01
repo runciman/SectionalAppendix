@@ -7,6 +7,7 @@ const page985 = {
   elr: "MBW3",
   title: "Guisborough Junction to Whitby",
   route: "lne",
+  lastUpdated: "01/04/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN634 sequence 005.",
   location: "Guisborough Junction to Whitby",

@@ -7,6 +7,7 @@ const page656 = {
   elr: "CCN",
   title: "Clipstone Colliery Branch",
   route: "lne",
+  lastUpdated: "22/01/11",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN798 sequence 001.",
   location: "Clipstone Colliery Branch",

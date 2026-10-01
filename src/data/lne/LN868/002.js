@@ -7,6 +7,7 @@ const page812 = {
   elr: "SHB PED2 BAH2",
   title: "Wincobank Junction to Horbury Junction",
   route: "lne",
+  lastUpdated: "23/02/2020",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN868 sequence 002.",
   location: "Wincobank Junction to Horbury Junction",

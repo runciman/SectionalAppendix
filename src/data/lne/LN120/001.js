@@ -7,6 +7,7 @@ const page237 = {
   elr: "HDB",
   title: "Wood Green South Jn to Langley Jn via Hertford",
   route: "lne",
+  lastUpdated: "31/08/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN120 sequence 001.",
   location: "Wood Green South Jn",

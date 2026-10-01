@@ -7,6 +7,7 @@ const page226 = {
   elr: "RTS",
   title: "Rugby, Trent Valley Junction to New Bilton",
   route: "lnw-south",
+  lastUpdated: "18/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD180 sequence 001.",
   location: "Rugby Trent Valley Jn / New Bilton",

@@ -7,6 +7,7 @@ const page325 = {
   elr: "DCL",
   title: "Heyford to Bordesley Jn",
   route: "lnw-south",
+  lastUpdated: "19/04/2095",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD401 sequence 010.",
   location: "Warwick",

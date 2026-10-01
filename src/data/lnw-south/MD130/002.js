@@ -7,6 +7,7 @@ const page179 = {
   elr: "WSA",
   title: "Watford Junction to St Albans Abbey",
   route: "lnw-south",
+  lastUpdated: "08/03/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD130 sequence 002.",
   location: "Watford North / Garston / Bricket Wood / How Wood / Park Street",

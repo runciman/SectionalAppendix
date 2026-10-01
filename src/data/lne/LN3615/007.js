@@ -7,6 +7,7 @@ const page543 = {
   elr: "GSM2",
   title: "Helpston Jn to Syston South Jn",
   route: "lne",
+  lastUpdated: "27/02/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3615 sequence 007.",
   location: "Whissendine / Wyfordby LC",

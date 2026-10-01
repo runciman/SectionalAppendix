@@ -7,6 +7,7 @@ const page265 = {
   elr: "SPD1",
   title: "Werrington Jn. to Flyover East Jn. Via Lincoln",
   route: "lne",
+  lastUpdated: "01/08/2020",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN170 sequence 006.",
   location: "Church Lane / Lawsoms",

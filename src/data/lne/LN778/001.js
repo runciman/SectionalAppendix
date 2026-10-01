@@ -6,6 +6,7 @@ const page689 = {
   sequence: "001",
   title: "Seymour Junction to Bolsover",
   route: "lne",
+  lastUpdated: "19/03/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN778 sequence 001.",
   location: "Seymour Junction to Bolsover",

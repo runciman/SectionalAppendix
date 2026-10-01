@@ -7,6 +7,7 @@ const page837 = {
   elr: "CJS HTM KWS",
   title: "Stainforth Junction to Ferrybridge North Junction",
   route: "lne",
+  lastUpdated: "30/04/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN888 sequence 001.",
   location: "Stainforth Junction to Ferrybridge North Junction",

@@ -7,6 +7,7 @@ const page373 = {
   elr: "GSJ2",
   title: "Small Heath South Jn to Stourbridge North Jn",
   route: "lnw-south",
+  lastUpdated: "27/09/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD435 sequence 011.",
   location: "Stourbridge North Jn",

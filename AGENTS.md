@@ -153,6 +153,23 @@ missing boundaries, not semantic transcription mistakes.
 arrays (`locations`, `connections`, `signalling`, `speeds`) when information
 is present, so search covers it naturally.
 
+### Header-field completeness gate
+
+Every indexed record must transcribe the complete source-table header before it
+is eligible for commit: LOR, sequence, Line of Route Description/title, ELR,
+route, and **Last Updated**. Store the visible date in `lastUpdated` using the
+source's `DD/MM/YYYY` form when a four-digit year is printed; preserve a
+legacy two-digit year exactly when that is what the source header shows. It is
+not optional when printed, even if it is missing from older record templates or
+does not affect search.
+
+Before committing a batch, visually compare each new record's header fields
+against its published source crop. A missing or empty `lastUpdated` field is a
+validation failure unless the source crop itself genuinely has no Last Updated
+value; in that exceptional case, record the physical PDF page in the batch's
+uncertainty log rather than silently omitting the field. Do not infer a date
+from adjacent pages, publication metadata, or OCR alone.
+
 ## Connection capture and backfill gate
 
 Every visible inter-page reference is required structured data. Capture both

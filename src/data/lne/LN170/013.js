@@ -7,6 +7,7 @@ const page272 = {
   elr: "SPD3 MAC3 SPD4",
   title: "Werrington Jn. to Flyover East Jn. Via Lincoln",
   route: "lne",
+  lastUpdated: "05/09/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN170 sequence 013.",
   location: "Gainsborough Lea Road",

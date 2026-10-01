@@ -7,6 +7,7 @@ const page231 = {
   elr: "ECM1",
   title: "Kings Cross to Shaftholme Jn",
   route: "lne",
+  lastUpdated: "07/12/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN101 sequence 028.",
   location: "Decoy North Jn",

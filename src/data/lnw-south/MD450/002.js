@@ -6,6 +6,7 @@ const page378 = {
   sequence: "002",
   title: "Stourbridge North Junction to Round Oak",
   route: "lnw-south",
+  lastUpdated: "06/12/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD450 sequence 002.",
   location: "Round Oak",

@@ -7,6 +7,7 @@ const page269 = {
   elr: "SPD3",
   title: "Werrington Jn. to Flyover East Jn. Via Lincoln",
   route: "lne",
+  lastUpdated: "07/11/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN170 sequence 010.",
   location: "Brayford / Holmes Jns",

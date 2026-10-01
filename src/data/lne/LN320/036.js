@@ -7,6 +7,7 @@ const page443 = {
   elr: "SPC6 SPC7",
   title: "St. Pancras to Tapton Jn (via Derby)",
   route: "lne",
+  lastUpdated: "09/11/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN320 sequence 036.",
   location: "Long Eaton / Spondon",

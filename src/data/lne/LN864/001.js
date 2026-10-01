@@ -7,6 +7,7 @@ const page810 = {
   elr: "DRS1",
   title: "Dewsbury Railway Street Branch",
   route: "lne",
+  lastUpdated: "20/01/2018",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN864 sequence 001.",
   location: "Dewsbury Railway Street Branch",

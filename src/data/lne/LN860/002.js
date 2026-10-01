@@ -6,6 +6,7 @@ const page798 = {
   sequence: "002",
   title: "Diggle Junction to Copley Hill East Junction",
   route: "lne",
+  lastUpdated: "19/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN860 sequence 002.",
   location: "Diggle Junction to Copley Hill East Junction",

@@ -7,6 +7,7 @@ const page213 = {
   elr: "ECM1",
   title: "Kings Cross to Shaftholme Jn",
   route: "lne",
+  lastUpdated: "14/09/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN101 sequence 010.",
   location: "Hitchin / Cadwell",

@@ -7,6 +7,7 @@ const page804 = {
   elr: "BBW",
   title: "Bradley Junction to Bradley Wood Junction",
   route: "lne",
+  lastUpdated: "26/04/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN861 sequence 001.",
   location: "Bradley Junction to Bradley Wood Junction",

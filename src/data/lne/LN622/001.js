@@ -7,6 +7,7 @@ const page950 = {
   elr: "NEN1",
   title: "Forth Branch",
   route: "lne",
+  lastUpdated: "19/03/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN622 sequence 001.",
   location: "Forth Branch",

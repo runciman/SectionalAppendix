@@ -7,6 +7,7 @@ const page500 = {
   elr: "GF  CPC",
   title: "Codnor Park Jn to Ironville Jn GF (Withdrawn)",
   route: "lne",
+  lastUpdated: "04/08/07",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3270 sequence 001.",
   location: "Codnor Park Jn / Ironville Jn",

@@ -7,6 +7,7 @@ const page266 = {
   elr: "BAG2",
   title: "Birmingham New Street to Ashchurch (Excl.) (via Dunhampstead)",
   route: "lnw-south",
+  lastUpdated: "10/01/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD306 sequence 009.",
   location: "Barnt Green",

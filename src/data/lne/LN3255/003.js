@@ -7,6 +7,7 @@ const page495 = {
   elr: "RAC",
   title: "Radford Jn to Kirkby Lane End Jn",
   route: "lne",
+  lastUpdated: "20/02/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3255 sequence 003.",
   location: "Newstead / Kirkby Lane End Jn",

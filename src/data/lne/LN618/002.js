@@ -7,6 +7,7 @@ const page367 = {
   elr: "HOS",
   title: "Holgate Jn to Skelton Jn",
   route: "lne",
+  lastUpdated: "25/04/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN618 sequence 002.",
   location: "York Yard North / Skelton Jn",

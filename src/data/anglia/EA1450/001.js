@@ -7,6 +7,7 @@ const page321 = {
   elr: "TFN FEL",
   title: "Felixstowe Branch",
   route: "Anglia",
+  lastUpdated: "27/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1450 sequence 001.",
   location: "Felixstowe Branch",

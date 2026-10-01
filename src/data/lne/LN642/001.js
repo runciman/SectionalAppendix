@@ -7,6 +7,7 @@ const page989 = {
   elr: "SSK1",
   title: "Saltburn West Junction to Boulby Potash Mine",
   route: "lne",
+  lastUpdated: "01/08/2017",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN642 sequence 001.",
   location: "Saltburn West Junction to Boulby Potash Mine",

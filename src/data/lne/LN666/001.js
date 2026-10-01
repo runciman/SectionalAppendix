@@ -7,6 +7,7 @@ const page999 = {
   elr: "BGE GLT",
   title: "Boldon West Junction to Tyne Dock",
   route: "lne",
+  lastUpdated: "27/12/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN666 sequence 001.",
   location: "Boldon West Junction to Tyne Dock",

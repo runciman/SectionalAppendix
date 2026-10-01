@@ -7,6 +7,7 @@ const page138 = {
   elr: "LEC1",
   title: "Euston to Armitage Junction (Exclusive)",
   route: "lnw-south",
+  lastUpdated: "22/11/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD101 sequence 017.",
   location: "Cheddington",

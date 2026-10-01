@@ -7,6 +7,7 @@ const page405 = {
   elr: "CBR2",
   title: "Castle Bromwich Jn to Ryecroft Jn",
   route: "lnw-south",
+  lastUpdated: "13/06/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD565 sequence 002.",
   location: "Ryecroft Jn",

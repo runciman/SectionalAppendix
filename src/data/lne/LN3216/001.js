@@ -7,6 +7,7 @@ const page473 = {
   elr: "FTL",
   title: "Farringdon Junction to Blackfriars (Withdrawn)",
   route: "lne",
+  lastUpdated: "06/04/10",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3216 sequence 001.",
   location: "Farringdon Jn / Blackfriars",

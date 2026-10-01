@@ -7,6 +7,7 @@ const page774 = {
   elr: "CJS",
   title: "Carcroft Junction to Skellow Junction",
   route: "lne",
+  lastUpdated: "26/10/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN846 sequence 001.",
   location: "Carcroft Junction to Skellow Junction",

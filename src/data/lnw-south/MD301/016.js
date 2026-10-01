@@ -7,6 +7,7 @@ const page245 = {
   elr: "RBS2",
   title: "Rugby to Penkridge (Exclusive) (via Birmingham)",
   route: "lnw-south",
+  lastUpdated: "29/11/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD301 sequence 016.",
   location: "Coseley / Monmore Green / Wolverhampton Steel Terminal",

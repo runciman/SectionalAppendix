@@ -7,6 +7,7 @@ const page344 = {
   elr: "CCH BGK",
   title: "Coldham Lane Junction to Haughley Junction",
   route: "Anglia",
+  lastUpdated: "05/01/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1530 sequence 001.",
   location: "Coldham Lane Junction to Haughley Junction",

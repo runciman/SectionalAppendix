@@ -7,6 +7,7 @@ const page641 = {
   elr: "HAC",
   title: "Firbeck Junction to Harworth Colliery",
   route: "lne",
+  lastUpdated: "15/10/2017",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN760 sequence 001.",
   location: "Firbeck Junction to Harworth Colliery",

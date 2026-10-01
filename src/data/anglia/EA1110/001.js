@@ -7,6 +7,7 @@ const page176 = {
   elr: "TWN COC",
   title: "Thorpe-Le-Soken Junction to Walton-On-Naze",
   route: "Anglia",
+  lastUpdated: "21/12/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1110 sequence 001.",
   location: "Thorpe-Le-Soken Junction to Walton-On-Naze",

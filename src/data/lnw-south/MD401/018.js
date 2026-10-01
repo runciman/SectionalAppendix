@@ -7,6 +7,7 @@ const page333 = {
   elr: "BCV DCL",
   title: "Heyford to Bordesley Jn",
   route: "lnw-south",
+  lastUpdated: "04/04/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD401 sequence 018.",
   location: "Bordesley",

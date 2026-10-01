@@ -7,6 +7,7 @@ const page158 = {
   elr: "WIS",
   title: "Shenfield Junction to Southend Victoria",
   route: "Anglia",
+  lastUpdated: "27/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1050 sequence 002.",
   location: "Shenfield Junction to Southend Victoria",

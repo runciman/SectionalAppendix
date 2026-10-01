@@ -6,6 +6,7 @@ const page561 = {
   sequence: "001",
   title: "Netherfield Junction to Gedling Colliery",
   route: "lne",
+  lastUpdated: "30/06/07",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3645 sequence 001.",
   location: "Netherfield Junction to Gedling Colliery",

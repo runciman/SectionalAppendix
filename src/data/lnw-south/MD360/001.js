@@ -7,6 +7,7 @@ const page312 = {
   elr: "WDJ",
   title: "Walsall, Pleck Jn to Darlaston Jn",
   route: "lnw-south",
+  lastUpdated: "16/11/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD360 sequence 001.",
   location: "Walsall Pleck Jn / Darlaston Jn",

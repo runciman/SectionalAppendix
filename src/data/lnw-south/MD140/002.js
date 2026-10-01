@@ -7,6 +7,7 @@ const page194 = {
   elr: "BBM BLT2",
   title: "Bletchley to Bedford St. Johns (Inclusive)",
   route: "lnw-south",
+  lastUpdated: "30/08/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD140 sequence 002.",
   location: "Bletchley Vale Sidings / Fenny Stratford",

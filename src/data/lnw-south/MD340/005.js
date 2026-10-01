@@ -7,6 +7,7 @@ const page301 = {
   elr: "ALC2 BJW3",
   title: "Aston North Junction to Alrewas (Exclusive)",
   route: "lnw-south",
+  lastUpdated: "18/07/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD340 sequence 005.",
   location: "Anglesea sidings",

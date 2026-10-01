@@ -7,6 +7,7 @@ const page305 = {
   elr: "BJW2 RRN1",
   title: "Bescot Jn to Rugeley North Jn (Excl.)",
   route: "lnw-south",
+  lastUpdated: "13/06/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD345 sequence 003.",
   location: "Walsall South Jn",

@@ -7,6 +7,7 @@ const page241 = {
   elr: "RBS2",
   title: "Rugby to Penkridge (Exclusive) (via Birmingham)",
   route: "lnw-south",
+  lastUpdated: "18/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD301 sequence 012.",
   location: "Soho South/North Jn / Soho Light Maintenance Depot",

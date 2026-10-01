@@ -7,6 +7,7 @@ const page1026 = {
   elr: "BWC",
   title: "Bedlington North to Lynemouth Alcan",
   route: "lne",
+  lastUpdated: "19/04/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN702 sequence 001.",
   location: "Bedlington North to Lynemouth Alcan",

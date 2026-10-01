@@ -7,6 +7,7 @@ const page222 = {
   elr: "ACW",
   title: "Acton Canal Wharf to Willesden Junction",
   route: "lnw-south",
+  lastUpdated: "10/08/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD170 sequence 001.",
   location: "Acton Canal Wharf / Willesden Junction",

@@ -7,6 +7,7 @@ const page224 = {
   elr: "HDT",
   title: "Hackney Downs North Junction to Enfield Town",
   route: "Anglia",
+  lastUpdated: "06/06/2015",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1170 sequence 003.",
   location: "Hackney Downs North Junction to Enfield Town",

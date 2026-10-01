@@ -7,6 +7,7 @@ const page830 = {
   elr: "WAG1",
   title: "Wakefield Kirkgate West Junction to Goole Potters Grange Junction",
   route: "lne",
+  lastUpdated: "30/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN882 sequence 001.",
   location: "Wakefield Kirkgate West Junction to Goole Potters Grange Junction",

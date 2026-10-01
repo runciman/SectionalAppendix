@@ -7,6 +7,7 @@ const page295 = {
   elr: "SCL RBS2",
   title: "Soho East Jn to Soho North Jn",
   route: "lnw-south",
+  lastUpdated: "02/11/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD330 sequence 001.",
   location: "Soho East Jn / Soho Viaduct / Soho North Jn / Soho Curve North Jn",

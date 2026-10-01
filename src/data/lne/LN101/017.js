@@ -7,6 +7,7 @@ const page220 = {
   elr: "ECM1 PMJ",
   title: "Kings Cross to Shaftholme Jn",
   route: "lne",
+  lastUpdated: "30/09/2023",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN101 sequence 017.",
   location: "Werrington / Helpston / Maxey",

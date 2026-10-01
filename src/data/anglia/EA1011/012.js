@@ -7,6 +7,7 @@ const page136 = {
   elr: "LTN1",
   title: "Seven Kings to Ipswich",
   route: "Anglia",
+  lastUpdated: "14/06/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1011 sequence 012.",
   location: "Seven Kings to Ipswich",

@@ -7,6 +7,7 @@ const page776 = {
   elr: "WWK",
   title: "Wakefield Westgate South Junction to Wakefield Kirkgate West Junction",
   route: "lne",
+  lastUpdated: "27/12/2018",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN850 sequence 001.",
   location: "Wakefield Westgate South Junction to Wakefield Kirkgate West Junction",

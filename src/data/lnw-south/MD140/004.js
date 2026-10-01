@@ -7,6 +7,7 @@ const page196 = {
   elr: "BBM",
   title: "Bletchley to Bedford St. Johns (Inclusive)",
   route: "lnw-south",
+  lastUpdated: "19/04/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD140 sequence 004.",
   location: "Aspley Guise",

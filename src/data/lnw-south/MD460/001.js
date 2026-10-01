@@ -7,6 +7,7 @@ const page381 = {
   elr: "DCL SJT1",
   title: "Fenny Compton to Burton Dassett",
   route: "lnw-south",
+  lastUpdated: "11/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD460 sequence 001.",
   location: "Fenny Compton",

@@ -7,6 +7,7 @@ const page328 = {
   elr: "NOL",
   title: "Norwich Thorpe Junction to Lowestoft",
   route: "Anglia",
+  lastUpdated: "16/02/2020",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1470 sequence 006.",
   location: "Norwich Thorpe Junction to Lowestoft",

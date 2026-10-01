@@ -7,6 +7,7 @@ const page378 = {
   elr: "ETN",
   title: "Ely North Junction to Trowse Junction",
   route: "Anglia",
+  lastUpdated: "03/10/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1580 sequence 010.",
   location: "Ely North Junction to Trowse Junction",

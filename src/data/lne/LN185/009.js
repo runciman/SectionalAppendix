@@ -7,6 +7,7 @@ const page284 = {
   elr: "GRS",
   title: "Allington West Jn to Skegness",
   route: "lne",
+  lastUpdated: "05/03/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN185 sequence 009.",
   location: "Skegness",

@@ -7,6 +7,7 @@ const page483 = {
   elr: "RUD MCJ",
   title: "Loughborough South Jn to Hotchley Hill",
   route: "lne",
+  lastUpdated: "20/02/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3237 sequence 001.",
   location: "Loughborough South Jn / Hotchley Hill",

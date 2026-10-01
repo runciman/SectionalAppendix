@@ -7,6 +7,7 @@ const page291 = {
   elr: "TLL",
   title: "Barking Tilbury Line Junction East to Pitsea Junction",
   route: "Anglia",
+  lastUpdated: "12/12/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1390 sequence 005.",
   location: "Barking Tilbury Line Junction East to Pitsea Junction",

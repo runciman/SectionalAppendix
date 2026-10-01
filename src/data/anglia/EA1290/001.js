@@ -7,6 +7,7 @@ const page243 = {
   elr: "TSE1 BGK TAH1 TAH2",
   title: "North London Line",
   route: "Anglia",
+  lastUpdated: "15/10/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1290 sequence 001.",
   location: "North London Line",

@@ -7,6 +7,7 @@ const page251 = {
   elr: "SAR1 SAR2",
   title: "Camden Road West Junction to Richmond",
   route: "Anglia",
+  lastUpdated: "30/03/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1310 sequence 007.",
   location: "Camden Road West Junction to Richmond",

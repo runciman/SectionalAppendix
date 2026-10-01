@@ -7,6 +7,7 @@ const page687 = {
   elr: "BAC2 BAC3 OXO",
   title: "Barrow Hill North Junction to Oxcroft Disposal Point",
   route: "lne",
+  lastUpdated: "01/05/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN774 sequence 001.",
   location: "Barrow Hill North Junction to Oxcroft Disposal Point",

@@ -7,6 +7,7 @@ const page302 = {
   elr: "BJW3",
   title: "Aston North Junction to Alrewas (Exclusive)",
   route: "lnw-south",
+  lastUpdated: "01/08/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD340 sequence 006.",
   location: "Lichfield Trent Valley",

@@ -7,6 +7,7 @@ const page645 = {
   elr: "PSE",
   title: "Mansfield Woodhouse to Shireoaks East Junction",
   route: "lne",
+  lastUpdated: "22/02/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN768 sequence 001.",
   location: "Mansfield Woodhouse to Shireoaks East Junction",

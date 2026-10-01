@@ -7,6 +7,7 @@ const page766 = {
   elr: "LEH1 LEH2 LEH3 HAY2",
   title: "Leeds Armley Junction to York Skelton Junction via Harrogate",
   route: "lne",
+  lastUpdated: "26/11/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN838 sequence 002.",
   location: "Leeds Armley Junction to York Skelton Junction via Harrogate",

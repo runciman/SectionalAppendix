@@ -7,6 +7,7 @@ const page478 = {
   elr: "TES",
   title: "Trent East Jn to Sheet Stores Jn",
   route: "lne",
+  lastUpdated: "26/01/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3228 sequence 001.",
   location: "Trent East Jn / Sheet Stores Jn",

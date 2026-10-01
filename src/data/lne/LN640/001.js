@@ -6,6 +6,7 @@ const page988 = {
   sequence: "001",
   title: "ICI Wilton Coal Terminal",
   route: "lne",
+  lastUpdated: "19/03/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN640 sequence 001.",
   location: "ICI Wilton Coal Terminal",

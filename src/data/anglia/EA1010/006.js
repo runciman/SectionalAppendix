@@ -7,6 +7,7 @@ const page115 = {
   elr: "LTN1",
   title: "Liverpool Street to Seven Kings",
   route: "Anglia",
+  lastUpdated: "23/07/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1010 sequence 006.",
   location: "Liverpool Street to Seven Kings",

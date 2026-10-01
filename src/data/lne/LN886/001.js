@@ -6,6 +6,7 @@ const page836 = {
   sequence: "001",
   title: "Monk Bretton Loop to Crofton East Junction",
   route: "lne",
+  lastUpdated: "30/04/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN886 sequence 001.",
   location: "Monk Bretton Loop to Crofton East Junction",

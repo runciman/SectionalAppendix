@@ -7,6 +7,7 @@ const page814 = {
   elr: "CTL",
   title: "Wakefield Turners Lane to Calder Bridge Junction",
   route: "lne",
+  lastUpdated: "23/04/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN870 sequence 001.",
   location: "Wakefield Turners Lane to Calder Bridge Junction",

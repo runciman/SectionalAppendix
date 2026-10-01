@@ -7,6 +7,7 @@ const page198 = {
   elr: "BBM",
   title: "Bletchley to Bedford St. Johns (Inclusive)",
   route: "lnw-south",
+  lastUpdated: "24/05/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD140 sequence 006.",
   location: "Stewartby / Fordes Sidings",

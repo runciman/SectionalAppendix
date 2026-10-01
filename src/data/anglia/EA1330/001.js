@@ -7,6 +7,7 @@ const page262 = {
   elr: "BOK5 NKE1",
   title: "South Acton Junction to Old and New Kew Junctions",
   route: "Anglia",
+  lastUpdated: "30/03/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1330 sequence 001.",
   location: "South Acton Junction to Old and New Kew Junctions",

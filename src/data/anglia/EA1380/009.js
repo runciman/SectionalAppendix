@@ -6,6 +6,7 @@ const page280 = {
   sequence: "009",
   title: "Fenchurch Street to Shoeburyness",
   route: "Anglia",
+  lastUpdated: "08/01/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1380 sequence 009.",
   location: "Fenchurch Street to Shoeburyness",

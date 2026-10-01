@@ -7,6 +7,7 @@ const page233 = {
   elr: "ECM1",
   title: "Kings Cross to Shaftholme Jn",
   route: "lne",
+  lastUpdated: "24/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN101 sequence 030.",
   location: "Shaftholme Jn",

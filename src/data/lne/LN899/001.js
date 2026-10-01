@@ -7,6 +7,7 @@ const page854 = {
   elr: "PHC",
   title: "Hessle East Junction to Hull Dairycoates",
   route: "lne",
+  lastUpdated: "01/01/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN899 sequence 001.",
   location: "Hessle East Junction to Hull Dairycoates",

@@ -7,6 +7,7 @@ const page794 = {
   elr: "MRB",
   title: "Milner Royd Junction to Bradford Mill Lane Junction",
   route: "lne",
+  lastUpdated: "10/08/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN858 sequence 003.",
   location: "Milner Royd Junction to Bradford Mill Lane Junction",

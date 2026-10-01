@@ -6,6 +6,7 @@ const page654 = {
   sequence: "001",
   title: "Bilsthorpe Colliery Branch",
   route: "lne",
+  lastUpdated: "10/07/10",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN794 sequence 001.",
   location: "Bilsthorpe Colliery Branch",

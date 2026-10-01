@@ -7,6 +7,7 @@ const page365 = {
   elr: "WIG EMP",
   title: "Peterborough to March",
   route: "Anglia",
+  lastUpdated: "27/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1570 sequence 001.",
   location: "Peterborough to March",

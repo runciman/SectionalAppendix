@@ -6,6 +6,7 @@ const page1025 = {
   sequence: "001",
   title: "Butterwell North Branch Arrival and Departure",
   route: "lne",
+  lastUpdated: "19/03/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN700 sequence 001.",
   location: "Butterwell North Branch",

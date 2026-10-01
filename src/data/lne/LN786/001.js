@@ -7,6 +7,7 @@ const page651 = {
   elr: "BEC",
   title: "Bevercotes Colliery Branch",
   route: "lne",
+  lastUpdated: "19/03/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN786 sequence 001.",
   location: "Bevercotes Colliery Branch",

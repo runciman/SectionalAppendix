@@ -7,6 +7,7 @@ const page336 = {
   elr: "CRS",
   title: "Cromer to Sheringham",
   route: "Anglia",
+  lastUpdated: "06/08/2023",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1490 sequence 001.",
   location: "Cromer to Sheringham",

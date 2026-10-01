@@ -7,6 +7,7 @@ const page536 = {
   elr: "BSC",
   title: "Corby Automotive Terminal to Corby North",
   route: "lne",
+  lastUpdated: "26/02/2018",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3610 sequence 001.",
   location: "Corby Automotive Terminal / Corby North",

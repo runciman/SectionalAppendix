@@ -7,6 +7,7 @@ const page197 = {
   elr: "BBM",
   title: "Bletchley to Bedford St. Johns (Inclusive)",
   route: "lnw-south",
+  lastUpdated: "22/03/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD140 sequence 005.",
   location: "Ridgmont / Lidlington / Millbrook",

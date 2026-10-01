@@ -7,6 +7,7 @@ const page535 = {
   elr: "BSC",
   title: "Corby BSC Works to Corby North",
   route: "lne",
+  lastUpdated: "26/02/2018",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3605 sequence 001.",
   location: "Corby BSC Works / Corby North",

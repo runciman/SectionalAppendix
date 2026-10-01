@@ -7,6 +7,7 @@ const page302 = {
   elr: "UPG TLL",
   title: "Upminster to West Thurrock Junction",
   route: "Anglia",
+  lastUpdated: "30/07/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1410 sequence 003.",
   location: "Upminster to West Thurrock Junction",

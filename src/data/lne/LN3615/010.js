@@ -7,6 +7,7 @@ const page546 = {
   elr: "GSM3",
   title: "Helpston Jn to Syston South Jn",
   route: "lne",
+  lastUpdated: "04/05/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3615 sequence 010.",
   location: "Hives Farm LC / Broome Lane LC",

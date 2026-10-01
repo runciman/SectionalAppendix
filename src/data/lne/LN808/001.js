@@ -6,6 +6,7 @@ const page702 = {
   sequence: "001",
   title: "Dore West Junction to Earles Sidings (exclusive)",
   route: "lne",
+  lastUpdated: "04/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN808 sequence 001.",
   location: "Dore West Junction to Earles Sidings",

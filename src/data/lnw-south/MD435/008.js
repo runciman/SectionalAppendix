@@ -7,6 +7,7 @@ const page370 = {
   elr: "GSJ2",
   title: "Small Heath South Jn to Stourbridge North Jn",
   route: "lnw-south",
+  lastUpdated: "07/02/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD435 sequence 008.",
   location: "Rood End Yard / Langley Green",

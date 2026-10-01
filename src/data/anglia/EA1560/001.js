@@ -7,6 +7,7 @@ const page356 = {
   elr: "ETN BGK EWC",
   title: "Ely North Junction to Peterborough",
   route: "Anglia",
+  lastUpdated: "09/08/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1560 sequence 001.",
   location: "Ely North Junction to Peterborough",

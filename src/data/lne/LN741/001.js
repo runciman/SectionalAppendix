@@ -7,6 +7,7 @@ const page624 = {
   elr: "HAU",
   title: "Habrough Junction to Ulceby South Junction",
   route: "lne",
+  lastUpdated: "30/12/2015",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN741 sequence 001.",
   location: "Habrough Junction to Ulceby South Junction",

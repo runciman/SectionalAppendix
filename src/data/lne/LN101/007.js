@@ -7,6 +7,7 @@ const page210 = {
   elr: "ECM1",
   title: "Kings Cross to Shaftholme Jn",
   route: "lne",
+  lastUpdated: "26/08/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN101 sequence 007.",
   location: "Potters Bar Tunnel",

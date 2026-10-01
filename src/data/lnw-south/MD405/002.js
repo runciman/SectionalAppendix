@@ -7,6 +7,7 @@ const page336 = {
   elr: "LSC1 LSC2",
   title: "Leamington Spa North Jn to Coventry South Jn",
   route: "lnw-south",
+  lastUpdated: "18/07/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD405 sequence 002.",
   location: "ELR change",

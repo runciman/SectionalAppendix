@@ -7,6 +7,7 @@ const page267 = {
   elr: "BAG2",
   title: "Birmingham New Street to Ashchurch (Excl.) (via Dunhampstead)",
   route: "lnw-south",
+  lastUpdated: "09/08/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD306 sequence 010.",
   location: "Blackwell North/South Jn (Bromsgrove)",

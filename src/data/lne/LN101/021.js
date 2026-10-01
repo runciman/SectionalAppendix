@@ -7,6 +7,7 @@ const page224 = {
   elr: "ECM1",
   title: "Kings Cross to Shaftholme Jn",
   route: "lne",
+  lastUpdated: "27/02/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN101 sequence 021.",
   location: "Peascliffe / Claypole",

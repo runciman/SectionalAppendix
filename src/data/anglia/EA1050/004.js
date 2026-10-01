@@ -7,6 +7,7 @@ const page160 = {
   elr: "SSV",
   title: "Shenfield Junction to Southend Victoria",
   route: "Anglia",
+  lastUpdated: "09/05/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1050 sequence 004.",
   location: "Shenfield Junction to Southend Victoria",

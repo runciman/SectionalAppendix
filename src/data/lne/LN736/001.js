@@ -7,6 +7,7 @@ const page608 = {
   elr: "MAC3",
   title: "Cleethorpes to Nunnery Main Line Junction via Retford",
   route: "lne",
+  lastUpdated: "14/09/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN736 sequence 001.",
   location: "Cleethorpes to Nunnery Main Line Junction via Retford",

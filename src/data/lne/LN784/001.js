@@ -7,6 +7,7 @@ const page649 = {
   elr: "HIM",
   title: "High Marnham to Shirebrook East Junction",
   route: "lne",
+  lastUpdated: "22/09/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN784 sequence 001.",
   location: "High Marnham to Shirebrook East Junction",

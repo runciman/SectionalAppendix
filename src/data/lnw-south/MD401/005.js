@@ -7,6 +7,7 @@ const page320 = {
   elr: "DCL",
   title: "Heyford to Bordesley Jn",
   route: "lnw-south",
+  lastUpdated: "11/01/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD401 sequence 005.",
   location: "Banbury North Jn / Reservoir Jn",

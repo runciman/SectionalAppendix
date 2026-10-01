@@ -7,6 +7,7 @@ const page505 = {
   elr: "BJW3",
   title: "Alrewas (Inclusive) to Wichnor Jn",
   route: "lne",
+  lastUpdated: "08/02/2020",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3340 sequence 001.",
   location: "Alrewas / Wichnor Jn",

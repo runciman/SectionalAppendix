@@ -6,6 +6,7 @@ const page496 = {
   sequence: "001",
   title: "Bestwood Park Jn to Calverton Colliery (Withdrawn)",
   route: "lne",
+  lastUpdated: "30/06/07",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3258 sequence 001.",
   location: "Bestwood Park Jn / Calverton Colliery",

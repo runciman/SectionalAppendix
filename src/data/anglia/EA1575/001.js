@@ -7,6 +7,7 @@ const page367 = {
   elr: "WMY WIG",
   title: "March to Ely",
   route: "Anglia",
+  lastUpdated: "02/07/2023",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1575 sequence 001.",
   location: "March to Ely",

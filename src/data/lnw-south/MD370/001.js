@@ -7,6 +7,7 @@ const page314 = {
   elr: "DPJ",
   title: "Bescot Curve Jn to Walsall Pleck Jn",
   route: "lnw-south",
+  lastUpdated: "22/11/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD370 sequence 001.",
   location: "Bescot Curve Jn / Walsall Pleck Jn",

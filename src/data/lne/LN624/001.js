@@ -7,6 +7,7 @@ const page952 = {
   elr: "GF REB4 REB2",
   title: "Northallerton Castle Hills Junction to Castle Hills West Ground Frame",
   route: "lne",
+  lastUpdated: "27/12/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN624 sequence 001.",
   location: "Northallerton Castle Hills Junction to Castle Hills West Ground Frame",

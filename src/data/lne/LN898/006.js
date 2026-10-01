@@ -7,6 +7,7 @@ const page851 = {
   elr: "HUL1",
   title: "Neville Hill East Junction to Hull",
   route: "lne",
+  lastUpdated: "26/11/2018",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN898 sequence 006.",
   location: "Neville Hill East Junction to Hull",

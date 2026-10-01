@@ -7,6 +7,7 @@ const page298 = {
   elr: "BKR",
   title: "Tilbury Loop",
   route: "Anglia",
+  lastUpdated: "04/04/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1395 sequence 001.",
   location: "Tilbury Loop",

@@ -7,6 +7,7 @@ const page469 = {
   elr: "MCL",
   title: "Farringdon to Kentish Town Jn",
   route: "lne",
+  lastUpdated: "06/04/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3213 sequence 002.",
   location: "St Pancras / Canal Tunnels Jn",

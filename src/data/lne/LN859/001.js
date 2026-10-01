@@ -7,6 +7,7 @@ const page796 = {
   elr: "GRD",
   title: "Greetland Junction to Dryclough Junction",
   route: "lne",
+  lastUpdated: "04/07/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN859 sequence 001.",
   location: "Greetland Junction to Dryclough Junction",

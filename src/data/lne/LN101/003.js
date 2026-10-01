@@ -7,6 +7,7 @@ const page206 = {
   elr: "ECM1",
   title: "Kings Cross to Shaftholme Jn",
   route: "lne",
+  lastUpdated: "05/11/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN101 sequence 003.",
   location: "Drayton Park connection",

@@ -7,6 +7,7 @@ const page270 = {
   elr: "BAG2",
   title: "Birmingham New Street to Ashchurch (Excl.) (via Dunhampstead)",
   route: "lnw-south",
+  lastUpdated: "21/12/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD306 sequence 013.",
   location: "Dunhampstead / Oddingley",

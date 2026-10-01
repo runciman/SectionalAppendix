@@ -7,6 +7,7 @@ const page884 = {
   elr: "ILK2",
   title: "Apperley Junction to Ilkley",
   route: "lne",
+  lastUpdated: "24/10/2020",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN924 sequence 002.",
   location: "Apperley Junction to Ilkley",

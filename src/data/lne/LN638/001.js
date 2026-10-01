@@ -6,6 +6,7 @@ const page987 = {
   sequence: "001",
   title: "Grangetown Shell Junction to Cleveland Freightliner Terminal (Wilton)",
   route: "lne",
+  lastUpdated: "24/12/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN638 sequence 001.",
   location: "Grangetown Shell Junction to Cleveland Freightliner Terminal",

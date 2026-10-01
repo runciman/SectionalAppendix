@@ -7,6 +7,7 @@ const page1000 = {
   elr: "JAW1",
   title: "Jarrow Branch",
   route: "lne",
+  lastUpdated: "04/12/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN670 sequence 001.",
   location: "Jarrow Branch",

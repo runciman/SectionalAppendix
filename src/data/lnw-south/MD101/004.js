@@ -7,6 +7,7 @@ const page125 = {
   elr: "LEC1",
   title: "Euston to Armitage Junction (Exclusive)",
   route: "lnw-south",
+  lastUpdated: "09/04/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD101 sequence 004.",
   location: "Queen’s Park / Kensal Green Tunnels / Willesden South Jn",

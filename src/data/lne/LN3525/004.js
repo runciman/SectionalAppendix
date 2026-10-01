@@ -7,6 +7,7 @@ const page527 = {
   elr: "KSL",
   title: "Knighton Jn to Leicester Jn",
   route: "lne",
+  lastUpdated: "08/05/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3525 sequence 004.",
   location: "Leicester",

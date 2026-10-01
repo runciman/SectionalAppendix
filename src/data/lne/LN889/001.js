@@ -7,6 +7,7 @@ const page840 = {
   elr: "WS",
   title: "Shaftholme Junction to Haywood Junction",
   route: "lne",
+  lastUpdated: "24/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN889 sequence 001.",
   location: "Shaftholme Junction to Haywood Junction",

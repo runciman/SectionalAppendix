@@ -7,6 +7,7 @@ const page815 = {
   elr: "TJC3",
   title: "Altofts Junction to Leeds West Junction",
   route: "lne",
+  lastUpdated: "13/07/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN872 sequence 001.",
   location: "Altofts Junction to Leeds West Junction",

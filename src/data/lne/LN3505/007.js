@@ -7,6 +7,7 @@ const page519 = {
   elr: "NSS",
   title: "North Stafford Jn to Stoke Jn (Exclusive)",
   route: "lne",
+  lastUpdated: "26/10/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3505 sequence 007.",
   location: "Blythe Bridge",

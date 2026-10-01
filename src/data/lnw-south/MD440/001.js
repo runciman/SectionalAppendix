@@ -7,6 +7,7 @@ const page375 = {
   elr: "GSJ1",
   title: "Galton Jn to Smethwick Jn",
   route: "lnw-south",
+  lastUpdated: "07/09/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD440 sequence 001.",
   location: "Galton Jn / Galton Tunnel / Smethwick Jn",

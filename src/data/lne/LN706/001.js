@@ -7,6 +7,7 @@ const page1028 = {
   elr: "WSB",
   title: "West Sleekburn Junction to North Blyth",
   route: "lne",
+  lastUpdated: "28/06/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN706 sequence 001.",
   location: "West Sleekburn Junction to North Blyth",

@@ -7,6 +7,7 @@ const page990 = {
   elr: "BOH",
   title: "Hartburn Curve",
   route: "lne",
+  lastUpdated: "11/03/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN644 sequence 001.",
   location: "Hartburn Curve",

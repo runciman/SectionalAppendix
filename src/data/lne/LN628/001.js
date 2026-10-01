@@ -7,6 +7,7 @@ const page968 = {
   elr: "NEK",
   title: "South Hylton to Sunderland South Junction",
   route: "lne",
+  lastUpdated: "27/12/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN628 sequence 001.",
   location: "South Hylton to Sunderland South Junction",

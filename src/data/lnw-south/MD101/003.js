@@ -6,6 +6,7 @@ const page124 = {
   sequence: "003",
   title: "Euston to Armitage Junction (Exclusive)",
   route: "lnw-south",
+  lastUpdated: "07/04/2018",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD101 sequence 003.",
   location: "Camden Junction South / Camden Junction / Primrose Hill Tunnels",

@@ -7,6 +7,7 @@ const page277 = {
   elr: "GRS1 GRS2",
   title: "Allington West Jn to Skegness",
   route: "lne",
+  lastUpdated: "28/03/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN185 sequence 002.",
   location: "Sleaford",

@@ -7,6 +7,7 @@ const page843 = {
   elr: "DRA1",
   title: "Drax Power Station Branch",
   route: "lne",
+  lastUpdated: "17/07/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN896 sequence 001.",
   location: "Drax Power Station Branch",

@@ -7,6 +7,7 @@ const page299 = {
   elr: "GFB FSS1 LTN1 BD",
   title: "Pitsea to Southend",
   route: "Anglia",
+  lastUpdated: "03/09/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1400 sequence 001.",
   location: "Pitsea to Southend",

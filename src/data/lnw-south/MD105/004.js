@@ -7,6 +7,7 @@ const page165 = {
   elr: "HNR",
   title: "Hanslope South Jn to Rugby (via Northampton)",
   route: "lnw-south",
+  lastUpdated: "15/03/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD105 sequence 004.",
   location: "Northampton North Jn / Kings Heath Traincare",

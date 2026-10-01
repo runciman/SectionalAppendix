@@ -7,6 +7,7 @@ const page484 = {
   elr: "SPC6",
   title: "Derby North Jn to Chaddesden Sidings",
   route: "lne",
+  lastUpdated: "26/07/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3239 sequence 001.",
   location: "Derby North Jn / Chaddesden",

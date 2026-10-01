@@ -7,6 +7,7 @@ const page342 = {
   elr: "RBY NOL",
   title: "Norwich to Dereham",
   route: "Anglia",
+  lastUpdated: "27/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1510 sequence 001.",
   location: "Norwich to Dereham",

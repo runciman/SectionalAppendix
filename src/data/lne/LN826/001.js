@@ -7,6 +7,7 @@ const page716 = {
   elr: "PEDS",
   title: "Doncaster South Yorkshire Junction to Swinton Junction North and South",
   route: "lne",
+  lastUpdated: "04/12/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN826 sequence 001.",
   location: "Doncaster South Yorkshire Junction to Swinton Junction",

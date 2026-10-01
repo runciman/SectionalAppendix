@@ -6,6 +6,7 @@ const page466 = {
   sequence: "008",
   title: "Trent East Jn to Clay Cross North Jn",
   route: "lne",
+  lastUpdated: "26/01/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3207 sequence 008.",
   location: "Clay Cross North Jn",

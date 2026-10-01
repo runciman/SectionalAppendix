@@ -7,6 +7,7 @@ const page437 = {
   elr: "PRA",
   title: "Princes Risborough to Aylesbury",
   route: "lnw-south",
+  lastUpdated: "11/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD720 sequence 002.",
   location: "Princes Risborough",

@@ -6,6 +6,7 @@ const page226 = {
   sequence: "001",
   title: "Reading Lane to Navarino Road Junction",
   route: "Anglia",
+  lastUpdated: "03/09/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1180 sequence 001.",
   location: "Reading Lane to Navarino Road Junction",

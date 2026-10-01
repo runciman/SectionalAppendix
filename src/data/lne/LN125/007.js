@@ -7,6 +7,7 @@ const page248 = {
   elr: "BGK",
   title: "Hitchin, Cambridge Jn to Cambridge",
   route: "lne",
+  lastUpdated: "12/11/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN125 sequence 007.",
   location: "Cambridge",

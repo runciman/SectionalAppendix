@@ -7,6 +7,7 @@ const page1016 = {
   elr: "NLF",
   title: "Low Fell Junction to Norwood Junction",
   route: "lne",
+  lastUpdated: "10/08/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN684 sequence 001.",
   location: "Low Fell Junction to Norwood Junction",

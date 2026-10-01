@@ -7,6 +7,7 @@ const page372 = {
   elr: "ETN",
   title: "Ely to Kings Lynn",
   route: "Anglia",
+  lastUpdated: "29/01/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1580 sequence 004.",
   location: "Ely to Kings Lynn",

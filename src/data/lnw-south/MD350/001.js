@@ -7,6 +7,7 @@ const page310 = {
   elr: "BJW3",
   title: "Anglesea Sidings to Lichfield City",
   route: "lnw-south",
+  lastUpdated: "26/04/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD350 sequence 001.",
   location: "Anglesea Sidings",

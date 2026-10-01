@@ -7,6 +7,7 @@ const page168 = {
   elr: "HNR",
   title: "Hanslope South Jn to Rugby (via Northampton)",
   route: "lnw-south",
+  lastUpdated: "06/07/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD105 sequence 007.",
   location: "Hillmorton Jn / Rugby",

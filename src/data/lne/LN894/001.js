@@ -7,6 +7,7 @@ const page842 = {
   elr: "003",
   title: "Knottingley South Junction to Knottingley East Junction",
   route: "lne",
+  lastUpdated: "30/04/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN894 sequence 001.",
   location: "Knottingley South Junction to Knottingley East Junction",

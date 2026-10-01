@@ -7,6 +7,7 @@ const page363 = {
   elr: "GSP ECM7",
   title: "Shaftholme Jn. to Reston GSP",
   route: "lne",
+  lastUpdated: "12/03/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN600 sequence 028.",
   location: "Tweedmouth Crossover",

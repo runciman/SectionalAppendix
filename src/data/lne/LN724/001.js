@@ -7,6 +7,7 @@ const page755 = {
   elr: "HOS",
   title: "Holgate Junction to Skelton Junction",
   route: "lne",
+  lastUpdated: "15/06/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN724 sequence 001.",
   location: "Holgate Junction to Skelton Junction",

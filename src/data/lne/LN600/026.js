@@ -7,6 +7,7 @@ const page361 = {
   elr: "GSP ECM7",
   title: "Shaftholme Jn. to Reston GSP",
   route: "lne",
+  lastUpdated: "11/11/2017",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN600 sequence 026.",
   location: "Berwick-upon-Tweed",

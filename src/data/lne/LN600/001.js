@@ -7,6 +7,7 @@ const page336 = {
   elr: "GSP ECM2",
   title: "Shaftholme Jn. to Reston GSP",
   route: "lne",
+  lastUpdated: "10/11/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN600 sequence 001.",
   location: "Shaftholme Jn",

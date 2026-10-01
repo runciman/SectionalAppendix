@@ -7,6 +7,7 @@ const page819 = {
   elr: "BOO",
   title: "Castleford East Junction to Wheldon Road Sidings",
   route: "lne",
+  lastUpdated: "19/05/2023",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN876 sequence 001.",
   location: "Castleford East Junction to Wheldon Road Sidings",

@@ -6,6 +6,7 @@ const page978 = {
   sequence: "004",
   title: "Stockton Cut Junction to Saltburn",
   route: "lne",
+  lastUpdated: "10/05/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN632 sequence 004.",
   location: "Stockton Cut Junction to Saltburn",

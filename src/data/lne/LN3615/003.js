@@ -7,6 +7,7 @@ const page539 = {
   elr: "PMJ",
   title: "Helpston Jn to Syston South Jn",
   route: "lne",
+  lastUpdated: "20/09/2014",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3615 sequence 003.",
   location: "Tinwell / Naylors LC",

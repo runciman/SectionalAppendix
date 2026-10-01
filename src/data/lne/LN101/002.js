@@ -7,6 +7,7 @@ const page205 = {
   elr: "ECM1",
   title: "Kings Cross to Shaftholme Jn",
   route: "lne",
+  lastUpdated: "07/06/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN101 sequence 002.",
   location: "Canal Tunnels / Finsbury Park",

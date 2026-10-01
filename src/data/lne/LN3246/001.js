@@ -7,6 +7,7 @@ const page487 = {
   elr: "AJM1",
   title: "Ambergate Jn to Matlock",
   route: "lne",
+  lastUpdated: "26/10/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3246 sequence 001.",
   location: "Ambergate Jn",

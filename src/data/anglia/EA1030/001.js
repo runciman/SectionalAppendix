@@ -7,6 +7,7 @@ const page155 = {
   elr: "FGW LTN1 TAH3",
   title: "Forest Gate Junction to Woodgrange Park Junction",
   route: "Anglia",
+  lastUpdated: "30/07/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1030 sequence 001.",
   location: "Forest Gate Junction to Woodgrange Park Junction",

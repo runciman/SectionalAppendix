@@ -7,6 +7,7 @@ const page348 = {
   elr: "HSA",
   title: "Hatton Station to Stratford-upon-Avon",
   route: "lnw-south",
+  lastUpdated: "07/06/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD415 sequence 003.",
   location: "Bearley / Wilmcote",

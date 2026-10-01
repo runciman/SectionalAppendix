@@ -7,6 +7,7 @@ const page647 = {
   elr: "SWP",
   title: "Warsop Junction to Shirebrook Junction",
   route: "lne",
+  lastUpdated: "19/03/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN772 sequence 001.",
   location: "Warsop Junction to Shirebrook Junction",

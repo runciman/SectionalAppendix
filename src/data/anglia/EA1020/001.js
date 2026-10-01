@@ -7,6 +7,7 @@ const page154 = {
   elr: "CNS",
   title: "Carpenters Road South Junction to Carpenters Road North Junction",
   route: "Anglia",
+  lastUpdated: "08/05/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1020 sequence 001.",
   location: "Carpenters Road South Junction to Carpenters Road North Junction",

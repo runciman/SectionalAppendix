@@ -6,6 +6,7 @@ const page176 = {
   sequence: "008",
   title: "Camden Junction to Watford Junction (DC Lines)",
   route: "lnw-south",
+  lastUpdated: "06/07/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD120 sequence 008.",
   location: "Bushey / Watford High Street",

@@ -7,6 +7,7 @@ const page153 = {
   elr: "LTN2 NOL THG",
   title: "Trowse Junction to Norwich",
   route: "Anglia",
+  lastUpdated: "04/11/2023",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1013 sequence 002.",
   location: "Trowse Junction to Norwich",

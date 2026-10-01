@@ -7,6 +7,7 @@ const page223 = {
   elr: "BPH BDN NMH",
   title: "Brackmills to Northampton South Jn",
   route: "lnw-south",
+  lastUpdated: "08/06/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD175 sequence 001.",
   location: "Bridge Street / Brackmills to Northampton South Jn",

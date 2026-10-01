@@ -7,6 +7,7 @@ const page885 = {
   elr: "GUE2",
   title: "Dockfield Junction to Esholt Junction",
   route: "lne",
+  lastUpdated: "10/08/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN926 sequence 001.",
   location: "Dockfield Junction to Esholt Junction",

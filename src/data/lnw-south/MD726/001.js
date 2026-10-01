@@ -7,6 +7,7 @@ const page443 = {
   elr: "MCJ2",
   title: "Aylesbury to Claydon West Jn",
   route: "lnw-south",
+  lastUpdated: "20/12/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD726 sequence 001.",
   location: "Aylesbury / Aylesbury Vale Parkway",

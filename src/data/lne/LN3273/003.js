@@ -7,6 +7,7 @@ const page503 = {
   elr: "PBS1 PBS2",
   title: "Codnor Park Jn to Shirebrook Jn",
   route: "lne",
+  lastUpdated: "02/12/2015",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3273 sequence 003.",
   location: "Shirebrook",

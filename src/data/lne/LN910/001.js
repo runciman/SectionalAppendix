@@ -7,6 +7,7 @@ const page863 = {
   elr: "TCW1",
   title: "Temple Hirst Junction to Selby South Junction",
   route: "lne",
+  lastUpdated: "27/12/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN910 sequence 001.",
   location: "Temple Hirst Junction to Selby South Junction",

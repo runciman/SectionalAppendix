@@ -7,6 +7,7 @@ const page864 = {
   elr: "TJG1  TJG2",
   title: "Thorne Junction to Gilberdyke Junction",
   route: "lne",
+  lastUpdated: "16/11/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN912 sequence 001.",
   location: "Thorne Junction to Gilberdyke Junction",

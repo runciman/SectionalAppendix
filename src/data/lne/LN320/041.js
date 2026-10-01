@@ -7,6 +7,7 @@ const page448 = {
   elr: "SPC8",
   title: "St. Pancras to Tapton Jn (via Derby)",
   route: "lne",
+  lastUpdated: "17/02/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN320 sequence 041.",
   location: "Ambergate Jn / Wingfield Tunnel",

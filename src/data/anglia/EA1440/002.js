@@ -7,6 +7,7 @@ const page320 = {
   elr: "FEL TFN FED",
   title: "Oulton Broad North to Lowestoft",
   route: "Anglia",
+  lastUpdated: "03/09/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1440 sequence 002.",
   location: "Oulton Broad North to Lowestoft",

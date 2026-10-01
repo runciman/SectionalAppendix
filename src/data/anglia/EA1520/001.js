@@ -7,6 +7,7 @@ const page343 = {
   elr: "SIZ ESK",
   title: "Dereham to Wymondham",
   route: "Anglia",
+  lastUpdated: "13/06/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1520 sequence 001.",
   location: "Dereham to Wymondham",

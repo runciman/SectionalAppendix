@@ -6,6 +6,7 @@ const page471 = {
   sequence: "001",
   title: "Canal Tunnels Junction to Belle Isle Junction",
   route: "lne",
+  lastUpdated: "30/10/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3214 sequence 001.",
   location: "Canal Tunnels Jn / Belle Isle Jn",

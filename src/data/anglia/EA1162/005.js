@@ -7,6 +7,7 @@ const page219 = {
   elr: "BGK",
   title: "Ely North Junction to Cambridge",
   route: "Anglia",
+  lastUpdated: "04/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1162 sequence 005.",
   location: "Ely North Junction to Cambridge",

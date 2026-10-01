@@ -7,6 +7,7 @@ const page1024 = {
   elr: "O1",
   title: "Butterwell South Branch",
   route: "lne",
+  lastUpdated: "14/02/10",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN698 sequence 001.",
   location: "Butterwell South Branch",

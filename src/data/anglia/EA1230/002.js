@@ -7,6 +7,7 @@ const page238 = {
   elr: "SBR",
   title: "Royston to Shepreth Branch Junction",
   route: "Anglia",
+  lastUpdated: "05/01/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1230 sequence 002.",
   location: "Royston to Shepreth Branch Junction",

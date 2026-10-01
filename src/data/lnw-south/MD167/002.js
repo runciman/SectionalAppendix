@@ -7,6 +7,7 @@ const page220 = {
   elr: "WLL WAW",
   title: "Mitre Bridge Jn to Acton Wells Jn (South West lines)",
   route: "lnw-south",
+  lastUpdated: "14/12/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD167 sequence 002.",
   location: "West London Junction / South West Sidings",

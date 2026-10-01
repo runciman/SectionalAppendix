@@ -7,6 +7,7 @@ const page699 = {
   elr: "CHR",
   title: "Tapton Junction to Masborough Junction",
   route: "lne",
+  lastUpdated: "23/03/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN806 sequence 001.",
   location: "Tapton Junction to Masborough Junction",

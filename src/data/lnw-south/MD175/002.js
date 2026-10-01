@@ -6,6 +6,7 @@ const page224 = {
   sequence: "002",
   title: "Brackmills to Northampton South Jn (Withdrawn)",
   route: "lnw-south",
+  lastUpdated: "25/10/2014",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD175 sequence 002.",
   location: "Brackmills to Northampton South Jn",

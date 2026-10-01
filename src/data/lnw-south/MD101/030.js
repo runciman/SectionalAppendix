@@ -7,6 +7,7 @@ const page151 = {
   elr: "LEC1 LEC2",
   title: "Euston to Armitage Junction (Exclusive)",
   route: "lnw-south",
+  lastUpdated: "25/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD101 sequence 030.",
   location: "Rugby / Rugby Trent Valley Jn",

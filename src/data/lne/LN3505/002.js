@@ -7,6 +7,7 @@ const page514 = {
   elr: "NSS",
   title: "North Stafford Jn to Stoke Jn (Exclusive)",
   route: "lne",
+  lastUpdated: "09/11/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3505 sequence 002.",
   location: "Tutbury and Hatton",

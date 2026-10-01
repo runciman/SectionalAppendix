@@ -7,6 +7,7 @@ const page164 = {
   elr: "BRA LTN1",
   title: "Southminster Branch",
   route: "Anglia",
+  lastUpdated: "20/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1070 sequence 001.",
   location: "Southminster Branch",

@@ -7,6 +7,7 @@ const page789 = {
   elr: "NOC",
   title: "Hall Royd Junction to Colton Junction",
   route: "lne",
+  lastUpdated: "13/02/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN854 sequence 010.",
   location: "Hall Royd Junction to Colton Junction",

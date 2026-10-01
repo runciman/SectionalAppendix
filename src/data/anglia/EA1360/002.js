@@ -7,6 +7,7 @@ const page266 = {
   elr: "AES",
   title: "Acton Canal Wharf to North Woolwich",
   route: "Anglia",
+  lastUpdated: "03/02/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1360 sequence 002.",
   location: "Acton Canal Wharf to North Woolwich",

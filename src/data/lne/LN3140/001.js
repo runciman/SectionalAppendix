@@ -7,6 +7,7 @@ const page407 = {
   elr: "BBM SPC1",
   title: "Bedford St. Johns (Exclusive) to Bedford Station",
   route: "lne",
+  lastUpdated: "01/03/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3140 sequence 001.",
   location: "Bedford St Johns / Bedford",

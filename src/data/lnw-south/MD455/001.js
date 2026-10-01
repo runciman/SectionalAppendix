@@ -6,6 +6,7 @@ const page380 = {
   sequence: "001",
   title: "Kingswinford Junction South to Pensnett",
   route: "lnw-south",
+  lastUpdated: "17/03/2018",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD455 sequence 001.",
   location: "Kingswinford Junction South / Pensnett (out of use)",

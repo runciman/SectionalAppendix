@@ -7,6 +7,7 @@ const page301 = {
   elr: "NOB1 NOB2",
   title: "Staythorpe Crossing to West Holmes Jn.",
   route: "lne",
+  lastUpdated: "05/03/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN206 sequence 005.",
   location: "Doddington Road LC",

@@ -7,6 +7,7 @@ const page240 = {
   elr: "MIT BGK",
   title: "Cambridge Branch",
   route: "Anglia",
+  lastUpdated: "30/10/2023",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1270 sequence 001.",
   location: "Cambridge Branch",

@@ -7,6 +7,7 @@ const page263 = {
   elr: "BAG2",
   title: "Birmingham New Street to Ashchurch (Excl.) (via Dunhampstead)",
   route: "lnw-south",
+  lastUpdated: "25/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD306 sequence 006.",
   location: "Kings Norton West Jn / Northfield",

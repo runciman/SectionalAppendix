@@ -7,6 +7,7 @@ const page157 = {
   elr: "LEC2",
   title: "Euston to Armitage Junction (Exclusive)",
   route: "lnw-south",
+  lastUpdated: "04/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD101 sequence 036.",
   location: "Atherstone",

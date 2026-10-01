@@ -7,6 +7,7 @@ const page953 = {
   elr: "LEN2",
   title: "Northallerton High Junction to Northallerton East Junction",
   route: "lne",
+  lastUpdated: "27/12/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN626 sequence 001.",
   location: "Northallerton High Junction to Northallerton East Junction",

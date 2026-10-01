@@ -7,6 +7,7 @@ const page254 = {
   elr: "BOK1 BOK1",
   title: "Camden Road West Junction to Stratford",
   route: "Anglia",
+  lastUpdated: "20/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1320 sequence 002.",
   location: "Camden Road West Junction to Stratford",

@@ -7,6 +7,7 @@ const page434 = {
   elr: "SPC3",
   title: "St. Pancras to Tapton Jn (via Derby)",
   route: "lne",
+  lastUpdated: "09/11/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN320 sequence 027.",
   location: "Leicester",

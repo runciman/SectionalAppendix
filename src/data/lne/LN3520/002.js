@@ -7,6 +7,7 @@ const page523 = {
   elr: "SSJ1MJS1SSJ2",
   title: "Sheet Stores Jn to Stenson Jn",
   route: "lne",
+  lastUpdated: "13/05/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3520 sequence 002.",
   location: "Stenson Jn",

@@ -7,6 +7,7 @@ const page261 = {
   elr: "ELL3 BTH1",
   title: "Silwood Junction to Old Kent Road Junction",
   route: "Anglia",
+  lastUpdated: "29/12/2014",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1327 sequence 001.",
   location: "Silwood Junction to Old Kent Road Junction",

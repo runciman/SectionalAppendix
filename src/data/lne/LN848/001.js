@@ -7,6 +7,7 @@ const page775 = {
   elr: "HPC",
   title: "Hare Park Junction to Crofton West Junction",
   route: "lne",
+  lastUpdated: "09/07/2017",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN848 sequence 001.",
   location: "Hare Park Junction to Crofton West Junction",

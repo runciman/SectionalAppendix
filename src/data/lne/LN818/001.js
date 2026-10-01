@@ -7,6 +7,7 @@ const page713 = {
   elr: "HCD",
   title: "Holmes Curve",
   route: "lne",
+  lastUpdated: "19/09/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN818 sequence 001.",
   location: "Holmes Curve",

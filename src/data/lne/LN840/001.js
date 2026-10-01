@@ -7,6 +7,7 @@ const page771 = {
   elr: "TJC3",
   title: "Leeds Engine Shed Junction to Whitehall East Junction",
   route: "lne",
+  lastUpdated: "02/04/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN840 sequence 001.",
   location: "Leeds Engine Shed Junction to Whitehall East Junction",

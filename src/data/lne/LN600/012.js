@@ -7,6 +7,7 @@ const page347 = {
   elr: "GSP  ECM5",
   title: "Shaftholme Jn. to Reston GSP",
   route: "lne",
+  lastUpdated: "01/07/2023",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN600 sequence 012.",
   location: "Tursdale / Durham",

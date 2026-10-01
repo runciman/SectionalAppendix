@@ -7,6 +7,7 @@ const page175 = {
   elr: "STB CTH COC",
   title: "Colchester to Colchester Town",
   route: "Anglia",
+  lastUpdated: "20/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1100 sequence 001.",
   location: "Colchester to Colchester Town",

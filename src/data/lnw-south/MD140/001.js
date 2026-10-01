@@ -7,6 +7,7 @@ const page193 = {
   elr: "LEC1 BBM BLT2",
   title: "Bletchley to Bedford St. Johns (Inclusive)",
   route: "lnw-south",
+  lastUpdated: "30/05/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD140 sequence 001.",
   location: "Bletchley South Jn / Bletchley East Jn",

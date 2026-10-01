@@ -7,6 +7,7 @@ const page308 = {
   elr: "RRN1 RRN2",
   title: "Bescot Jn to Rugeley North Jn (Excl.)",
   route: "lnw-south",
+  lastUpdated: "18/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD345 sequence 006.",
   location: "Mid Cannock Jn",

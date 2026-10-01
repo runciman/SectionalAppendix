@@ -7,6 +7,7 @@ const page653 = {
   elr: "BLC RUB1 CEM",
   title: "Rufford No 1 Coal Stacking Site to Clipstone East Junction",
   route: "lne",
+  lastUpdated: "04/03/2017",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN790 sequence 001.",
   location: "Rufford No 1 Coal Stacking Site to Clipstone East Junction",

@@ -7,6 +7,7 @@ const page245 = {
   elr: "SBR",
   title: "Hitchin, Cambridge Jn to Cambridge (Withdrawn)",
   route: "lne",
+  lastUpdated: "16/06/2018",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN125 sequence 004.",
   location: "Hitchin / Cambridge Jn",

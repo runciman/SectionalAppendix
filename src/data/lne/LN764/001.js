@@ -7,6 +7,7 @@ const page643 = {
   elr: "UDS",
   title: "Low Ellers Curve",
   route: "lne",
+  lastUpdated: "15/10/2017",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN764 sequence 001.",
   location: "Low Ellers Curve",

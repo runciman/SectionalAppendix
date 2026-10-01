@@ -6,6 +6,7 @@ const page235 = {
   sequence: "001",
   title: "Canonbury West Jn to Finsbury Park Jn",
   route: "lne",
+  lastUpdated: "29/01/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN110 sequence 001.",
   location: "Canonbury West Jn",

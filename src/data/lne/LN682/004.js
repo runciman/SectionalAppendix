@@ -7,6 +7,7 @@ const page1010 = {
   elr: "NEC2",
   title: "King Edward Bridge South Junction to Petteril Bridge Junction",
   route: "lne",
+  lastUpdated: "03/05/2023",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN682 sequence 004.",
   location: "King Edward Bridge South Junction to Petteril Bridge Junction",

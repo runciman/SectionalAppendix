@@ -7,6 +7,7 @@ const page342 = {
   elr: "CNN",
   title: "Coventry North Jn. to Nuneaton South Jn.",
   route: "lnw-south",
+  lastUpdated: "27/12/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD410 sequence 002.",
   location: "Three Spires Jn / Coventry Arena",

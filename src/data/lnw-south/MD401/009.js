@@ -7,6 +7,7 @@ const page324 = {
   elr: "DCL",
   title: "Heyford to Bordesley Jn",
   route: "lnw-south",
+  lastUpdated: "20/06/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD401 sequence 009.",
   location: "Cummings Street Viaduct / Leamington Spa",

@@ -7,6 +7,7 @@ const page709 = {
   elr: "BLJ1",
   title: "Shepcote Lane East Junction to Broughton Lane Junction",
   route: "lne",
+  lastUpdated: "22/03/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN812 sequence 001.",
   location: "Shepcote Lane East Junction to Broughton Lane Junction",

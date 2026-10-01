@@ -7,6 +7,7 @@ const page462 = {
   elr: "TCC WHM",
   title: "Trent East Jn to Clay Cross North Jn",
   route: "lne",
+  lastUpdated: "26/01/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3207 sequence 004.",
   location: "Nottingham",

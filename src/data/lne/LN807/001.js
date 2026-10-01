@@ -7,6 +7,7 @@ const page701 = {
   elr: "MAS",
   title: "Dore South Junction to Dore West Junction",
   route: "lne",
+  lastUpdated: "24/03/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN807 sequence 001.",
   location: "Dore South Junction to Dore West Junction",

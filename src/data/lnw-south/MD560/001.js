@@ -7,6 +7,7 @@ const page403 = {
   elr: "CBR2",
   title: "Water Orton West Jn to Park Lane Jn",
   route: "lnw-south",
+  lastUpdated: "23/05/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD560 sequence 001.",
   location: "Water Orton West Jn / Park Lane Jn",

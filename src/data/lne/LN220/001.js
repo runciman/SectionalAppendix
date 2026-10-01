@@ -7,6 +7,7 @@ const page304 = {
   elr: "BCB",
   title: "Bessacarr Jn. to Black Carr Jn",
   route: "lne",
+  lastUpdated: "27/12/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN220 sequence 001.",
   location: "Bessacarr Jn / Black Carr Jn",

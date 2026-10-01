@@ -7,6 +7,7 @@ const page344 = {
   elr: "CNN",
   title: "Coventry North Jn. to Nuneaton South Jn.",
   route: "lnw-south",
+  lastUpdated: "10/02/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD410 sequence 004.",
   location: "Bedworth Terminal / Bedworth",

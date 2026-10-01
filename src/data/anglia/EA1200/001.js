@@ -7,6 +7,7 @@ const page229 = {
   elr: "CJC BGK",
   title: "Clapton Junction to Chingford",
   route: "Anglia",
+  lastUpdated: "20/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1200 sequence 001.",
   location: "Clapton Junction to Chingford",

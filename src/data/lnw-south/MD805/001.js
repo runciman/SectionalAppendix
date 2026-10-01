@@ -7,6 +7,7 @@ const page471 = {
   elr: "OXC",
   title: "Oxley, Stafford Road Jn to Bushbury Oxley Jn (Oxley Chord Lines)",
   route: "lnw-south",
+  lastUpdated: "30/05/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD805 sequence 001.",
   location: "Oxley / Bushbury Jn",

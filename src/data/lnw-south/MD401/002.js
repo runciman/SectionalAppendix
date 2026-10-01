@@ -7,6 +7,7 @@ const page317 = {
   elr: "DCL",
   title: "Heyford to Bordesley Jn",
   route: "lnw-south",
+  lastUpdated: "27/06/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD401 sequence 002.",
   location: "Fritwell / Aynho Jn",

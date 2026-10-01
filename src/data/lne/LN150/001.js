@@ -7,6 +7,7 @@ const page256 = {
   elr: "SPD5",
   title: "Flyover East Jn to Decoy North Jn",
   route: "lne",
+  lastUpdated: "25/02/2017",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN150 sequence 001.",
   location: "Bessacarr Jn",

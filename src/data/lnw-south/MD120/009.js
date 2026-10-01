@@ -6,6 +6,7 @@ const page177 = {
   sequence: "009",
   title: "Camden Junction to Watford Junction (DC Lines)",
   route: "lnw-south",
+  lastUpdated: "02/06/2018",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD120 sequence 009.",
   location: "Watford Junction",

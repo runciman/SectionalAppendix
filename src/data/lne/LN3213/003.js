@@ -7,6 +7,7 @@ const page470 = {
   elr: "MCL",
   title: "Farringdon to Kentish Town Jn",
   route: "lne",
+  lastUpdated: "02/03/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3213 sequence 003.",
   location: "Dock Jn North / Kentish Town",

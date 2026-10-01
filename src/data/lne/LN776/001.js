@@ -7,6 +7,7 @@ const page688 = {
   elr: "HLF1 HLF2",
   title: "Hall Lane Junction to Foxlow Junction",
   route: "lne",
+  lastUpdated: "01/05/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN776 sequence 001.",
   location: "Hall Lane Junction to Foxlow Junction",

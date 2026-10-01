@@ -6,6 +6,7 @@ const page877 = {
   sequence: "001",
   title: "Anlaby Road Junction to West Parade North Junction",
   route: "lne",
+  lastUpdated: "30/04/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN920 sequence 001.",
   location: "Anlaby Road Junction to West Parade North Junction",

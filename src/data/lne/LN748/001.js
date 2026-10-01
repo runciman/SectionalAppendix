@@ -7,6 +7,7 @@ const page630 = {
   elr: "WHR",
   title: "Retford Western Junction to Thrumpton West Junction",
   route: "lne",
+  lastUpdated: "19/03/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN748 sequence 001.",
   location: "Retford Western Junction to Thrumpton West Junction",

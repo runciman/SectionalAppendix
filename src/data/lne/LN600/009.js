@@ -7,6 +7,7 @@ const page344 = {
   elr: "GSP ECM5",
   title: "Shaftholme Jn. to Reston GSP",
   route: "lne",
+  lastUpdated: "09/05/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN600 sequence 009.",
   location: "East Cowton / Darlington South Jn",

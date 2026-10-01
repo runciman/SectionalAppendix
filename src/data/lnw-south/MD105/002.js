@@ -7,6 +7,7 @@ const page163 = {
   elr: "HNR",
   title: "Hanslope South Jn to Rugby (via Northampton)",
   route: "lnw-south",
+  lastUpdated: "29/11/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD105 sequence 002.",
   location: "M1 motorway / Hunsbury Hill Tunnel",

@@ -6,6 +6,7 @@ const page201 = {
   sequence: "001",
   title: "Camden Road West Junction to Camden Junction",
   route: "lnw-south",
+  lastUpdated: "22/09/2018",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD145 sequence 001.",
   location: "Camden Road West Jn / Primrose Hill Jn / Camden Jn",

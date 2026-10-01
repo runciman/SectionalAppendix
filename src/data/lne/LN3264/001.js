@@ -7,6 +7,7 @@ const page498 = {
   elr: "AML",
   title: "Attenborough Jn to Meadow Lane Jn (Attenborough Curve)",
   route: "lne",
+  lastUpdated: "26/01/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3264 sequence 001.",
   location: "Attenborough Jn / Meadow Lane Jn",

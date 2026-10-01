@@ -7,6 +7,7 @@ const page279 = {
   elr: "SAS",
   title: "Stechford South Jn to Aston South Jn",
   route: "lnw-south",
+  lastUpdated: "18/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD315 sequence 002.",
   location: "Grand Junction / Water Orton connection",

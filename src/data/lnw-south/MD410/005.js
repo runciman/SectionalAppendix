@@ -7,6 +7,7 @@ const page345 = {
   elr: "CNN",
   title: "Coventry North Jn. to Nuneaton South Jn.",
   route: "lnw-south",
+  lastUpdated: "30/05/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD410 sequence 005.",
   location: "Bermuda Park / Nuneaton South Jn",

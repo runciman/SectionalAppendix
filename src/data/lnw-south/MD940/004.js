@@ -7,6 +7,7 @@ const page484 = {
   elr: "WAH",
   title: "Worcester Shrub Hill to Shelwick Jn",
   route: "lnw-south",
+  lastUpdated: "12/10/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD940 sequence 004.",
   location: "Worcester Shrub Hill",

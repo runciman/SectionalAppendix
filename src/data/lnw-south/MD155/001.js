@@ -7,6 +7,7 @@ const page203 = {
   elr: "KGC",
   title: "Kensal Green Jn. to Harlesden Jn. (City Lines)",
   route: "lnw-south",
+  lastUpdated: "27/01/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD155 sequence 001.",
   location: "Kensal Green Jn",

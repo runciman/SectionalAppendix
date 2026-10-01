@@ -7,6 +7,7 @@ const page992 = {
   elr: "NWE",
   title: "Norton-on-Tees West Junction to Norton-on-Tees East Junction",
   route: "lne",
+  lastUpdated: "10/02/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN648 sequence 001.",
   location: "Norton-on-Tees West Junction to Norton-on-Tees East Junction",

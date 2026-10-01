@@ -7,6 +7,7 @@ const page554 = {
   elr: "NOB1",
   title: "Nottingham East Junction to Newark Flat Crossing (exclusive)",
   route: "lne",
+  lastUpdated: "07/11/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3625 sequence 006.",
   location: "Nottingham East Junction to Newark Flat Crossing",

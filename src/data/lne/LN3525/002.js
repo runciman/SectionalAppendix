@@ -7,6 +7,7 @@ const page525 = {
   elr: "KSL",
   title: "Knighton Jn to Leicester Jn",
   route: "lne",
+  lastUpdated: "28/10/2017",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3525 sequence 002.",
   location: "Kirby Muxloe / Cliff Hill",

@@ -7,6 +7,7 @@ const page218 = {
   elr: "LLG",
   title: "North Pole Junction to Wembley",
   route: "lnw-south",
+  lastUpdated: "11/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD166 sequence 009.",
   location: "Wembley Central Junction",

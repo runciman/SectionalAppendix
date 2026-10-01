@@ -7,6 +7,7 @@ const page196 = {
   elr: "BGK",
   title: "Bethnal Green East Junction to Bishops Stortford",
   route: "Anglia",
+  lastUpdated: "30/04/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1160 sequence 011.",
   location: "Bethnal Green East Junction to Bishops Stortford",

@@ -7,6 +7,7 @@ const page236 = {
   elr: "RBS1",
   title: "Rugby to Penkridge (Exclusive) (via Birmingham)",
   route: "lnw-south",
+  lastUpdated: "07/06/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD301 sequence 007.",
   location: "Adderley Park",

@@ -7,6 +7,7 @@ const page778 = {
   elr: "LBE1 LBE2 LBE3 LBE4",
   title: "Holbeck Junction to Bradford Interchange",
   route: "lne",
+  lastUpdated: "19/09/2020",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN852 sequence 002.",
   location: "Holbeck Junction to Bradford Interchange",

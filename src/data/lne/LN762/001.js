@@ -7,6 +7,7 @@ const page642 = {
   elr: "YDS",
   title: "St Catherines Junction to Decoy South Junction (St Catherines Curve)",
   route: "lne",
+  lastUpdated: "15/10/2017",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN762 sequence 001.",
   location: "St Catherines Junction to Decoy South Junction",

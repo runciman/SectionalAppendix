@@ -7,6 +7,7 @@ const page1023 = {
   elr: "HJM",
   title: "Hepscott Junction to Morpeth Junction",
   route: "lne",
+  lastUpdated: "19/03/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN696 sequence 001.",
   location: "Hepscott Junction to Morpeth Junction",

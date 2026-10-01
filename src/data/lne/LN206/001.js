@@ -7,6 +7,7 @@ const page297 = {
   elr: "NOB1",
   title: "Newark Flat Crossing (Incl) to West Holmes Jn",
   route: "lne",
+  lastUpdated: "17/11/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN206 sequence 001.",
   location: "Newark Flat Crossing / Collingham",

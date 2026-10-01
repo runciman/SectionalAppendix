@@ -7,6 +7,7 @@ const page469 = {
   elr: "WSJ2",
   title: "Wolverhampton North Jn to Abbey Foregate (Exclusive)",
   route: "lnw-south",
+  lastUpdated: "19/07/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD801 sequence 007.",
   location: "Allscott",

@@ -7,6 +7,7 @@ const page994 = {
   elr: "POC1",
   title: "Billingham Junction to Port Clarence Junction",
   route: "lne",
+  lastUpdated: "10/02/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN652 sequence 001.",
   location: "Billingham Junction to Port Clarence Junction",

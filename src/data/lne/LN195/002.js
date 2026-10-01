@@ -7,6 +7,7 @@ const page295 = {
   elr: "NOG1",
   title: "Grantham, Nottingham Branch Jn to Allington West Jn (Inclusive)",
   route: "lne",
+  lastUpdated: "06/11/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN195 sequence 002.",
   location: "Allington East / West Jn",

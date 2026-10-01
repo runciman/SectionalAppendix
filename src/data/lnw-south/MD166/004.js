@@ -7,6 +7,7 @@ const page213 = {
   elr: "LLG WFL",
   title: "North Pole Junction to Wembley",
   route: "lnw-south",
+  lastUpdated: "09/03/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD166 sequence 004.",
   location: "Willesden Euroterminal",

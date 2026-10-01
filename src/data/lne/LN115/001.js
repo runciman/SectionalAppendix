@@ -7,6 +7,7 @@ const page236 = {
   elr: "CRF1",
   title: "Copenhagen Jn. to Camden Road Central Jn.",
   route: "lne",
+  lastUpdated: "26/04/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN115 sequence 001.",
   location: "Copenhagen Jn / Camden Road",

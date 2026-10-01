@@ -7,6 +7,7 @@ const page487 = {
   elr: "BLW WAH",
   title: "Worcester Tunnel Jn to Henwick",
   route: "lnw-south",
+  lastUpdated: "22/06/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD950 sequence 001.",
   location: "Worcester Tunnel Jn / Henwick",

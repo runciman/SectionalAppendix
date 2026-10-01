@@ -7,6 +7,7 @@ const page841 = {
   elr: "PEF",
   title: "Pontefract East Junction to Ferrybridge South Junction",
   route: "lne",
+  lastUpdated: "30/04/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN892 sequence 001.",
   location: "Pontefract East Junction to Ferrybridge South Junction",

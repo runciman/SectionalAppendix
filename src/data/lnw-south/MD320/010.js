@@ -7,6 +7,7 @@ const page289 = {
   elr: "PBJ",
   title: "Proof House Jn to Bushbury Jn (via Bescot)",
   route: "lnw-south",
+  lastUpdated: "04/04/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD320 sequence 010.",
   location: "Darlaston / Darlaston Jn",

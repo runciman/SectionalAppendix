@@ -7,6 +7,7 @@ const page342 = {
   elr: "GSP ECM5",
   title: "Shaftholme Jn. to Reston GSP",
   route: "lne",
+  lastUpdated: "14/03/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN600 sequence 007.",
   location: "Dalton / Thirsk",

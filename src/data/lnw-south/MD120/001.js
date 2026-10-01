@@ -7,6 +7,7 @@ const page169 = {
   elr: "CWJ",
   title: "Camden Junction to Watford Junction (DC Lines)",
   route: "lnw-south",
+  lastUpdated: "20/04/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD120 sequence 001.",
   location: "South Hampstead / Kilburn High Road",

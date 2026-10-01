@@ -7,6 +7,7 @@ const page263 = {
   elr: "LLS DWW2 CHM",
   title: "Stratford Lea Junction to High Meads Junction",
   route: "Anglia",
+  lastUpdated: "29/03/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1340 sequence 001.",
   location: "Stratford Lea Junction to High Meads Junction",

@@ -7,6 +7,7 @@ const page353 = {
   elr: "SOB2",
   title: "Chippenham Junction to Ely Dock Junction",
   route: "Anglia",
+  lastUpdated: "27/12/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1540 sequence 003.",
   location: "Chippenham Junction to Ely Dock Junction",

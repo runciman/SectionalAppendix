@@ -6,6 +6,7 @@ const page480 = {
   sequence: "001",
   title: "Pershore (Incl.) to Norton Jn",
   route: "lnw-south",
+  lastUpdated: "27/01/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD910 sequence 001.",
   location: "Pershore / Norton Jn",

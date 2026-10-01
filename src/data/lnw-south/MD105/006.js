@@ -7,6 +7,7 @@ const page167 = {
   elr: "HNR",
   title: "Hanslope South Jn to Rugby (via Northampton)",
   route: "lnw-south",
+  lastUpdated: "08/03/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD105 sequence 006.",
   location: "Daventry International Rail Freight Terminal",

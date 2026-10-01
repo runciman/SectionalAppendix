@@ -7,6 +7,7 @@ const page233 = {
   elr: "RBS1",
   title: "Rugby to Penkridge (Exclusive) (via Birmingham)",
   route: "lnw-south",
+  lastUpdated: "11/07/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD301 sequence 004.",
   location: "Beechwood Tunnel",

@@ -7,6 +7,7 @@ const page510 = {
   elr: "DBP1",
   title: "Derby London Road Jn to Tamworth (Exclusive)",
   route: "lne",
+  lastUpdated: "27/02/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3501 sequence 005.",
   location: "Tamworth",

@@ -6,6 +6,7 @@ const page501 = {
   sequence: "001",
   title: "Codnor Park Jn to Shirebrook Jn",
   route: "lne",
+  lastUpdated: "08/02/2020",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3273 sequence 001.",
   location: "Codnor Park Jn",

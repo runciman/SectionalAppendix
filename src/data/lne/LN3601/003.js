@@ -7,6 +7,7 @@ const page534 = {
   elr: "GSM1",
   title: "Kettering North Jn to Manton Jn",
   route: "lne",
+  lastUpdated: "26/02/2018",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3601 sequence 003.",
   location: "Manton Jn",

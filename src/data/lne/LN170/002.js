@@ -7,6 +7,7 @@ const page261 = {
   elr: "WEB",
   title: "Werrington Jn. to Flyover East Jn. Via Lincoln",
   route: "lne",
+  lastUpdated: "05/03/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN170 sequence 002.",
   location: "Werrington Jn",

@@ -6,6 +6,7 @@ const page264 = {
   sequence: "001",
   title: "Channelsea North Junction to Temple Mills",
   route: "Anglia",
+  lastUpdated: "20/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1350 sequence 001.",
   location: "Channelsea North Junction to Temple Mills",

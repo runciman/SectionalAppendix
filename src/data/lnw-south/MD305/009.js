@@ -6,6 +6,7 @@ const page257 = {
   sequence: "009",
   title: "Birmingham New Street to Blackwell",
   route: "lnw-south",
+  lastUpdated: "21/10/2017",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD305 sequence 009.",
   location: "Blackwell",

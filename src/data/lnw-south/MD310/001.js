@@ -7,6 +7,7 @@ const page275 = {
   elr: "BEA",
   title: "Barnt Green Jn to Redditch",
   route: "lnw-south",
+  lastUpdated: "04/04/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD310 sequence 001.",
   location: "Barnt Green",

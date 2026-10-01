@@ -7,6 +7,7 @@ const page860 = {
   elr: "HSC",
   title: "Hambleton South Junction to Hambleton West Junction",
   route: "lne",
+  lastUpdated: "27/12/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN904 sequence 001.",
   location: "Hambleton South Junction to Hambleton West Junction",

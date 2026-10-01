@@ -6,6 +6,7 @@ const page208 = {
   sequence: "002",
   title: "North Pole Junction to Acton Wells Junction",
   route: "lnw-south",
+  lastUpdated: "05/11/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD165 sequence 002.",
   location: "Acton Wells Junction",

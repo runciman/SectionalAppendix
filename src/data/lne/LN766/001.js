@@ -7,6 +7,7 @@ const page644 = {
   elr: "HJB",
   title: "Bentley Junction to Hexthorpe Junction (Doncaster Avoiding Line)",
   route: "lne",
+  lastUpdated: "14/08/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN766 sequence 001.",
   location: "Bentley Junction to Hexthorpe Junction",

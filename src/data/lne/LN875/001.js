@@ -6,6 +6,7 @@ const page818 = {
   sequence: "001",
   title: "Castleford West Junction to Pontefract West Junction",
   route: "lne",
+  lastUpdated: "12/10/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN875 sequence 001.",
   location: "Castleford West Junction to Pontefract West Junction",

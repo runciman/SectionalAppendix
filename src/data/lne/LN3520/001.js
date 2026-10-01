@@ -7,6 +7,7 @@ const page522 = {
   elr: "J1",
   title: "Sheet Stores Jn to Stenson Jn",
   route: "lne",
+  lastUpdated: "29/06/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3520 sequence 001.",
   location: "Sheet Stores Jn / Castle Donington Jn",

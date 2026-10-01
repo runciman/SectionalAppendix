@@ -7,6 +7,7 @@ const page207 = {
   elr: "ECM1",
   title: "Kings Cross to Shaftholme Jn",
   route: "lne",
+  lastUpdated: "26/04/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN101 sequence 004.",
   location: "Finsbury Park",

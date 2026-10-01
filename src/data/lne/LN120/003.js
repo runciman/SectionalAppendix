@@ -7,6 +7,7 @@ const page239 = {
   elr: "HDB",
   title: "Wood Green North Jn to Langley Jn via Hertford",
   route: "lne",
+  lastUpdated: "21/02/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN120 sequence 003.",
   location: "Hertford North / Watton-at-Stone",

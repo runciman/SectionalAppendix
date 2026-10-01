@@ -7,6 +7,7 @@ const page998 = {
   elr: "BNW",
   title: "Boldon East Junction to Boldon North Junction",
   route: "lne",
+  lastUpdated: "27/12/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN664 sequence 001.",
   location: "Boldon East Junction to Boldon North Junction",

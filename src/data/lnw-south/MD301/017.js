@@ -7,6 +7,7 @@ const page246 = {
   elr: "RBS2",
   title: "Rugby to Penkridge (Exclusive) (via Birmingham)",
   route: "lnw-south",
+  lastUpdated: "12/07/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD301 sequence 017.",
   location: "Wolverhampton",

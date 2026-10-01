@@ -7,6 +7,7 @@ const page148 = {
   elr: "LTN1 CCH",
   title: "Ipswich to Trowse Junction",
   route: "Anglia",
+  lastUpdated: "08/01/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1012 sequence 004.",
   location: "Ipswich to Trowse Junction",

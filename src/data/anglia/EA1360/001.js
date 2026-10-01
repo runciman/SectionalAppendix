@@ -7,6 +7,7 @@ const page265 = {
   elr: "CAW BDH NJN",
   title: "Acton Canal Wharf to North Woolwich",
   route: "Anglia",
+  lastUpdated: "20/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1360 sequence 001.",
   location: "Acton Canal Wharf to North Woolwich",

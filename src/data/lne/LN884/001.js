@@ -7,6 +7,7 @@ const page835 = {
   elr: "OAJ",
   title: "Oakenshaw South Junction to Oakenshaw Junction",
   route: "lne",
+  lastUpdated: "30/04/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN884 sequence 001.",
   location: "Oakenshaw South Junction to Oakenshaw Junction",

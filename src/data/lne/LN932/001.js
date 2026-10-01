@@ -7,6 +7,7 @@ const page888 = {
   elr: "BIB",
   title: "Shipley South Junction to Shipley West Junction",
   route: "lne",
+  lastUpdated: "27/12/2018",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN932 sequence 001.",
   location: "Shipley South Junction to Shipley West Junction",

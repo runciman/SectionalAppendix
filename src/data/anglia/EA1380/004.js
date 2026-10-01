@@ -7,6 +7,7 @@ const page275 = {
   elr: "FSS1 FSS2",
   title: "Fenchurch Street to Shoeburyness",
   route: "Anglia",
+  lastUpdated: "02/07/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1380 sequence 004.",
   location: "Fenchurch Street to Shoeburyness",

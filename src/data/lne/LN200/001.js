@@ -7,6 +7,7 @@ const page601 = {
   elr: "NOB3",
   title: "Wrawby Junction to Pelham Street Junction",
   route: "lne",
+  lastUpdated: "13/03/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN200 sequence 001.",
   location: "Wrawby Junction to Pelham Street Junction",

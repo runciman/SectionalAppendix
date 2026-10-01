@@ -7,6 +7,7 @@ const page244 = {
   elr: "SSLTAH1TAH2 HDT",
   title: "Gospel Oak to Barking",
   route: "Anglia",
+  lastUpdated: "27/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1300 sequence 001.",
   location: "Gospel Oak to Barking",

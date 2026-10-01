@@ -7,6 +7,7 @@ const page991 = {
   elr: "STF",
   title: "Norton-on-Tees South Junction to Ferryhill South Junction",
   route: "lne",
+  lastUpdated: "23/05/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN646 sequence 001.",
   location: "Norton-on-Tees South Junction to Ferryhill South Junction",

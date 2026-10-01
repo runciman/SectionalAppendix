@@ -7,6 +7,7 @@ const page232 = {
   elr: "HEB",
   title: "Broxbourne Junction to Hertford East",
   route: "Anglia",
+  lastUpdated: "30/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1210 sequence 001.",
   location: "Broxbourne Junction to Hertford East",

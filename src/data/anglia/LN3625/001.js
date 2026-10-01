@@ -6,6 +6,7 @@ const page380 = {
   sequence: "001",
   title: "Nottingham East Junction to Newark Flat Crossing",
   route: "Anglia",
+  lastUpdated: "15/10/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3625 sequence 001.",
   location: "Nottingham East Junction to Newark Flat Crossing",

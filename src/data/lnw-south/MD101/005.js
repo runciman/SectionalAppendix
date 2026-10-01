@@ -7,6 +7,7 @@ const page126 = {
   elr: "LEC1 WTS",
   title: "Euston to Armitage Junction (Exclusive)",
   route: "lnw-south",
+  lastUpdated: "17/01/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD101 sequence 005.",
   location: "Willesden North Jn / Harlesden Jn",

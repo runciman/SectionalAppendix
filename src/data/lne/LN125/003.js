@@ -7,6 +7,7 @@ const page244 = {
   elr: "SBR",
   title: "Hitchin, Cambridge Jn to Royston (Route Boundary)",
   route: "lne",
+  lastUpdated: "26/08/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN125 sequence 003.",
   location: "Royston",

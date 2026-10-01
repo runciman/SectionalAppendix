@@ -7,6 +7,7 @@ const page479 = {
   elr: "WGP",
   title: "Wigston South Jn to Glen Parva Jn",
   route: "lne",
+  lastUpdated: "09/11/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3231 sequence 001.",
   location: "Wigston South Jn / Glen Parva Jn",

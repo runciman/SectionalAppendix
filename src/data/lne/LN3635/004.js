@@ -7,6 +7,7 @@ const page558 = {
   elr: "NOG1 NOG2",
   title: "Allington West Junction (exclusive) to Netherfield Junction",
   route: "lne",
+  lastUpdated: "06/01/2020",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3635 sequence 004.",
   location: "Allington West Junction to Netherfield Junction",

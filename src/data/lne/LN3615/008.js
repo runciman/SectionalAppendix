@@ -7,6 +7,7 @@ const page544 = {
   elr: "GSM2",
   title: "Helpston Jn to Syston South Jn",
   route: "lne",
+  lastUpdated: "09/11/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3615 sequence 008.",
   location: "Melton Mowbray",

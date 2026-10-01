@@ -7,6 +7,7 @@ const page300 = {
   elr: "ALC2",
   title: "Aston North Junction to Alrewas (Exclusive)",
   route: "lnw-south",
+  lastUpdated: "18/07/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD340 sequence 004.",
   location: "Butlers Lane / Blake Street Jn / Blake Street / Shenstone",

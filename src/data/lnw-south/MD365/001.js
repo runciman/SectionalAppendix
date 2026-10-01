@@ -7,6 +7,7 @@ const page313 = {
   elr: "PJW",
   title: "Portobello Jn to Wolverhampton Crane Street Jn",
   route: "lnw-south",
+  lastUpdated: "16/11/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD365 sequence 001.",
   location: "Portobello Jn / Wolverhampton Crane Street Jn",

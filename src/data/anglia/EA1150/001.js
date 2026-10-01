@@ -6,6 +6,7 @@ const page185 = {
   sequence: "001",
   title: "Channelsea South Junction to Stratford Central Junction West",
   route: "Anglia",
+  lastUpdated: "09/09/2023",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1150 sequence 001.",
   location: "Channelsea South Junction to Stratford Central Junction West",

@@ -7,6 +7,7 @@ const page384 = {
   elr: "DBP1",
   title: "Tamworth (Inclusive) to Birmingham, Proof House Junction",
   route: "lnw-south",
+  lastUpdated: "02/11/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD501 sequence 001.",
   location: "Tamworth",

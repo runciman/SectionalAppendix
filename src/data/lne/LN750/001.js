@@ -7,6 +7,7 @@ const page631 = {
   elr: "MAC3",
   title: "Woodburn Junction to Deepcar",
   route: "lne",
+  lastUpdated: "22/03/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN750 sequence 001.",
   location: "Woodburn Junction to Deepcar",

@@ -7,6 +7,7 @@ const page707 = {
   elr: "BTJ",
   title: "Shepcote Lane West Junction to Tinsley Yard East End",
   route: "lne",
+  lastUpdated: "22/03/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN809 sequence 001.",
   location: "Shepcote Lane West Junction to Tinsley Yard East End",

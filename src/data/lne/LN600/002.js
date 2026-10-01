@@ -7,6 +7,7 @@ const page337 = {
   elr: "GSP ECM3 ECM4",
   title: "Shaftholme Jn. to Reston GSP",
   route: "lne",
+  lastUpdated: "24/03/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN600 sequence 002.",
   location: "APCO zone commencement",

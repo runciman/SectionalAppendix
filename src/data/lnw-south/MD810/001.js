@@ -7,6 +7,7 @@ const page472 = {
   elr: "MJI1",
   title: "Madeley Jn to Ironbridge National Power Station",
   route: "lnw-south",
+  lastUpdated: "13/07/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD810 sequence 001.",
   location: "Madeley Jn",

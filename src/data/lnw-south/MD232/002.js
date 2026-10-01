@@ -7,6 +7,7 @@ const page228 = {
   elr: "PVS NMA",
   title: "Hinckley (Exclusive) to Abbey Jn",
   route: "lnw-south",
+  lastUpdated: "30/05/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD232 sequence 002.",
   location: "Nuneaton / Rugby connection",

@@ -7,6 +7,7 @@ const page949 = {
   elr: "KEB",
   title: "King Edward Bridge East Junction to King Edward Bridge North Junction (East Curve)",
   route: "lne",
+  lastUpdated: "27/12/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN620 sequence 001.",
   location: "King Edward Bridge East Junction to King Edward Bridge North Junction",

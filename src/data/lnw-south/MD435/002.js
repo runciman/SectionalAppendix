@@ -7,6 +7,7 @@ const page364 = {
   elr: "DCL",
   title: "Small Heath South Jn to Stourbridge North Jn",
   route: "lnw-south",
+  lastUpdated: "07/02/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD435 sequence 002.",
   location: "Bordesley / Corporation Yard Viaducts",

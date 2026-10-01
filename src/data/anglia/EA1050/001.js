@@ -7,6 +7,7 @@ const page157 = {
   elr: "LTN1",
   title: "Shenfield Junction to Southend Victoria",
   route: "Anglia",
+  lastUpdated: "20/07/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1050 sequence 001.",
   location: "Shenfield Junction to Southend Victoria",

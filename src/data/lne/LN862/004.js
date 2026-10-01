@@ -7,6 +7,7 @@ const page808 = {
   elr: "PEH",
   title: "Barnsley Station Junction to Huddersfield",
   route: "lne",
+  lastUpdated: "12/03/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN862 sequence 004.",
   location: "Barnsley Station Junction to Huddersfield",

@@ -7,6 +7,7 @@ const page708 = {
   elr: "SEL",
   title: "Shepcote Lane West Junction to Tinsley South Junction",
   route: "lne",
+  lastUpdated: "22/03/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN810 sequence 001.",
   location: "Shepcote Lane West Junction to Tinsley South Junction",

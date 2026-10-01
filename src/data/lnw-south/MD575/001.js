@@ -7,6 +7,7 @@ const page413 = {
   elr: "SAG",
   title: "St Andrew’s Junction to Grand Junction",
   route: "lnw-south",
+  lastUpdated: "30/05/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD575 sequence 001.",
   location: "St Andrew’s Jn / Grand Jn",

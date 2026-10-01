@@ -7,6 +7,7 @@ const page311 = {
   elr: "LTV",
   title: "Lichfield TV Jn to Lichfield Trent Valley (Chord Line)",
   route: "lnw-south",
+  lastUpdated: "22/06/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD355 sequence 001.",
   location: "Lichfield Trent Valley",

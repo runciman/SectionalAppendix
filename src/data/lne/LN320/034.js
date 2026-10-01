@@ -7,6 +7,7 @@ const page441 = {
   elr: "SPC5",
   title: "St. Pancras to Tapton Jn (via Derby)",
   route: "lne",
+  lastUpdated: "16/05/2020",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN320 sequence 034.",
   location: "East Midlands Parkway",

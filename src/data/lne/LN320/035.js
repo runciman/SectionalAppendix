@@ -7,6 +7,7 @@ const page442 = {
   elr: "SPC5 SPC6",
   title: "St. Pancras to Tapton Jn (via Derby)",
   route: "lne",
+  lastUpdated: "26/01/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN320 sequence 035.",
   location: "Ratcliffe Jn / Trent South Jn",

@@ -7,6 +7,7 @@ const page986 = {
   elr: "DSN2",
   title: "Beam Mill Junction to Slag Road (Lackenby)",
   route: "lne",
+  lastUpdated: "19/03/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN636 sequence 001.",
   location: "Beam Mill Junction to Slag Road",

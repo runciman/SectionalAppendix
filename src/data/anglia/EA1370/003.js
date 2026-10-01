@@ -7,6 +7,7 @@ const page269 = {
   elr: "H2 SSL TSE",
   title: "Barking to Tilbury",
   route: "Anglia",
+  lastUpdated: "03/09/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1370 sequence 003.",
   location: "Barking to Tilbury",

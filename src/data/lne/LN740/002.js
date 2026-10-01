@@ -7,6 +7,7 @@ const page623 = {
   elr: "PYE2 PYE1 BRI2",
   title: "Grimsby Marsh West Junction to Humber Road Junction",
   route: "lne",
+  lastUpdated: "25/02/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN740 sequence 002.",
   location: "Grimsby Marsh West Junction to Humber Road Junction",

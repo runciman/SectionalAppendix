@@ -6,6 +6,7 @@ const page475 = {
   sequence: "002",
   title: "Abbotswood Jn to Stoke Works Jn Via Worcester Shrub Hill",
   route: "lnw-south",
+  lastUpdated: "25/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD900 sequence 002.",
   location: "Worcester Shrub Hill",

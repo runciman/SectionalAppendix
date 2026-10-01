@@ -7,6 +7,7 @@ const page971 = {
   elr: "PUL",
   title: "Pelaw North Junction to Pelaw Metro Junction",
   route: "lne",
+  lastUpdated: "27/12/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN630 sequence 001.",
   location: "Pelaw North Junction to Pelaw Metro Junction",

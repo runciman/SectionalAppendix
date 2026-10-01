@@ -7,6 +7,7 @@ const page1020 = {
   elr: "BNE EJM",
   title: "Benton North Junction to Morpeth North Junction via Bedlington",
   route: "lne",
+  lastUpdated: "28/03/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN694 sequence 004.",
   location: "Benton North Junction to Morpeth North Junction via Bedlington",

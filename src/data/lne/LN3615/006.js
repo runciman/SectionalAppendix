@@ -7,6 +7,7 @@ const page542 = {
   elr: "GSM2",
   title: "Helpston Jn to Syston South Jn",
   route: "lne",
+  lastUpdated: "08/05/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3615 sequence 006.",
   location: "Langham Jn / Teigh LC",

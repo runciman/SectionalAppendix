@@ -7,6 +7,7 @@ const page997 = {
   elr: "HNB",
   title: "Ryhope Grange Junction to Hendon",
   route: "lne",
+  lastUpdated: "10/02/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN662 sequence 001.",
   location: "Ryhope Grange Junction to Hendon",

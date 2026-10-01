@@ -7,6 +7,7 @@ const page296 = {
   elr: "SSP",
   title: "Perry Barr West Jn to Perry Barr South Jn",
   route: "lnw-south",
+  lastUpdated: "02/11/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD335 sequence 001.",
   location: "Perry Barr West Jn / Perry Barr South Jn / Perry Barr",

@@ -6,6 +6,7 @@ const page202 = {
   sequence: "001",
   title: "Kensal Green Jn. to Willesden Suburban Jn.",
   route: "lnw-south",
+  lastUpdated: "19/09/2015",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD150 sequence 001.",
   location: "Kensal Green Jn",

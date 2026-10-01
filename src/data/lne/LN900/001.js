@@ -7,6 +7,7 @@ const page856 = {
   elr: "HUE",
   title: "Neville Hill West Junction to Hunslet East",
   route: "lne",
+  lastUpdated: "27/12/2018",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN900 sequence 001.",
   location: "Neville Hill West Junction to Hunslet East",

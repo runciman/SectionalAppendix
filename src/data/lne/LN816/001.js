@@ -7,6 +7,7 @@ const page712 = {
   elr: "BEW",
   title: "Beighton Junction to Woodhouse Junction",
   route: "lne",
+  lastUpdated: "23/03/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN816 sequence 001.",
   location: "Beighton Junction to Woodhouse Junction",

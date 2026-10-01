@@ -7,6 +7,7 @@ const page465 = {
   elr: "TCC",
   title: "Trent East Jn to Clay Cross North Jn",
   route: "lne",
+  lastUpdated: "17/08/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3207 sequence 007.",
   location: "Alfreton",

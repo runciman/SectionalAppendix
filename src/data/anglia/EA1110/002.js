@@ -7,6 +7,7 @@ const page177 = {
   elr: "TWN",
   title: "Thorpe-Le-Soken Junction to Walton-On-Naze",
   route: "Anglia",
+  lastUpdated: "06/06/2015",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1110 sequence 002.",
   location: "Thorpe-Le-Soken Junction to Walton-On-Naze",

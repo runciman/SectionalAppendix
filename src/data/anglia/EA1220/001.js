@@ -7,6 +7,7 @@ const page235 = {
   elr: "TLA BGK TEN",
   title: "Stansted South and North Junctions to Stansted Airport",
   route: "Anglia",
+  lastUpdated: "27/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1220 sequence 001.",
   location: "Stansted South and North Junctions to Stansted Airport",

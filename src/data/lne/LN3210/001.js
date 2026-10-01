@@ -7,6 +7,7 @@ const page467 = {
   elr: "JRT",
   title: "Junction Road Jn to Carlton Road Jn (Tottenham Lines)",
   route: "lne",
+  lastUpdated: "02/03/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3210 sequence 001.",
   location: "Junction Road Jn / Carlton Road Jn",

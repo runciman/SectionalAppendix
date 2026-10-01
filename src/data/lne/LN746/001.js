@@ -7,6 +7,7 @@ const page629 = {
   elr: "TYB1",
   title: "Cottam Power Station Branch",
   route: "lne",
+  lastUpdated: "30/05/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN746 sequence 001.",
   location: "Cottam Power Station Branch",

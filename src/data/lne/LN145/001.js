@@ -7,6 +7,7 @@ const page253 = {
   elr: "WDU",
   title: "Marholm Jn to Glinton Jn.",
   route: "lne",
+  lastUpdated: "28/08/2023",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN145 sequence 001.",
   location: "Marholm Jn / Glinton Jn",

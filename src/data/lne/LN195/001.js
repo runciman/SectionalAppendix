@@ -7,6 +7,7 @@ const page294 = {
   elr: "NOG1",
   title: "Grantham, Nottingham Branch Jn to Allington West Jn (Inclusive)",
   route: "lne",
+  lastUpdated: "21/03/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN195 sequence 001.",
   location: "Nottingham Branch Jn / Gonerby Tunnel",

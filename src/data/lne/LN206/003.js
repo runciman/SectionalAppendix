@@ -7,6 +7,7 @@ const page299 = {
   elr: "NOB1",
   title: "Newark Flat Crossing (Incl) to West Holmes Jn",
   route: "lne",
+  lastUpdated: "03/09/2023",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN206 sequence 003.",
   location: "Swinderby / Hykeham",

@@ -7,6 +7,7 @@ const page887 = {
   elr: "SKS1 SKS2",
   title: "Skipton Middle Junction to Rylstone",
   route: "lne",
+  lastUpdated: "31/03/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN930 sequence 001.",
   location: "Skipton Middle Junction to Rylstone",

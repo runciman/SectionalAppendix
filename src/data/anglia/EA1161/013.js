@@ -7,6 +7,7 @@ const page212 = {
   elr: "BGK",
   title: "Bishops Stortford to Ely North Junction",
   route: "Anglia",
+  lastUpdated: "31/01/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1161 sequence 013.",
   location: "Bishops Stortford to Ely North Junction",

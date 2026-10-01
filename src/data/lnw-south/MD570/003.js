@@ -7,6 +7,7 @@ const page410 = {
   elr: "SKN",
   title: "Saltley (Landor Street Jn) to Kings Norton Jn (Camp Hill Lines)",
   route: "lnw-south",
+  lastUpdated: "07/04/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD570 sequence 003.",
   location: "Moseley Village",

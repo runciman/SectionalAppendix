@@ -6,6 +6,7 @@ const page704 = {
   sequence: "003",
   title: "Dore Station Junction to Earles Sidings (exclusive)",
   route: "lne",
+  lastUpdated: "04/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN808 sequence 003.",
   location: "Dore Station Junction to Earles Sidings",

@@ -7,6 +7,7 @@ const page286 = {
   elr: "PBJ",
   title: "Proof House Jn to Bushbury Jn (via Bescot)",
   route: "lnw-south",
+  lastUpdated: "20/06/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD320 sequence 007.",
   location: "Tame Valley",

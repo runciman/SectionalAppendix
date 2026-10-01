@@ -7,6 +7,7 @@ const page463 = {
   elr: "TCC",
   title: "Trent East Jn to Clay Cross North Jn",
   route: "lne",
+  lastUpdated: "09/11/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3207 sequence 005.",
   location: "Ilkeston",

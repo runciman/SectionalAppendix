@@ -7,6 +7,7 @@ const page625 = {
   elr: "KIL2KIL1 BRI2",
   title: "Killingholme to Brocklesby Junction",
   route: "lne",
+  lastUpdated: "01/11/2017",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN742 sequence 001.",
   location: "Killingholme to Brocklesby Junction",

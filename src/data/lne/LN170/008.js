@@ -7,6 +7,7 @@ const page267 = {
   elr: "SPD2 SPD3",
   title: "Werrington Jn. to Flyover East Jn. Via Lincoln",
   route: "lne",
+  lastUpdated: "24/02/2018",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN170 sequence 008.",
   location: "Ruskington / Metheringham",

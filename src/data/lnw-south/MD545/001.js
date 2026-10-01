@@ -7,6 +7,7 @@ const page395 = {
   elr: "KJW",
   title: "Kingsbury Junction to Whitacre West Junction",
   route: "lnw-south",
+  lastUpdated: "15/03/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD545 sequence 001.",
   location: "Kingsbury Jn / Whitacre West Jn",

@@ -7,6 +7,7 @@ const page438 = {
   elr: "SPC5",
   title: "St. Pancras to Tapton Jn (via Derby)",
   route: "lne",
+  lastUpdated: "06/01/2020",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN320 sequence 031.",
   location: "Sileby",

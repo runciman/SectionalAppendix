@@ -7,6 +7,7 @@ const page267 = {
   elr: "GOJTAH1BOK2JRT",
   title: "Barking to Tilbury",
   route: "Anglia",
+  lastUpdated: "30/03/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1370 sequence 001.",
   location: "Barking to Tilbury",

@@ -7,6 +7,7 @@ const page861 = {
   elr: "HNC",
   title: "Hambleton East Junction to Hambleton North Junction",
   route: "lne",
+  lastUpdated: "27/12/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN906 sequence 001.",
   location: "Hambleton East Junction to Hambleton North Junction",

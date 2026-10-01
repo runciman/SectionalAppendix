@@ -6,6 +6,7 @@ const page1027 = {
   sequence: "001",
   title: "Bates Branch",
   route: "lne",
+  lastUpdated: "10/11/2015",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN704 sequence 001.",
   location: "Bates Branch",

@@ -7,6 +7,7 @@ const page820 = {
   elr: "SHG",
   title: "Sherburn Junction to Gascoigne Wood",
   route: "lne",
+  lastUpdated: "21/11/2020",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN878 sequence 001.",
   location: "Sherburn Junction to Gascoigne Wood",

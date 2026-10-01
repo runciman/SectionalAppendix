@@ -7,6 +7,7 @@ const page355 = {
   elr: "EWCBGK ETN EMP",
   title: "Ely North Junction to Ely West Junction",
   route: "Anglia",
+  lastUpdated: "09/08/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1550 sequence 001.",
   location: "Ely North Junction to Ely West Junction",

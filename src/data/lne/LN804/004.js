@@ -6,6 +6,7 @@ const page693 = {
   sequence: "004",
   title: "Tapton Junction to Gascoigne Wood via Sheffield",
   route: "lne",
+  lastUpdated: "31/08/2023",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN804 sequence 004.",
   location: "Tapton Junction to Gascoigne Wood via Sheffield",

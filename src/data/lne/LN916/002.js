@@ -7,6 +7,7 @@ const page875 = {
   elr: "HJS",
   title: "Hessle Road to Saltend",
   route: "lne",
+  lastUpdated: "30/04/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN916 sequence 002.",
   location: "Hessle Road to Saltend",

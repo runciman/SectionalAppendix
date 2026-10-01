@@ -7,6 +7,7 @@ const page419 = {
   elr: "SPC1",
   title: "St. Pancras to Tapton Jn (via Derby)",
   route: "lne",
+  lastUpdated: "10/08/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN320 sequence 012.",
   location: "Radlett Depot Jn / SRFI",

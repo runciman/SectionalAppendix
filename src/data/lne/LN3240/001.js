@@ -7,6 +7,7 @@ const page486 = {
   elr: "LED",
   title: "Little Eaton Jn to Denby",
   route: "lne",
+  lastUpdated: "02/05/15",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3240 sequence 001.",
   location: "Little Eaton Jn / Denby",

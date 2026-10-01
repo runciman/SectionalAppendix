@@ -7,6 +7,7 @@ const page817 = {
   elr: "MEW1 MEW2",
   title: "Methley Junction to Whitwood Junction",
   route: "lne",
+  lastUpdated: "23/04/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN874 sequence 001.",
   location: "Methley Junction to Whitwood Junction",

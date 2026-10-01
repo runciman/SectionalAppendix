@@ -7,6 +7,7 @@ const page242 = {
   elr: "SDC BGK",
   title: "Lea Bridge to Temple Mills",
   route: "Anglia",
+  lastUpdated: "30/07/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1280 sequence 002.",
   location: "Lea Bridge to Temple Mills",

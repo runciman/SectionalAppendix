@@ -7,6 +7,7 @@ const page258 = {
   elr: "LCR FWR1",
   title: "Loversall Carr Jn. to Flyover West Jn.",
   route: "lne",
+  lastUpdated: "06/04/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN160 sequence 001.",
   location: "Loversall Carr Jn / Flyover West Jn",

@@ -7,6 +7,7 @@ const page652 = {
   elr: "TYC",
   title: "Thoresby Colliery Branch",
   route: "lne",
+  lastUpdated: "26/01/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN788 sequence 001.",
   location: "Thoresby Colliery Branch",

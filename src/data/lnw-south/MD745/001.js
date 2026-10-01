@@ -7,6 +7,7 @@ const page462 = {
   elr: "BSG",
   title: "Bicester South Jn to Gavray Jn",
   route: "lnw-south",
+  lastUpdated: "27/06/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD745 sequence 001.",
   location: "Bicester South Jn / Gavray Jn",

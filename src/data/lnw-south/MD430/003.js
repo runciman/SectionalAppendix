@@ -6,6 +6,7 @@ const page358 = {
   sequence: "003",
   title: "Droitwich Spa to Stourbridge North Jn",
   route: "lnw-south",
+  lastUpdated: "27/09/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD430 sequence 003.",
   location: "Hartlebury",

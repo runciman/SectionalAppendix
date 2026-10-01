@@ -7,6 +7,7 @@ const page482 = {
   elr: "SEN",
   title: "Syston East Jn to Syston North Jn",
   route: "lne",
+  lastUpdated: "20/02/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3234 sequence 001.",
   location: "Syston East Jn / Syston North Jn",

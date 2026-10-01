@@ -7,6 +7,7 @@ const page366 = {
   elr: "WIG",
   title: "Peterborough to March",
   route: "Anglia",
+  lastUpdated: "02/02/2013",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1570 sequence 002.",
   location: "Peterborough to March",

@@ -7,6 +7,7 @@ const page862 = {
   elr: "SEC",
   title: "Selby West Junction to Canal Junction",
   route: "lne",
+  lastUpdated: "10/05/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN908 sequence 001.",
   location: "Selby West Junction to Canal Junction",

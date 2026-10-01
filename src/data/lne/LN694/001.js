@@ -6,6 +6,7 @@ const page1017 = {
   sequence: "001",
   title: "Benton North Junction to Morpeth North Junction via Bedlington",
   route: "lne",
+  lastUpdated: "17/03/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN694 sequence 001.",
   location: "Benton North Junction to Morpeth North Junction via Bedlington",

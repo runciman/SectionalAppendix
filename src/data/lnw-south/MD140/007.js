@@ -7,6 +7,7 @@ const page199 = {
   elr: "BBM",
   title: "Bletchley to Bedford St. Johns (Inclusive)",
   route: "lnw-south",
+  lastUpdated: "30/05/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD140 sequence 007.",
   location: "Kempston Hardwick / Bedford St Johns",

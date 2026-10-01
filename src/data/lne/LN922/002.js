@@ -7,6 +7,7 @@ const page879 = {
   elr: "TJC3",
   title: "Whitehall West Junction to Hellifield South Junction",
   route: "lne",
+  lastUpdated: "10/08/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN922 sequence 002.",
   location: "Whitehall West Junction to Hellifield South Junction",

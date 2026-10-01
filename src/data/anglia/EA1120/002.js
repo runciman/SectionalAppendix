@@ -7,6 +7,7 @@ const page179 = {
   elr: "MAH",
   title: "Manningtree to Harwich Town",
   route: "Anglia",
+  lastUpdated: "22/11/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1120 sequence 002.",
   location: "Manningtree to Harwich Town",

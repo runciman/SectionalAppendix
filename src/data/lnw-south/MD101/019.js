@@ -7,6 +7,7 @@ const page140 = {
   elr: "LEC1",
   title: "Euston to Armitage Junction (Exclusive)",
   route: "lnw-south",
+  lastUpdated: "13/07/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD101 sequence 019.",
   location: "Linslade Tunnels / Soulbury Road HABDs",

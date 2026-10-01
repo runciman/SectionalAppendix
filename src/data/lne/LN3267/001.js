@@ -6,6 +6,7 @@ const page499 = {
   sequence: "001",
   title: "Stapleford & Sandiacre to Stanton Gate (Stanton & Staveley Works) (Withdrawn)",
   route: "lne",
+  lastUpdated: "17/10/09",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3267 sequence 001.",
   location: "Stapleford & Sandiacre / Stanton Gate",

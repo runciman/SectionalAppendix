@@ -7,6 +7,7 @@ const page303 = {
   elr: "THN TLL",
   title: "Thames Haven Junction to Thames Haven",
   route: "Anglia",
+  lastUpdated: "30/07/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1420 sequence 001.",
   location: "Thames Haven Junction to Thames Haven",

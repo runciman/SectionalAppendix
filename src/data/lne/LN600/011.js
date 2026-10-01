@@ -7,6 +7,7 @@ const page346 = {
   elr: "GSP ECM5",
   title: "Shaftholme Jn. to Reston GSP",
   route: "lne",
+  lastUpdated: "15/08/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN600 sequence 011.",
   location: "Aycliffe / Ferryhill",

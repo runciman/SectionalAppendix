@@ -7,6 +7,7 @@ const page550 = {
   elr: "NOB1",
   title: "Nottingham East Jn to Newark Flat Crossing (Excl)",
   route: "lne",
+  lastUpdated: "26/10/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3625 sequence 002.",
   location: "Burton Joyce / Lowdham",

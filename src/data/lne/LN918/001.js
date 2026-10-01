@@ -6,6 +6,7 @@ const page876 = {
   sequence: "001",
   title: "Springbank North Junction to Walton Street Junction",
   route: "lne",
+  lastUpdated: "30/04/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN918 sequence 001.",
   location: "Springbank North Junction to Walton Street Junction",

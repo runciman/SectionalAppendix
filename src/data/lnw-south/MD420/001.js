@@ -7,6 +7,7 @@ const page350 = {
   elr: "HHW",
   title: "Hatton North Junction to Hatton West Junction",
   route: "lnw-south",
+  lastUpdated: "11/01/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD420 sequence 001.",
   location: "Hatton North Jn / Hatton West Jn",

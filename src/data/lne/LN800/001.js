@@ -6,6 +6,7 @@ const page657 = {
   sequence: "001",
   title: "Clipstone South Junction to Clipstone West Junction",
   route: "lne",
+  lastUpdated: "04/03/2017",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN800 sequence 001.",
   location: "Clipstone South Junction to Clipstone West Junction",

@@ -7,6 +7,7 @@ const page228 = {
   elr: "HDT",
   title: "Bury Street Junction to Cheshunt Junction",
   route: "Anglia",
+  lastUpdated: "02/02/2013",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1190 sequence 002.",
   location: "Bury Street Junction to Cheshunt Junction",

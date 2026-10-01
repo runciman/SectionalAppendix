@@ -7,6 +7,7 @@ const page802 = {
   elr: "MDL1",
   title: "Diggle Junction to Copley Hill East Junction",
   route: "lne",
+  lastUpdated: "29/09/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN860 sequence 006.",
   location: "Diggle Junction to Copley Hill East Junction",

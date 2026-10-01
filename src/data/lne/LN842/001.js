@@ -7,6 +7,7 @@ const page772 = {
   elr: "CJS SKA",
   title: "Thorpe Marsh Junction to Adwick Junction",
   route: "lne",
+  lastUpdated: "05/06/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN842 sequence 001.",
   location: "Thorpe Marsh Junction to Adwick Junction",

@@ -7,6 +7,7 @@ const page330 = {
   elr: "WHC1 NOL",
   title: "Whitlingham Junction to Cromer",
   route: "Anglia",
+  lastUpdated: "27/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1480 sequence 001.",
   location: "Whitlingham Junction to Cromer",

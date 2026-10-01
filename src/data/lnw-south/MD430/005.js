@@ -6,6 +6,7 @@ const page360 = {
   sequence: "005",
   title: "Droitwich Spa to Stourbridge North Jn",
   route: "lnw-south",
+  lastUpdated: "10/01/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD430 sequence 005.",
   location: "Hagley",

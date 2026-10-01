@@ -7,6 +7,7 @@ const page297 = {
   elr: "ALC1",
   title: "Aston North Junction to Alrewas (Exclusive)",
   route: "lnw-south",
+  lastUpdated: "18/07/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD340 sequence 001.",
   location: "Aston North Jn / Gravelly Hill Jn / Gravelly Hill",

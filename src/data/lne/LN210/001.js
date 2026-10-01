@@ -7,6 +7,7 @@ const page302 = {
   elr: "NSE",
   title: "Newark Crossing Curve",
   route: "lne",
+  lastUpdated: "07/11/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN210 sequence 001.",
   location: "Newark Crossing South Jn",

@@ -7,6 +7,7 @@ const page300 = {
   elr: "UPG FSS2",
   title: "Upminster to Grays",
   route: "Anglia",
+  lastUpdated: "12/12/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1410 sequence 001.",
   location: "Upminster to Grays",

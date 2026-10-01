@@ -7,6 +7,7 @@ const page262 = {
   elr: "BAG1 BAG2 SKN",
   title: "Birmingham New Street to Ashchurch (Excl.) (via Dunhampstead)",
   route: "lnw-south",
+  lastUpdated: "25/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD306 sequence 005.",
   location: "Camp Hill / Moseley connection",

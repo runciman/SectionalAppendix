@@ -7,6 +7,7 @@ const page264 = {
   elr: "SPD1",
   title: "Werrington Jn. to Flyover East Jn. Via Lincoln",
   route: "lne",
+  lastUpdated: "13/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN170 sequence 005.",
   location: "Burley Fen / Quaddling",

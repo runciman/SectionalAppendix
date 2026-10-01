@@ -7,6 +7,7 @@ const page455 = {
   elr: "TSN1",
   title: "Trent South Junction to Nottingham East Junction",
   route: "lne",
+  lastUpdated: "08/02/2020",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3204 sequence 003.",
   location: "Nottingham",

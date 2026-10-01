@@ -7,6 +7,7 @@ const page1005 = {
   elr: "DAE1 DAE2",
   title: "Darlington North Junction to Eastgate",
   route: "lne",
+  lastUpdated: "07/10/2023",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN678 sequence 002.",
   location: "Darlington North Junction to Eastgate",

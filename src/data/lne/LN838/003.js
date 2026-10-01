@@ -6,6 +6,7 @@ const page767 = {
   sequence: "003",
   title: "Leeds Armley Junction to York Skelton Junction via Harrogate",
   route: "lne",
+  lastUpdated: "22/01/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN838 sequence 003.",
   location: "Leeds Armley Junction to York Skelton Junction via Harrogate",

@@ -7,6 +7,7 @@ const page521 = {
   elr: "MJS1",
   title: "Melbourne Jn to Sinfin",
   route: "lne",
+  lastUpdated: "01/03/2020",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3515 sequence 001.",
   location: "Melbourne Jn / Sinfin",

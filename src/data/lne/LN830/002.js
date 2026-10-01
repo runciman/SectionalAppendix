@@ -7,6 +7,7 @@ const page721 = {
   elr: "WME",
   title: "Aldwarke Junction to Woodburn Junction",
   route: "lne",
+  lastUpdated: "25/04/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN830 sequence 002.",
   location: "Aldwarke Junction to Woodburn Junction",

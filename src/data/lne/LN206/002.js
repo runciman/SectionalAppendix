@@ -7,6 +7,7 @@ const page298 = {
   elr: "NOB1",
   title: "Newark Flat Crossing (Incl) to West Holmes Jn",
   route: "lne",
+  lastUpdated: "16/03/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN206 sequence 002.",
   location: "Cross Lane / Meardsall Lane",

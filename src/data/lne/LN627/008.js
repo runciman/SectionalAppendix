@@ -7,6 +7,7 @@ const page961 = {
   elr: "LEN3",
   title: "Northallerton Longlands Junction to Newcastle East Junction via the Coast",
   route: "lne",
+  lastUpdated: "27/12/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN627 sequence 008.",
   location: "Northallerton Longlands Junction to Newcastle East Junction via the Coast",

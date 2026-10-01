@@ -7,6 +7,7 @@ const page858 = {
   elr: "CFM",
   title: "Micklefield Junction to Church Fenton North Junction",
   route: "lne",
+  lastUpdated: "26/01/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN902 sequence 002.",
   location: "Micklefield Junction to Church Fenton North Junction",

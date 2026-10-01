@@ -7,6 +7,7 @@ const page1002 = {
   elr: "HLK",
   title: "High Level Bridge Junction to Greensfield Junction (West Curve)",
   route: "lne",
+  lastUpdated: "27/12/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN674 sequence 001.",
   location: "High Level Bridge Junction to Greensfield Junction",

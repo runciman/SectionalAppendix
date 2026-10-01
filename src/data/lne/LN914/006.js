@@ -7,6 +7,7 @@ const page871 = {
   elr: "HBS",
   title: "Hull Paragon to Seamer West Junction",
   route: "lne",
+  lastUpdated: "20/03/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN914 sequence 006.",
   location: "Hull Paragon to Seamer West Junction",

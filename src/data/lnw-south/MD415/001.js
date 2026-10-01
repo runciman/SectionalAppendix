@@ -7,6 +7,7 @@ const page346 = {
   elr: "DCL HSA",
   title: "Hatton Station to Stratford-upon-Avon",
   route: "lnw-south",
+  lastUpdated: "29/03/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD415 sequence 001.",
   location: "Hatton",

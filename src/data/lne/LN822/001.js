@@ -7,6 +7,7 @@ const page714 = {
   elr: "FRC",
   title: "Frickley Colliery Branch",
   route: "lne",
+  lastUpdated: "31/05/11",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN822 sequence 001.",
   location: "Frickley Colliery Branch",

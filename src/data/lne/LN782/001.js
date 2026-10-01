@@ -7,6 +7,7 @@ const page648 = {
   elr: "SHW",
   title: "Woodend Junction to Shireoaks West Junction",
   route: "lne",
+  lastUpdated: "19/03/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN782 sequence 001.",
   location: "Woodend Junction to Shireoaks West Junction",

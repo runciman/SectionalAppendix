@@ -7,6 +7,7 @@ const page304 = {
   elr: "BJW1 BJW2",
   title: "Bescot Jn to Rugeley North Jn (Excl.)",
   route: "lnw-south",
+  lastUpdated: "22/11/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD345 sequence 002.",
   location: "Bescot Curve Jn",

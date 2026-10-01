@@ -7,6 +7,7 @@ const page477 = {
   elr: "BDH",
   title: "Brent Curve Jn to Dudding Hill Jn",
   route: "lne",
+  lastUpdated: "02/03/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3222 sequence 001.",
   location: "Brent Curve Jn / Dudding Hill Jn",

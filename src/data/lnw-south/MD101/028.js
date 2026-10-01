@@ -7,6 +7,7 @@ const page149 = {
   elr: "LEC1",
   title: "Euston to Armitage Junction (Exclusive)",
   route: "lnw-south",
+  lastUpdated: "06/07/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD101 sequence 028.",
   location: "Long Buckby Wharf / Kilsby Tunnel",

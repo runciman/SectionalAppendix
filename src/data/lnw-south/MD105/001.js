@@ -7,6 +7,7 @@ const page162 = {
   elr: "HNR",
   title: "Hanslope South Jn to Rugby (via Northampton)",
   route: "lnw-south",
+  lastUpdated: "29/11/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD105 sequence 001.",
   location: "Hanslope South/North Jn / Roade HABD / Courteenhall Jn / Northampton Gateway Freight Terminal",

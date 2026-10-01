@@ -7,6 +7,7 @@ const page180 = {
   elr: "WSA",
   title: "Watford Junction to St Albans Abbey",
   route: "lnw-south",
+  lastUpdated: "12/12/2023",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD130 sequence 003.",
   location: "St Albans Abbey",

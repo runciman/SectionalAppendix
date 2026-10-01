@@ -7,6 +7,7 @@ const page292 = {
   elr: "SSP",
   title: "Soho South Jn to Perry Barr North Jn (Soho Lines)",
   route: "lnw-south",
+  lastUpdated: "18/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD325 sequence 001.",
   location: "Soho South Jn / Soho East Jn / Snow Hill lines",

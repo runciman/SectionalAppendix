@@ -7,6 +7,7 @@ const page974 = {
   elr: "DSN1",
   title: "Darlington South Junction to Eaglescliffe South Junction",
   route: "lne",
+  lastUpdated: "27/12/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN631 sequence 002.",
   location: "Darlington South Junction to Eaglescliffe South Junction",

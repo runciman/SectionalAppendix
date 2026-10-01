@@ -6,6 +6,7 @@ const page397 = {
   sequence: "002",
   title: "Nuneaton North Jn to Water Orton East Jn",
   route: "lnw-south",
+  lastUpdated: "18/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD555 sequence 002.",
   location: "Arley / Daw Mill Jns",

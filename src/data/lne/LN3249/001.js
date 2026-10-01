@@ -7,6 +7,7 @@ const page491 = {
   elr: "LSN",
   title: "Lenton South Jn to Lenton North Jn",
   route: "lne",
+  lastUpdated: "08/02/2020",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3249 sequence 001.",
   location: "Lenton South Jn / Lenton North Jn",

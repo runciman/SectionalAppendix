@@ -6,6 +6,7 @@ const page172 = {
   sequence: "004",
   title: "Colchester to Clacton-on-Sea",
   route: "Anglia",
+  lastUpdated: "08/06/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1090 sequence 004.",
   location: "Colchester to Clacton-on-Sea",

@@ -7,6 +7,7 @@ const page307 = {
   elr: "ESK",
   title: "East Suffolk Junction to Oulton Broad North",
   route: "Anglia",
+  lastUpdated: "28/09/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1430 sequence 004.",
   location: "East Suffolk Junction to Oulton Broad North",

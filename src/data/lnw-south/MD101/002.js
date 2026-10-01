@@ -6,6 +6,7 @@ const page123 = {
   sequence: "002",
   title: "Euston to Armitage Junction (Exclusive)",
   route: "lnw-south",
+  lastUpdated: "17/01/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD101 sequence 002.",
   location: "Euston / Park Street Tunnels",

@@ -7,6 +7,7 @@ const page260 = {
   elr: "ELL5",
   title: "Highbury and Islington to Dalston West Curve",
   route: "Anglia",
+  lastUpdated: "25/06/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1325 sequence 001.",
   location: "Highbury and Islington to Dalston West Curve",

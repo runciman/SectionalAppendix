@@ -7,6 +7,7 @@ const page634 = {
   elr: "DOW",
   title: "Wrawby Junction to Marshgate Junction",
   route: "lne",
+  lastUpdated: "12/12/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN752 sequence 003.",
   location: "Wrawby Junction to Marshgate Junction",

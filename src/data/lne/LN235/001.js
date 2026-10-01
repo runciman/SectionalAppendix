@@ -7,6 +7,7 @@ const page305 = {
   elr: "FWR1",
   title: "Rossington Colliery Branch",
   route: "lne",
+  lastUpdated: "06/04/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN235 sequence 001.",
   location: "Rossington Colliery Branch",

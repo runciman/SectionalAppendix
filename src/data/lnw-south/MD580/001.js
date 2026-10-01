@@ -7,6 +7,7 @@ const page414 = {
   elr: "LEL",
   title: "Lifford East Junction to Lifford West Junction",
   route: "lnw-south",
+  lastUpdated: "10/01/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD580 sequence 001.",
   location: "Lifford East Jn / Lifford West Jn",

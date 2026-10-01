@@ -7,6 +7,7 @@ const page719 = {
   elr: "WME",
   title: "Mexborough Junction to Aldwarke Junction via Kilnhurst",
   route: "lne",
+  lastUpdated: "31/08/2023",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN828 sequence 001.",
   location: "Mexborough Junction to Aldwarke Junction via Kilnhurst",

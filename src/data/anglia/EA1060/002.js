@@ -7,6 +7,7 @@ const page162 = {
   elr: "WIS",
   title: "Wickford Junction to Southminster",
   route: "Anglia",
+  lastUpdated: "09/03/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1060 sequence 002.",
   location: "Wickford Junction to Southminster",

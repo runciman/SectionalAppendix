@@ -7,6 +7,7 @@ const page1001 = {
   elr: "FEP",
   title: "Wardley to Pelaw Junction",
   route: "lne",
+  lastUpdated: "27/12/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN672 sequence 001.",
   location: "Wardley to Pelaw Junction",

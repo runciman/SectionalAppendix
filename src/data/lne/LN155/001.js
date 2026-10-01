@@ -7,6 +7,7 @@ const page257 = {
   elr: "LCJ",
   title: "Flyover East Jn to Loversall Jn",
   route: "lne",
+  lastUpdated: "04/12/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN155 sequence 001.",
   location: "Up Loversall Curve",

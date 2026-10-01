@@ -7,6 +7,7 @@ const page886 = {
   elr: "SBF",
   title: "Shipley East Junction to Bradford Forster Square",
   route: "lne",
+  lastUpdated: "18/05/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN928 sequence 001.",
   location: "Shipley East Junction to Bradford Forster Square",

@@ -7,6 +7,7 @@ const page379 = {
   elr: "BFC LTN1 ESK",
   title: "Bacon Factory Curve",
   route: "Anglia",
+  lastUpdated: "20/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1744 sequence 001.",
   location: "Bacon Factory Curve",

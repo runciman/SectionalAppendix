@@ -7,6 +7,7 @@ const page480 = {
   elr: "WNS",
   title: "Wigston North Jn to Hinckley",
   route: "lne",
+  lastUpdated: "09/11/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3232 sequence 001.",
   location: "Wigston North Jn",

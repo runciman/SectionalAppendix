@@ -7,6 +7,7 @@ const page243 = {
   elr: "SBR",
   title: "Hitchin, Cambridge Jn to Royston (Route Boundary)",
   route: "lne",
+  lastUpdated: "21/02/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN125 sequence 002.",
   location: "Ashwell & Morden",

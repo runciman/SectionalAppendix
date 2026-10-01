@@ -7,6 +7,7 @@ const page389 = {
   elr: "DBP3",
   title: "Tamworth (Inclusive) to Birmingham, Proof House Junction",
   route: "lnw-south",
+  lastUpdated: "23/05/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD501 sequence 006.",
   location: "Washwood Heath East Jn",

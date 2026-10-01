@@ -7,6 +7,7 @@ const page322 = {
   elr: "FED FEL",
   title: "Ipswich to Felixstowe",
   route: "Anglia",
+  lastUpdated: "03/09/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1460 sequence 001.",
   location: "Ipswich to Felixstowe",

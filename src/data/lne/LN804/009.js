@@ -7,6 +7,7 @@ const page698 = {
   elr: "SMJ2 SMJ3 MGW",
   title: "Tapton Junction to Gascoigne Wood via Sheffield",
   route: "lne",
+  lastUpdated: "01/05/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN804 sequence 009.",
   location: "Tapton Junction to Gascoigne Wood via Sheffield",

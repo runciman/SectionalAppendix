@@ -7,6 +7,7 @@ const page627 = {
   elr: "BAR",
   title: "Ulceby North Junction to Barton on Humber",
   route: "lne",
+  lastUpdated: "30/12/2015",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN744 sequence 001.",
   location: "Ulceby North Junction to Barton on Humber",

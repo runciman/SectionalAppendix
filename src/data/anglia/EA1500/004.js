@@ -7,6 +7,7 @@ const page340 = {
   elr: "NAY RBY",
   title: "Brundall Junction to Yarmouth",
   route: "Anglia",
+  lastUpdated: "16/02/2020",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1500 sequence 004.",
   location: "Brundall Junction to Yarmouth",

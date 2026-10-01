@@ -7,6 +7,7 @@ const page492 = {
   elr: "MJT1 MJT2",
   title: "Mansfield Jn to Trowell South Jn",
   route: "lne",
+  lastUpdated: "08/02/2020",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3252 sequence 001.",
   location: "Mansfield Jn / Trowell South Jn",

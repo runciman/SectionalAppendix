@@ -7,6 +7,7 @@ const page184 = {
   elr: "IPD",
   title: "Ipswich Docks Branch",
   route: "Anglia",
+  lastUpdated: "02/02/2013",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for EA1140 sequence 001.",
   location: "Ipswich Docks Branch",

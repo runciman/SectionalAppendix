@@ -7,6 +7,7 @@ const page494 = {
   elr: "RAC",
   title: "Radford Jn to Kirkby Lane End Jn",
   route: "lne",
+  lastUpdated: "02/11/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN3255 sequence 002.",
   location: "Hucknall",

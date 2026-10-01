@@ -7,6 +7,7 @@ const page248 = {
   elr: "RBS3",
   title: "Rugby to Penkridge (Exclusive) (via Birmingham)",
   route: "lnw-south",
+  lastUpdated: "18/10/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD301 sequence 019.",
   location: "Four Ashes / Penkridge",

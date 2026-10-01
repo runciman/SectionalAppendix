@@ -7,6 +7,7 @@ const page655 = {
   elr: "RUC",
   title: "Rufford Colliery Branch",
   route: "lne",
+  lastUpdated: "04/03/2017",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN796 sequence 001.",
   location: "Rufford Colliery Branch",

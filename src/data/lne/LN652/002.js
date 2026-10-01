@@ -7,6 +7,7 @@ const page995 = {
   elr: "SES",
   title: "Billingham-on-Tees to Seal Sands Storage (withdrawn)",
   route: "lne",
+  lastUpdated: "20/08/2016",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN652 sequence 002.",
   location: "Billingham-on-Tees to Seal Sands Storage",

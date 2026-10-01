@@ -6,6 +6,7 @@ const page204 = {
   sequence: "002",
   title: "Kensal Green Jn. to Harlesden Jn. (City Lines)",
   route: "lnw-south",
+  lastUpdated: "14/09/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD155 sequence 002.",
   location: "Tamper Siding / Harlesden",

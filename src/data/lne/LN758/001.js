@@ -7,6 +7,7 @@ const page638 = {
   elr: "BKS",
   title: "Brancliffe East Junction to Kirk Sandall Junction",
   route: "lne",
+  lastUpdated: "25/05/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN758 sequence 001.",
   location: "Brancliffe East Junction to Kirk Sandall Junction",

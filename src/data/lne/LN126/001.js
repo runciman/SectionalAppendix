@@ -7,6 +7,7 @@ const page249 = {
   elr: "DCF",
   title: "Hitchin North Jn to Hitchin East Jn",
   route: "lne",
+  lastUpdated: "29/08/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN126 sequence 001.",
   location: "Hitchin North Jn / Hitchin East Jn",

@@ -7,6 +7,7 @@ const page828 = {
   elr: "YMS",
   title: "York to Scarborough",
   route: "lne",
+  lastUpdated: "12/11/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for LN880 sequence 008.",
   location: "York to Scarborough",

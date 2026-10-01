@@ -7,6 +7,7 @@ const page283 = {
   elr: "PBJ",
   title: "Proof House Jn to Bushbury Jn (via Bescot)",
   route: "lnw-south",
+  lastUpdated: "16/11/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for MD320 sequence 004.",
   location: "Aston South Jn",
