@@ -12,10 +12,10 @@ const page261 = {
   location: "Silwood Junction to Old Kent Road Junction",
   mileage: "Mileage is shown on the source diagram",
   locations: ["Silwood Junction", "Old Kent Road Junction"],
-  connections: [],
+  connections: ["To Surrey Quays / Canal Junction — EA1325, sequence 004", "To South Bermondsey / Queen's Road Peckham — SO680, sequence 001"],
   signalling: ["Signalling details are shown on the source diagram"],
   speeds: ["Running-line speed restrictions are shown on the source diagram"],
-  transcription: "EA1327 sequence 001, Silwood Junction to Old Kent Road Junction, physical PDF page 261. Silwood Junction to Old Kent Road Junction. Mileages, signalling and speed restrictions are shown in the source table."
+  transcription: "EA1327 sequence 001, Silwood Junction to Old Kent Road Junction, physical PDF page 261. Connections to Surrey Quays and Canal Junction (EA1325 sequence 004) and South Bermondsey / Queen's Road Peckham (SO680 sequence 001). Mileages, signalling and speed restrictions are shown in the source table."
 };
 
 export default page261;
