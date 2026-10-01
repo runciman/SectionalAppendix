@@ -161,6 +161,37 @@ directions and continuations, including labels such as `To/from`, `To`, `From`,
 in `connections` using its exact LOR and zero-padded sequence where legible;
 for example, `To/from Rugby — MD101, sequence 026`.
 
+### First-pass connection checklist
+
+Treat connection capture as a source-image task, not an OCR extraction task.
+For every retained table, inspect the complete diagram (including arrowheads,
+footnotes and the margins of the running-lines column) before writing its
+record. Transcribe every actual map-entry reference at that point; do not leave
+an empty `connections` array to be filled in later.
+
+- Preserve the exact code and every sequence digit from the source. Do not
+  silently normalise a questionable reference from OCR: common failures include
+  `I` for `M`/`E`, `O` for `0`, dropped leading zeroes, and merged four-digit
+  LORs such as `SC1150` or `GW9001`.
+- Record links to another live region and to an as-yet-unindexed region just as
+  faithfully as same-region links. An unavailable destination may remain plain
+  text, but its LOR and sequence must still be searchable structured data.
+- Capture repeated arrows only once per target, but retain distinct targets
+  even when they share a junction or location name.
+- Do not turn operational references into page connections. Parenthesised
+  lockout/protection identifiers, equipment labels, general-instruction
+  citations, Table A legend citations, mileages and signalling codes are not
+  connections unless the source explicitly presents them as a map-entry
+  continuation or `To`/`From` destination.
+- Where a reference is partly obscured, compare the counterpart diagram and
+  the destination record before deciding; if still uncertain, record the
+  physical PDF page for review rather than inventing a sequence.
+
+Before committing, visually cross-check the final `connections` array against
+the crop a second time. The audit may expose candidates, but it must never add
+or rewrite a reference automatically: only source-confirmed references may be
+written to data modules.
+
 Before committing a batch, run a connection-reference audit over the source
 crops/OCR. It must identify LOR-and-sequence patterns and flag any record whose
 source contains a candidate reference missing from `connections`. OCR is a
