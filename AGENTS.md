@@ -222,6 +222,49 @@ batches. Treat the repair as incomplete until every record is either updated
 with all verified references or explicitly recorded as having no visible
 inter-page connection.
 
+## Scotland route-clearance workflow
+
+The Scotland source PDF contains Route Clearance tables D1-D5. These are
+supplementary route data, not replacements for the indexed map-table records.
+Keep the generated source dataset in `src/route-clearance/scotland.js` and
+regenerate it with:
+
+```bash
+python3 scripts/build_scotland_route_clearance.py \
+  "/path/to/Scotland Sectional Appendix September 2026.pdf"
+```
+
+Use the source table meanings exactly as printed. D1-D4 list cleared rolling
+stock and TOPS classes; D4's `RA` is Route Availability and must never be
+represented as a TOPS class. D5A is the Loading Gauge table: publish every
+W6-W12 result, including `N` as invalid, and retain `R`/`S` notes and the
+`Y *` W6A lower-gauge qualification. D5B is a separate locomotive-gauge
+source for Route Availability, but do not display a standalone Locomotive
+gauge section when its relevant RA value is already shown in the page facts.
+
+D5A has a two-line header (`Gauge` followed by W6-W12); skip the second
+header row as data and use W6-W12 as the actual column names. Before accepting
+a regeneration, verify every operational D5A row has all eight columns. Rows
+explicitly marked `Line Out of Use` are not clearance results and must not be
+given inferred valid/invalid states.
+
+Clearance applies to route spans, not just endpoint diagrams. For every D5
+route row, resolve its first and last named boundaries against the ordered SEQ
+records in the same LOR, then attach the row's information inclusively to all
+SEQ pages between those two matches. Match against a record's `location`,
+structured `locations`, and `connections`; normalise `Junction`/`Jn` and
+strip parenthetical route qualifiers such as `(via Beattock)` while retaining
+parenthetical place names such as `(Lesmahagow Jn)` as alternatives. If either
+boundary cannot be resolved, show the row only on a positively matched
+endpoint and do not infer the intervening span.
+
+For the matching LOR/SEQ page, derive the top-level Route Availability from
+the applicable D4/D5B rows. If more than one source RA applies, retain each
+value rather than silently choosing one. Test a known intermediate page as
+well as both endpoints: for example, the SC001 Gretna Jn--Law Jn span must
+apply from SEQ001 through SEQ015, including an intermediate page such as
+SEQ008.
+
 ## Required verification
 
 Before handing off a batch:
