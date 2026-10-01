@@ -6,6 +6,7 @@ const page476 = {
   sequence: "002",
   title: "Highbury & Islington to New Cross/New Cross Gate (ELL)",
   route: "Anglia",
+  lastUpdated: "25/06/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for SO511 sequence 002.",
   location: "Dalston Junction to Hoxton",

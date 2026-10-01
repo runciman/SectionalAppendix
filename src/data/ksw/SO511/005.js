@@ -6,6 +6,7 @@ const page479 = {
   sequence: "005",
   title: "Highbury & Islington to New Cross/New Cross Gate (ELL)",
   route: "Anglia",
+  lastUpdated: "10/05/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for SO511 sequence 005.",
   location: "New Cross Gate to New Cross",

@@ -7,6 +7,7 @@ const page491 = {
   elr: "TBH2",
   title: "Three Bridges to Portsmouth Harbour",
   route: "Kent / Sussex",
+  lastUpdated: "27/02/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for SO520 sequence 011.",
   location: "Drayton",

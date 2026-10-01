@@ -7,6 +7,7 @@ const page486 = {
   elr: "TBH1",
   title: "Three Bridges to Portsmouth Harbour",
   route: "Kent / Sussex",
+  lastUpdated: "29/08/2022",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for SO520 sequence 006.",
   location: "Pulborough",

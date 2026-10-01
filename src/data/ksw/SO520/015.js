@@ -7,6 +7,7 @@ const page495 = {
   elr: "TBH2 WPH2",
   title: "Three Bridges to Portsmouth Harbour",
   route: "Kent / Sussex",
+  lastUpdated: "16/08/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for SO520 sequence 015.",
   location: "Havant",

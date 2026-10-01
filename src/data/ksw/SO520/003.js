@@ -7,6 +7,7 @@ const page483 = {
   elr: "TBH1",
   title: "Three Bridges to Portsmouth Harbour",
   route: "Kent / Sussex",
+  lastUpdated: "31/08/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for SO520 sequence 003.",
   location: "Horsham",

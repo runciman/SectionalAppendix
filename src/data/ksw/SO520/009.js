@@ -7,6 +7,7 @@ const page489 = {
   elr: "TBH2 FJL",
   title: "Three Bridges to Portsmouth Harbour",
   route: "Kent / Sussex",
+  lastUpdated: "02/08/2015",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for SO520 sequence 009.",
   location: "Ford Junction",

@@ -7,6 +7,7 @@ const page492 = {
   elr: "TBH2",
   title: "Three Bridges to Portsmouth Harbour",
   route: "Kent / Sussex",
+  lastUpdated: "27/09/2020",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for SO520 sequence 012.",
   location: "Chichester",

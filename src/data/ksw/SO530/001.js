@@ -6,6 +6,7 @@ const page500 = {
   sequence: "001",
   title: "South Croydon to East Grinstead",
   route: "Kent / Sussex",
+  lastUpdated: "04/09/2021",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for SO530 sequence 001.",
   location: "Sanderstead to Riddlesdown",

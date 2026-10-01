@@ -7,6 +7,7 @@ const page498 = {
   elr: "WPH2 PAS",
   title: "Three Bridges to Portsmouth Harbour",
   route: "Kent / Sussex",
+  lastUpdated: "25/04/2026",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for SO520 sequence 018.",
   location: "Portsmouth & Southsea",

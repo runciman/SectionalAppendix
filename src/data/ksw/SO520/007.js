@@ -7,6 +7,7 @@ const page487 = {
   elr: "TBH1",
   title: "Three Bridges to Portsmouth Harbour",
   route: "Kent / Sussex",
+  lastUpdated: "13/07/2024",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for SO520 sequence 007.",
   location: "Amberley to North Stoke Tunnel",

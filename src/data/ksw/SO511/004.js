@@ -6,6 +6,7 @@ const page478 = {
   sequence: "004",
   title: "Highbury & Islington to New Cross/New Cross Gate (ELL)",
   route: "Anglia",
+  lastUpdated: "01/03/2025",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for SO511 sequence 004.",
   location: "Rotherhithe to Surrey Quays",

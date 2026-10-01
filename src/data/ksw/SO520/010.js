@@ -7,6 +7,7 @@ const page490 = {
   elr: "TBH2 BBR",
   title: "Three Bridges to Portsmouth Harbour",
   route: "Kent / Sussex",
+  lastUpdated: "14/01/2019",
   imageSrc: imageSrc,
   imageAlt: "Original source-PDF Table A extract for SO520 sequence 010.",
   location: "Barnham",
