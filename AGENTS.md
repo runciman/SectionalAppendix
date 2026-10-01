@@ -242,8 +242,9 @@ W6-W12 result, including `N` as invalid, and retain `R`/`S` notes and the
 source for Route Availability, but do not display a standalone Locomotive
 gauge section when its relevant RA value is already shown in the page facts.
 
-D5A has a two-line header (`Gauge` followed by W6-W12); skip the second
-header row as data and use W6-W12 as the actual column names. Before accepting
+D5A has a two-line header (`Gauge` followed by its published gauge names,
+such as W6/W6A through W12); skip the second header row as data and preserve
+those names exactly. Before accepting
 a regeneration, verify every operational D5A row has all eight columns. Rows
 explicitly marked `Line Out of Use` are not clearance results and must not be
 given inferred valid/invalid states.

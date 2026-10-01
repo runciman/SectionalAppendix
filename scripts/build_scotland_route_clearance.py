@@ -39,7 +39,7 @@ def clean(value: str | None) -> str:
 
 def heading(value: str | None) -> str:
     lines = [line.strip() for line in (value or "").splitlines()]
-    return " ".join(line for line in lines if line and not re.fullmatch(r"o+|0+", line))
+    return " ".join(line for line in lines if line and not re.fullmatch(r"o+|0+", line)).replace("W9 Plus", "W9Plus")
 
 
 def mileage(row: list[str | None], first_class: int) -> str | None:
@@ -108,7 +108,7 @@ def main() -> None:
                     # D5A has a two-line header: "Gauge" spans the W6–W12
                     # columns on the first row, with the actual gauge names
                     # on the following row. That second row is not route data.
-                    if table_id == "D5A" and data_rows and not clean(data_rows[0][0]):
+                    if label == "Loading gauge" and data_rows and not clean(data_rows[0][0]):
                         previous_headers = [heading(cell) or previous_headers[index] for index, cell in enumerate(data_rows[0])]
                         data_rows = data_rows[1:]
                 else:
@@ -118,7 +118,7 @@ def main() -> None:
                 headers = previous_headers
                 classes = headers[first_class:-1]
                 for row in data_rows:
-                    if not row or not re.fullmatch(r"SC\d{3}", clean(row[0])):
+                    if not row or not re.fullmatch(r"(?:SC\d{3}|GW\d{3,4})", clean(row[0])):
                         continue
                     notes = clean(row[-1])
                     restrictions = note_map(notes)
@@ -135,7 +135,7 @@ def main() -> None:
                         "table": table_id,
                         "category": label,
                         "pdfPage": page_number,
-                        "scope": clean(row[1] if table_id == "D5A" else row[2]),
+                        "scope": clean(row[1] if label == "Loading gauge" else row[2]),
                         # Scope text is reliable; some continuation pages split
                         # mileage digits across drawing cells, so do not publish
                         # a reconstructed mileage unless it has been manually

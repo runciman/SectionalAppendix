@@ -60,7 +60,9 @@ export async function loadPage({ region, lOR, sequence }) {
   const pages = await lorPages(region, lOR);
   const allRouteClearance = region === "scotland"
     ? ((await import("./route-clearance/scotland")).default[lOR] || [])
-    : [];
+    : region === "western-wales"
+      ? ((await import("./route-clearance/western-wales")).default[lOR] || [])
+      : [];
   const routeClearance = clearanceForPage(allRouteClearance, page, pages);
   return {
     ...page,
