@@ -117,14 +117,26 @@ def main() -> None:
                 if previous_headers is None:
                     continue
                 headers = previous_headers
-                classes = headers[first_class:-1]
+                class_start = first_class
+                # Western/CVL D2A continuation pages do not retain the same
+                # decorative mileage-cell layout as their first page. Find
+                # the first published EMU class heading rather than relying
+                # on a fixed extracted-cell offset.
+                if label == "Electric multiple units":
+                    class_start = next((index for index, name in enumerate(headers) if re.match(r"325(?:\s|$)", name)), first_class)
+                classes = headers[class_start:-1]
                 for row in data_rows:
                     if not row or not re.fullmatch(r"(?:SC\d{3}|GW\d{3,4})", clean(row[0])):
                         continue
                     notes = clean(row[-1])
                     restrictions = note_map(notes)
                     values = []
-                    for name, cell in zip(classes, row[first_class:-1]):
+                    row_class_start = class_start
+                    if label == "Electric multiple units":
+                        # Continuation pages restore the 15-cell mileage grid
+                        # even though their carried header is the compact form.
+                        row_class_start = max(class_start, len(row) - len(classes) - 1)
+                    for name, cell in zip(classes, row[row_class_start:-1]):
                         parsed = status(cell)
                         if name and parsed:
                             restriction_notes = {code: restrictions.get(code, "") for code in parsed["restrictions"]}

@@ -3570,7 +3570,94 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "Route prohibited to Class 360/1"
+          }
+        },
+        {
+          "type": "387",
+          "status": "R2",
+          "restrictions": [
+            "R2",
+            "R3",
+            "R4",
+            "R5",
+            "R6"
+          ],
+          "raw": "R2 R3 R4 R5 R6",
+          "restrictionNotes": {
+            "R2": "Prohibited Hanwell Bridge Up and Down Goods Loops",
+            "R3": "Prohibited Southall Down East Sidings",
+            "R4": "Prohibited West Siding Southall West Jn",
+            "R5": "Prohibited Hayes Up Sidings",
+            "R6": "Prohibited between Southall West Jn and Heathrow Airport Jn"
+          }
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "EH",
+          "restrictions": [
+            "R6"
+          ],
+          "raw": "EH R6",
+          "restrictionNotes": {
+            "R6": "Prohibited between Southall West Jn and Heathrow Airport Jn"
+          }
+        },
+        {
+          "type": "745",
+          "status": "H",
+          "restrictions": [
+            "R7",
+            "R8"
+          ],
+          "raw": "H R7 R8",
+          "restrictionNotes": {
+            "R7": "Prohibited Southall Platform 4",
+            "R8": ""
+          }
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [
+            "R8"
+          ],
+          "raw": "EH R8",
+          "restrictionNotes": {
+            "R8": "R1 Route prohibited to Class 360/1 R2 Prohibited Hanwell Bridge Up and Down Goods Loops R3 Prohibited Southall Down East Sidings R4 Prohibited West Siding Southall West Jn R5 Prohibited Hayes Up Sidings R6 Prohibited between Southall West Jn and Heathrow Airport Jn R7 Prohibited Southall Platform 4"
+          }
+        }
+      ],
       "notes": "R1 Route prohibited to Class 360/1 R2 Prohibited Hanwell Bridge Up and Down Goods Loops R3 Prohibited Southall Down East Sidings R4 Prohibited West Siding Southall West Jn R5 Prohibited Hayes Up Sidings R6 Prohibited between Southall West Jn and Heathrow Airport Jn R7 Prohibited Southall Platform 4"
     },
     {
@@ -3581,7 +3668,68 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "100mph maximum speed"
+          }
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": "R1 100mph maximum speed"
     },
     {
@@ -3592,7 +3740,68 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "Prohibited Langley Sidings"
+          }
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": "R1 Prohibited Langley Sidings"
     },
     {
@@ -3603,7 +3812,74 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "Prohibited Maidenhead platforms 1 and 4 with crush deflated suspension"
+          }
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "R2",
+          "restrictions": [
+            "R2",
+            "R3"
+          ],
+          "raw": "R2 R3",
+          "restrictionNotes": {
+            "R2": "Prohibited Slough Up Goods Loop and Estate Sidings",
+            "R3": "Prohibited with air bags deflated / failed secondary suspension Maidenhead platform 4"
+          }
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": "R1 Prohibited Maidenhead platforms 1 and 4 with crush deflated suspension R2 Prohibited Slough Up Goods Loop and Estate Sidings R3 Prohibited with air bags deflated / failed secondary suspension Maidenhead platform 4"
     },
     {
@@ -3614,7 +3890,68 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "Prohibitied Twyford platform 2 in crush deflated"
+          }
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": "R1 Prohibitied Twyford platform 2 in crush deflated"
     },
     {
@@ -3625,7 +3962,68 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "Prohibitied Twyford platform 2 in crush deflated"
+          }
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": "R1 Prohibitied Twyford platform 2 in crush deflated"
     },
     {
@@ -3636,7 +4034,68 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "Prohibited Reading platform 12 with deflated suspension"
+          }
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": "R1 Prohibited Reading platform 12 with deflated suspension"
     },
     {
@@ -3647,7 +4106,50 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -3658,7 +4160,68 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "Prohibited Reading West Jn Sidings"
+          }
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": "R1 Prohibited Reading West Jn Sidings"
     },
     {
@@ -3669,7 +4232,74 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "R1",
+          "restrictions": [
+            "R1",
+            "R2"
+          ],
+          "raw": "R1 R2",
+          "restrictionNotes": {
+            "R1": "Prohibited Tilehurst to Didcot East Jn",
+            "R2": "20mph Tilehurst platform 1 Down Main line"
+          }
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "R3",
+          "restrictions": [
+            "R3"
+          ],
+          "raw": "R3",
+          "restrictionNotes": {
+            "R3": "Prohibited Reading West Jn Sidings"
+          }
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": "R1 Prohibited Tilehurst to Didcot East Jn R2 20mph Tilehurst platform 1 Down Main line R3 Prohibited Reading West Jn Sidings"
     },
     {
@@ -3680,7 +4310,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -3691,7 +4378,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -3702,7 +4446,72 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "EH R1",
+          "restrictionNotes": {
+            "R1": ""
+          }
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "EH R1",
+          "restrictionNotes": {
+            "R1": ""
+          }
+        }
+      ],
       "notes": null
     },
     {
@@ -11134,7 +11943,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -11145,7 +12011,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -11156,7 +12079,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -11167,7 +12147,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -11178,7 +12215,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -11189,7 +12283,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -11200,7 +12351,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -11211,7 +12419,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -11222,7 +12487,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -11233,7 +12555,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -11244,7 +12623,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -14851,7 +16287,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -18821,7 +20314,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -18832,7 +20382,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -18843,7 +20450,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -18854,7 +20518,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -18865,7 +20586,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -18876,7 +20654,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -18887,7 +20722,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -18898,7 +20790,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -18909,7 +20858,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -18920,7 +20926,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -18931,7 +20994,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -18942,7 +21062,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -18953,7 +21130,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -18964,7 +21198,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -18975,7 +21266,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -18986,7 +21334,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -18997,7 +21402,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -19008,7 +21470,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -19019,7 +21538,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -19030,7 +21606,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -25746,7 +28379,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -25757,7 +28447,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -25768,7 +28515,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -26894,7 +29698,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -27448,7 +30309,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "E",
+          "restrictions": [],
+          "raw": "E",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "E",
+          "restrictions": [],
+          "raw": "E",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -28536,7 +31454,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -28547,7 +31522,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -28558,7 +31590,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -28569,7 +31658,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -29975,7 +33121,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -30533,7 +33736,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -31087,7 +34347,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -31641,7 +34958,68 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "ETCS units only"
+          }
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": "R1 ETCS units only"
     },
     {
@@ -32283,7 +35661,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -32837,7 +36272,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -33569,7 +37061,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -33580,7 +37129,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -34429,7 +38035,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -34983,7 +38646,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -35541,7 +39261,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -36073,7 +39850,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -36643,7 +40477,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -37197,7 +41088,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -37721,7 +41669,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -38275,7 +42280,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -38829,7 +42891,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -39391,7 +43510,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -39949,7 +44125,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -40681,7 +44914,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -40692,7 +44982,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -42547,7 +46894,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -42558,7 +46962,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -42569,7 +47030,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -42580,7 +47098,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -42591,7 +47166,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -42602,7 +47234,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -44633,7 +49322,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -45187,7 +49933,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -45741,7 +50544,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -46473,7 +51333,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -46484,7 +51401,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -47694,7 +52668,72 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "EH R1",
+          "restrictionNotes": {
+            "R1": ""
+          }
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "EH R1",
+          "restrictionNotes": {
+            "R1": ""
+          }
+        }
+      ],
       "notes": null
     },
     {
@@ -47705,7 +52744,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -47716,7 +52812,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -48838,7 +53991,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -49602,7 +54812,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -49613,7 +54880,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -50553,7 +55877,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -51123,7 +56504,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -53473,7 +58911,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -53484,7 +58979,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -53495,7 +59047,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -53506,7 +59115,68 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "Prohibited Newbury to Change of ELR"
+          }
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": "R1 Prohibited Newbury to Change of ELR"
     },
     {
@@ -53517,7 +59187,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -53528,7 +59255,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -53539,7 +59323,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -53550,7 +59391,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -53561,7 +59459,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -53572,7 +59527,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -53583,7 +59595,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -57222,7 +63291,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -57962,7 +64088,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -57973,7 +64156,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -58885,7 +65125,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -59439,7 +65736,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -59993,7 +66347,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -60547,7 +66958,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -61101,7 +67569,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -61655,7 +68180,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -62141,7 +68723,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -62901,7 +69540,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -62912,7 +69608,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -63754,7 +70507,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -64486,7 +71296,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -64497,7 +71364,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -65335,7 +72259,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -66447,7 +73428,68 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "Prohibited Bristol Parkway platform 3 (Up Main) with crush deflated / failed secondary suspension"
+          }
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": "R1 Prohibited Bristol Parkway platform 3 (Up Main) with crush deflated / failed secondary suspension"
     },
     {
@@ -66458,7 +73500,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "EH",
+          "restrictions": [],
+          "raw": "EH",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -66469,7 +73568,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -66480,7 +73636,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -68144,7 +75357,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -68155,7 +75425,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -69260,7 +76587,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -69271,7 +76655,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -70030,7 +77471,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -70598,7 +78096,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -71152,7 +78707,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -71774,7 +79386,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -73408,7 +81077,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -73419,7 +81145,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -73430,7 +81213,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -73441,7 +81281,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -73452,7 +81349,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -73463,7 +81417,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -73474,7 +81485,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -75997,7 +84065,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -76008,7 +84133,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -77261,7 +85443,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -77272,7 +85511,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -77283,7 +85579,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -78409,7 +86762,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -78963,7 +87373,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -79695,7 +88162,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -79706,7 +88230,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -80964,7 +89545,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -80975,7 +89613,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -81832,7 +90527,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -82390,7 +91142,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -83314,7 +92123,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -83325,7 +92191,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -83336,7 +92259,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -84526,7 +93506,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -85168,7 +94205,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -86472,7 +95566,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -86483,7 +95634,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -86494,7 +95702,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -86505,7 +95770,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -86516,7 +95838,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -88840,7 +98219,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -88851,7 +98287,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -88862,7 +98355,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -90171,7 +99721,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -90910,7 +100517,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -90921,7 +100585,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -91825,7 +101546,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -92434,7 +102212,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -93003,7 +102838,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -93565,7 +103457,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -94301,7 +104250,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -94312,7 +104318,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -95506,7 +105569,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -95517,7 +105637,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -95528,7 +105705,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -96944,7 +107178,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -96955,7 +107246,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -97983,7 +108331,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -97994,7 +108399,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -98832,7 +109294,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -99564,7 +110083,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -99575,7 +110151,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -100769,7 +111402,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -100780,7 +111470,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -100791,7 +111538,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -102280,7 +113084,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -102291,7 +113152,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -102302,7 +113220,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -112502,7 +123477,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -114886,7 +125918,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -115444,7 +126533,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -115998,7 +127144,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -116556,7 +127759,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -117114,7 +128374,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -117835,7 +129152,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -117846,7 +129220,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -119475,7 +130906,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -119486,7 +130974,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -119497,7 +131042,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -119508,7 +131110,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -119519,7 +131178,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -121925,7 +133641,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -121936,7 +133709,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -121947,7 +133777,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -121958,7 +133845,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -121969,7 +133913,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -123731,7 +135732,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -124463,7 +136521,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -124474,7 +136589,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -125380,7 +137552,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -125934,7 +138163,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -126488,7 +138774,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -129028,7 +141371,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -129039,7 +141439,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -129050,7 +141507,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -129061,7 +141575,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "Y",
+          "restrictions": [],
+          "raw": "Y",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -129072,7 +141643,68 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "R1",
+          "restrictions": [
+            "R1"
+          ],
+          "raw": "R1",
+          "restrictionNotes": {
+            "R1": "Prohibited Lecwith Loop North Jn to Court Sart Jn"
+          }
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": "R1 Prohibited Lecwith Loop North Jn to Court Sart Jn"
     },
     {
@@ -129083,7 +141715,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -129094,7 +141783,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -129105,7 +141851,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -129116,7 +141919,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -129127,7 +141987,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -129138,7 +142055,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -129149,7 +142123,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -133816,7 +146847,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -134374,7 +147462,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -135846,7 +148991,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -135857,7 +149059,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -135868,7 +149127,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -135879,7 +149195,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -135890,7 +149263,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -135901,7 +149331,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -138252,7 +151739,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -138263,7 +151807,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -139053,7 +152654,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -139627,7 +153285,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -140359,7 +154074,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -140370,7 +154142,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -141753,7 +155582,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -141764,7 +155650,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -141775,7 +155718,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -141786,7 +155786,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "H",
+          "restrictions": [],
+          "raw": "H",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -143328,7 +157385,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
@@ -143882,7 +157996,64 @@ export default {
       "mileage": null,
       "routeAvailability": null,
       "routeAvailabilityRestrictions": [],
-      "clearances": [],
+      "clearances": [
+        {
+          "type": "325",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "332",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "345",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "360",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "387",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "720/1 & 720/5",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "745",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        },
+        {
+          "type": "755",
+          "status": "N",
+          "restrictions": [],
+          "raw": "N",
+          "restrictionNotes": {}
+        }
+      ],
       "notes": null
     },
     {
