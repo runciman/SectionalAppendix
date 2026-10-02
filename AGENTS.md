@@ -222,42 +222,113 @@ batches. Treat the repair as incomplete until every record is either updated
 with all verified references or explicitly recorded as having no visible
 inter-page connection.
 
-## Scotland route-clearance workflow
+## Route-clearance workflow (all regions)
 
-The Scotland source PDF contains Route Clearance tables D1-D5. These are
-supplementary route data, not replacements for the indexed map-table records.
-Keep the generated source dataset in `src/route-clearance/scotland.js` and
-regenerate it with:
+Sectional Appendix source PDFs can contain Route Clearance tables D1-D5. These
+are supplementary route data, not replacements for the indexed map-table
+records. Keep each region's generated dataset in
+`src/route-clearance/<region>.js`; the Scotland builder is the shared parsing
+base and can be run with:
 
 ```bash
 python3 scripts/build_scotland_route_clearance.py \
   "/path/to/Scotland Sectional Appendix September 2026.pdf"
 ```
 
+Identify tables from the PDF's own contents and headers rather than assuming
+their D5 letter is universal. In Scotland, D5A is Loading Gauge and D5B is
+Locomotive Gauge; in Western & Wales, Loading Gauge is D5B and Locomotive
+Gauge is D5C. Record the confirmed physical page ranges in the region-specific
+builder before parsing.
+
 Use the source table meanings exactly as printed. D1-D4 list cleared rolling
 stock and TOPS classes; D4's `RA` is Route Availability and must never be
-represented as a TOPS class. D5A is the Loading Gauge table: publish every
+represented as a TOPS class. The Loading Gauge table must publish every
 W6-W12 result, including `N` as invalid, and retain `R`/`S` notes and the
-`Y *` W6A lower-gauge qualification. D5B is a separate locomotive-gauge
-source for Route Availability, but do not display a standalone Locomotive
-gauge section when its relevant RA value is already shown in the page facts.
+`Y *` W6A lower-gauge qualification. The locomotive-gauge source can confirm
+RA, but do not display a standalone Locomotive Gauge section when the relevant
+RA value is already shown in the page facts.
 
-D5A has a two-line header (`Gauge` followed by its published gauge names,
+D5 Loading Gauge tables can have a two-line header (`Gauge` followed by its published gauge names,
 such as W6/W6A through W12); skip the second header row as data and preserve
 those names exactly. Before accepting
-a regeneration, verify every operational D5A row has all eight columns. Rows
+a regeneration, verify every operational Loading Gauge row has all eight columns. Rows
 explicitly marked `Line Out of Use` are not clearance results and must not be
 given inferred valid/invalid states.
 
-Clearance applies to route spans, not just endpoint diagrams. For every D5
-route row, resolve its first and last named boundaries against the ordered SEQ
-records in the same LOR, then attach the row's information inclusively to all
-SEQ pages between those two matches. Match against a record's `location`,
-structured `locations`, and `connections`; normalise `Junction`/`Jn` and
-strip parenthetical route qualifiers such as `(via Beattock)` while retaining
-parenthetical place names such as `(Lesmahagow Jn)` as alternatives. If either
-boundary cannot be resolved, show the row only on a positively matched
-endpoint and do not infer the intervening span.
+Clearance applies to route spans, not just endpoint diagrams. For every source
+row, resolve its first and last named boundaries against the ordered SEQ
+records in the same LOR, then attach the information inclusively to all SEQ
+pages between those two matches. Match against a record's `location`,
+structured `locations`, and `connections`; normalise `Junction`/`Jn`, strip
+parenthetical route qualifiers such as `(via Beattock)`, and retain
+parenthetical place names such as `(Lesmahagow Jn)` as alternatives.
+
+Boundary matching must cope with source/map naming variants without silently
+over-applying clearance:
+
+- retain the full source boundary plus a narrow place-name anchor with compass
+  words (`East`, `West`, `North`, `South`) and site suffixes such as `Sidings`
+  or `Portal` removed;
+- select the first matching page for the route's first boundary and the last
+  matching page for its final boundary, because a junction or place can be
+  depicted across adjacent SEQ pages;
+- inspect any newly broadened span against the source table and at least its
+  first, an intermediate, and final SEQ map; and
+- if either boundary still cannot be resolved, do not infer an intervening
+  range. Show it only on a positively matched endpoint and record the
+  unresolved source row for review.
+
+This prevents the failures where `Old Oak Common West` was labelled as `Old
+Oak Common East Junction` on a map, and where `Royal Oak Sidings` appeared as
+`Royal Oak Portal`: both cases had complete parsed data but were omitted from
+the affected SEQ page by an overly literal matcher.
+
+### Parser and regeneration validation
+
+Do not accept a table merely because the first source page parsed. Inspect
+continuation pages and compare their column layout with the first page. In the
+Western & Wales D2A EMU table, the first page has a compact 16-cell layout
+with classes beginning at `325`, while continuation rows can carry a longer
+mileage grid before the same class cells. For tables of this kind, identify
+the class header once, then right-align each data row's class values relative
+to its Notes column. Do not hard-code one absolute cell offset for every page.
+
+After generation, audit every configured source table range before changing
+the UI or committing:
+
+1. count source operational rows and generated rows by table and category;
+2. flag every generated row with an empty `clearances` array, every missing
+   expected category, and every row with a partial class/gauge column set;
+3. visually compare a sample from the first, middle, and last physical source
+   page, plus every flagged row, to the rendered PDF; and
+4. specifically check the page that motivated the work in the local site.
+
+For example, an initial D2A extraction produced only four populated EMU rows
+out of 251 because continuation rows had been treated as the first-page layout.
+An empty category in the UI is a failed parse or failed span match until that
+audit proves it is intentionally empty.
+
+### Clearance presentation and UI verification
+
+Display clearance only for the source route spans applicable to that SEQ map,
+not all data in the LOR. Group data by route span, then by source category;
+keep TOPS classes together regardless of traction type. Display both permitted
+and not-cleared values, and show `R*`/`S*` Notes-column restrictions alongside
+the class or gauge. Suppress the redundant phrase `Restricted; see notes` when
+the referenced note is displayed immediately below.
+
+Show Route Availability as a top-level page fact alongside Route and Last
+Updated, preserving multiple applicable RA values. Do not represent RA as a
+TOPS class. The clearance details header names the regional clearance dataset
+(`Scotland route clearance` or `Western & Wales route clearance`) and its
+show/hide state only: never expose a numeric count of tables, routes, or
+segments there.
+
+Before handing off a clearance change, open a direct SEQ URL in the local site,
+expand the clearance details, and verify class values, Loading Gauge values,
+restriction text, RA, and the absence of inappropriate empty categories. Test
+an endpoint and an intermediate SEQ for every modified source span.
 
 For the matching LOR/SEQ page, derive the top-level Route Availability from
 the applicable D4/D5B rows. If more than one source RA applies, retain each
