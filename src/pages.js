@@ -12,7 +12,15 @@ function clearanceBoundaryGroups(scope) {
     .replace(/\broute boundary\b/gi, "")
     .replace(/\([A-Z]{1,4}\d{1,4}\)/g, "")
     .split("–")
-    .map((boundary) => [boundary, boundary.replace(/\([^)]*\)/g, ""), ...[...boundary.matchAll(/\(([^)]+)\)/g)].map((match) => match[1])]
+    .map((boundary) => [
+      boundary,
+      boundary.replace(/\([^)]*\)/g, ""),
+      // Table boundaries can name the opposite side of the same named place
+      // as the map entry (for example Old Oak Common West / East Junction).
+      // Keep the place-name anchor as a final, deliberately narrow fallback.
+      boundary.replace(/\b(?:east|west|north|south)\b/gi, ""),
+      ...[...boundary.matchAll(/\(([^)]+)\)/g)].map((match) => match[1]),
+    ]
       .map(normaliseLocation)
       .filter((name) => name.length >= 4));
 }
