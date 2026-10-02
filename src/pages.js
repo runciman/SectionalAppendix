@@ -19,6 +19,9 @@ function clearanceBoundaryGroups(scope) {
       // as the map entry (for example Old Oak Common West / East Junction).
       // Keep the place-name anchor as a final, deliberately narrow fallback.
       boundary.replace(/\b(?:east|west|north|south)\b/gi, ""),
+      // Tables may delimit by a platform range while the map uses only the
+      // station name (for example Victoria platforms 1-8 / Victoria).
+      boundary.replace(/\bplatforms?\s+\d+(?:\s*-\s*\d+)?\b/gi, ""),
       // Clearance tables may use a named siding while the map records the
       // associated portal or junction.  The place name remains specific.
       boundary.replace(/\b(?:sidings?|portal)\b/gi, ""),
@@ -86,6 +89,8 @@ export async function loadPage({ region, lOR, sequence }) {
     ? ((await import("./route-clearance/scotland")).default[lOR] || [])
     : region === "western-wales"
       ? ((await import("./route-clearance/western-wales")).default[lOR] || [])
+      : region === "ksw"
+        ? ((await import("./route-clearance/ksw")).default[lOR] || [])
       : [];
   const routeClearance = clearanceForPage(allRouteClearance, page, pages);
   return {

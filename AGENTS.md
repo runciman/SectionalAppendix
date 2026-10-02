@@ -309,6 +309,17 @@ out of 251 because continuation rows had been treated as the first-page layout.
 An empty category in the UI is a failed parse or failed span match until that
 audit proves it is intentionally empty.
 
+Derive every valid LOR prefix from the regional source before filtering rows.
+For example, Kent/Sussex/Wessex clearance tables contain both `SO` and `SW`
+records; accepting only one prefix silently drops an entire source section.
+Likewise, find TOPS/coaching class columns from the source header rather than
+a fixed cell index: a compact first table may begin its classes immediately
+after four mileage cells, while continuation rows use a wider grid. For D4
+and Locomotive Gauge data, locate the `RA` header first and treat the following
+cells as the class/gauge columns. Preserve an unexpected but legible published
+Locomotive Gauge value verbatim for audit instead of discarding the source row;
+the standalone category remains hidden in the UI.
+
 ### Clearance presentation and UI verification
 
 Display clearance only for the source route spans applicable to that SEQ map,

@@ -58,8 +58,9 @@ def status(value: str | None) -> dict | None:
     raw = clean(value)
     if not raw:
         return None
-    codes = re.findall(r"[RS]\d+", raw)
-    primary = next((token for token in re.findall(r"EH|Y|N|E|H|B|T|R\d+|S\d+", raw) if not token.startswith(("R", "S"))), None)
+    normalised = raw.upper()
+    codes = re.findall(r"[RS]\d+", normalised)
+    primary = next((token for token in re.findall(r"EH|Y|N|E|H|B|T|R\d+|S\d+", normalised) if not token.startswith(("R", "S"))), None)
     if primary is None and codes:
         primary = codes[0]
     if primary is None:
@@ -83,6 +84,18 @@ def route_availability(value: str | None, restrictions: dict[str, str]) -> tuple
         return None, []
     codes = re.findall(r"R\d+", match.group(2) or "")
     return match.group(1), [{"code": code, "note": restrictions.get(code, "")} for code in codes]
+
+
+def class_header_index(headers: list[str], fallback: int) -> int:
+    """Find the first TOPS/coaching-stock heading after the route fields."""
+    return next(
+        (
+            index
+            for index, name in enumerate(headers)
+            if index >= 3 and re.match(r"(?:MK\d|\d{2,3}(?:\s|/|$))", name)
+        ),
+        fallback,
+    )
 
 
 def main() -> None:
@@ -118,32 +131,46 @@ def main() -> None:
                     continue
                 headers = previous_headers
                 class_start = first_class
+                active_ra_index = ra_index
                 # Western/CVL D2A continuation pages do not retain the same
                 # decorative mileage-cell layout as their first page. Find
                 # the first published EMU class heading rather than relying
                 # on a fixed extracted-cell offset.
-                if label == "Electric multiple units":
-                    class_start = next((index for index, name in enumerate(headers) if re.match(r"325(?:\s|$)", name)), first_class)
+                if label in {"Diesel multiple units", "Electric multiple units", "Coaching stock"}:
+                    class_start = class_header_index(headers, first_class)
+                # Some D4/locomotive-gauge first pages use a compact mileage
+                # layout while their continuations use the full grid.  The RA
+                # heading is the reliable delimiter in either representation.
+                if label in {"Locomotives", "Locomotive gauge"}:
+                    active_ra_index = next((index for index, name in enumerate(headers) if re.match(r"RA(?:\s|$)", name)), ra_index)
+                    if active_ra_index is not None:
+                        class_start = active_ra_index + 1
                 classes = headers[class_start:-1]
                 for row in data_rows:
-                    if not row or not re.fullmatch(r"(?:SC\d{3}|GW\d{3,4})", clean(row[0])):
+                    if not row or not re.fullmatch(r"(?:SC\d{3}|GW\d{3,4}|SO\d{3}|SW\d{3})", clean(row[0])):
                         continue
                     notes = clean(row[-1])
                     restrictions = note_map(notes)
                     values = []
-                    row_class_start = class_start
-                    if label == "Electric multiple units":
-                        # Continuation pages restore the 15-cell mileage grid
-                        # even though their carried header is the compact form.
-                        row_class_start = max(class_start, len(row) - len(classes) - 1)
+                    # Continuation pages can restore a full mileage grid even
+                    # when the carried header comes from a compact first page.
+                    # Class/gauge values are immediately before Notes.
+                    row_class_start = max(class_start, len(row) - len(classes) - 1)
                     for name, cell in zip(classes, row[row_class_start:-1]):
                         parsed = status(cell)
+                        # Locomotive Gauge tables can contain a published
+                        # numeric gauge value (for example `6`) rather than
+                        # D1-D4's Y/N/R notation. Preserve it verbatim for
+                        # audit/RA purposes; the UI does not render this
+                        # standalone source category.
+                        if name and not parsed and label == "Locomotive gauge" and clean(cell):
+                            parsed = {"status": clean(cell).upper(), "restrictions": [], "raw": clean(cell)}
                         if name and parsed:
                             restriction_notes = {code: restrictions.get(code, "") for code in parsed["restrictions"]}
                             if len(parsed["restrictions"]) == 1 and notes and not next(iter(restriction_notes.values())):
                                 restriction_notes[parsed["restrictions"][0]] = notes
                             values.append({"type": name, **parsed, "restrictionNotes": restriction_notes})
-                    ra, ra_restrictions = route_availability(row[ra_index] if ra_index is not None and len(row) > ra_index else None, restrictions)
+                    ra, ra_restrictions = route_availability(row[active_ra_index] if active_ra_index is not None and len(row) > active_ra_index else None, restrictions)
                     clearance[clean(row[0])].append({
                         "table": table_id,
                         "category": label,
