@@ -19,6 +19,9 @@ function clearanceBoundaryGroups(scope) {
       // as the map entry (for example Old Oak Common West / East Junction).
       // Keep the place-name anchor as a final, deliberately narrow fallback.
       boundary.replace(/\b(?:east|west|north|south)\b/gi, ""),
+      // Clearance tables may use a named siding while the map records the
+      // associated portal or junction.  The place name remains specific.
+      boundary.replace(/\b(?:sidings?|portal)\b/gi, ""),
       ...[...boundary.matchAll(/\(([^)]+)\)/g)].map((match) => match[1]),
     ]
       .map(normaliseLocation)
@@ -35,6 +38,17 @@ function depictedText(page) {
 function matchesBoundary(page, alternatives) {
   const text = depictedText(page);
   return alternatives.some((boundary) => text.includes(boundary));
+}
+
+function firstBoundaryPage(pages, alternatives) {
+  return pages.findIndex((candidate) => matchesBoundary(candidate, alternatives));
+}
+
+function lastBoundaryPage(pages, alternatives) {
+  for (let index = pages.length - 1; index >= 0; index -= 1) {
+    if (matchesBoundary(pages[index], alternatives)) return index;
+  }
+  return -1;
 }
 
 async function lorPages(region, lOR) {
@@ -54,8 +68,10 @@ function clearanceForPage(segments, page, pages) {
   return segments.filter((segment) => {
     const boundaries = clearanceBoundaryGroups(segment.scope);
     if (boundaries.length < 2 || sequenceIndex < 0) return boundaries.flat().some((boundary) => depictedText(page).includes(boundary));
-    const first = pages.findIndex((candidate) => matchesBoundary(candidate, boundaries[0]));
-    const last = pages.findIndex((candidate) => matchesBoundary(candidate, boundaries.at(-1)));
+    const first = firstBoundaryPage(pages, boundaries[0]);
+    // A named boundary can be present at the end of one diagram and the
+    // beginning of the next; include the whole stated route extent.
+    const last = lastBoundaryPage(pages, boundaries.at(-1));
     if (first < 0 || last < 0) return boundaries.flat().some((boundary) => depictedText(page).includes(boundary));
     return sequenceIndex >= Math.min(first, last) && sequenceIndex <= Math.max(first, last);
   });
