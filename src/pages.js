@@ -22,6 +22,9 @@ function clearanceBoundaryGroups(scope) {
       // Tables may delimit by a platform range while the map uses only the
       // station name (for example Victoria platforms 1-8 / Victoria).
       boundary.replace(/\bplatforms?\s+\d+(?:\s*-\s*\d+)?\b/gi, ""),
+      // Tables occasionally qualify a central-London station while its map
+      // entry uses the station name alone (London Euston / Euston).
+      boundary.replace(/\blondon\b/gi, ""),
       // Clearance tables may use a named siding while the map records the
       // associated portal or junction.  The place name remains specific.
       boundary.replace(/\b(?:sidings?|portal)\b/gi, ""),
@@ -91,6 +94,12 @@ export async function loadPage({ region, lOR, sequence }) {
       ? ((await import("./route-clearance/western-wales")).default[lOR] || [])
       : region === "ksw"
         ? ((await import("./route-clearance/ksw")).default[lOR] || [])
+        : region === "lnw-north"
+          ? ((await import("./route-clearance/lnw-north")).default[lOR] || [])
+          : region === "lnw-south"
+            ? ((await import("./route-clearance/lnw-south")).default[lOR] || [])
+            : region === "lne"
+              ? ((await import("./route-clearance/lne")).default[lOR] || [])
       : [];
   const routeClearance = clearanceForPage(allRouteClearance, page, pages);
   return {

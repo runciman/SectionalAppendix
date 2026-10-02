@@ -147,7 +147,7 @@ def main() -> None:
                         class_start = active_ra_index + 1
                 classes = headers[class_start:-1]
                 for row in data_rows:
-                    if not row or not re.fullmatch(r"(?:SC\d{3}|GW\d{3,4}|SO\d{3}|SW\d{3})", clean(row[0])):
+                    if not row or not re.fullmatch(r"(?:SC\d{3}|GW\d{3,4}|SO\d{3}|SW\d{3}|NW\d{3,4}|MD\d{3,4}|LN\d{3,4})", clean(row[0])):
                         continue
                     notes = clean(row[-1])
                     restrictions = note_map(notes)

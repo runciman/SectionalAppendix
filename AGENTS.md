@@ -320,6 +320,16 @@ cells as the class/gauge columns. Preserve an unexpected but legible published
 Locomotive Gauge value verbatim for audit instead of discarding the source row;
 the standalone category remains hidden in the UI.
 
+Some PDFs split a single Loading Gauge table horizontally into several detected
+tables (as in LNE D5A). Do not accept `extract_tables()[0]` in that case. Build
+the rows from PDF word coordinates: derive the current page's gauge-column
+positions from the visible header, pair each LOR row with the nearest gauge
+cells and Notes column, and use midpoints between successive LOR rows so
+wrapped descriptions remain with their own row. Coordinates can move between
+physical pages, so calculate column boundaries relative to the visible Gauge
+header on every page. Render and inspect the first, middle and final source
+page before publication.
+
 ### Clearance presentation and UI verification
 
 Display clearance only for the source route spans applicable to that SEQ map,
