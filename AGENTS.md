@@ -270,6 +270,9 @@ over-applying clearance:
 - retain the full source boundary plus a narrow place-name anchor with compass
   words (`East`, `West`, `North`, `South`) and site suffixes such as `Sidings`
   or `Portal` removed;
+- allow a known, purely geographic prefix to be optional when the map omits it
+  (for example, source `London Euston` versus map `Euston`), but verify the
+  resulting endpoint visually so this does not turn into a broad fuzzy match;
 - select the first matching page for the route's first boundary and the last
   matching page for its final boundary, because a junction or place can be
   depicted across adjacent SEQ pages;
@@ -341,10 +344,9 @@ the referenced note is displayed immediately below.
 
 Show Route Availability as a top-level page fact alongside Route and Last
 Updated, preserving multiple applicable RA values. Do not represent RA as a
-TOPS class. The clearance details header names the regional clearance dataset
-(`Scotland route clearance` or `Western & Wales route clearance`) and its
-show/hide state only: never expose a numeric count of tables, routes, or
-segments there.
+TOPS class. The clearance details header must simply read `Route clearance`,
+with a show/hide state only: never expose a region name or numeric count of
+tables, routes, or segments there.
 
 Before handing off a clearance change, open a direct SEQ URL in the local site,
 expand the clearance details, and verify class values, Loading Gauge values,
